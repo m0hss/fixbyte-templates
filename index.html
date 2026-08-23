@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fixbyte — Designs</title>
+    <meta
+      name="description"
+      content="Fixbyte présente des designs pour restaurants et barbiers. Cliquez une carte pour ouvrir une réalisation."
+    />
+    <link rel="canonical" href="https://designs.fixbyte.dev/" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Fixbyte" />
+    <meta property="og:title" content="Fixbyte — Designs" />
+    <meta
+      property="og:description"
+      content="Fixbyte présente des designs pour restaurants et barbiers."
+    />
+    <meta property="og:url" content="https://designs.fixbyte.dev/" />
+    <meta
+      property="og:image"
+      content="https://designs.fixbyte.dev/assets/logo-light.svg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Fixbyte — Designs" />
+    <meta
+      name="twitter:description"
+      content="Fixbyte présente des designs pour restaurants et barbiers."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700&family=Fraunces:opsz,wght@9..144,500;9..144,650&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html">
+          <img
+            src="assets/logo-dark.svg"
+            alt="Fixbyte"
+            width="150"
+            height="70"
+          />
+        </a>
+        <nav class="site-nav" aria-label="Navigation principale">
+          <a href="restaurant.html">Restaurants</a>
+          <a href="barbiers.html">Barbiers</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <p class="eyebrow">Fixbyte · Agence</p>
+        <h1>Designs pour restaurants et barbiers</h1>
+        <p class="lead">
+          Une sélection de réalisations. Choisissez une catégorie pour voir les
+          aperçus et ouvrir chaque design.
+        </p>
+      </section>
+
+      <section class="hub wrap" aria-labelledby="hub-title">
+        <h2 id="hub-title" class="visually-hidden">Catégories</h2>
+        <div class="hub-grid">
+          <a class="hub-card" href="restaurant.html">
+            <p class="hub-card__kicker">Catégorie</p>
+            <h2>Restaurants</h2>
+            <p>Sites et identités pour restaurants, menus et salles.</p>
+            <span class="hub-card__cta">Voir les designs ↗</span>
+          </a>
+          <a class="hub-card" href="barbiers.html">
+            <p class="hub-card__kicker">Catégorie</p>
+            <h2>Barbiers</h2>
+            <p>Sites et identités pour salons et barbershops.</p>
+            <span class="hub-card__cta">Voir les designs ↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>
+          <strong>Fixbyte</strong>
+          <span aria-hidden="true">·</span>
+          <span id="year"></span>
+          <span aria-hidden="true">·</span>
+          <a href="https://designs.fixbyte.dev">designs.fixbyte.dev</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/cards.js"></script>
+  </body>
+</html>

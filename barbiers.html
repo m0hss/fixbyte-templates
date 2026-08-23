@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Designs barbiers — Fixbyte</title>
+    <meta
+      name="description"
+      content="Réalisations Fixbyte pour barbiers et salons : aperçus cliquables vers les designs."
+    />
+    <link rel="canonical" href="https://designs.fixbyte.dev/barbiers.html" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Fixbyte" />
+    <meta property="og:title" content="Designs barbiers — Fixbyte" />
+    <meta
+      property="og:description"
+      content="Réalisations Fixbyte pour barbiers et salons : aperçus cliquables vers les designs."
+    />
+    <meta
+      property="og:url"
+      content="https://designs.fixbyte.dev/barbiers.html"
+    />
+    <meta
+      property="og:image"
+      content="https://designs.fixbyte.dev/assets/logo-dark.svg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Designs barbiers — Fixbyte" />
+    <meta
+      name="twitter:description"
+      content="Réalisations Fixbyte pour barbiers et salons : aperçus cliquables vers les designs."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700&family=Fraunces:opsz,wght@9..144,500;9..144,650&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html">
+          <img
+            src="assets/logo-dark.svg"
+            alt="Fixbyte"
+            width="150"
+            height="70"
+          />
+        </a>
+        <nav class="site-nav" aria-label="Navigation principale">
+          <a href="restaurant.html">Restaurants</a>
+          <a href="barbiers.html" aria-current="page">Barbiers</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <p class="eyebrow">Fixbyte · Agence</p>
+        <h1>Designs barbiers</h1>
+        <p class="lead">
+          Présentation de nos réalisations pour salons et barbershops. Chaque
+          carte affiche l’aperçu du design&nbsp;; un clic ouvre le projet dans
+          un nouvel onglet.
+        </p>
+      </section>
+
+      <section class="works wrap" aria-labelledby="works-title">
+        <h2 id="works-title" class="visually-hidden">Projets barbiers</h2>
+        <div
+          id="works"
+          class="card-grid"
+          data-source="data/barbiers.json"
+          aria-busy="true"
+        ></div>
+        <p class="works-note">
+          Remplacez les URLs d’exemple dans
+          <code>data/barbiers.json</code> par vos liens de design.
+        </p>
+      </section>
+
+      <section class="pricing wrap" aria-labelledby="pricing-title">
+        <h2 id="pricing-title">Tarifs</h2>
+        <p class="pricing-intro">
+          Les grilles tarifaires seront publiées ici prochainement.
+        </p>
+        <div class="price-grid">
+          <article class="price-card">
+            <h3>Site one-page</h3>
+            <p class="price-card__amount">—</p>
+            <p class="price-card__hint">Détails à venir</p>
+          </article>
+          <article class="price-card">
+            <h3>Site vitrine + réservation</h3>
+            <p class="price-card__amount">—</p>
+            <p class="price-card__hint">Détails à venir</p>
+          </article>
+          <article class="price-card">
+            <h3>Pack identité + site</h3>
+            <p class="price-card__amount">—</p>
+            <p class="price-card__hint">Détails à venir</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>
+          <strong>Fixbyte</strong>
+          <span aria-hidden="true">·</span>
+          <span id="year"></span>
+          <span aria-hidden="true">·</span>
+          <a href="https://designs.fixbyte.dev">designs.fixbyte.dev</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/cards.js"></script>
+  </body>
+</html>
