@@ -1,10 +1,21 @@
 (function () {
-  const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
   const PLACEHOLDER = "assets/placeholder.svg";
-  const MICROLINK = "https://api.microlink.io/";
 
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+  const ctaBtn = document.querySelector(".cta-block__btn");
+  if (ctaBtn && !document.querySelector(".whatsapp-float")) {
+    const bubble = document.createElement("a");
+    bubble.className = "whatsapp-float";
+    bubble.href = ctaBtn.href;
+    bubble.target = "_blank";
+    bubble.rel = "noopener noreferrer";
+    bubble.setAttribute("aria-label", "Écrire sur WhatsApp");
+    bubble.innerHTML =
+      '<img src="assets/whatsapp.svg" alt="" width="28" height="28" decoding="async" />';
+    document.body.appendChild(bubble);
+  }
 
   const grid = document.getElementById("works");
   if (!grid) return;
@@ -29,9 +40,9 @@
         grid.appendChild(renderSkeleton(item.url));
       });
 
-      await Promise.all(
-        items.map((item, index) => hydrateCard(grid.children[index], item.url))
-      );
+      items.forEach((item, index) => {
+        hydrateCard(grid.children[index], item);
+      });
     } catch (error) {
       console.error(error);
       grid.innerHTML =
@@ -49,70 +60,12 @@
     return data.filter((item) => item && typeof item.url === "string");
   }
 
-  function cacheKey(url) {
-    return "fixbyte-og:" + url;
-  }
-
-  function getCached(url) {
-    try {
-      const raw = localStorage.getItem(cacheKey(url));
-      if (!raw) return null;
-      const entry = JSON.parse(raw);
-      if (!entry || Date.now() - entry.ts > CACHE_TTL_MS) {
-        localStorage.removeItem(cacheKey(url));
-        return null;
-      }
-      return entry.data;
-    } catch {
-      return null;
-    }
-  }
-
-  function setCached(url, data) {
-    try {
-      localStorage.setItem(
-        cacheKey(url),
-        JSON.stringify({ ts: Date.now(), data })
-      );
-    } catch {
-      /* quota */
-    }
-  }
-
   function hostnameOf(url) {
     try {
       return new URL(url).hostname.replace(/^www\./, "");
     } catch {
       return url;
     }
-  }
-
-  function microlinkEmbed(url, extra) {
-    const endpoint = new URL(MICROLINK);
-    endpoint.searchParams.set("url", url);
-    Object.entries(extra || {}).forEach(([key, value]) => {
-      endpoint.searchParams.set(key, value);
-    });
-    return endpoint.toString();
-  }
-
-  async function fetchMeta(url) {
-    const cached = getCached(url);
-    if (cached) return cached;
-
-    const endpoint = microlinkEmbed(url);
-    const response = await fetch(endpoint);
-    if (!response.ok) throw new Error("microlink");
-    const json = await response.json();
-    if (json.status !== "success" || !json.data) throw new Error("microlink");
-
-    const data = {
-      title: json.data.title || hostnameOf(url),
-      description: json.data.description || "",
-      image: json.data.image && json.data.image.url ? json.data.image.url : "",
-    };
-    setCached(url, data);
-    return data;
   }
 
   function renderSkeleton(url) {
@@ -131,43 +84,14 @@
     return card;
   }
 
-  function bindImageFallback(img, url) {
-    const screenshot = microlinkEmbed(url, {
-      screenshot: "true",
-      meta: "false",
-      embed: "screenshot.url",
-    });
-    const ogEmbed = microlinkEmbed(url, { embed: "image.url" });
-
-    img.addEventListener("error", function onError() {
-      if (img.dataset.step === "og") {
-        img.dataset.step = "shot";
-        img.src = screenshot;
-        return;
-      }
-      if (img.dataset.step === "shot") {
-        img.removeEventListener("error", onError);
-        img.dataset.step = "ph";
-        img.src = PLACEHOLDER;
-        img.style.objectFit = "contain";
-      }
-    });
-
-    return ogEmbed;
-  }
-
-  async function hydrateCard(card, url) {
-    let meta = {
-      title: hostnameOf(url),
-      description: "Ouvrir le design",
-      image: "",
-    };
-
-    try {
-      meta = { ...meta, ...(await fetchMeta(url)) };
-    } catch {
-      /* keep fallbacks */
-    }
+  function hydrateCard(card, item) {
+    const url = item.url;
+    const titleText = item.title || hostnameOf(url);
+    const descText = item.description || "Ouvrir le design";
+    const imageSrc =
+      typeof item.image === "string" && item.image
+        ? item.image
+        : PLACEHOLDER;
 
     card.classList.remove("is-skeleton");
     card.innerHTML =
@@ -183,13 +107,18 @@
     const desc = card.querySelector(".mention-card__desc");
     const host = card.querySelector(".mention-card__host");
 
-    title.textContent = meta.title;
-    desc.textContent = meta.description || "Ouvrir le design";
+    title.textContent = titleText;
+    desc.textContent = descText;
     host.textContent = hostnameOf(url) + " ↗";
-
-    img.alt = meta.title;
-    const ogEmbed = bindImageFallback(img, url);
-    img.dataset.step = "og";
-    img.src = meta.image || ogEmbed;
+    img.alt = titleText;
+    img.addEventListener("error", function onError() {
+      img.removeEventListener("error", onError);
+      img.src = PLACEHOLDER;
+      img.style.objectFit = "contain";
+    });
+    if (imageSrc === PLACEHOLDER) {
+      img.style.objectFit = "contain";
+    }
+    img.src = imageSrc;
   }
 })();

@@ -1,5 +1,38 @@
 [
-  { "url": "https://www.septime-charonne.fr/" },
-  { "url": "https://www.noma.dk/" },
-  { "url": "https://www.lebernardin.com/" }
+  {
+    "url": "https://pizzaro.fixbyte.dev/",
+    "image": "assets/previews/pizzaro-fixbyte-dev.png",
+    "title": "Pizzaro",
+    "description": "Pour une pizzeria qui vit de la commande, pas du nappe."
+  },
+  {
+    "url": "https://foodee-fixbyte.framer.website/",
+    "image": "assets/previews/restau1-fixbyte-framer-website.png",
+    "title": "Foodee",
+    "description": "Pour une table de quartier où l’on revient le mardi."
+  },
+  {
+    "url": "https://fixbyte-umami.framer.website/",
+    "image": "assets/previews/fixbyte-umami-framer-website.png",
+    "title": "Umami",
+    "description": "Pour une table qui se réserve, pas qui s’explique."
+  },
+  {
+    "url": "https://savaro-fixbyte.framer.website/",
+    "image": "assets/previews/savaro-fixbyte-framer-website.png",
+    "title": "Savaro",
+    "description": "Pour une salle où l’on vient pour le soir, pas pour le plat du jour."
+  },
+  {
+    "url": "https://pastora-fixbyte.framer.website/",
+    "image": "assets/previews/pastora-fixbyte-framer-website.png",
+    "title": "Pastora",
+    "description": "Pour une maison de quartier : menu court, adresse claire."
+  },
+  {
+    "url": "https://restro-fixbyte.framer.website/",
+    "image": "assets/previews/restro-fixbyte-framer-website.png",
+    "title": "Restro",
+    "description": "Pour un resto qui veut montrer la salle avant la carte."
+  }
 ]

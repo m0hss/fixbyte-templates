@@ -4,10 +4,10 @@ Guidelines for any AI agent working on this repository.
 
 ## Architecture overview
 
-- **Templates**: `index.html`, `barbiers.html`, `restaurant.html`
+- **Templates**: `index.html`, `barbiers.html`, `restaurant.html`, `instituts.html`, `cafes.html`
 - **Styles**: `css/style.css`
 - **Logic**: `js/cards.js` (loads JSON and renders cards/sections)
-- **Data**: `data/barbiers.json`, `data/restaurants.json`
+- **Data**: `data/barbiers.json`, `data/restaurants.json`, `data/instituts.json`, `data/cafes.json`
 - **Local server**: `serve.sh`
 - **Deployment**: static host (e.g. GitHub Pages) with custom domain via `CNAME`
 
@@ -47,4 +47,4 @@ Before committing, ensure:
 - If a change breaks the site:
   - Revert the offending commit(s) or reset the branch to the last good commit.
   - Re-deploy from the stable commit.
-  - Verify all three templates locally and on the live domain.
+  - Verify all five templates locally and on the live domain.

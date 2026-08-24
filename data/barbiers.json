@@ -1,5 +1,56 @@
 [
-  { "url": "https://www.schorembarbier.nl/" },
-  { "url": "https://fellowbarber.com/" },
-  { "url": "https://www.thebarbershopla.com/" }
+  {
+    "url": "https://bxl-barbers-fixbyte.framer.website/",
+    "image": "assets/previews/bxl-barbers-fixbyte-framer-website.png",
+    "title": "BXL Barbers",
+    "description": "Pour un shop bruxellois où le style se voit d’entrée."
+  },
+  {
+    "url": "https://baron-fixbyte.framer.website/",
+    "image": "assets/previews/fixbyte-barber1-framer-website.png",
+    "title": "Baron Cuts",
+    "description": "Pour un salon classique : rendez-vous clair, pas de blabla."
+  },
+  {
+    "url": "https://hairloom-fixbyte.framer.website/",
+    "image": "assets/previews/bxl-barber3-framer-website.png",
+    "title": "Hairloom",
+    "description": "Pour un salon de quartier où le fauteuil se booke."
+  },
+  {
+    "url": "https://salox-fixbyte.framer.website/",
+    "image": "assets/previews/salox-fixbyte-framer-website.png",
+    "title": "Salox",
+    "description": "Pour une enseigne qui se juge à la nuque, pas au logo."
+  },
+  {
+    "url": "https://otissons.framer.website/",
+    "image": "assets/previews/otissons-framer-website.png",
+    "title": "Otissons",
+    "description": "Pour un salon où l’accueil compte autant que la coupe."
+  },
+  {
+    "url": "https://barbershop.framer.website/",
+    "image": "assets/previews/barbershop-framer-website.png",
+    "title": "Barbershop",
+    "description": "Pour un shop qui assume le classique sans être coincé."
+  },
+  {
+    "url": "https://therazorbrothers.framer.website/",
+    "image": "assets/previews/therazorbrothers-framer-website.png",
+    "title": "The Razor Brothers",
+    "description": "Pour deux barbiers, une même exigence."
+  },
+  {
+    "url": "https://dallas-brb-fixbyte.framer.website/",
+    "image": "assets/previews/barbers-bxl-framer-website.png",
+    "title": "Dallas Barbers Club",
+    "description": "Pour un salon bruxellois, visible avant le fauteuil."
+  },
+  {
+    "url": "https://clipster.framer.website/",
+    "image": "assets/previews/clipster-framer-website.png",
+    "title": "Clipster",
+    "description": "Pour un shop moderne où le rendez-vous se prend en un clic."
+  }
 ]

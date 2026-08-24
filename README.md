@@ -9,13 +9,19 @@ A minimal, static HTML/CSS/JS template set for small-business landing pages, pow
 - **Barbiers** — `/barbiers.html`  
   Barber-shop style template with services, pricing, and contact.
 - **Restaurant** — `/restaurant.html`  
-  Restaurant/café±¬ template with menu highlights, gallery, and reservation CTA.
+  Restaurant/café template with menu highlights, gallery, and reservation CTA.
+- **Instituts** — `/instituts.html`  
+  Beauty, spa, nail salon, and hammam template with treatments, pricing, and booking.
+- **Cafés & boulangeries** — `/cafes.html`  
+  Café/bakery template with daily menu, hours, address, and click & collect.
 
 Preview locally using `./serve.sh` (see below) and open:
 
 - http://localhost:8080/
 - http://localhost:8080/barbiers.html
 - http://localhost:8080/restaurant.html
+- http://localhost:8080/instituts.html
+- http://localhost:8080/cafes.html
 
 ## Local development with `serve.sh`
 
@@ -36,6 +42,8 @@ Template data lives in `/data`:
 
 - `data/barbiers.json` — data for the barber template
 - `data/restaurants.json` — data for the restaurant template
+- `data/instituts.json` — data for the beauty institute template
+- `data/cafes.json` — data for the café & bakery template
 
 `js/cards.js` loads these JSON files in the browser and renders cards/sections on each page. The general pattern:
 
@@ -82,7 +90,7 @@ If a deployment breaks or introduces bad changes:
 3. If using GitHub Pages or another host with deploy previews:
    - Re-deploy from the known-good commit/branch.
 4. Verify:
-   - Open all three templates locally and on the live domain.
+   - Open all five templates locally and on the live domain.
    - Check that JSON-driven sections render correctly.
 
 Keep the default branch stable and use feature branches for experiments so you always have a safe commit to roll back to.

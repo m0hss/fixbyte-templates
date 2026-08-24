@@ -11,6 +11,8 @@ echo "Fixbyte designs — preview locale"
 echo "  http://${HOST}:${PORT}/"
 echo "  http://${HOST}:${PORT}/restaurant.html"
 echo "  http://${HOST}:${PORT}/barbiers.html"
+echo "  http://${HOST}:${PORT}/instituts.html"
+echo "  http://${HOST}:${PORT}/cafes.html"
 echo "Ctrl+C pour arrêter."
 echo
 

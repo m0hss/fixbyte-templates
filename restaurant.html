@@ -6,7 +6,7 @@
     <title>Designs restaurants — Fixbyte</title>
     <meta
       name="description"
-      content="Réalisations Fixbyte pour restaurants : aperçus cliquables vers les designs."
+      content="Designs Fixbyte pour restaurants. Essai 0 € : votre nom sur le design. Pizzaro, Umami, Savaro et autres aperçus cliquables."
     />
     <link rel="canonical" href="https://designs.fixbyte.dev/restaurant.html" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
@@ -16,7 +16,7 @@
     <meta property="og:title" content="Designs restaurants — Fixbyte" />
     <meta
       property="og:description"
-      content="Réalisations Fixbyte pour restaurants : aperçus cliquables vers les designs."
+      content="Designs Fixbyte pour restaurants. Essai 0 € : votre nom sur le design. Pizzaro, Umami, Savaro et autres aperçus cliquables."
     />
     <meta
       property="og:url"
@@ -24,13 +24,13 @@
     />
     <meta
       property="og:image"
-      content="https://designs.fixbyte.dev/assets/logo-dark.svg"
+      content="https://designs.fixbyte.dev/assets/logo.svg"
     />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Designs restaurants — Fixbyte" />
     <meta
       name="twitter:description"
-      content="Réalisations Fixbyte pour restaurants : aperçus cliquables vers les designs."
+      content="Designs Fixbyte pour restaurants. Essai 0 € : votre nom sur le design. Pizzaro, Umami, Savaro et autres aperçus cliquables."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,7 +45,7 @@
       <div class="wrap header-inner">
         <a class="brand" href="index.html">
           <img
-            src="assets/logo-dark.svg"
+            src="assets/logo.svg"
             alt="Fixbyte"
             width="150"
             height="70"
@@ -54,18 +54,31 @@
         <nav class="site-nav" aria-label="Navigation principale">
           <a href="restaurant.html" aria-current="page">Restaurants</a>
           <a href="barbiers.html">Barbiers</a>
+          <a href="instituts.html">Instituts</a>
+          <a href="cafes.html">Cafés</a>
         </nav>
       </div>
     </header>
 
     <main>
       <section class="hero wrap">
-        <p class="eyebrow">Fixbyte · Agence</p>
-        <h1>Designs restaurants</h1>
-        <p class="lead">
-          Présentation de nos réalisations. Chaque carte affiche l’aperçu du
-          design&nbsp;; un clic ouvre le projet dans un nouvel onglet.
+        <p class="hero-badge">
+          <img
+            src="assets/brand.svg"
+            alt=""
+            class="hero-badge__icon"
+            width="16"
+            height="16"
+            aria-hidden="true"
+          />
+          <span>8&nbsp;secondes pour convaincre</span>
         </p>
+        <div class="hero-scene">
+          <h1>Un client ouvre Maps à 20&nbsp;h. Il a 8&nbsp;secondes.</h1>
+          <p class="hero-scene__action">
+            Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.
+          </p>
+        </div>
       </section>
 
       <section class="works wrap" aria-labelledby="works-title">
@@ -76,33 +89,129 @@
           data-source="data/restaurants.json"
           aria-busy="true"
         ></div>
-        <p class="works-note">
-          Remplacez les URLs d’exemple dans
-          <code>data/restaurants.json</code> par vos liens de design.
-        </p>
+      </section>
+
+      <section class="pitch pitch--mascot wrap" aria-labelledby="pitch-title">
+        <h2 id="pitch-title" class="visually-hidden">Pourquoi ces designs</h2>
+        <div class="pitch-grid pitch-grid--mascot">
+          <article class="pitch-item">
+            <h3>Pas un catalogue</h3>
+            <p>
+              La table de 21&nbsp;h, déjà pleine dans sa tête. Photos, menu,
+              bouton réserver — ce qu’il faut avant le premier appel.
+            </p>
+          </article>
+          <figure class="pitch-mascot">
+            <img
+              src="assets/bytie-pizza.png"
+              alt="Bytie avec une pizza"
+              width="326"
+              height="331"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <article class="pitch-item">
+            <h3>Vous cliquez, vous jugez</h3>
+            <p>
+              Chaque aperçu ouvre le design. On n’argumente pas un goût — vous
+              choisissez, on part de là.
+            </p>
+          </article>
+        </div>
       </section>
 
       <section class="pricing wrap" aria-labelledby="pricing-title">
+        <aside class="price-essai" aria-labelledby="essai-title">
+          <p class="price-essai__kicker">Avant de choisir</p>
+          <div class="price-essai__body">
+            <h2 id="essai-title">Essai · 0&nbsp;€</h2>
+            <p class="price-essai__lead">
+              Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h
+              pour le montrer en salle.
+            </p>
+            <a
+              class="price-essai__cta"
+              href="https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20restaurant.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Envoyer 4 photos sur WhatsApp ↗</a
+            >
+          </div>
+        </aside>
+
         <h2 id="pricing-title">Tarifs</h2>
         <p class="pricing-intro">
-          Les grilles tarifaires seront publiées ici prochainement.
+          Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou
+          <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA,
+          TVA 21&nbsp;% en sus.
         </p>
-        <div class="price-grid">
+        <div class="price-grid price-grid--two">
           <article class="price-card">
-            <h3>Site one-page</h3>
-            <p class="price-card__amount">—</p>
-            <p class="price-card__hint">Détails à venir</p>
+            <h3>L’Enseigne</h3>
+            <p class="price-card__amount">1&nbsp;990&nbsp;€ <span>HT</span></p>
+            <p class="price-card__hint">
+              Paiement unique · en ligne en 10 jours · le site est à vous
+            </p>
+            <ul class="price-card__list">
+              <li>Le design choisi, à votre nom — 4 pages mobile</li>
+              <li>Menu, contact, bouton réservation</li>
+              <li>Fiche Google Business</li>
+              <li>Mise en ligne + 3 mois d’hébergement</li>
+            </ul>
           </article>
-          <article class="price-card">
-            <h3>Site vitrine + menu</h3>
-            <p class="price-card__amount">—</p>
-            <p class="price-card__hint">Détails à venir</p>
+          <article class="price-card is-featured">
+            <p class="price-card__badge">La plus choisie</p>
+            <h3>On tient la porte</h3>
+            <p class="price-card__amount">199&nbsp;€ <span>HT / mois</span></p>
+            <p class="price-card__hint">
+              12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois
+            </p>
+            <ul class="price-card__list">
+              <li>L’Enseigne incluse (comme ci-contre)</li>
+              <li>Photo WhatsApp → site à jour le soir</li>
+              <li>4 posts Google Business / mois</li>
+              <li>Rapport&nbsp;: appels, clics itinéraire, réservations</li>
+            </ul>
           </article>
-          <article class="price-card">
-            <h3>Pack identité + site</h3>
-            <p class="price-card__amount">—</p>
-            <p class="price-card__hint">Détails à venir</p>
-          </article>
+        </div>
+        <aside class="price-upsell">
+          <p class="price-upsell__kicker">Ensuite, si ça tourne</p>
+          <div class="price-upsell__body">
+            <h3>Le créneau vide</h3>
+            <p class="price-upsell__amount">+&nbsp;290&nbsp;€ <span>HT / mois</span></p>
+            <p>
+              Après 8 semaines de On tient la porte. On vise le trou dans
+              l’agenda — Maps, avis, Google Ads (budget pub en sus). Total
+              489&nbsp;€ HT / mois.
+            </p>
+          </div>
+        </aside>
+        <p class="pricing-note">
+          Essai 0&nbsp;€ avant de choisir (voir ci-dessus). Bilingue FR+NL
+          +500&nbsp;€ HT. Identité 890&nbsp;€ · photo 490&nbsp;€ · page extra
+          190&nbsp;€. Après 12 mois de On tient la porte, le site vous
+          appartient.
+        </p>
+      </section>
+
+      <section class="wrap cta-block-section">
+        <div class="cta-block" aria-labelledby="cta-title">
+          <h2 id="cta-title">12 min · on ouvre votre fiche Google ensemble</h2>
+          <p>
+            Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site
+            sert à quelque chose.
+          </p>
+          <a
+            class="cta-block__btn"
+            href="https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Écrire sur WhatsApp ↗</a
+          >
+          <p class="cta-block__hint">
+            Pas de brief. 4 photos. On rappelle dans la journée.
+          </p>
         </div>
       </section>
     </main>
