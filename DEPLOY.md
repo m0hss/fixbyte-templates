@@ -19,7 +19,7 @@ En local, à la racine de ce projet :
 ```bash
 git init
 git add .
-git commit -m "Site Fixbyte Designs (restaurants, barbiers, instituts, cafés)"
+git commit -m "Site Fixbyte Designs (restaurants, barbiers, agences, cafés)"
 git branch -M main
 git remote add origin https://github.com/VOTRE-COMPTE/VOTRE-DEPOT.git
 git push -u origin main
@@ -124,13 +124,15 @@ Ouvrez :
 - [https://designs.fixbyte.dev](https://designs.fixbyte.dev) — accueil
 - [https://designs.fixbyte.dev/restaurant.html](https://designs.fixbyte.dev/restaurant.html) — page Restaurants
 - [https://designs.fixbyte.dev/barbiers.html](https://designs.fixbyte.dev/barbiers.html) — page Barbiers
-- [https://designs.fixbyte.dev/instituts.html](https://designs.fixbyte.dev/instituts.html) — page Instituts
+- [https://designs.fixbyte.dev/agences.html](https://designs.fixbyte.dev/agences.html) — page Agences
+- [https://designs.fixbyte.dev/entreprises.html](https://designs.fixbyte.dev/entreprises.html) — page Entreprises
 - [https://designs.fixbyte.dev/cafes.html](https://designs.fixbyte.dev/cafes.html) — page Cafés & boulangeries
+- [https://designs.fixbyte.dev/ecommerce.html](https://designs.fixbyte.dev/ecommerce.html) — page E-commerce
 
 Contrôles :
 
 - Le logo Fixbyte s’affiche.
-- La nav bascule entre Restaurants, Barbiers, Instituts et Cafés.
+- La nav bascule entre Restaurants, Barbiers, Agences, Entreprises, Cafés et E-commerce.
 - Les cartes mention montrent une image OG (ou un fallback) et ouvrent l’URL dans un nouvel onglet.
 - Le bloc **Tarifs** est visible en bas (prix encore vides).
 - Le cadenas HTTPS est actif.
@@ -143,8 +145,10 @@ Les URLs ne sont pas dans le HTML. Éditez :
 
 - `data/restaurants.json`
 - `data/barbiers.json`
-- `data/instituts.json`
+- `data/agences.json`
+- `data/entreprises.json`
 - `data/cafes.json`
+- `data/ecommerce.json`
 
 Format :
 
@@ -168,7 +172,7 @@ Capture (ou recapture) l’aperçu :
 Puis :
 
 ```bash
-git add data/restaurants.json data/barbiers.json data/instituts.json data/cafes.json assets/previews
+git add data/restaurants.json data/barbiers.json data/agences.json data/entreprises.json data/cafes.json data/ecommerce.json assets/previews
 git commit -m "Ajoute un design restaurant"
 git push
 ```
@@ -197,7 +201,7 @@ Puis : [http://localhost:8080](http://localhost:8080)
 | --- | --- |
 | DNS check failed | CNAME vers `USER.github.io` (pas l’URL du projet). Attendre la propagation. `dig` pour confirmer. |
 | HTTPS reste gris | Attendre le certificat Let’s Encrypt. Ne pas cocher Enforce HTTPS trop tôt. Réenregistrer le custom domain. |
-| 404 sur `/restaurant.html`, `/barbiers.html`, `/instituts.html` ou `/cafes.html` | Source Pages = `main` / `/ (root)`. Les fichiers doivent être à la racine du dépôt, pas dans un sous-dossier. |
+| 404 sur `/restaurant.html`, `/barbiers.html`, `/agences.html`, `/entreprises.html`, `/cafes.html` ou `/ecommerce.html` | Source Pages = `main` / `/ (root)`. Les fichiers doivent être à la racine du dépôt, pas dans un sous-dossier. |
 | Page blanche / pas de cartes | Console : fetch JSON bloqué. En local, utiliser `http.server`. En prod, vérifier `data/*.json` poussés. |
 | Images OG vides / quota Microlink | Quota journalier atteint. Le script retombe sur screenshot puis `assets/placeholder.svg`. Réessayer le lendemain, ou mettre un plan Microlink. |
 | Ancien site encore visible | Cache CDN Pages : attendre 1–2 min, hard refresh. |
@@ -212,12 +216,17 @@ Puis : [http://localhost:8080](http://localhost:8080)
 | `index.html` | Accueil (`/`) — pas dans la nav |
 | `restaurant.html` | Page Restaurants |
 | `barbiers.html` | Page Barbiers |
-| `instituts.html` | Page Instituts |
+| `agences.html` | Page Agences |
+| `entreprises.html` | Page Entreprises |
+| `instituts.html` | Redirect → `agences.html` |
 | `cafes.html` | Page Cafés & boulangeries |
+| `ecommerce.html` | Page E-commerce |
 | `data/restaurants.json` | URLs des designs restaurants |
 | `data/barbiers.json` | URLs des designs barbiers |
-| `data/instituts.json` | URLs des designs instituts |
+| `data/agences.json` | URLs des designs agences |
+| `data/entreprises.json` | URLs des designs entreprises |
 | `data/cafes.json` | URLs des designs cafés & boulangeries |
+| `data/ecommerce.json` | URLs des designs e-commerce |
 | `CNAME` | `designs.fixbyte.dev` |
 | `css/style.css` | Styles |
 | `js/cards.js` | Cartes mention Microlink |

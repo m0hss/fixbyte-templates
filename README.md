@@ -10,18 +10,24 @@ A minimal, static HTML/CSS/JS template set for small-business landing pages, pow
   Barber-shop style template with services, pricing, and contact.
 - **Restaurant** — `/restaurant.html`  
   Restaurant/café template with menu highlights, gallery, and reservation CTA.
-- **Instituts** — `/instituts.html`  
-  Beauty, spa, nail salon, and hammam template with treatments, pricing, and booking.
+- **Agences** — `/agences.html`  
+  Agency / institution template with offer, proofs, and contact.
+- **Entreprises** — `/entreprises.html`  
+  Construction / renovation business template with savoir-faire, works, and quote CTA.
 - **Cafés & boulangeries** — `/cafes.html`  
   Café/bakery template with daily menu, hours, address, and click & collect.
+- **E-commerce** — `/ecommerce.html`  
+  Online shop / product-launch template with catalog, pricing, and purchase CTA.
 
 Preview locally using `./serve.sh` (see below) and open:
 
 - http://localhost:8080/
 - http://localhost:8080/barbiers.html
 - http://localhost:8080/restaurant.html
-- http://localhost:8080/instituts.html
+- http://localhost:8080/agences.html
+- http://localhost:8080/entreprises.html
 - http://localhost:8080/cafes.html
+- http://localhost:8080/ecommerce.html
 
 ## Local development with `serve.sh`
 
@@ -42,8 +48,10 @@ Template data lives in `/data`:
 
 - `data/barbiers.json` — data for the barber template
 - `data/restaurants.json` — data for the restaurant template
-- `data/instituts.json` — data for the beauty institute template
+- `data/agences.json` — data for the agencies template
+- `data/entreprises.json` — data for the entreprises (travaux / rénovation) template
 - `data/cafes.json` — data for the café & bakery template
+- `data/ecommerce.json` — data for the e-commerce template
 
 `js/cards.js` loads these JSON files in the browser and renders cards/sections on each page. The general pattern:
 

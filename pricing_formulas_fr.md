@@ -1,6 +1,6 @@
 # Structure et formules des tarifs & services
 
-Offres Fixbyte pour **restaurants**, **barbiers**, **instituts** et **cafés / boulangeries**, marché **Belgique**. Bandeau Essai + deux cartes à l’écran. Le créneau vide en upsell. Prix **HTVA**, TVA 21 % en sus. Pas de « à partir de ».
+Offres Fixbyte pour **restaurants**, **barbiers**, **agences**, **entreprises**, **cafés / boulangeries** et **e-commerce**, marché **Belgique**. Bandeau Essai + deux cartes à l’écran. Le créneau vide en upsell. Prix **HTVA**, TVA 21 % en sus. Pas de « à partir de ».
 
 **Porte d’entrée :** Essai 0 € (nom sur le design, 72 h).  
 **Choix payant :** « L’Enseigne une fois, ou On tient la porte ? »  
@@ -65,7 +65,8 @@ Après 12 mois de On tient la porte, **le site appartient au client**.
 
 - **Restaurants :** `Bonjour, je voudrais l'Essai Fixbyte pour mon restaurant. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
 - **Barbiers :** `Bonjour, je voudrais l'Essai Fixbyte pour mon salon. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
-- **Instituts :** `Bonjour, je voudrais l'Essai Fixbyte pour mon institut. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
+- **Agences :** `Bonjour, je voudrais l'Essai Fixbyte pour mon agence. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
+- **Entreprises :** `Bonjour, je voudrais l'Essai Fixbyte pour mon entreprise. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
 - **Cafés :** `Bonjour, je voudrais l'Essai Fixbyte pour mon café / boulangerie. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
 - **Accueil / CTA 12 min :** `Bonjour, je voudrais les 12 min Fixbyte pour ouvrir ma fiche Google ensemble.`
 
@@ -90,10 +91,15 @@ Après 12 mois de On tient la porte, **le site appartient au client**.
 * Bouton rendez-vous (téléphone, WhatsApp, ou widget déjà souscrit)
 * Mise en avant du salon / avant-après si photos fournies
 
-### Pour les instituts
-* Accueil, **soins & tarifs**, à propos, contact
-* Bouton rendez-vous (téléphone, WhatsApp, ou widget déjà souscrit)
-* Mise en avant de l’équipe / galerie / avant-après si photos fournies
+### Pour les agences
+* Accueil, **services & preuves**, à propos, contact
+* Bouton contact (téléphone, WhatsApp, ou formulaire)
+* Mise en avant de l’équipe / cas clients si contenus fournis
+
+### Pour les entreprises
+* Accueil, **savoir-faire & réalisations**, à propos, contact
+* Bouton devis (téléphone, WhatsApp, ou formulaire)
+* Mise en avant des chantiers / zone d’intervention si contenus fournis
 
 ### Pour les cafés et boulangeries
 * Accueil, **carte du jour**, horaires, contact

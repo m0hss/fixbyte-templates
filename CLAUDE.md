@@ -34,5 +34,5 @@ This file defines how AI assistants should help with this repository.
 ## Quality expectations
 
 - No broken links or missing assets.
-- All five templates must remain usable on mobile and desktop.
+- All category templates must remain usable on mobile and desktop.
 - Keep file size and complexity low; avoid unnecessary dependencies.

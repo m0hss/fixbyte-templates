@@ -34,5 +34,17 @@
     "image": "assets/previews/restro-fixbyte-framer-website.png",
     "title": "Restro",
     "description": "Pour un resto qui veut montrer la salle avant la carte."
+  },
+  {
+    "url": "https://lebellagio.fixbyte.dev/",
+    "title": "Le Bellagio",
+    "description": "Pour une table de province : carte, réservation, à emporter.",
+    "image": "assets/previews/lebellagio-fixbyte-dev.png"
+  },
+  {
+    "url": "https://retro-resto.vercel.app/",
+    "title": "Vibe Bistro",
+    "description": "Pour un resto qui mise sur l’ambiance avant la carte.",
+    "image": "assets/previews/retro-resto-vercel-app.png"
   }
 ]

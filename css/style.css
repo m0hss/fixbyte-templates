@@ -1,6 +1,6 @@
 /*
   Fixbyte.studio — pages principales (vitrine de templates) :
-  restaurant, café, boulangeries, barbiers, instituts, etc.
+  restaurant, café, boulangeries, barbiers, agences, etc.
 
   Thème sérieux / chaud : parchemin, encre, rust, teal, charcoal.
   Palette claire (parchemin) : color-scheme: light pour que les
@@ -373,19 +373,28 @@ a {
 }
 
 .pitch-grid--mascot {
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: stretch;
   gap: clamp(1.5rem, 4vw, 3rem);
   min-height: clamp(15rem, 32vw, 19rem);
 }
 
+.pitch-stack {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.15rem;
+  min-width: 0;
+}
+
 .pitch-grid--mascot .pitch-item {
-  align-self: center;
   justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 0;
   padding: 1.25rem 1.35rem 1.3rem;
   background: var(--white);
   border: 1px solid var(--line);
-  border-top: 3px solid var(--accent);
+  border-left: 3px solid var(--accent);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
@@ -402,30 +411,21 @@ a {
   align-self: center;
   justify-self: center;
   position: relative;
-  padding: var(--space-4);
-  min-height: clamp(12rem, 24vw, 16rem);
-}
-
-.pitch-mascot::before {
-  content: "";
-  position: absolute;
-  inset: 8% 0;
-  background: radial-gradient(
-    circle at 50% 55%,
-    color-mix(in srgb, var(--rust) 14%, transparent),
-    transparent 68%
-  );
-  border-radius: 50%;
-  pointer-events: none;
+  padding: 0;
+  min-height: auto;
+  box-shadow: none;
+  filter: none;
 }
 
 .pitch-mascot img {
   position: relative;
   z-index: 1;
   display: block;
-  width: min(100%, 18rem);
+  width: min(100%, 28rem);
   height: auto;
   margin-inline: auto;
+  box-shadow: none;
+  filter: none;
 }
 
 .pitch-item {
@@ -933,29 +933,18 @@ a {
   }
 
   .pitch-grid--mascot {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "pitch-a pitch-b"
-      "pitch-m pitch-m";
-  }
-
-  .pitch-grid--mascot .pitch-item:first-child {
-    grid-area: pitch-a;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: clamp(1.25rem, 3vw, 2rem);
   }
 
   .pitch-grid--mascot .pitch-mascot {
-    grid-area: pitch-m;
     justify-self: center;
     min-height: auto;
-    padding: var(--space-5) 0 0;
+    padding: var(--space-3);
   }
 
   .pitch-grid--mascot .pitch-mascot img {
-    width: min(100%, 14rem);
-  }
-
-  .pitch-grid--mascot .pitch-item:last-child {
-    grid-area: pitch-b;
+    width: min(100%, 20rem);
   }
 
   .hero-grid {
@@ -1006,10 +995,7 @@ a {
   }
 
   .pitch-grid--mascot {
-    grid-template-areas:
-      "pitch-a"
-      "pitch-m"
-      "pitch-b";
+    grid-template-columns: 1fr;
     min-height: auto;
     gap: 1.5rem;
   }
@@ -1019,10 +1005,11 @@ a {
   }
 
   .pitch-grid--mascot .pitch-mascot {
+    order: 2;
     padding: var(--space-3) 0;
   }
 
   .pitch-grid--mascot .pitch-mascot img {
-    width: min(100%, 12rem);
+    width: min(100%, 18rem);
   }
 }

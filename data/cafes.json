@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "url": "https://cg-fixbyte.framer.website/",
+    "title": "Common Grounds",
+    "description": "Pour un café de quartier : café, petit-déj, horaires clairs.",
+    "image": "assets/previews/cg-fixbyte-framer-website.png"
+  },
+  {
+    "url": "https://bakeri-fixbyte.framer.website/",
+    "title": "Bakeri",
+    "description": "Pour une boulangerie qui vend le croissant avant le discours.",
+    "image": "assets/previews/bakeri-fixbyte-framer-website.png"
+  },
+  {
+    "url": "https://bakery-co-wbs.framer.website/",
+    "title": "Bakery Co.",
+    "description": "Pour une maison artisanale : pain du jour, fournées, adresse.",
+    "image": "assets/previews/bakery-co-wbs-framer-website.png"
+  },
+  {
+    "url": "https://ovena.framer.ai/",
+    "title": "Ovena",
+    "description": "Pour une pâtisserie qui montre les gâteaux avant la carte.",
+    "image": "assets/previews/ovena-framer-ai.png"
+  },
+  {
+    "url": "https://loafly-fixbyte.framer.website/",
+    "title": "Loafly",
+    "description": "Pour une boulangerie qui met le pain au centre de la page.",
+    "image": "assets/previews/loafly-fixbyte-framer-website.png"
+  },
+  {
+    "url": "https://mng-bx-fixbyte.framer.website/",
+    "title": "Morrow & Grain",
+    "description": "Pour un bakehouse de voisinage : pain, viennoiserie, café.",
+    "image": "assets/previews/mng-bx-fixbyte-framer-website.png"
+  },
+  {
+    "url": "https://bakehub.framer.website/",
+    "title": "BakeHub",
+    "description": "Pour une boutique qui pousse le click & collect et les commandes.",
+    "image": "assets/previews/bakehub-framer-website.png"
+  }
+]

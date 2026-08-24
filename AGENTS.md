@@ -4,10 +4,10 @@ Guidelines for any AI agent working on this repository.
 
 ## Architecture overview
 
-- **Templates**: `index.html`, `barbiers.html`, `restaurant.html`, `instituts.html`, `cafes.html`
+- **Templates**: `index.html`, `barbiers.html`, `restaurant.html`, `agences.html`, `entreprises.html`, `cafes.html`, `ecommerce.html`
 - **Styles**: `css/style.css`
 - **Logic**: `js/cards.js` (loads JSON and renders cards/sections)
-- **Data**: `data/barbiers.json`, `data/restaurants.json`, `data/instituts.json`, `data/cafes.json`
+- **Data**: `data/barbiers.json`, `data/restaurants.json`, `data/agences.json`, `data/entreprises.json`, `data/cafes.json`, `data/ecommerce.json`
 - **Local server**: `serve.sh`
 - **Deployment**: static host (e.g. GitHub Pages) with custom domain via `CNAME`
 

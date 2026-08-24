@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://uncover-fixbyte.framer.website/",
+    "title": "Uncover",
+    "description": "Pour une boutique tech : catégories, best-sellers, panier en un scroll.",
+    "image": "assets/previews/uncover-fixbyte-framer-website.png"
+  },
+  {
+    "url": "https://minna-fixbyte.framer.website/",
+    "title": "Minna",
+    "description": "Pour une mode en ligne : collections, prix, achat immédiat.",
+    "image": "assets/previews/minna-fixbyte-framer-website.png"
+  },
+  {
+    "url": "https://ferea-fixbyte.framer.website/menu",
+    "title": "Ferea",
+    "description": "Pour une carte café / shop : produits, prix, commande claire.",
+    "image": "assets/previews/ferea-fixbyte-framer-website.png"
+  },
+  {
+    "url": "https://maxaura-fixbyte.framer.website/",
+    "title": "AuraMax",
+    "description": "Pour un lancement produit : features, preuves, précommande.",
+    "image": "assets/previews/maxaura-fixbyte-framer-website.png"
+  }
+]
