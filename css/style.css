@@ -20,10 +20,11 @@
   --charcoal: #000d1f;
   --teal-deep: #00a79a;
   --teal: #1db5a9;
+  --teal-soft: #6ecfc6; /* teal clair / doux */
   --grad-charcoal: linear-gradient(
     160deg,
-    var(--charcoal) 0%,
-    #152238 55%,
+    #1a2c44 0%,
+    #223650 55%,
     #2a3a52 100%
   );
 
@@ -358,6 +359,19 @@ a {
   left: 0;
 }
 
+@media (max-width: 1024px) {
+  .header-inner .lang-switcher__label {
+    display: none;
+  }
+
+  .header-inner .lang-switcher__btn {
+    gap: 0.35rem;
+    min-width: 2.35rem;
+    padding: 0.38rem 0.5rem;
+    justify-content: center;
+  }
+}
+
 .hero {
   padding: 4.2rem 0 2.4rem;
 }
@@ -374,6 +388,23 @@ a {
 
 .hero--home .lead {
   color: color-mix(in srgb, var(--parchment) 78%, transparent);
+}
+
+.hero--home .hero-copy > .hero-badge {
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: var(--white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+.hero--home .hero-copy > .hero-badge .hero-badge__icon {
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .hero--home .hero-pitch__item {
@@ -428,12 +459,16 @@ a {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.15fr minmax(12rem, 0.85fr);
-  align-items: end;
-  gap: 1.5rem 2.5rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "mascot"
+    "copy";
+  align-items: start;
+  gap: 1rem;
 }
 
 .hero-copy {
+  grid-area: copy;
   padding-bottom: 0.5rem;
 }
 
@@ -442,16 +477,93 @@ a {
 }
 
 .hero-mascot {
+  grid-area: mascot;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0;
-  align-self: end;
-  justify-self: end;
+  justify-self: center;
+  align-self: start;
 }
 
 .hero-mascot img {
-  width: min(100%, 19rem);
+  width: min(100%, 11.5rem);
   height: auto;
-  margin-inline: auto 0;
-  animation: mascot-float 4.5s ease-in-out infinite;
+  margin-inline: auto;
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.35));
+  animation: cf-bob 6s ease-in-out infinite;
+}
+
+.hero-mascot__quote {
+  margin: 0.2rem auto 0;
+  padding: 0 1rem 0 0;
+  border: none;
+  color: var(--teal-soft);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.02em;
+  width: fit-content;
+  quotes: "«\00a0" "\00a0»";
+}
+
+.hero-mascot__quote::before {
+  content: open-quote;
+}
+
+.hero-mascot__quote::after {
+  content: close-quote;
+}
+
+@media (min-width: 641px) {
+  .hero-grid {
+    gap: 1.25rem;
+  }
+
+  .hero-mascot img {
+    width: min(100%, 14rem);
+  }
+}
+
+@media (min-width: 1025px) {
+  .hero-grid {
+    grid-template-columns: 1.15fr minmax(12rem, 0.85fr);
+    grid-template-areas: "copy mascot";
+    align-items: end;
+    gap: 1.5rem 2.5rem;
+  }
+
+  .hero-mascot {
+    justify-self: stretch;
+    align-self: end;
+    align-items: center;
+  }
+
+  .hero-mascot img {
+    width: min(100%, 19rem);
+    margin-inline: auto;
+  }
+
+  .hero-mascot__quote {
+    text-align: center;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero--home .hero-copy > .hero-badge {
+    display: flex;
+    width: fit-content;
+    margin-inline: auto;
+    padding-top: 0.35rem;
+  }
+
+  .hero--home .hero-copy h1,
+  .hero--home .lead {
+    text-align: center;
+  }
 }
 
 .hero-pitch {
@@ -1207,6 +1319,16 @@ a {
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.whatsapp-float__disc {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
   background: #25d366;
   box-shadow:
     0 4px 12px rgba(37, 211, 102, 0.35),
@@ -1214,8 +1336,8 @@ a {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.whatsapp-float:hover,
-.whatsapp-float:focus-visible {
+.whatsapp-float:hover .whatsapp-float__disc,
+.whatsapp-float:focus-visible .whatsapp-float__disc {
   transform: scale(1.08);
   box-shadow:
     0 6px 16px rgba(37, 211, 102, 0.45),
@@ -1226,6 +1348,43 @@ a {
   width: 1.75rem;
   height: 1.75rem;
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.22));
+}
+
+.whatsapp-float__tip {
+  position: absolute;
+  right: calc(100% + 0.75rem);
+  top: 50%;
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background: var(--charcoal);
+  color: var(--parchment);
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+  white-space: nowrap;
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(0.35rem, -50%);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.whatsapp-float__tip::after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  border: 0.38rem solid transparent;
+  border-left-color: var(--charcoal);
+  transform: translateY(-50%);
+}
+
+.whatsapp-float:hover .whatsapp-float__tip,
+.whatsapp-float:focus-visible .whatsapp-float__tip {
+  opacity: 1;
+  transform: translate(0, -50%);
 }
 
 .pricing-note {
@@ -1380,7 +1539,7 @@ a {
   }
 }
 
-@keyframes mascot-float {
+@keyframes cf-bob {
   0%,
   100% {
     transform: translateY(0);
@@ -1396,12 +1555,13 @@ a {
     animation: none;
   }
 
-  .whatsapp-float {
+  .whatsapp-float__disc,
+  .whatsapp-float__tip {
     transition: box-shadow 0.2s ease;
   }
 
-  .whatsapp-float:hover,
-  .whatsapp-float:focus-visible {
+  .whatsapp-float:hover .whatsapp-float__disc,
+  .whatsapp-float:focus-visible .whatsapp-float__disc {
     transform: none;
   }
 }
@@ -1436,12 +1596,6 @@ a {
     width: min(100%, 20rem);
   }
 
-  .hero-grid {
-    grid-template-columns: 1fr;
-    align-items: start;
-    gap: 1.25rem;
-  }
-
   .price-grid {
     grid-template-columns: 1fr;
   }
@@ -1461,8 +1615,20 @@ a {
 
   .site-nav {
     flex: 1 1 100%;
+    flex-wrap: nowrap;
     justify-content: flex-start;
     order: 3;
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overscroll-behavior-x: contain;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .header-inner > .lang-switcher {
@@ -1471,14 +1637,6 @@ a {
 
   .hero {
     padding-top: 2.6rem;
-  }
-
-  .hero-grid {
-    gap: 1rem;
-  }
-
-  .hero-mascot img {
-    width: min(100%, 13.5rem);
   }
 
   .card-grid,

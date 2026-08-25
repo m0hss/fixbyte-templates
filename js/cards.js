@@ -10,7 +10,10 @@
     bubble.rel = "noopener noreferrer";
     bubble.setAttribute("aria-label", "Écrire sur WhatsApp");
     bubble.innerHTML =
-      '<img src="assets/whatsapp.svg" alt="" width="28" height="28" decoding="async" />';
+      '<span class="whatsapp-float__disc" aria-hidden="true">' +
+      '<img src="assets/whatsapp.svg" alt="" width="28" height="28" decoding="async" />' +
+      "</span>" +
+      '<span class="whatsapp-float__tip" role="tooltip" aria-hidden="true">Écrivez-nous sur WhatsApp</span>';
     document.body.appendChild(bubble);
   }
 
