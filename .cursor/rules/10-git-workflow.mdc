@@ -1,0 +1,42 @@
+---
+description: Git identity, commit, and change-management rules
+alwaysApply: true
+---
+
+# Git workflow
+
+## Commit identity
+
+Before making a commit in this repository, configure the repository-local Git identity:
+
+```bash
+git config user.name "Fixbyte Dev"
+git config user.email "dev@fixbyte.be"
+```
+
+- Use repository-local configuration only. Do not modify the global Git configuration.
+- Verify the active identity before committing:
+
+```bash
+git config --local user.name
+git config --local user.email
+```
+
+## Commit discipline
+
+- Commit every completed, cohesive change with a concise imperative message.
+- Prefer small, single-purpose commits. Do not combine unrelated formatting, refactors, content, and feature changes.
+- Inspect the diff before committing with `git diff --check` and `git diff`.
+- Never amend, reset, force-push, delete branches, or rewrite history without explicit user approval.
+- Never include credentials, API keys, tokens, `.env` files, or customer/private data in a commit.
+- Do not push changes unless the user explicitly asks to push them.
+
+## Suggested commit format
+
+Use one of:
+
+- `feat: add restaurant menu section`
+- `fix: stack restaurant media section on mobile`
+- `docs: clarify GitHub Pages deployment`
+- `style: improve card spacing`
+- `chore: add Cursor project rules`

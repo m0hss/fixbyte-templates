@@ -1,0 +1,12 @@
+---
+description: Core architecture and scope rules for Fixbyte Templates
+alwaysApply: true
+---
+
+# Fixbyte Templates: project context
+
+- Preserve the static architecture: plain HTML, CSS, and vanilla JavaScript. Do not introduce a build step, framework, bundler, package manager, or server-side runtime unless the user explicitly requests it.
+- Primary pages are static HTML templates; shared styling belongs in `css/style.css`, client-side behavior in `js/`, and editable content in `data/*.json` when the existing data model supports it.
+- Keep changes focused, backwards-compatible, and minimal. Do not rewrite unrelated code.
+- Do not add analytics, tracking, external scripts, CDNs, or remote dependencies without explicit approval.
+- Treat `README.md`, `CLAUDE.md`, `AGENTS.md`, and `.cursor/agents/` as project guidance. Use the relevant marketing agent files when changing positioning, landing-page copy, CTAs, or growth assets.

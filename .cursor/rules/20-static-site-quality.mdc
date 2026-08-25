@@ -1,0 +1,33 @@
+---
+description: Quality rules for HTML, CSS, JavaScript, and data changes
+alwaysApply: true
+---
+
+# Static-site quality
+
+## HTML
+
+- Use semantic HTML landmarks and a logical heading hierarchy.
+- Every meaningful image needs accurate alternative text; decorative images need `alt=""`.
+- Use buttons for actions and links for navigation.
+- Keep page-specific content in the appropriate template or existing JSON data source.
+
+## CSS and responsive layout
+
+- Prefer mobile-first CSS and test layouts at narrow and wide viewport sizes.
+- Reuse existing design tokens, classes, and component patterns where possible.
+- Avoid inline styles and `!important` unless there is a documented compatibility reason.
+- Images must be responsive: constrain width, preserve aspect ratio, and avoid layout overflow.
+
+## JavaScript and data
+
+- Keep JavaScript dependency-free and compatible with modern browsers.
+- Do not use `eval` or inject untrusted content with `innerHTML`.
+- Only use same-origin data paths unless the user explicitly approves an external integration.
+- Validate JSON syntax and preserve the existing data shape unless all consumers are updated together.
+
+## Before completing a change
+
+- Check for broken asset paths, dead links, console errors, and visual overflow.
+- Verify the affected page(s) locally using `./serve.sh`.
+- State which files changed and any manual checks still required.
