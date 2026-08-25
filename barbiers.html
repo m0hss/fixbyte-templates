@@ -8,7 +8,7 @@
       name="description"
       content="Designs Fixbyte pour barbiers. Essai 0 € : votre nom sur le design. BXL, Salox, Otissons, Clipster et autres aperçus cliquables."
     />
-    <link rel="canonical" href="https://designs.fixbyte.dev/barbiers.html" />
+    <link rel="canonical" href="https://studio.fixbyte.be/barbiers.html" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
@@ -20,11 +20,11 @@
     />
     <meta
       property="og:url"
-      content="https://designs.fixbyte.dev/barbiers.html"
+      content="https://studio.fixbyte.be/barbiers.html"
     />
     <meta
       property="og:image"
-      content="https://designs.fixbyte.dev/assets/logo.svg"
+      content="https://studio.fixbyte.be/assets/logo.svg"
     />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Designs barbiers — Fixbyte" />
@@ -40,27 +40,8 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <header class="site-header">
-      <div class="wrap header-inner">
-        <a class="brand" href="index.html">
-          <img
-            src="assets/logo.svg"
-            alt="Fixbyte"
-            width="150"
-            height="70"
-          />
-        </a>
-        <nav class="site-nav" aria-label="Navigation principale">
-          <a href="restaurant.html">Restaurants</a>
-          <a href="barbiers.html" aria-current="page">Barbiers</a>
-          <a href="agences.html">Agences</a>
-          <a href="entreprises.html">Entreprises</a>
-          <a href="cafes.html">Cafés</a>
-          <a href="ecommerce.html">E-commerce</a>
-        </nav>
-      </div>
-    </header>
+  <body data-active-nav="barbiers" data-header-sep="12" data-copyright="Fixbyte">
+    <div id="site-header" data-partial="header"></div>
 
     <main>
       <section class="hero wrap">
@@ -93,23 +74,35 @@
         ></div>
       </section>
 
-      <section class="pitch wrap" aria-labelledby="pitch-title">
+      <section class="pitch pitch--mascot wrap" aria-labelledby="pitch-title">
         <h2 id="pitch-title" class="visually-hidden">Pourquoi ces designs</h2>
-        <div class="pitch-grid pitch-grid--two">
-          <article class="pitch-item">
-            <h3>Le salon se juge à la nuque</h3>
-            <p>
-              Style, confiance, rendez-vous — ce qu’il faut avant qu’il choisisse
-              l’autre salon sur Maps.
-            </p>
-          </article>
-          <article class="pitch-item">
-            <h3>Cliquez, jugez sur pièce</h3>
-            <p>
-              Chaque aperçu ouvre le design. On n’argumente pas un goût — vous
-              choisissez, on part de là.
-            </p>
-          </article>
+        <div class="pitch-grid pitch-grid--mascot">
+          <div class="pitch-stack">
+            <article class="pitch-item">
+              <h3>Le salon se juge à la nuque</h3>
+              <p>
+                Style, confiance, rendez-vous — ce qu’il faut avant qu’il
+                choisisse l’autre salon sur Maps.
+              </p>
+            </article>
+            <article class="pitch-item">
+              <h3>Cliquez, jugez sur pièce</h3>
+              <p>
+                Chaque aperçu ouvre le design. On n’argumente pas un goût — vous
+                choisissez, on part de là.
+              </p>
+            </article>
+          </div>
+          <figure class="pitch-mascot">
+            <img
+              src="assets/bytie-barber.webp"
+              alt="Bytie en barbier"
+              width="717"
+              height="1005"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
         </div>
       </section>
 
@@ -208,18 +201,9 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="wrap footer-inner">
-        <p>
-          <strong>Fixbyte</strong>
-          <span aria-hidden="true">·</span>
-          <span id="year"></span>
-          <span aria-hidden="true">·</span>
-          <a href="https://designs.fixbyte.dev">designs.fixbyte.dev</a>
-        </p>
-      </div>
-    </footer>
+    <div id="site-footer" data-partial="footer"></div>
 
+    <script src="js/partials.js"></script>
     <script src="js/cards.js"></script>
   </body>
 </html>

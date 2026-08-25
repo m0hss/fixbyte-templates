@@ -1,9 +1,6 @@
 (function () {
   const PLACEHOLDER = "assets/placeholder.svg";
 
-  const yearEl = document.getElementById("year");
-  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
-
   const ctaBtn = document.querySelector(".cta-block__btn");
   if (ctaBtn && !document.querySelector(".whatsapp-float")) {
     const bubble = document.createElement("a");
@@ -16,6 +13,8 @@
       '<img src="assets/whatsapp.svg" alt="" width="28" height="28" decoding="async" />';
     document.body.appendChild(bubble);
   }
+
+  document.addEventListener("fixbyte:partials-ready", initLangSwitchers);
 
   const grid = document.getElementById("works");
   if (!grid) return;
@@ -120,5 +119,50 @@
       img.style.objectFit = "contain";
     }
     img.src = imageSrc;
+  }
+
+  function initLangSwitchers() {
+    const switchers = Array.from(
+      document.querySelectorAll("[data-lang-switcher]")
+    );
+    if (!switchers.length) return;
+
+    function setOpen(root, open) {
+      const btn = root.querySelector(".lang-switcher__btn");
+      const menu = root.querySelector(".lang-switcher__menu");
+      if (!btn || !menu) return;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      menu.hidden = !open;
+    }
+
+    function closeAll() {
+      switchers.forEach((root) => setOpen(root, false));
+    }
+
+    switchers.forEach((root) => {
+      const btn = root.querySelector(".lang-switcher__btn");
+      const menu = root.querySelector(".lang-switcher__menu");
+      if (!btn || !menu) return;
+
+      btn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const willOpen = btn.getAttribute("aria-expanded") !== "true";
+        closeAll();
+        setOpen(root, willOpen);
+      });
+
+      menu.addEventListener("click", (event) => {
+        const option = event.target.closest("[role='option']");
+        if (!option) return;
+        event.stopPropagation();
+        if (option.getAttribute("aria-disabled") === "true") return;
+        setOpen(root, false);
+      });
+    });
+
+    document.addEventListener("click", closeAll);
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeAll();
+    });
   }
 })();

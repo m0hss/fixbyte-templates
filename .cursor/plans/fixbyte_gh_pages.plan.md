@@ -1,6 +1,6 @@
 ---
 name: Fixbyte GH Pages
-overview: "Site statique GitHub Pages 100 % français : accueil + pages Restaurants et Barbiers avec cartes mention Microlink (aperçu OG), bloc tarifs placeholder, déploiement sur designs.fixbyte.dev."
+overview: "Site statique GitHub Pages 100 % français : accueil + pages Restaurants et Barbiers avec cartes mention Microlink (aperçu OG), bloc tarifs placeholder, déploiement sur studio.fixbyte.be."
 todos:
   - id: accueil-page
     content: "index.html — page d'accueil (2 cartes vers Restaurants / Barbiers, sans lien nav Accueil)"
@@ -15,10 +15,10 @@ todos:
     content: "data/restaurants.json et data/barbiers.json avec placeholders d'URL"
     status: completed
   - id: cname-assets
-    content: "CNAME designs.fixbyte.dev + assets/ (logo, favicon, placeholder)"
+    content: "CNAME studio.fixbyte.be + assets/ (logo, favicon, placeholder)"
     status: completed
   - id: deploy-md
-    content: "DEPLOY.md — guide Pages + DNS CNAME + HTTPS pour designs.fixbyte.dev"
+    content: "DEPLOY.md — guide Pages + DNS CNAME + HTTPS pour studio.fixbyte.be"
     status: completed
   - id: serve-script
     content: "serve.sh — preview local (python3 -m http.server)"
@@ -39,7 +39,7 @@ isProject: true
 | **Stack** | HTML / CSS / JS vanilla (sans framework) |
 | **Langue** | Français |
 | **Marque** | Fixbyte |
-| **Domaine** | [designs.fixbyte.dev](https://designs.fixbyte.dev) |
+| **Domaine** | [studio.fixbyte.be](https://studio.fixbyte.be) |
 | **Hébergement** | GitHub Pages (branche `main`, racine `/`) |
 
 ---
@@ -96,7 +96,7 @@ flowchart LR
 |  Les grilles tarifaires seront publiées ici prochainement|
 |  [slots skeleton prêts à remplir]                        |
 +----------------------------------------------------------+
-|  Fixbyte  ·  designs.fixbyte.dev                         |
+|  Fixbyte  ·  studio.fixbyte.be                         |
 +----------------------------------------------------------+
 ```
 
@@ -166,7 +166,7 @@ assets/
   logo-light.svg
   favicon.svg
   placeholder.svg
-CNAME                   # designs.fixbyte.dev
+CNAME                   # studio.fixbyte.be
 DEPLOY.md               # Guide déploiement (FR)
 serve.sh                # Preview local
 ```
@@ -185,10 +185,10 @@ Checklist rapide :
 
 1. Dépôt GitHub public → push branche `main`
 2. Pages : Settings → Deploy from branch → `main` / `/ (root)`
-3. `CNAME` à la racine : `designs.fixbyte.dev`
+3. `CNAME` à la racine : `studio.fixbyte.be`
 4. DNS : CNAME `designs` → `USER.github.io` (ou A records GitHub)
 5. Pages → Custom domain → attendre DNS → **Enforce HTTPS**
-6. Vérifier : `https://designs.fixbyte.dev` · `/restaurant.html` · `/barbiers.html`
+6. Vérifier : `https://studio.fixbyte.be` · `/restaurant.html` · `/barbiers.html`
 7. Ajouter une œuvre : éditer le JSON → commit → push (~1 min)
 
 **Dépannage** : DNS non propagé · HTTPS gris · 404 · quota Microlink

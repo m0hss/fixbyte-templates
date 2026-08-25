@@ -6,7 +6,8 @@ Guidelines for any AI agent working on this repository.
 
 - **Templates**: `index.html`, `barbiers.html`, `restaurant.html`, `agences.html`, `entreprises.html`, `cafes.html`, `ecommerce.html`
 - **Styles**: `css/style.css`
-- **Logic**: `js/cards.js` (loads JSON and renders cards/sections)
+- **Logic**: `js/cards.js` (loads JSON and renders cards/sections); `js/partials.js` (loads shared header/footer from `partials/`)
+- **Chrome**: `partials/header.html`, `partials/footer.html`, `partials/lang-switcher.html`
 - **Data**: `data/barbiers.json`, `data/restaurants.json`, `data/agences.json`, `data/entreprises.json`, `data/cafes.json`, `data/ecommerce.json`
 - **Local server**: `serve.sh`
 - **Deployment**: static host (e.g. GitHub Pages) with custom domain via `CNAME`
@@ -37,7 +38,7 @@ Before committing, ensure:
 1. All templates still load and render their JSON data correctly.
 2. No console errors in modern browsers.
 3. Mobile and desktop layouts remain usable.
-4. No new external network calls except same-origin `/data/*.json`.
+4. No new external network calls except same-origin `/data/*.json` and `/partials/*.html`.
 5. Commit messages are clear and specific.
 
 ## Deployment and rollback

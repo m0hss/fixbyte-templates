@@ -55,9 +55,12 @@ Template data lives in `/data`:
 
 `js/cards.js` loads these JSON files in the browser and renders cards/sections on each page. The general pattern:
 
-1. HTML includes `<script src="js/cards.js"></script>`.
-2. `cards.js` fetches the relevant JSON (e.g. `data/barbiers.json`).
-3. It builds DOM elements (cards, sections, lists) from the JSON and injects them into the page.
+1. HTML includes `<script src="js/partials.js"></script>` then `<script src="js/cards.js"></script>`.
+2. `partials.js` fetches `partials/header.html` and `partials/footer.html` (shared chrome) and mounts them.
+3. `cards.js` fetches the relevant JSON (e.g. `data/barbiers.json`).
+4. It builds DOM elements (cards, sections, lists) from the JSON and injects them into the page.
+
+Shared header/footer live in `partials/`. Edit those files to change chrome on every page.
 
 To customize a template:
 

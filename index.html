@@ -8,7 +8,7 @@
       name="description"
       content="Sites pour restaurants, barbiers, agences, entreprises, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte."
     />
-    <link rel="canonical" href="https://designs.fixbyte.dev/" />
+    <link rel="canonical" href="https://studio.fixbyte.be/" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
@@ -18,10 +18,10 @@
       property="og:description"
       content="Sites pour restaurants, barbiers, agences, entreprises, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte."
     />
-    <meta property="og:url" content="https://designs.fixbyte.dev/" />
+    <meta property="og:url" content="https://studio.fixbyte.be/" />
     <meta
       property="og:image"
-      content="https://designs.fixbyte.dev/assets/logo-light.svg"
+      content="https://studio.fixbyte.be/assets/logo-light.svg"
     />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Fixbyte — Designs" />
@@ -37,144 +37,176 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <header class="site-header">
-      <div class="wrap header-inner">
-        <a class="brand" href="index.html">
-          <img
-            src="assets/logo.svg"
-            alt="Fixbyte"
-            width="150"
-            height="70"
-          />
-        </a>
-        <nav class="site-nav" aria-label="Navigation principale">
-          <a href="restaurant.html">Restaurants</a>
-          <a href="barbiers.html">Barbiers</a>
-          <a href="agences.html">Agences</a>
-          <a href="entreprises.html">Entreprises</a>
-          <a href="cafes.html">Cafés</a>
-          <a href="ecommerce.html">E-commerce</a>
-        </nav>
-      </div>
-    </header>
+  <body data-header-sep="10" data-copyright="Fixbyte Studio">
+    <div id="site-header" data-partial="header"></div>
 
     <main>
-      <section class="hero wrap">
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <p class="hero-badge">
-              <img
-                src="assets/brand.svg"
-                alt=""
-                class="hero-badge__icon"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              />
-              <span>Essai 0&nbsp;€ · 72&nbsp;h live</span>
-            </p>
-            <h1>Ils décident avant d’appeler. Le site doit avoir déjà dit oui.</h1>
-            <p class="lead">
-              Pour restaurants, barbiers, agences, entreprises, cafés,
-              boulangeries et e-commerce. Choisissez un design. Ensuite, on y
-              met votre enseigne.
-            </p>
+      <section class="hero hero--home">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="hero-badge">
+                <img
+                  src="assets/brand.svg"
+                  alt=""
+                  class="hero-badge__icon"
+                  width="10"
+                  height="10"
+                  aria-hidden="true"
+                />
+                <span>Essai 0&nbsp;€ · 72&nbsp;h live</span>
+              </p>
+              <h1>Ils décident avant d’appeler. Le site doit avoir déjà dit oui.</h1>
+              <p class="lead">
+                Pour restaurants, barbiers, agences, entreprises, cafés,
+                boulangeries et e-commerce. Choisissez un design. Ensuite, on y
+                met votre enseigne.
+              </p>
 
-            <div class="hero-pitch" aria-label="Pourquoi Fixbyte">
-              <article class="hero-pitch__item">
-                <h2 class="hero-pitch__title">Regardez avant de décider</h2>
-                <p>
-                  Parcourez les réalisations. Chaque carte ouvre un design.
-                  Vous jugez sur pièce, pas sur un discours.
-                </p>
-              </article>
-              <article class="hero-pitch__item">
-                <h2 class="hero-pitch__title">Essayez avec votre nom</h2>
-                <p>
-                  Essai 0&nbsp;€, 72&nbsp;h, par WhatsApp. Votre enseigne
-                  sur le design choisi — à montrer en salle avant de payer.
-                </p>
-              </article>
-              <article class="hero-pitch__item">
-                <h2 class="hero-pitch__title">On tient la porte</h2>
-                <p>
-                  Photo le soir, site à jour. Pas «&nbsp;2 mods par mois&nbsp;» —
-                  votre carte, vos horaires, en ligne avant la fermeture.
-                </p>
-              </article>
+              <div class="hero-pitch" aria-label="Pourquoi Fixbyte">
+                <article class="hero-pitch__item">
+                  <h2 class="hero-pitch__title">
+                    <img
+                      src="assets/brand.svg"
+                      alt=""
+                      class="hero-pitch__icon"
+                      width="16"
+                      height="16"
+                      aria-hidden="true"
+                    />
+                    <span>Regardez avant de décider</span>
+                  </h2>
+                  <p>
+                    Parcourez les réalisations. Chaque carte ouvre un design.
+                    Vous jugez sur pièce, pas sur un discours.
+                  </p>
+                </article>
+                <article class="hero-pitch__item">
+                  <h2 class="hero-pitch__title">
+                    <img
+                      src="assets/brand.svg"
+                      alt=""
+                      class="hero-pitch__icon"
+                      width="16"
+                      height="16"
+                      aria-hidden="true"
+                    />
+                    <span>Essayez avec votre nom</span>
+                  </h2>
+                  <p>
+                    Essai 0&nbsp;€, 72&nbsp;h, par WhatsApp. Votre enseigne
+                    sur le design choisi — à montrer en salle avant de payer.
+                  </p>
+                </article>
+                <article class="hero-pitch__item">
+                  <h2 class="hero-pitch__title">
+                    <img
+                      src="assets/brand.svg"
+                      alt=""
+                      class="hero-pitch__icon"
+                      width="16"
+                      height="16"
+                      aria-hidden="true"
+                    />
+                    <span>On tient la porte</span>
+                  </h2>
+                  <p>
+                    Photo le soir, site à jour. Pas «&nbsp;2 mods par mois&nbsp;» —
+                    votre carte, vos horaires, en ligne avant la fermeture.
+                  </p>
+                </article>
+              </div>
             </div>
-          </div>
 
-          <figure class="hero-mascot">
-            <img
-              src="assets/bytie.png"
-              alt="Bytie, mascotte Fixbyte"
-              width="553"
-              height="948"
-              loading="eager"
-              decoding="async"
-            />
-          </figure>
+            <figure class="hero-mascot">
+              <img
+                src="assets/bytie.png"
+                alt="Bytie, mascotte Fixbyte"
+                width="553"
+                height="948"
+                loading="eager"
+                decoding="async"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="wave" aria-hidden="true">
+          <svg viewBox="0 0 1440 90" preserveAspectRatio="none" focusable="false">
+            <path
+              d="M0,40 C240,90 480,0 720,30 C960,60 1200,90 1440,45 L1440,90 L0,90 Z"
+            ></path>
+          </svg>
         </div>
       </section>
 
-      <section class="hub wrap" aria-labelledby="hub-title">
-        <h2 id="hub-title" class="visually-hidden">Catégories</h2>
-        <div class="hub-grid">
-          <a class="hub-card" href="restaurant.html">
-            <p class="hub-card__kicker">Catégorie</p>
-            <h2>Restaurants</h2>
-            <p>
-              Mardi 20&nbsp;h. Quelqu’un à 400&nbsp;m a faim. Il vous trouve —
-              ou la table d’à côté.
-            </p>
-            <span class="hub-card__cta">Voir les designs ↗</span>
-          </a>
-          <a class="hub-card" href="barbiers.html">
-            <p class="hub-card__kicker">Catégorie</p>
-            <h2>Barbiers</h2>
-            <p>
-              Samedi 10&nbsp;h. Le fauteuil vide, c’est un client qui a choisi
-              l’autre salon sur Maps.
-            </p>
-            <span class="hub-card__cta">Voir les designs ↗</span>
-          </a>
-          <a class="hub-card" href="agences.html">
-            <p class="hub-card__kicker">Catégorie</p>
-            <h2>Agences</h2>
-            <p>
-              Il compare 4 offres au feu rouge. La vôtre doit gagner sans
-              pitch.
-            </p>
-            <span class="hub-card__cta">Voir les designs ↗</span>
-          </a>
-          <a class="hub-card" href="entreprises.html">
-            <p class="hub-card__kicker">Catégorie</p>
-            <h2>Entreprises</h2>
-            <p>
-              Trois devis. Il choisit celui qui montre déjà le chantier.
-            </p>
-            <span class="hub-card__cta">Voir les designs ↗</span>
-          </a>
-          <a class="hub-card" href="cafes.html">
-            <p class="hub-card__kicker">Catégorie</p>
-            <h2>Cafés &amp; boulangeries</h2>
-            <p>
-              7&nbsp;h&nbsp;40, il cherche «&nbsp;ouvert maintenant&nbsp;». Pas
-              votre logo. L’horaire juste.
-            </p>
-            <span class="hub-card__cta">Voir les designs ↗</span>
-          </a>
-          <a class="hub-card" href="ecommerce.html">
-            <p class="hub-card__kicker">Catégorie</p>
-            <h2>E-commerce</h2>
-            <p>
-              Trois onglets ouverts. Il achète là où le produit se vend déjà —
-              sans brief.
-            </p>
-            <span class="hub-card__cta">Voir les designs ↗</span>
-          </a>
+      <section class="hub" aria-labelledby="hub-title">
+        <div class="wrap">
+          <p class="hero-badge">
+            <img
+              src="assets/brand.svg"
+              alt=""
+              class="hero-badge__icon"
+              width="10"
+              height="10"
+              aria-hidden="true"
+            />
+            <span>Catégories</span>
+          </p>
+          <h2 id="hub-title">Votre métier. Des designs déjà prêts à juger.</h2>
+          <p class="lead">
+            Designs nets, modernes, pensés pour le mobile — le niveau qu’on
+            attend d’une enseigne sérieuse. Choisissez une catégorie, ouvrez
+            une réalisation, jugez sur pièce.
+          </p>
+          <div class="hub-grid">
+            <a class="hub-card" href="restaurant.html">
+              <h3>Restaurants</h3>
+              <p>
+                Mardi 20&nbsp;h. Quelqu’un à 400&nbsp;m a faim. Il vous trouve —
+                ou la table d’à côté.
+              </p>
+              <span class="hub-card__cta">Voir les designs ↗</span>
+            </a>
+            <a class="hub-card" href="barbiers.html">
+              <h3>Barbiers</h3>
+              <p>
+                Samedi 10&nbsp;h. Le fauteuil vide, c’est un client qui a choisi
+                l’autre salon sur Maps.
+              </p>
+              <span class="hub-card__cta">Voir les designs ↗</span>
+            </a>
+            <a class="hub-card" href="agences.html">
+              <h3>Agences</h3>
+              <p>
+                Il compare 4 offres au feu rouge. La vôtre doit gagner sans
+                pitch.
+              </p>
+              <span class="hub-card__cta">Voir les designs ↗</span>
+            </a>
+            <a class="hub-card" href="entreprises.html">
+              <h3>Entreprises</h3>
+              <p>
+                Trois devis. Il choisit celui qui montre déjà le chantier.
+              </p>
+              <span class="hub-card__cta">Voir les designs ↗</span>
+            </a>
+            <a class="hub-card" href="cafes.html">
+              <h3>Cafés &amp; boulangeries</h3>
+              <p>
+                7&nbsp;h&nbsp;40, il cherche «&nbsp;ouvert maintenant&nbsp;». Pas
+                votre logo. L’horaire juste.
+              </p>
+              <span class="hub-card__cta">Voir les designs ↗</span>
+            </a>
+            <a class="hub-card" href="ecommerce.html">
+              <h3>E-commerce</h3>
+              <p>
+                Trois onglets ouverts. Il achète là où le produit se vend déjà —
+                sans brief.
+              </p>
+              <span class="hub-card__cta">Voir les designs ↗</span>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -197,20 +229,95 @@
           </p>
         </div>
       </section>
+
+      <section class="faq wrap" aria-labelledby="faq-title" id="faq">
+        <div class="faq-grid">
+          <figure class="faq-mascot">
+            <img
+              src="assets/bytie-faq.webp"
+              alt="Bytie, mascotte Fixbyte, doigt à la tempe"
+              width="554"
+              height="554"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <div class="faq-body">
+            <h2 id="faq-title">Questions qu’on reçoit souvent</h2>
+            <div class="faq-list">
+              <details>
+                <summary>L’essai à 0&nbsp;€, c’est vraiment gratuit&nbsp;?</summary>
+                <p>
+                  Oui. Clone du design choisi avec votre nom, URL live
+                  72&nbsp;h, via WhatsApp (4 photos). Pas de carte, pas de
+                  piège. Ce n’est pas un site définitif — juste de quoi juger
+                  en salle.
+                </p>
+              </details>
+              <details>
+                <summary>Que se passe-t-il après 72&nbsp;h&nbsp;?</summary>
+                <p>
+                  L’aperçu expire. Vous choisissez&nbsp;: on s’arrête, ou on
+                  passe à une offre payante. Aucun débit automatique.
+                </p>
+              </details>
+              <details>
+                <summary>Combien ça coûte ensuite&nbsp;?</summary>
+                <p>
+                  Deux chemins&nbsp;: <strong>L’Enseigne</strong> —
+                  1&nbsp;990&nbsp;€&nbsp;HT une fois ·
+                  <strong>On tient la porte</strong> — 199&nbsp;€&nbsp;HT /
+                  mois pendant 12 mois, puis 99&nbsp;€&nbsp;HT / mois. TVA
+                  21&nbsp;% en sus. Les cartes détaillées sont sur chaque
+                  page catégorie.
+                </p>
+              </details>
+              <details>
+                <summary>
+                  L’Enseigne ou On tient la porte — comment choisir&nbsp;?
+                </summary>
+                <p>
+                  L’Enseigne&nbsp;: la porte en ligne en ~2 semaines, vous
+                  gérez ensuite. On tient la porte (recommandé)&nbsp;: le même
+                  site + photo WhatsApp → mise à jour le soir + posts Google.
+                </p>
+              </details>
+              <details>
+                <summary>Le site m’appartient&nbsp;?</summary>
+                <p>
+                  Oui — à la livraison de L’Enseigne, ou après 12 mois de On
+                  tient la porte. Hébergement seul possible ensuite&nbsp;:
+                  29&nbsp;€&nbsp;HT / mois.
+                </p>
+              </details>
+              <details>
+                <summary>
+                  Qu’est-ce que je dois envoyer pour démarrer&nbsp;?
+                </summary>
+                <p>
+                  Essai&nbsp;: 4 photos + nom + commune + lien du design sur
+                  WhatsApp. Offre payante&nbsp;: textes, photos, accès&nbsp;;
+                  un tour de retours inclus avec L’Enseigne.
+                </p>
+              </details>
+              <details>
+                <summary>Vous gérez aussi Google / Maps&nbsp;?</summary>
+                <p>
+                  Fiche Google Business avec L’Enseigne&nbsp;; posts et avis
+                  avec On tient la porte. «&nbsp;Le créneau vide&nbsp;» (+
+                  290&nbsp;€&nbsp;HT / mois) seulement après 8 semaines, si
+                  vous voulez Ads et poussée locale.
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="wrap footer-inner">
-        <p>
-          <strong>Fixbyte</strong>
-          <span aria-hidden="true">·</span>
-          <span id="year"></span>
-          <span aria-hidden="true">·</span>
-          <a href="https://designs.fixbyte.dev">designs.fixbyte.dev</a>
-        </p>
-      </div>
-    </footer>
+    <div id="site-footer" data-partial="footer"></div>
 
+    <script src="js/partials.js"></script>
     <script src="js/cards.js"></script>
   </body>
 </html>

@@ -5,7 +5,7 @@ This file defines how AI assistants should help with this repository.
 ## Project constraints
 
 - Static-only site: plain HTML, CSS, and vanilla JS. No build step, no bundlers.
-- Data-driven templates: content lives in `data/*.json` and is rendered by `js/cards.js`.
+- Data-driven templates: content lives in `data/*.json` and is rendered by `js/cards.js`. Shared header/footer live in `partials/` and are loaded by `js/partials.js`.
 - Keep changes minimal and backwards-compatible unless explicitly asked to refactor.
 - Do not add third-party scripts, CDNs, or analytics without explicit approval.
 
@@ -17,7 +17,7 @@ This file defines how AI assistants should help with this repository.
    - Keep HTML semantic and accessible (proper headings, labels, alt text).
 3. When editing `js/cards.js`:
    - Do not introduce `eval`, `innerHTML` from untrusted sources, or arbitrary remote fetches.
-   - Any new data fetch must be from same-origin `/data/*.json` paths.
+   - Any new data fetch must be from same-origin `/data/*.json` or `/partials/*.html` paths.
 4. CSS changes:
    - Stay within `css/style.css`; avoid inline styles in HTML.
    - Maintain mobile-first, responsive behavior.

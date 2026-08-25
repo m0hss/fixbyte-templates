@@ -1,0 +1,27 @@
+name: Validate data
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "assets/previews/**"
+      - "scripts/validate-data.py"
+      - "scripts/validate-partials.py"
+      - "partials/**"
+      - "js/partials.js"
+      - "*.html"
+      - ".github/workflows/validate.yml"
+
+jobs:
+  validate:
+    name: Validate design JSON
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate JSON and preview files
+        run: python3 scripts/validate-data.py
+
+      - name: Validate shared chrome partials
+        run: python3 scripts/validate-partials.py

@@ -14,6 +14,7 @@ Batch files:
   .md    — every http(s) URL in the file
 
 JSON inputs get an "image" field pointing at the saved file (unless --no-update-json).
+Use --only-missing in CI to skip URLs that already have a valid preview.
 """
 
 from __future__ import annotations
@@ -30,6 +31,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_OUT = ROOT / "assets" / "previews"
+MIN_PREVIEW_BYTES = 2000
 URL_RE = re.compile(r"https?://[^\s)<>\]\"']+", re.I)
 CHROME_NAMES = (
     "chromium",
@@ -160,7 +162,7 @@ def screenshot(chrome: str, url: str, dest: Path, width: int, height: int, wait_
     env = os.environ.copy()
     # Snap Chromium is noisy; keep stdout/stderr unless it fails.
     result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0 or not dest.is_file() or dest.stat().st_size < 2000:
+    if result.returncode != 0 or not dest.is_file() or dest.stat().st_size < MIN_PREVIEW_BYTES:
         detail = (result.stderr or result.stdout or "").strip()
         if len(detail) > 400:
             detail = detail[-400:]
@@ -175,6 +177,36 @@ def patch_json_image(data: list, url: str, image_path: str) -> None:
         if item == url:
             # list of strings — cannot attach image without changing shape
             return
+
+
+def json_image_for_url(data: list | None, url: str) -> str | None:
+    if data is None:
+        return None
+    for item in data:
+        if isinstance(item, dict) and item.get("url") == url:
+            image = item.get("image")
+            return image if isinstance(image, str) else None
+    return None
+
+
+def preview_file_ok(dest: Path) -> bool:
+    return dest.is_file() and dest.stat().st_size >= MIN_PREVIEW_BYTES
+
+
+def preview_is_present(dest: Path, job: dict, only_missing: bool) -> bool:
+    """True when --only-missing should skip this URL entirely.
+
+    Respects an existing JSON `image` path even when it is not the default slug name.
+    """
+    if not only_missing:
+        return False
+    json_data = job.get("json_data")
+    current = json_image_for_url(json_data, job["url"]) if json_data is not None else None
+    if current:
+        return preview_file_ok(ROOT / current)
+    if json_data is None:
+        return preview_file_ok(dest)
+    return False
 
 
 def save_json(path: Path, data: list) -> None:
@@ -209,12 +241,16 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="do not write image paths back into JSON inputs",
     )
+    parser.add_argument(
+        "--only-missing",
+        action="store_true",
+        help="skip URLs that already have a valid preview PNG and matching JSON image path",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    chrome = find_chrome(args.browser or None)
     out_dir = Path(args.out)
     if not out_dir.is_absolute():
         out_dir = ROOT / out_dir
@@ -223,18 +259,62 @@ def main() -> None:
     if not jobs:
         die("no URLs found")
 
-    print(f"browser: {chrome}")
-    print(f"out:     {out_dir}")
-    print(f"sites:   {len(jobs)}")
-
-    failed = 0
+    todo: list[dict] = []
+    skipped = 0
     dirty_json: dict[Path, list] = {}
 
-    for index, job in enumerate(jobs, start=1):
+    for job in jobs:
         url = job["url"]
         dest = out_dir / f"{slug_from_url(url)}.png"
         rel = dest.relative_to(ROOT).as_posix()
-        print(f"[{index}/{len(jobs)}] {url}")
+        if preview_is_present(dest, job, args.only_missing):
+            skipped += 1
+            shown = rel
+            if job.get("json_data") is not None:
+                current = json_image_for_url(job["json_data"], url)
+                if current:
+                    shown = current
+            print(f"skip {url} ({shown})")
+            continue
+        # PNG already good but JSON image path missing/wrong — patch without re-capture
+        if (
+            args.only_missing
+            and preview_file_ok(dest)
+            and job.get("json_path")
+            and job.get("json_data") is not None
+            and not args.no_update_json
+        ):
+            patch_json_image(job["json_data"], url, rel)
+            dirty_json[job["json_path"]] = job["json_data"]
+            skipped += 1
+            print(f"link {url} -> {rel}")
+            continue
+        todo.append(job)
+
+    for path, data in list(dirty_json.items()):
+        save_json(path, data)
+        try:
+            shown = path.relative_to(ROOT)
+        except ValueError:
+            shown = path
+        print(f"updated {shown}")
+
+    if not todo:
+        print(f"nothing to do ({skipped} already present)")
+        return
+
+    chrome = find_chrome(args.browser or None)
+    print(f"browser: {chrome}")
+    print(f"out:     {out_dir}")
+    print(f"sites:   {len(todo)}" + (f" (skipped {skipped})" if skipped else ""))
+
+    failed = 0
+
+    for index, job in enumerate(todo, start=1):
+        url = job["url"]
+        dest = out_dir / f"{slug_from_url(url)}.png"
+        rel = dest.relative_to(ROOT).as_posix()
+        print(f"[{index}/{len(todo)}] {url}")
         try:
             screenshot(chrome, url, dest, args.width, args.height, args.wait)
         except Exception as exc:

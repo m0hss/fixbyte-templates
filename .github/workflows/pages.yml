@@ -1,0 +1,131 @@
+name: Site
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  previews:
+    name: Capture missing previews
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event_name == 'push' &&
+        !contains(github.event.head_commit.message, '[skip ci]') &&
+        !contains(github.event.head_commit.message, '[skip previews]')
+      )
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Detect data/** changes
+        id: filter
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "data=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            echo "data=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if git diff --name-only "$BEFORE" "${{ github.sha }}" | grep -E '^data/' >/dev/null; then
+            echo "data=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "data=false" >> "$GITHUB_OUTPUT"
+            echo "No data/** changes; skipping screenshots"
+          fi
+
+      - name: Setup Chrome
+        if: steps.filter.outputs.data == 'true'
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Capture missing previews
+        if: steps.filter.outputs.data == 'true'
+        run: |
+          python3 ./fetch-previews.py \
+            data/restaurants.json \
+            data/barbiers.json \
+            data/agences.json \
+            data/entreprises.json \
+            data/cafes.json \
+            data/ecommerce.json \
+            --only-missing \
+            --browser "${{ steps.chrome.outputs.chrome-path }}"
+
+      - name: Commit preview artifacts
+        if: steps.filter.outputs.data == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh design previews [skip ci]"
+          file_pattern: "assets/previews/* data/*.json"
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
+
+  deploy:
+    name: Deploy GitHub Pages
+    needs: [previews]
+    if: >
+      always() &&
+      !cancelled() &&
+      (needs.previews.result == 'success' || needs.previews.result == 'skipped') &&
+      (
+        github.event_name == 'workflow_dispatch' ||
+        (
+          github.event_name == 'push' &&
+          !contains(github.event.head_commit.message, '[skip ci]')
+        )
+      )
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 1
+
+      - name: Prepare site artifact
+        run: |
+          mkdir -p _site
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.cursor' \
+            --exclude='.chrome-preview-profile' \
+            --exclude='_site' \
+            --exclude='__pycache__' \
+            --exclude='*.pyc' \
+            --exclude='fetch-previews.py' \
+            --exclude='serve.sh' \
+            ./ _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

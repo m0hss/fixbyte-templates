@@ -1,8 +1,8 @@
 # Déployer le site Fixbyte sur GitHub Pages
 
-Guide pas à pas pour publier ce site statique sur **https://designs.fixbyte.dev**.
+Guide pas à pas pour publier ce site statique sur **https://studio.fixbyte.be**.
 
-Le dépôt doit rester **public** (Pages gratuit). Branche utilisée : `main`, dossier racine `/`.
+Le dépôt doit rester **public** (Pages gratuit). Branche : **`master`**. Déploiement : **GitHub Actions** (workflow `Site`).
 
 ---
 
@@ -10,7 +10,7 @@ Le dépôt doit rester **public** (Pages gratuit). Branche utilisée : `main`, d
 
 1. Connectez-vous à GitHub.
 2. **New repository**.
-3. Nom suggéré : `fixbyte-designs` (ou autre, public).
+3. Nom suggéré : `fixbyte-templates` (ou autre, public).
 4. Ne pas cocher “Add a README” si vous poussez ce dossier tel quel.
 5. Créer le dépôt.
 
@@ -20,27 +20,33 @@ En local, à la racine de ce projet :
 git init
 git add .
 git commit -m "Site Fixbyte Designs (restaurants, barbiers, agences, cafés)"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/VOTRE-COMPTE/VOTRE-DEPOT.git
-git push -u origin main
+git push -u origin master
 ```
 
 Remplacez `VOTRE-COMPTE` et `VOTRE-DEPOT`.
 
 ---
 
-## 2. Activer GitHub Pages
+## 2. Activer GitHub Pages (Actions)
 
 1. Dépôt → **Settings** → **Pages**.
 2. **Build and deployment**
-   - Source : **Deploy from a branch**
-   - Branch : **main**
-   - Folder : **/ (root)**
-3. **Save**.
+   - Source : **GitHub Actions** (pas “Deploy from a branch”)
+3. **Settings** → **Actions** → **General** → **Workflow permissions** → **Read and write** (pour que CI puisse committer les PNG).
+4. Poussez sur `master` (ou lancez le workflow **Site** manuellement).
+5. **Actions** → workflow **Site** → vérifiez que le job **Deploy GitHub Pages** est vert.
 
-Attendez 1 à 2 minutes. Une URL temporaire apparaît :
+Une URL temporaire apparaît :
 
 `https://VOTRE-COMPTE.github.io/VOTRE-DEPOT/`
+
+Le workflow (`.github/workflows/pages.yml`) :
+
+1. Capture les aperçus manquants (`fetch-previews.py --only-missing`) si `data/**` a changé
+2. Commit les PNG + JSON mis à jour si besoin
+3. Déploie le site sur Pages
 
 ---
 
@@ -49,31 +55,31 @@ Attendez 1 à 2 minutes. Une URL temporaire apparaît :
 Ce projet contient déjà un fichier `CNAME` à la racine :
 
 ```
-designs.fixbyte.dev
+studio.fixbyte.be
 ```
 
 Ne le renommez pas et ne l’écrasez pas. GitHub s’en sert pour lier le domaine personnalisé.
 
 ---
 
-## 4. DNS chez le registrar de `fixbyte.dev`
+## 4. DNS chez le registrar
 
-Chez votre registrar / DNS (Cloudflare, OVH, Namecheap, etc.), zone **fixbyte.dev**.
+Chez votre registrar / DNS (Cloudflare, OVH, Namecheap, etc.), zone du domaine parent.
 
 ### Option recommandée : CNAME
 
 | Type  | Nom      | Valeur                 | TTL  |
 | ----- | -------- | ---------------------- | ---- |
-| CNAME | `designs` | `VOTRE-COMPTE.github.io` | Auto |
+| CNAME | `studio` | `VOTRE-COMPTE.github.io` | Auto |
 
 `VOTRE-COMPTE` = votre nom d’utilisateur GitHub (ou le compte org).  
 Pas de `https://`, pas de slash final.
 
-Exemple : si le compte est `fixbyte`, la valeur est `fixbyte.github.io`.
+Exemple : si le compte est `m0hss`, la valeur est `m0hss.github.io`.
 
 ### Option de secours : enregistrements A / AAAA
 
-Si le registrar refuse un CNAME sur ce sous-domaine, pointez `designs` (ou `@` seulement si vous utilisiez l’apex, ce n’est **pas** le cas ici) vers GitHub :
+Si le registrar refuse un CNAME sur ce sous-domaine, pointez `studio` vers GitHub :
 
 **A**
 
@@ -96,10 +102,10 @@ Propagation DNS : quelques minutes à 48 h (souvent < 30 min).
 Vérification :
 
 ```bash
-dig designs.fixbyte.dev CNAME +short
+dig studio.fixbyte.be CNAME +short
 # attendu : VOTRE-COMPTE.github.io.
 
-dig designs.fixbyte.dev A +short
+dig studio.fixbyte.be A +short
 # attendu : une des IP 185.199.108–111.153
 ```
 
@@ -108,7 +114,7 @@ dig designs.fixbyte.dev A +short
 ## 5. Brancher le domaine dans GitHub Pages
 
 1. **Settings** → **Pages**.
-2. **Custom domain** : `designs.fixbyte.dev`
+2. **Custom domain** : `studio.fixbyte.be`
 3. **Save**.
 4. GitHub vérifie le DNS (pastille verte “DNS check successful”).
 5. Cochez **Enforce HTTPS** dès que le certificat est prêt (souvent 5–30 min après le check DNS).
@@ -121,27 +127,26 @@ Si le check échoue : attendez la propagation, vérifiez le CNAME, retirez un é
 
 Ouvrez :
 
-- [https://designs.fixbyte.dev](https://designs.fixbyte.dev) — accueil
-- [https://designs.fixbyte.dev/restaurant.html](https://designs.fixbyte.dev/restaurant.html) — page Restaurants
-- [https://designs.fixbyte.dev/barbiers.html](https://designs.fixbyte.dev/barbiers.html) — page Barbiers
-- [https://designs.fixbyte.dev/agences.html](https://designs.fixbyte.dev/agences.html) — page Agences
-- [https://designs.fixbyte.dev/entreprises.html](https://designs.fixbyte.dev/entreprises.html) — page Entreprises
-- [https://designs.fixbyte.dev/cafes.html](https://designs.fixbyte.dev/cafes.html) — page Cafés & boulangeries
-- [https://designs.fixbyte.dev/ecommerce.html](https://designs.fixbyte.dev/ecommerce.html) — page E-commerce
+- [https://studio.fixbyte.be](https://studio.fixbyte.be) — accueil
+- [https://studio.fixbyte.be/restaurant.html](https://studio.fixbyte.be/restaurant.html) — page Restaurants
+- [https://studio.fixbyte.be/barbiers.html](https://studio.fixbyte.be/barbiers.html) — page Barbiers
+- [https://studio.fixbyte.be/agences.html](https://studio.fixbyte.be/agences.html) — page Agences
+- [https://studio.fixbyte.be/entreprises.html](https://studio.fixbyte.be/entreprises.html) — page Entreprises
+- [https://studio.fixbyte.be/cafes.html](https://studio.fixbyte.be/cafes.html) — page Cafés & boulangeries
+- [https://studio.fixbyte.be/ecommerce.html](https://studio.fixbyte.be/ecommerce.html) — page E-commerce
 
 Contrôles :
 
 - Le logo Fixbyte s’affiche.
 - La nav bascule entre Restaurants, Barbiers, Agences, Entreprises, Cafés et E-commerce.
-- Les cartes mention montrent une image OG (ou un fallback) et ouvrent l’URL dans un nouvel onglet.
-- Le bloc **Tarifs** est visible en bas (prix encore vides).
+- Les cartes montrent une image de preview et ouvrent l’URL dans un nouvel onglet.
 - Le cadenas HTTPS est actif.
 
 ---
 
-## 7. Ajouter ou modifier une œuvre
+## 7. Ajouter ou modifier une œuvre (flux CI)
 
-Les URLs ne sont pas dans le HTML. Éditez :
+Les URLs ne sont pas dans le HTML. Éditez un fichier `data/*.json` :
 
 - `data/restaurants.json`
 - `data/barbiers.json`
@@ -150,36 +155,61 @@ Les URLs ne sont pas dans le HTML. Éditez :
 - `data/cafes.json`
 - `data/ecommerce.json`
 
-Format :
+Ajoutez l’URL (le champ `image` peut être omis — CI le remplit) :
 
 ```json
 [
   {
-    "url": "https://votre-design-framer.com/projet",
-    "image": "assets/previews/votre-design.png"
+    "url": "https://votre-design-framer.com/projet"
   }
 ]
-```
-
-Capture (ou recapture) l’aperçu :
-
-```bash
-./fetch-previews.py data/restaurants.json
-# ou un site seul :
-./fetch-previews.py https://votre-design-framer.com/projet
 ```
 
 Puis :
 
 ```bash
-git add data/restaurants.json data/barbiers.json data/agences.json data/entreprises.json data/cafes.json data/ecommerce.json assets/previews
+git add data/restaurants.json
 git commit -m "Ajoute un design restaurant"
 git push
 ```
 
-GitHub Pages se met à jour en ~1 minute.
+Le workflow **Site** :
 
-Les cartes lisent `url` + `image` dans le JSON (fichiers locaux dans `assets/previews/`). Aucun appel Microlink.
+1. Détecte le changement sous `data/**`
+2. Lance `fetch-previews.py --only-missing` (Chrome headless)
+3. Commit les PNG + JSON mis à jour (`chore: refresh design previews [skip ci]`)
+4. Déploie Pages
+
+Recapture manuelle (tous les manquants) : **Actions** → **Site** → **Run workflow**.
+
+### Contrôles de skip (message de commit)
+
+| Tag | Effet |
+| --- | --- |
+| `[skip previews]` | Déploie le site **sans** lancer Chrome / screenshots |
+| `[skip ci]` | Ne lance **rien** (ni previews, ni deploy) |
+
+Exemples :
+
+```bash
+git commit -m "tweaks hero [skip previews]"
+git push
+
+git commit -m "wip docs [skip ci]"
+git push
+```
+
+Push HTML/CSS/JS sans toucher `data/**` : le job previews est sauté automatiquement ; le deploy tourne quand même.
+
+### Option locale (debug)
+
+```bash
+./fetch-previews.py data/restaurants.json --only-missing
+# ou un site seul :
+./fetch-previews.py https://votre-design-framer.com/projet
+```
+
+Les cartes lisent `url` + `image` dans le JSON (fichiers dans `assets/previews/`).
 
 ---
 
@@ -189,6 +219,7 @@ Ne pas ouvrir les HTML en `file://` (le JSON et les aperçus locaux peuvent éch
 
 ```bash
 python3 -m http.server 8080
+# ou : ./serve.sh
 ```
 
 Puis : [http://localhost:8080](http://localhost:8080)
@@ -199,11 +230,13 @@ Puis : [http://localhost:8080](http://localhost:8080)
 
 | Problème | Piste |
 | --- | --- |
+| Workflow Site ne déploie pas | Settings → Pages → Source = **GitHub Actions**. Vérifier Actions → Site. |
+| Job previews échoue | Logs Chrome / URL inaccessible. Relancer le workflow ou capturer en local. |
 | DNS check failed | CNAME vers `USER.github.io` (pas l’URL du projet). Attendre la propagation. `dig` pour confirmer. |
 | HTTPS reste gris | Attendre le certificat Let’s Encrypt. Ne pas cocher Enforce HTTPS trop tôt. Réenregistrer le custom domain. |
-| 404 sur `/restaurant.html`, `/barbiers.html`, `/agences.html`, `/entreprises.html`, `/cafes.html` ou `/ecommerce.html` | Source Pages = `main` / `/ (root)`. Les fichiers doivent être à la racine du dépôt, pas dans un sous-dossier. |
+| 404 sur une page HTML | Artifact Pages doit contenir les fichiers à la racine du site. Vérifier le job deploy. |
 | Page blanche / pas de cartes | Console : fetch JSON bloqué. En local, utiliser `http.server`. En prod, vérifier `data/*.json` poussés. |
-| Images OG vides / quota Microlink | Quota journalier atteint. Le script retombe sur screenshot puis `assets/placeholder.svg`. Réessayer le lendemain, ou mettre un plan Microlink. |
+| Preview manquante sur une PR | Le workflow **Validate data** échoue tant que l’image n’existe pas (merge sur `master` laisse CI la générer, ou générez en local avant la PR). |
 | Ancien site encore visible | Cache CDN Pages : attendre 1–2 min, hard refresh. |
 | Custom domain écrasé | Ne pas supprimer `CNAME`. Un push sans ce fichier détache le domaine. |
 
@@ -221,12 +254,11 @@ Puis : [http://localhost:8080](http://localhost:8080)
 | `instituts.html` | Redirect → `agences.html` |
 | `cafes.html` | Page Cafés & boulangeries |
 | `ecommerce.html` | Page E-commerce |
-| `data/restaurants.json` | URLs des designs restaurants |
-| `data/barbiers.json` | URLs des designs barbiers |
-| `data/agences.json` | URLs des designs agences |
-| `data/entreprises.json` | URLs des designs entreprises |
-| `data/cafes.json` | URLs des designs cafés & boulangeries |
-| `data/ecommerce.json` | URLs des designs e-commerce |
-| `CNAME` | `designs.fixbyte.dev` |
+| `data/*.json` | URLs + chemins d’images des designs |
+| `CNAME` | `studio.fixbyte.be` |
 | `css/style.css` | Styles |
-| `js/cards.js` | Cartes mention Microlink |
+| `js/cards.js` | Rendu des cartes depuis le JSON |
+| `fetch-previews.py` | Capture des aperçus (local + CI) |
+| `scripts/validate-data.py` | Validation JSON / images (CI PR) |
+| `.github/workflows/pages.yml` | Previews + deploy Pages |
+| `.github/workflows/validate.yml` | Guardrails PR sur `data/**` |
