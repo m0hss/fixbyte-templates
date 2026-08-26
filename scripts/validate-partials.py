@@ -15,6 +15,8 @@ PAGES = [
     "entreprises.html",
     "cafes.html",
     "ecommerce.html",
+    "mentions-legales.html",
+    "politique-confidentialite.html",
 ]
 PARTIALS = [
     "partials/header.html",

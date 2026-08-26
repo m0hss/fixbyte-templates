@@ -4,7 +4,7 @@ Guidelines for any AI agent working on this repository.
 
 ## Architecture overview
 
-- **Templates**: `index.html`, `barbiers.html`, `restaurant.html`, `agences.html`, `entreprises.html`, `cafes.html`, `ecommerce.html`
+- **Templates**: `index.html`, `barbiers.html`, `restaurant.html`, `agences.html`, `entreprises.html`, `cafes.html`, `ecommerce.html`, `mentions-legales.html`, `politique-confidentialite.html`
 - **Styles**: `css/style.css`
 - **Logic**: `js/cards.js` (loads JSON and renders cards/sections); `js/partials.js` (loads shared header/footer from `partials/`)
 - **Chrome**: `partials/header.html`, `partials/footer.html`, `partials/lang-switcher.html`

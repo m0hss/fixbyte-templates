@@ -1521,6 +1521,106 @@ a {
   outline: none;
 }
 
+.legal-hero {
+  max-width: 40rem;
+  padding: var(--space-8) 0 var(--space-4);
+}
+
+.legal-hero h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 650;
+  font-size: clamp(1.85rem, 4vw, 2.75rem);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.legal-hero__meta {
+  margin: var(--space-3) 0 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.legal-page {
+  max-width: 40rem;
+  padding-bottom: var(--space-8);
+}
+
+.legal-page h2 {
+  margin: var(--space-6) 0 var(--space-3);
+  font-family: var(--font-display);
+  font-weight: 650;
+  font-size: clamp(1.2rem, 2.5vw, 1.45rem);
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.legal-page p,
+.legal-page ul,
+.legal-page dl {
+  margin: 0 0 var(--space-3);
+  color: var(--ink);
+}
+
+.legal-page ul {
+  padding-left: 1.25rem;
+}
+
+.legal-page li + li {
+  margin-top: var(--space-2);
+}
+
+.legal-page a {
+  color: var(--teal-deep);
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.legal-page a:hover,
+.legal-page a:focus-visible {
+  color: var(--teal);
+}
+
+.legal-page code {
+  font-size: 0.92em;
+}
+
+.legal-page__notice {
+  padding: var(--space-3) var(--space-4);
+  border-left: 3px solid var(--line);
+  background: var(--white);
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.legal-page__id {
+  display: grid;
+  grid-template-columns: minmax(8rem, 11rem) 1fr;
+  gap: var(--space-2) var(--space-4);
+  margin: 0 0 var(--space-4);
+  padding: var(--space-4);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.legal-page__id dt {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.legal-page__id dd {
+  margin: 0;
+}
+
+.legal-page__next {
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--line);
+}
+
 @media (max-width: 900px) {
   .footer-inner {
     grid-template-columns: 1fr 1fr;
@@ -1665,5 +1765,18 @@ a {
 
   .pitch-grid--mascot .pitch-mascot img {
     width: min(100%, 18rem);
+  }
+
+  .legal-page__id {
+    grid-template-columns: 1fr;
+    gap: var(--space-1) var(--space-3);
+  }
+
+  .legal-page__id dt {
+    margin-top: var(--space-2);
+  }
+
+  .legal-page__id dt:first-child {
+    margin-top: 0;
   }
 }
