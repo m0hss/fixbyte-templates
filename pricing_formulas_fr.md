@@ -1,9 +1,10 @@
 # Structure et formules des tarifs & services
 
-Offres Fixbyte pour **restaurants**, **barbiers**, **agences**, **entreprises**, **cafés / boulangeries** et **e-commerce**, marché **Belgique**. Bandeau Essai + deux cartes à l’écran. Le créneau vide en upsell. Prix **HTVA**, TVA 21 % en sus. Pas de « à partir de ».
+Offres Fixbyte pour **restaurants**, **barbiers**, **agences**, **entreprises**, **cafés / boulangeries** et **e-commerce**, marché **Belgique**. Bandeau Essai + deux cartes à l’écran (trois sur **ecommerce.html** : vitrine, abonnement, boutique). Le créneau vide en upsell. Prix **HTVA**, TVA 21 % en sus. Pas de « à partir de ».
 
 **Porte d’entrée :** Essai 0 € (nom sur le design, 72 h).  
 **Choix payant :** « L’Enseigne une fois, ou On tient la porte ? »  
+**E-commerce :** même grille, plus **La Boutique** (paiement en ligne).  
 Le créneau vide vient **après**, quand il y a déjà des clics.
 
 ---
@@ -24,6 +25,7 @@ Le créneau vide vient **après**, quand il y a déjà des clics.
 - On tient la porte : 199 × 12 = **2 388 € HT**. L’écart (398 €) paie Google, mods et hébergement — pas un loyer du site.
 - Année 2 On tient la porte : **99 € HT / mois** (hébergement + 2 mods + Google), ou 29 € hébergement seul.
 - Le créneau vide : 199 + 290 = **489 € HT / mois**, budget pub Google **en sus**.
+- La Boutique (e-commerce) : **3 990 € HT** une fois. Inclut la vitrine. Plateforme (ex. Shopify) et frais de paiement **en sus**.
 
 Après 12 mois de On tient la porte, **le site appartient au client**.
 
@@ -33,6 +35,7 @@ Après 12 mois de On tient la porte, **le site appartient au client**.
 - On tient la porte : 240,79 € TTC / mois
 - On tient la porte année 2 : 119,79 € TTC / mois
 - Le créneau vide (total) : 591,69 € TTC / mois
+- La Boutique : 4 827,90 € TTC
 
 ---
 
@@ -68,6 +71,7 @@ Après 12 mois de On tient la porte, **le site appartient au client**.
 - **Agences :** `Bonjour, je voudrais l'Essai Fixbyte pour mon agence. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
 - **Entreprises :** `Bonjour, je voudrais l'Essai Fixbyte pour mon entreprise. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
 - **Cafés :** `Bonjour, je voudrais l'Essai Fixbyte pour mon café / boulangerie. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
+- **E-commerce :** `Bonjour, je voudrais l'Essai Fixbyte pour mon e-commerce. Nom : [ ]. Commune : [ ]. Design choisi : [lien].`
 - **Accueil / CTA 12 min :** `Bonjour, je voudrais les 12 min Fixbyte pour ouvrir ma fiche Google ensemble.`
 
 ---
@@ -106,6 +110,12 @@ Après 12 mois de On tient la porte, **le site appartient au client**.
 * Click & collect (téléphone, WhatsApp, ou widget déjà souscrit)
 * Mise en avant du comptoir / de l’adresse
 
+### Pour l’e-commerce (vitrine)
+* Accueil, **catalogue**, à propos, contact
+* Bouton contact (téléphone, WhatsApp, ou formulaire) — **sans paiement en ligne**
+* Mise en avant des produits / preuves si contenus fournis
+* La boutique réelle (panier, checkout) = offre **La Boutique**, pas L’Enseigne
+
 ### Inclus
 * Site 4 pages, mobile
 * Mise en ligne + HTTPS
@@ -126,7 +136,8 @@ Après 12 mois de On tient la porte, **le site appartient au client**.
 ### Copie carte
 * Prix : **1 990 € HT**
 * Mention : Paiement unique · en ligne en 10 jours · le site est à vous
-* 4 puces sectorisées (menu / services / soins / carte du jour · bouton · fiche Google · mise en ligne + 3 mois d’hébergement)
+* 4 puces sectorisées (menu / services / soins / carte du jour / catalogue vitrine · bouton · fiche Google · mise en ligne + 3 mois d’hébergement)
+* E-commerce : titre **L’Enseigne · Vitrine** ; puce 2 = catalogue, contact, preuves — sans paiement en ligne
 
 ---
 
@@ -139,6 +150,8 @@ Après 12 mois de On tient la porte, **le site appartient au client**.
 * **Résumé :** L’Enseigne (si besoin) + Google + mises à jour le soir même.
 
 Nouveaux clients : le **même site que L’Enseigne est inclus**. Pas de frais de création en plus.
+
+E-commerce : On tient la porte couvre les **mises à jour vitrine** (catalogue / contact), pas l’exploitation boutique (stock, commandes, checkout).
 
 ### Inclus (mois 1–12)
 * Tout L’Enseigne (site inclus)
@@ -193,6 +206,46 @@ Nouveaux clients : le **même site que L’Enseigne est inclus**. Pas de frais d
 * Titre : Le créneau vide
 * Prix : **+ 290 € HT / mois**
 * Ligne : Après 8 semaines · on vise le trou dans l’agenda · Maps, avis, Google Ads (budget en sus) · total 489 € HT / mois
+* E-commerce : « on vise les ventes qui manquent » · Maps, avis, Google Shopping / Ads (budget en sus)
+
+---
+
+## 04. La Boutique — e-commerce seulement (3ᵉ carte)
+
+**« Catalogue, panier, checkout — le client paie en ligne »**
+
+* **Prix :** **3 990 € HTVA**
+* **Type de facturation :** Unique (50 % commande, 50 % mise en ligne)
+* **Délai :** 3 semaines ouvrées après textes, photos, accès et catalogue
+* **Affichage :** 3ᵉ carte sur **ecommerce.html uniquement**, badge « Paiement en ligne », carte phare
+* **Résumé :** Boutique complète. Le design choisi, à votre nom. Le client paie, vous livrez.
+
+Plateforme reco Belgique : **Shopify** (panier / checkout / livraison / suivi natifs). À mentionner en devis, pas comme dépendance dure sur la carte.
+
+### Inclus
+* Boutique : catalogue, panier, checkout
+* Paiement en ligne (Mollie / Stripe — **compte client**)
+* Livraison, retrait en magasin, e-mails & suivi commande
+* Jusqu’à **30 produits** importés (titre, prix, photos fournies)
+* La vitrine L’Enseigne est **incluse**
+* Mise en ligne + 3 mois d’hébergement Fixbyte
+* Un tour de retours
+* 30 min pour montrer comment gérer commandes / stock de base
+
+### Non inclus
+* Abonnement plateforme (ex. Shopify, ~27 € / mois) — à la charge du client
+* Frais de transaction paiement (Mollie / Stripe)
+* Produits au-delà de 30 → devis
+* 2ᵉ langue (option bilingue +500 €)
+* Photo, logo / identité
+* Budget pub
+* Mods après livraison → On tient la porte (vitrine), ou devis boutique
+
+### Copie carte
+* Prix : **3 990 € HT**
+* Mention : Paiement unique · boutique en ligne en 3 semaines · le site est à vous
+* Badge : Paiement en ligne
+* 4 puces : boutique complète · paiement Mollie/Stripe · livraison / retrait / suivi · 30 produits + mise en ligne
 
 ---
 
@@ -202,7 +255,8 @@ Nouveaux clients : le **même site que L’Enseigne est inclus**. Pas de frais d
 | :--- | :--- | :--- | :--- |
 | **Essai** | Bandeau | 0 € | — |
 | **L’Enseigne** | Carte | 1 990 € | Unique |
-| **On tient la porte** | Carte phare | 199 € / mois, puis 99 € | 12 mois |
+| **On tient la porte** | Carte phare (hors e-commerce) | 199 € / mois, puis 99 € | 12 mois |
+| **La Boutique** | 3ᵉ carte, phare sur **ecommerce.html** | 3 990 € | Unique |
 | **Le créneau vide** | Bandeau | + 290 € / mois | Après 8 semaines |
 
 ---
@@ -216,6 +270,7 @@ Nouveaux clients : le **même site que L’Enseigne est inclus**. Pas de frais d
 | Pack identité (logo, couleurs, 5 visuels) | **890 €** | Une fois |
 | Demi-journée photo | **490 €** | Une fois |
 | Page supplémentaire | **190 €** | À la page |
+| Produits boutique au-delà de 30 | devis | Uniquement La Boutique |
 | Hébergement seul | **29 € / mois** | Après L’Enseigne ou sortie d’abo |
 
 Primes belges (Bruxelles digitalisation, aides wallonnes) : à **mentionner** en conversation / devis, pas comme un rabais automatique sur la carte.
@@ -224,10 +279,12 @@ Primes belges (Bruxelles digitalisation, aides wallonnes) : à **mentionner** en
 
 ## Règles d’affichage
 
-1. **Essai** = bandeau au-dessus des deux cartes, jamais une 3ᵉ colonne de prix.
-2. **Deux cartes seulement.** On tient la porte à droite (ou seconde), badge « La plus choisie ».
-3. Tous les prix en **€ HTVA**. Une ligne : « TVA 21 % en sus ».
-4. Le créneau vide = **+ 290 €**, pas 489 € en 3ᵉ colonne.
-5. On tient la porte année 2 = **99 €** (ou 29 € hébergement), écrit sur la carte.
-6. Bilingue et identité en **note**, pas en concurrence avec L’Enseigne.
-7. Ne jamais coller « design gratuit » à côté de L’Enseigne — l’Essai est au-dessus, séparé.
+1. **Essai** = bandeau au-dessus des cartes, jamais une colonne de prix.
+2. **Deux cartes** sur toutes les pages sauf e-commerce. On tient la porte à droite (ou seconde), badge « La plus choisie ».
+3. **ecommerce.html seulement :** **trois cartes** — L’Enseigne · Vitrine · On tient la porte · La Boutique (phare, badge « Paiement en ligne »).
+4. Tous les prix en **€ HTVA**. Une ligne : « TVA 21 % en sus ».
+5. Le créneau vide = **+ 290 €**, pas 489 € en 3ᵉ / 4ᵉ colonne. E-commerce : « ventes qui manquent ».
+6. On tient la porte année 2 = **99 €** (ou 29 € hébergement), écrit sur la carte.
+7. Bilingue et identité en **note**, pas en concurrence avec L’Enseigne.
+8. Ne jamais coller « design gratuit » à côté de L’Enseigne — l’Essai est au-dessus, séparé.
+9. Ne jamais vendre un panier / checkout sous L’Enseigne : ça va sur **La Boutique**.
