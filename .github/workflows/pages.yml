@@ -120,6 +120,7 @@ jobs:
             --exclude='fetch-previews.py' \
             --exclude='serve.sh' \
             ./ _site/
+          python3 scripts/stamp-sitemap.py _site/sitemap.xml
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
