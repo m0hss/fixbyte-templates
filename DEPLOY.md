@@ -141,10 +141,29 @@ Contrôles :
 - La nav bascule entre Restaurants, Barbiers, Agences, Entreprises, Cafés et E-commerce.
 - Les cartes montrent une image de preview et ouvrent l’URL dans un nouvel onglet.
 - Le cadenas HTTPS est actif.
+- Une URL inexistante (ex. `/page-qui-nexiste-pas`) affiche la page 404 Fixbyte.
+- [Rich Results Test](https://search.google.com/test/rich-results) : FAQPage + Organization sur l’accueil ; Organization sur une page métier.
 
 ---
 
-## 7. Ajouter ou modifier une œuvre (flux CI)
+## 7. Référencement (Search Console)
+
+Une fois le domaine en HTTPS :
+
+1. Ouvrez [Google Search Console](https://search.google.com/search-console).
+2. Ajoutez une propriété **Préfixe d’URL** : `https://studio.fixbyte.be`.
+3. Vérifiez la propriété (enregistrement DNS TXT sur `fixbyte.be`, ou fichier HTML Google). Pas de balise meta dans le dépôt sauf si vous la demandez plus tard.
+4. **Sitemaps** → soumettre `https://studio.fixbyte.be/sitemap.xml`.
+5. **Inspection d’URL** → tester l’accueil et une page métier (`/restaurant.html`).
+6. Optionnel : même démarche dans [Bing Webmaster Tools](https://www.bing.com/webmasters).
+
+Le workflow de déploiement tamponne `<lastmod>` (date UTC du jour) dans l’artifact `sitemap.xml`. Le fichier source du dépôt reste sans dates.
+
+Après un déploiement, relancez le Rich Results Test sur FAQ + Organization.
+
+---
+
+## 8. Ajouter ou modifier une œuvre (flux CI)
 
 Les URLs ne sont pas dans le HTML. Éditez un fichier `data/*.json` :
 
@@ -213,7 +232,7 @@ Les cartes lisent `url` + `image` dans le JSON (fichiers dans `assets/previews/`
 
 ---
 
-## 8. Prévisualiser en local
+## 9. Prévisualiser en local
 
 Ne pas ouvrir les HTML en `file://` (le JSON et les aperçus locaux peuvent échouer).
 
@@ -226,7 +245,7 @@ Puis : [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## 9. Dépannage
+## 10. Dépannage
 
 | Problème | Piste |
 | --- | --- |
@@ -254,6 +273,9 @@ Puis : [http://localhost:8080](http://localhost:8080)
 | `instituts.html` | Redirect → `agences.html` |
 | `cafes.html` | Page Cafés & boulangeries |
 | `ecommerce.html` | Page E-commerce |
+| `404.html` | Page d’erreur GitHub Pages (`noindex`) |
+| `sitemap.xml` | Sitemap ( `<lastmod>` tamponné à l’artifact) |
+| `scripts/stamp-sitemap.py` | Tampon `<lastmod>` UTC au deploy |
 | `data/*.json` | URLs + chemins d’images des designs |
 | `CNAME` | `studio.fixbyte.be` |
 | `css/style.css` | Styles |
