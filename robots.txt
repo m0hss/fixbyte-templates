@@ -1,0 +1,11 @@
+# Fixbyte Templates (studio.fixbyte.be)
+# Allow all crawlers to access all content
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://studio.fixbyte.be/sitemap.xml
+
+# Crawl-rate hint (optional)
+Crawl-delay: 1
