@@ -228,6 +228,14 @@ a {
   color: #fff;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 0.65rem;
+  margin-left: auto;
+}
+
 .lang-switcher {
   position: relative;
   flex: 0 0 auto;
@@ -1770,11 +1778,18 @@ a {
 }
 
 @media (max-width: 640px) {
+  .site-header .wrap {
+    width: min(var(--maxw), calc(100% - 1.5rem));
+  }
+
   .header-inner {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: flex-start;
+    gap: 0.45rem;
     padding: 0.85rem 0;
+  }
+
+  .header-inner .brand-wordmark {
+    font-size: 1.22rem;
   }
 
   .site-nav {
@@ -1796,8 +1811,11 @@ a {
   }
 
   .site-header__cta {
-    flex: 0 0 auto;
-    margin-left: auto;
+    padding-inline: 0.7rem;
+  }
+
+  .header-actions {
+    gap: 0.45rem;
   }
 
   .hero {
