@@ -21,13 +21,24 @@
     <meta property="og:url" content="https://studio.fixbyte.be/" />
     <meta
       property="og:image"
-      content="https://studio.fixbyte.be/assets/logo-light.svg"
+      content="https://studio.fixbyte.be/assets/og-image.jpg"
     />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image:width" content="1424" />
+    <meta property="og:image:height" content="752" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta
+      property="og:image:alt"
+      content="Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Fixbyte — Designs" />
     <meta
       name="twitter:description"
       content="Sites pour restaurants, barbiers, agences, entreprises, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte."
+    />
+    <meta
+      name="twitter:image"
+      content="https://studio.fixbyte.be/assets/og-image.jpg"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,6 +47,100 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://studio.fixbyte.be/#organization",
+            "name": "Fixbyte Studio",
+            "url": "https://studio.fixbyte.be/",
+            "logo": "https://studio.fixbyte.be/assets/og-image.jpg",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "telephone": "+32-493-622-901",
+              "url": "https://wa.me/32493622901",
+              "availableLanguage": ["French"]
+            },
+            "areaServed": "BE"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://studio.fixbyte.be/#website",
+            "url": "https://studio.fixbyte.be/",
+            "name": "Fixbyte Studio",
+            "publisher": { "@id": "https://studio.fixbyte.be/#organization" },
+            "inLanguage": "fr-BE"
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "L'essai à 0 €, c'est vraiment gratuit ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui. Clone du design choisi avec votre nom, URL live 72 h, via WhatsApp (4 photos). Pas de carte, pas de piège. Ce n'est pas un site définitif — juste de quoi juger en salle."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Que se passe-t-il après 72 h ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "L'aperçu expire. Vous choisissez : on s'arrête, ou on passe à une offre payante. Aucun débit automatique."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Combien ça coûte ensuite ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Deux chemins : L'Enseigne — 1 990 € HT une fois · On tient la porte — 199 € HT / mois pendant 12 mois, puis 99 € HT / mois. TVA 21 % en sus. Les cartes détaillées sont sur chaque page business."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "L'Enseigne ou On tient la porte — comment choisir ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "L'Enseigne : la porte en ligne en ~2 semaines, vous gérez ensuite. On tient la porte (recommandé) : le même site + photo WhatsApp → mise à jour le soir + posts Google."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Le site m'appartient ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui — à la livraison de L'Enseigne, ou après 12 mois de On tient la porte. Hébergement seul possible ensuite : 29 € HT / mois."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qu'est-ce que je dois envoyer pour démarrer ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Essai : 4 photos + nom + commune + lien du design sur WhatsApp. Offre payante : textes, photos, accès ; un tour de retours inclus avec L'Enseigne."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vous gérez aussi Google / Maps ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fiche Google Business avec L'Enseigne ; posts et avis avec On tient la porte. « Le créneau vide » (+ 290 € HT / mois) seulement après 8 semaines, si vous voulez Ads et poussée locale."
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body data-header-sep="10" data-copyright="Fixbyte Studio">
     <div id="site-header" data-partial="header"></div>

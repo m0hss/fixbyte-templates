@@ -24,13 +24,24 @@
     />
     <meta
       property="og:image"
-      content="https://studio.fixbyte.be/assets/logo.svg"
+      content="https://studio.fixbyte.be/assets/og-image.jpg"
     />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image:width" content="1424" />
+    <meta property="og:image:height" content="752" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta
+      property="og:image:alt"
+      content="Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Designs restaurants — Fixbyte" />
     <meta
       name="twitter:description"
       content="Designs Fixbyte pour restaurants. Essai 0 € : votre nom sur le design. Pizzaro, Umami, Savaro et autres aperçus cliquables."
+    />
+    <meta
+      name="twitter:image"
+      content="https://studio.fixbyte.be/assets/og-image.jpg"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,6 +50,36 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://studio.fixbyte.be/#organization",
+            "name": "Fixbyte Studio",
+            "url": "https://studio.fixbyte.be/",
+            "logo": "https://studio.fixbyte.be/assets/og-image.jpg",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "telephone": "+32-493-622-901",
+              "url": "https://wa.me/32493622901",
+              "availableLanguage": ["French"]
+            },
+            "areaServed": "BE"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://studio.fixbyte.be/#website",
+            "url": "https://studio.fixbyte.be/",
+            "name": "Fixbyte Studio",
+            "publisher": { "@id": "https://studio.fixbyte.be/#organization" },
+            "inLanguage": "fr-BE"
+          }
+        ]
+      }
+    </script>
   </head>
   <body data-active-nav="restaurant" data-header-sep="12" data-copyright="Fixbyte">
     <div id="site-header" data-partial="header"></div>
