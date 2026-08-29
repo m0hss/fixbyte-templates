@@ -1,0 +1,107 @@
+{
+  "site_url": "https://studio.fixbyte.be",
+  "default": "fr",
+  "locales": [
+    {
+      "code": "fr",
+      "dir": "",
+      "hreflang": "fr-BE",
+      "og_locale": "fr_BE",
+      "label": "Français",
+      "flag": "fr.svg",
+      "schema_language": "French",
+      "rtl": false
+    },
+    {
+      "code": "nl",
+      "dir": "nl",
+      "hreflang": "nl-BE",
+      "og_locale": "nl_BE",
+      "label": "Vlaams",
+      "flag": "be.svg",
+      "schema_language": "Dutch",
+      "rtl": false
+    },
+    {
+      "code": "en",
+      "dir": "en",
+      "hreflang": "en",
+      "og_locale": "en_GB",
+      "label": "English",
+      "flag": "gb.svg",
+      "schema_language": "English",
+      "rtl": false
+    },
+    {
+      "code": "es",
+      "dir": "es",
+      "hreflang": "es",
+      "og_locale": "es_ES",
+      "label": "Español",
+      "flag": "es.svg",
+      "schema_language": "Spanish",
+      "rtl": false
+    },
+    {
+      "code": "it",
+      "dir": "it",
+      "hreflang": "it",
+      "og_locale": "it_IT",
+      "label": "Italiano",
+      "flag": "it.svg",
+      "schema_language": "Italian",
+      "rtl": false
+    },
+    {
+      "code": "pt",
+      "dir": "pt",
+      "hreflang": "pt",
+      "og_locale": "pt_PT",
+      "label": "Português",
+      "flag": "pt.svg",
+      "schema_language": "Portuguese",
+      "rtl": false
+    },
+    {
+      "code": "tr",
+      "dir": "tr",
+      "hreflang": "tr",
+      "og_locale": "tr_TR",
+      "label": "Türkçe",
+      "flag": "tr.svg",
+      "schema_language": "Turkish",
+      "rtl": false
+    },
+    {
+      "code": "ar",
+      "dir": "ar",
+      "hreflang": "ar",
+      "og_locale": "ar_AR",
+      "label": "العربية",
+      "flag": "ar.svg",
+      "schema_language": "Arabic",
+      "rtl": true
+    }
+  ],
+  "pages": [
+    { "file": "index.html", "sitemap": true, "priority": "1.0", "changefreq": "weekly" },
+    { "file": "restaurant.html", "sitemap": true, "priority": "0.8", "changefreq": "monthly" },
+    { "file": "cafes.html", "sitemap": true, "priority": "0.8", "changefreq": "monthly" },
+    { "file": "barbiers.html", "sitemap": true, "priority": "0.8", "changefreq": "monthly" },
+    { "file": "agences.html", "sitemap": true, "priority": "0.8", "changefreq": "monthly" },
+    { "file": "ecommerce.html", "sitemap": true, "priority": "0.8", "changefreq": "monthly" },
+    { "file": "entreprises.html", "sitemap": true, "priority": "0.8", "changefreq": "monthly" },
+    { "file": "mentions-legales.html", "sitemap": true, "priority": "0.3", "changefreq": "yearly" },
+    { "file": "politique-confidentialite.html", "sitemap": true, "priority": "0.3", "changefreq": "yearly" },
+    { "file": "404.html", "sitemap": false }
+  ],
+  "partials": ["header.html", "footer.html", "lang-switcher.html"],
+  "data_files": [
+    "restaurants.json",
+    "barbiers.json",
+    "agences.json",
+    "entreprises.json",
+    "cafes.json",
+    "ecommerce.json"
+  ]
+}
