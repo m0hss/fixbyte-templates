@@ -122,11 +122,11 @@ Après 12 mois de On tient la porte, **le site appartient au client**.
 * 3 mois d’hébergement
 * Fiche **Google Business** créée ou remise en ordre
 * SEO de base (titres, metas, sitemap, NAP)
+* **Site multilingue** — inclus, sans supplément
 * Un tour de retours
 * 30 min pour montrer comment demander une mod
 
 ### Non inclus
-* 2ᵉ langue (option bilingue)
 * Photo, logo / identité
 * Pages extra, boutique, click & collect
 * Rédaction from scratch si aucun texte
@@ -236,7 +236,6 @@ Plateforme reco Belgique : **Shopify** (panier / checkout / livraison / suivi na
 * Abonnement plateforme (ex. Shopify, ~27 € / mois) — à la charge du client
 * Frais de transaction paiement (Mollie / Stripe)
 * Produits au-delà de 30 → devis
-* 2ᵉ langue (option bilingue +500 €)
 * Photo, logo / identité
 * Budget pub
 * Mods après livraison → On tient la porte (vitrine), ou devis boutique
@@ -261,15 +260,15 @@ Plateforme reco Belgique : **Shopify** (panier / checkout / livraison / suivi na
 
 ---
 
-## Options (sous la grille, pas des cartes)
+## Options (devis et conversation — plus affichées sous la grille)
 
 | Option | Prix HTVA | Note |
 | :--- | :--- | :--- |
 | Essai (nom sur design, 72 h) | **0 €** | Porte d’entrée — voir bandeau |
-| Bilingue FR + NL | **+ 500 €** | Surtout Bruxelles ; une fois, sur L’Enseigne ou inclus On tient la porte |
 | Pack identité (logo, couleurs, 5 visuels) | **890 €** | Une fois |
 | Demi-journée photo | **490 €** | Une fois |
 | Page supplémentaire | **190 €** | À la page |
+| Rédaction professionnelle dans une 2ᵉ langue | **190–290 €** | Par page ; la traduction relue reste incluse |
 | Produits boutique au-delà de 30 | devis | Uniquement La Boutique |
 | Hébergement seul | **29 € / mois** | Après L’Enseigne ou sortie d’abo |
 
@@ -285,6 +284,8 @@ Primes belges (Bruxelles digitalisation, aides wallonnes) : à **mentionner** en
 4. Tous les prix en **€ HTVA**. Une ligne : « TVA 21 % en sus ».
 5. Le créneau vide = **+ 290 €**, pas 489 € en 3ᵉ / 4ᵉ colonne. E-commerce : « ventes qui manquent ».
 6. On tient la porte année 2 = **99 €** (ou 29 € hébergement), écrit sur la carte.
-7. Bilingue et identité en **note**, pas en concurrence avec L’Enseigne.
-8. Ne jamais coller « design gratuit » à côté de L’Enseigne — l’Essai est au-dessus, séparé.
-9. Ne jamais vendre un panier / checkout sous L’Enseigne : ça va sur **La Boutique**.
+7. **Multilingue = inclus**, jamais un supplément. Écrit dans la note sous la grille, avec la limite : le client fournit les textes, ou relit une traduction. Rédaction professionnelle dans une 2ᵉ langue = ligne payante (190–290 €), sur devis.
+8. Identité, photo et page extra **ne s’affichent pas** sous la grille — elles se disent en conversation / devis. Empilées dans la note, elles totalisent plus que L’Enseigne et font lire l’Essai comme un appât.
+9. La phrase de **propriété** a sa propre ligne, sous la note, avec le nom de la carte entre guillemets.
+10. Ne jamais coller « design gratuit » à côté de L’Enseigne — l’Essai est au-dessus, séparé.
+11. Ne jamais vendre un panier / checkout sous L’Enseigne : ça va sur **La Boutique**.

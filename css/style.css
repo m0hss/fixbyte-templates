@@ -1466,6 +1466,18 @@ a {
   font-size: 0.92rem;
 }
 
+.pricing-own {
+  margin: 0.7rem 0 0;
+  max-width: 46rem;
+  color: var(--ink-soft);
+  font-size: 1.02rem;
+}
+
+.pricing-own strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .site-footer {
   background: var(--grad-charcoal);
   color: color-mix(in srgb, var(--parchment) 88%, white);
