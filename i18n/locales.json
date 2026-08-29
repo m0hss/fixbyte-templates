@@ -96,6 +96,7 @@
     { "file": "404.html", "sitemap": false }
   ],
   "partials": ["header.html", "footer.html", "lang-switcher.html"],
+  "banner": "partials/translation-note.html",
   "data_files": [
     "restaurants.json",
     "barbiers.json",

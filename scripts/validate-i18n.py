@@ -127,6 +127,23 @@ def check_generated(config: dict, outdir: Path) -> None:
             if loc["rtl"] and 'dir="rtl"' not in text:
                 errors.append(f"{rel}: RTL locale without dir=\"rtl\"")
 
+            # The machine-translation banner must appear on translated pages
+            # and never on the source language. Nothing else would catch it
+            # leaking into French, or silently vanishing everywhere.
+            has_banner = 'class="translation-note"' in text
+            if loc["code"] == config["default"] and has_banner:
+                errors.append(
+                    f"{rel}: translation banner shown in the source language"
+                )
+            elif loc["code"] != config["default"] and not has_banner:
+                errors.append(f"{rel}: missing the machine-translation banner")
+            # It must sit before the header mount, so it is a sibling of the
+            # sticky header rather than nested inside it.
+            if has_banner and text.index('class="translation-note"') > text.index(
+                'id="site-header"'
+            ):
+                errors.append(f"{rel}: translation banner is not above the header")
+
             # Parse rather than string-match: several head tags are wrapped
             # across lines in the source.
             nodes = index_html(text)

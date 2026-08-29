@@ -2364,6 +2364,21 @@
     "src": "Choisir la langue",
     "status": "draft"
   },
+  "banner.text": {
+    "t": "Bu sayfa Fransızcadan otomatik olarak çevrildi — bazı ifadeler kulağa tuhaf geliyorsa kusura bakmayın!",
+    "src": "Cette page a été traduite automatiquement depuis le français — désolé si certaines formulations sonnent faux&nbsp;!",
+    "status": "draft"
+  },
+  "banner.cta": {
+    "t": "Çeviriyi iyileştirmemize yardım edin ↗",
+    "src": "Aidez-nous à améliorer la traduction ↗",
+    "status": "draft"
+  },
+  "banner.cta_href": {
+    "t": "https://wa.me/32493622901?text=Merhaba%2C%20studio.fixbyte.be%20sitesinin%20%C3%A7evirisini%20iyile%C5%9Ftirmenize%20yard%C4%B1m%20etmek%20istiyorum%3A%20%5B%20%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20aider%20%C3%A0%20am%C3%A9liorer%20la%20traduction%20de%20studio.fixbyte.be%20%3A%20%5B%20%5D.",
+    "status": "draft"
+  },
   "data.restaurants.pizzaro_fixbyte_dev.description": {
     "t": "Masa örtüsünden değil, siparişten yaşayan bir pizzacı için.",
     "src": "Pour une pizzeria qui vit de la commande, pas du nappe.",

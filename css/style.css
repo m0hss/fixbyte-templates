@@ -102,6 +102,30 @@ a {
   border: 0;
 }
 
+/* Machine-translation banner, above the sticky header on translated pages.
+   Static (no position), so it scrolls away and the header then sticks alone. */
+.translation-note {
+  background: var(--parchment-alt);
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: center;
+  padding: 0.45rem 1rem;
+  margin: 0;
+}
+
+.translation-note__icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}
+
+.translation-note a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -1894,6 +1918,11 @@ a {
 
 /* "FixByte <sep> Studio" is a Latin wordmark: keep it in logical LTR order
    even on RTL pages, otherwise the two halves swap and it reads backwards. */
+[dir="rtl"] .translation-note__icon {
+  margin-left: 0;
+  margin-right: 0.4rem;
+}
+
 [dir="rtl"] .brand-wordmark {
   direction: ltr;
 }

@@ -2364,6 +2364,21 @@
     "src": "Choisir la langue",
     "status": "draft"
   },
+  "banner.text": {
+    "t": "تُرجمت هذه الصفحة آليًا من الفرنسية — نعتذر إن بدت بعض الصياغات غريبة.",
+    "src": "Cette page a été traduite automatiquement depuis le français — désolé si certaines formulations sonnent faux&nbsp;!",
+    "status": "draft"
+  },
+  "banner.cta": {
+    "t": "ساعدنا في تحسين الترجمة ↗",
+    "src": "Aidez-nous à améliorer la traduction ↗",
+    "status": "draft"
+  },
+  "banner.cta_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9%20%D9%81%D9%8A%20%D8%AA%D8%AD%D8%B3%D9%8A%D9%86%20%D8%AA%D8%B1%D8%AC%D9%85%D8%A9%20studio.fixbyte.be%3A%20%5B%20%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20aider%20%C3%A0%20am%C3%A9liorer%20la%20traduction%20de%20studio.fixbyte.be%20%3A%20%5B%20%5D.",
+    "status": "draft"
+  },
   "data.restaurants.pizzaro_fixbyte_dev.description": {
     "t": "لمطعم بيتزا يعيش على الطلبات، لا على مفارش الطاولات.",
     "src": "Pour une pizzeria qui vit de la commande, pas du nappe.",

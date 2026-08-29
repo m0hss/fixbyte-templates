@@ -2364,6 +2364,21 @@
     "src": "Choisir la langue",
     "status": "draft"
   },
+  "banner.text": {
+    "t": "Questa pagina è stata tradotta automaticamente dal francese — scusaci se qualche frase suona strana!",
+    "src": "Cette page a été traduite automatiquement depuis le français — désolé si certaines formulations sonnent faux&nbsp;!",
+    "status": "draft"
+  },
+  "banner.cta": {
+    "t": "Aiutaci a migliorare la traduzione ↗",
+    "src": "Aidez-nous à améliorer la traduction ↗",
+    "status": "draft"
+  },
+  "banner.cta_href": {
+    "t": "https://wa.me/32493622901?text=Ciao%2C%20vorrei%20aiutare%20a%20migliorare%20la%20traduzione%20di%20studio.fixbyte.be%3A%20%5B%20%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20aider%20%C3%A0%20am%C3%A9liorer%20la%20traduction%20de%20studio.fixbyte.be%20%3A%20%5B%20%5D.",
+    "status": "draft"
+  },
   "data.restaurants.pizzaro_fixbyte_dev.description": {
     "t": "Per una pizzeria che vive di ordini, non di tovaglie.",
     "src": "Pour une pizzeria qui vit de la commande, pas du nappe.",

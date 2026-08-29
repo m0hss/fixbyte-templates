@@ -45,6 +45,10 @@ MIRROR = [
 ]
 
 I18N_ATTRS = re.compile(r'\s+data-i18n(?:-attr)?="[^"]*"|\s+data-i18n-skip')
+# The banner is injected immediately before this mount point. That keeps it
+# a *sibling* of <header class="site-header">, which is position:sticky —
+# a wrapper would become the sticky containing block and unstick the header.
+HEADER_MOUNT = '<div id="site-header"'
 # Paths that live at the site root and must be reached with ../ from a locale.
 SHARED_PREFIXES = ("assets/", "css/", "js/")
 
@@ -63,6 +67,12 @@ def mirror(outdir: Path) -> None:
             shutil.copy2(src, dst)
     for page in config["pages"]:
         shutil.copy2(ROOT / page["file"], outdir / page["file"])
+
+    # The banner is a build-time template, not a runtime partial: it is
+    # injected into each page. Copying partials/ wholesale drags it along, so
+    # drop it rather than publish an orphaned untranslated copy.
+    if config.get("banner"):
+        (outdir / config["banner"]).unlink(missing_ok=True)
 
 
 # --------------------------------------------------------------------------
@@ -249,6 +259,28 @@ def render_lang_switcher(config: dict, current: str, depth: int) -> str:
 
 
 # --------------------------------------------------------------------------
+# machine-translation banner
+# --------------------------------------------------------------------------
+
+def render_translation_banner(
+    entries: dict, locale: dict, config: dict, depth: int
+) -> str:
+    """The banner shown above the header on translated pages.
+
+    Empty for the source language, which has nothing to disclose.
+
+    It is injected into the page HTML rather than mounted by js/partials.js on
+    purpose: the chrome already arrives after first paint, so a banner mounted
+    late would shove the whole page down, and it would be invisible to
+    crawlers. In the page source it is there on first paint.
+    """
+    if locale["code"] == config["default"] or not config.get("banner"):
+        return ""
+    src = (ROOT / config["banner"]).read_text(encoding="utf-8").rstrip("\n")
+    return translate_html(src, entries, locale, config, None, depth)
+
+
+# --------------------------------------------------------------------------
 # FAQ structured data, derived from the translated page
 # --------------------------------------------------------------------------
 
@@ -346,6 +378,7 @@ def build_locale(locale: dict, config: dict, outdir: Path) -> None:
     (target / "data").mkdir(parents=True, exist_ok=True)
 
     switcher = render_lang_switcher(config, code, depth)
+    banner = render_translation_banner(entries, locale, config, depth)
 
     for name in config["partials"]:
         if name == "lang-switcher.html":
@@ -364,6 +397,8 @@ def build_locale(locale: dict, config: dict, outdir: Path) -> None:
             out = rebuild_faq_jsonld(out)
         if depth and rel == "404.html":
             out = out.replace('href="/"', f'href="/{locale["dir"]}/"')
+        if banner:
+            out = out.replace(HEADER_MOUNT, banner + "\n    " + HEADER_MOUNT, 1)
         (target / rel).write_text(out, encoding="utf-8")
 
     for name in config["data_files"]:

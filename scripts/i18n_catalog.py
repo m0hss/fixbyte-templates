@@ -21,6 +21,10 @@ def source_files(config: dict) -> list[str]:
     """Every French file that carries translatable markup, in a stable order."""
     files = [p["file"] for p in config["pages"]]
     files += [f"partials/{name}" for name in config["partials"]]
+    # The banner is a template the builder injects into pages rather than a
+    # runtime partial, but its French text is still a translation source.
+    if config.get("banner"):
+        files.append(config["banner"])
     return files
 
 
