@@ -52,6 +52,66 @@
     slot.replaceWith(node);
   }
 
+  // The switcher partial is shared by every page, so its links can only point
+  // at each locale's home page. The <link rel="alternate" hreflang> cluster in
+  // the head knows the equivalent URL for *this* page, so use it to upgrade
+  // each option. Reading the targets from the same tags search engines use
+  // keeps the switcher and the hreflang metadata from ever disagreeing.
+  function applyLangSwitcher(root) {
+    const alternates = {};
+    document
+      .querySelectorAll('link[rel="alternate"][hreflang]')
+      .forEach((link) => {
+        alternates[link.getAttribute("hreflang")] = link.getAttribute("href");
+      });
+
+    root.querySelectorAll("[data-lang][hreflang]").forEach((option) => {
+      const href = alternates[option.getAttribute("hreflang")];
+      if (href) option.setAttribute("href", href);
+    });
+  }
+
+  function initLangSwitchers() {
+    const switchers = Array.from(
+      document.querySelectorAll("[data-lang-switcher]")
+    );
+    if (!switchers.length) return;
+
+    function setOpen(root, open) {
+      const btn = root.querySelector(".lang-switcher__btn");
+      const menu = root.querySelector(".lang-switcher__menu");
+      if (!btn || !menu) return;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      menu.hidden = !open;
+    }
+
+    function closeAll() {
+      switchers.forEach((root) => setOpen(root, false));
+    }
+
+    switchers.forEach((root) => {
+      const btn = root.querySelector(".lang-switcher__btn");
+      const menu = root.querySelector(".lang-switcher__menu");
+      if (!btn || !menu) return;
+
+      btn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const willOpen = btn.getAttribute("aria-expanded") !== "true";
+        closeAll();
+        setOpen(root, willOpen);
+      });
+
+      menu.addEventListener("click", (event) => {
+        event.stopPropagation();
+      });
+    });
+
+    document.addEventListener("click", closeAll);
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeAll();
+    });
+  }
+
   async function init() {
     try {
       const [langHtml, headerHtml, footerHtml] = await Promise.all([
@@ -65,9 +125,12 @@
 
       applyHeader(header);
       applyFooter(footer);
+      applyLangSwitcher(header);
+      applyLangSwitcher(footer);
       mount("site-header", header);
       mount("site-footer", footer);
 
+      initLangSwitchers();
       document.dispatchEvent(new CustomEvent("fixbyte:partials-ready"));
     } catch (error) {
       console.error("Failed to load shared chrome:", error);

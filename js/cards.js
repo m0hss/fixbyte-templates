@@ -1,5 +1,16 @@
 (function () {
-  const PLACEHOLDER = "assets/placeholder.svg";
+  // Asset paths are resolved against this script's own URL, so they stay
+  // correct from /nl/ and friends without assuming the site sits at a domain
+  // root.
+  const scriptSrc = document.currentScript.src;
+  const asset = (name) => new URL("../assets/" + name, scriptSrc).pathname;
+  const PLACEHOLDER = asset("placeholder.svg");
+
+  // Strings the builder translates via <body data-i18n-*> attributes. The
+  // French text stays inline as the fallback, so behaviour is unchanged if an
+  // attribute is missing.
+  const t = (key, fallback) =>
+    document.body.getAttribute("data-i18n-" + key) || fallback;
 
   const ctaBtn = document.querySelector(".cta-block__btn");
   if (ctaBtn && !document.querySelector(".whatsapp-float")) {
@@ -8,16 +19,28 @@
     bubble.href = ctaBtn.href;
     bubble.target = "_blank";
     bubble.rel = "noopener noreferrer";
-    bubble.setAttribute("aria-label", "Écrire sur WhatsApp");
-    bubble.innerHTML =
-      '<span class="whatsapp-float__disc" aria-hidden="true">' +
-      '<img src="assets/whatsapp.svg" alt="" width="28" height="28" decoding="async" />' +
-      "</span>" +
-      '<span class="whatsapp-float__tip" role="tooltip" aria-hidden="true">Écrivez-nous sur WhatsApp</span>';
+    bubble.setAttribute("aria-label", t("wa-label", "Écrire sur WhatsApp"));
+
+    const disc = document.createElement("span");
+    disc.className = "whatsapp-float__disc";
+    disc.setAttribute("aria-hidden", "true");
+    const icon = document.createElement("img");
+    icon.src = asset("whatsapp.svg");
+    icon.alt = "";
+    icon.width = 28;
+    icon.height = 28;
+    icon.decoding = "async";
+    disc.appendChild(icon);
+
+    const tip = document.createElement("span");
+    tip.className = "whatsapp-float__tip";
+    tip.setAttribute("role", "tooltip");
+    tip.setAttribute("aria-hidden", "true");
+    tip.textContent = t("wa-tip", "Écrivez-nous sur WhatsApp");
+
+    bubble.append(disc, tip);
     document.body.appendChild(bubble);
   }
-
-  document.addEventListener("fixbyte:partials-ready", initLangSwitchers);
 
   const grid = document.getElementById("works");
   if (!grid) return;
@@ -32,7 +55,7 @@
       const items = await loadItems(source);
       if (!items.length) {
         grid.innerHTML =
-          '<p class="grid-message">Aucun projet pour le moment.</p>';
+          '<p class="grid-message">' + t("grid-empty", "Aucun projet pour le moment.") + "</p>";
         grid.setAttribute("aria-busy", "false");
         return;
       }
@@ -48,7 +71,9 @@
     } catch (error) {
       console.error(error);
       grid.innerHTML =
-        '<p class="grid-message">Impossible de charger les projets pour le moment.</p>';
+        '<p class="grid-message">' +
+        t("grid-error", "Impossible de charger les projets pour le moment.") +
+        "</p>";
     } finally {
       grid.setAttribute("aria-busy", "false");
     }
@@ -89,7 +114,7 @@
   function hydrateCard(card, item) {
     const url = item.url;
     const titleText = item.title || hostnameOf(url);
-    const descText = item.description || "Ouvrir le design";
+    const descText = item.description || t("card-fallback", "Ouvrir le design");
     const imageSrc =
       typeof item.image === "string" && item.image
         ? item.image
@@ -124,48 +149,4 @@
     img.src = imageSrc;
   }
 
-  function initLangSwitchers() {
-    const switchers = Array.from(
-      document.querySelectorAll("[data-lang-switcher]")
-    );
-    if (!switchers.length) return;
-
-    function setOpen(root, open) {
-      const btn = root.querySelector(".lang-switcher__btn");
-      const menu = root.querySelector(".lang-switcher__menu");
-      if (!btn || !menu) return;
-      btn.setAttribute("aria-expanded", open ? "true" : "false");
-      menu.hidden = !open;
-    }
-
-    function closeAll() {
-      switchers.forEach((root) => setOpen(root, false));
-    }
-
-    switchers.forEach((root) => {
-      const btn = root.querySelector(".lang-switcher__btn");
-      const menu = root.querySelector(".lang-switcher__menu");
-      if (!btn || !menu) return;
-
-      btn.addEventListener("click", (event) => {
-        event.stopPropagation();
-        const willOpen = btn.getAttribute("aria-expanded") !== "true";
-        closeAll();
-        setOpen(root, willOpen);
-      });
-
-      menu.addEventListener("click", (event) => {
-        const option = event.target.closest("[role='option']");
-        if (!option) return;
-        event.stopPropagation();
-        if (option.getAttribute("aria-disabled") === "true") return;
-        setOpen(root, false);
-      });
-    });
-
-    document.addEventListener("click", closeAll);
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") closeAll();
-    });
-  }
 })();

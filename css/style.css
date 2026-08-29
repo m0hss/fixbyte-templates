@@ -323,6 +323,7 @@ a {
 
 .lang-switcher__option {
   display: flex;
+  text-decoration: none;
   align-items: center;
   gap: 0.6rem;
   padding: 0.55rem 0.6rem;
@@ -341,7 +342,8 @@ a {
   outline: none;
 }
 
-.lang-switcher__option[aria-selected="true"] {
+.lang-switcher__option[aria-selected="true"],
+.lang-switcher__option[aria-current] {
   background: color-mix(in srgb, var(--parchment) 80%, var(--white));
 }
 
@@ -1461,9 +1463,16 @@ a {
 
 .pricing-note {
   margin: 1.15rem 0 0;
-  max-width: 46rem;
+  width: 100%;
+  max-width: none;
   color: var(--ink-soft);
   font-size: 0.92rem;
+}
+
+@media (min-width: 901px) {
+  .pricing-note {
+    white-space: nowrap;
+  }
 }
 
 .pricing-own {
@@ -1874,4 +1883,100 @@ a {
   .legal-page__id dt:first-child {
     margin-top: 0;
   }
+}
+
+/* ==========================================================================
+   Right-to-left (Arabic)
+   Only the rules that use physical directions need mirroring; everything
+   built on logical properties (padding-inline, flex/grid flow) already
+   follows the document direction.
+   ========================================================================== */
+
+/* "FixByte <sep> Studio" is a Latin wordmark: keep it in logical LTR order
+   even on RTL pages, otherwise the two halves swap and it reads backwards. */
+[dir="rtl"] .brand-wordmark {
+  direction: ltr;
+}
+
+[dir="rtl"] .header-actions {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+[dir="rtl"] .lang-switcher__chevron {
+  margin-left: 0;
+  margin-right: 0.1rem;
+  border-right: 0;
+  border-left: 1.5px solid currentColor;
+}
+
+[dir="rtl"] .lang-switcher__menu {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .footer-brand .lang-switcher__menu {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .lang-switcher__soon {
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0.85rem;
+}
+
+[dir="rtl"] .pitch-grid--mascot .pitch-item,
+[dir="rtl"] .faq-list details,
+[dir="rtl"] .legal-page__notice {
+  border-left: 0;
+  border-right: 3px solid var(--line);
+}
+
+[dir="rtl"] .pitch-grid--mascot .pitch-item {
+  border-right-color: var(--accent);
+}
+
+[dir="rtl"] .faq-list details[open] {
+  border-left-color: transparent;
+  border-right-color: var(--accent);
+}
+
+[dir="rtl"] .price-card__list li::before {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .price-card__amount span,
+[dir="rtl"] .price-upsell__amount span {
+  margin-left: 0;
+  margin-right: 0.2rem;
+}
+
+[dir="rtl"] .faq-list summary::after {
+  right: auto;
+  left: 1.1rem;
+}
+
+[dir="rtl"] .legal-page ul {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+
+[dir="rtl"] .whatsapp-float {
+  right: auto;
+  left: max(1.25rem, env(safe-area-inset-left));
+}
+
+[dir="rtl"] .whatsapp-float__tip {
+  right: auto;
+  left: calc(100% + 0.75rem);
+}
+
+[dir="rtl"] .whatsapp-float__tip::after {
+  left: auto;
+  right: 100%;
+  border-left-color: transparent;
+  border-right-color: var(--charcoal);
 }
