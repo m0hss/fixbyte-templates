@@ -9,6 +9,11 @@ on:
       - "scripts/validate-partials.py"
       - "partials/**"
       - "js/partials.js"
+      - "i18n/**"
+      - "scripts/build-i18n.py"
+      - "scripts/i18n_html.py"
+      - "scripts/i18n_catalog.py"
+      - "scripts/validate-i18n.py"
       - "*.html"
       - ".github/workflows/validate.yml"
 
@@ -25,3 +30,6 @@ jobs:
 
       - name: Validate shared chrome partials
         run: python3 scripts/validate-partials.py
+
+      - name: Validate translations and generated locales
+        run: python3 scripts/validate-i18n.py

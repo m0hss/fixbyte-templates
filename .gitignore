@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 /docs
+
+# Generated multilingual site
+_site/

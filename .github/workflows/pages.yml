@@ -106,21 +106,10 @@ jobs:
           ref: master
           fetch-depth: 1
 
-      - name: Prepare site artifact
+      - name: Build multilingual site
         run: |
-          mkdir -p _site
-          rsync -a \
-            --exclude='.git' \
-            --exclude='.github' \
-            --exclude='.cursor' \
-            --exclude='.chrome-preview-profile' \
-            --exclude='_site' \
-            --exclude='__pycache__' \
-            --exclude='*.pyc' \
-            --exclude='fetch-previews.py' \
-            --exclude='serve.sh' \
-            ./ _site/
-          python3 scripts/stamp-sitemap.py _site/sitemap.xml
+          python3 scripts/validate-i18n.py
+          python3 scripts/build-i18n.py _site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

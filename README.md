@@ -31,7 +31,8 @@ Preview locally using `./serve.sh` (see below) and open:
 
 ## Local development with `serve.sh`
 
-`serve.sh` is a tiny shell script that starts a local HTTP server in the project root.
+`serve.sh` generates the multilingual site into `_site/` and serves that, so what you
+see locally matches what is deployed.
 
 ```bash
 # From the repository root
@@ -39,8 +40,35 @@ chmod +x serve.sh        # only once, if needed
 ./serve.sh
 ```
 
-Then open your browser at `http://localhost:8080` (or the URL printed by the script).  
-Edit HTML, CSS, JS, or JSON files and refresh the browser to see changes.
+Then open the URL printed by the script: `/` is French, `/nl/`, `/en/`, `/ar/` and the
+rest are the other locales. Edit the French source, then re-run `./serve.sh` to rebuild.
+
+## Translations
+
+French is the source language and lives at the site root. Every other locale is
+generated into its own folder. User-visible strings in the French HTML are tagged with
+`data-i18n="key"` (or `data-i18n-attr="alt:key"` for attributes); the translations live
+in `i18n/<code>.json`.
+
+```bash
+# after editing French copy: refresh the catalogues
+python3 scripts/i18n-extract.py
+
+# fill a locale from a {french: translation} mapping
+python3 scripts/i18n-apply.py nl my-translations.json
+
+# build every locale, and check the result
+python3 scripts/build-i18n.py _site
+python3 scripts/validate-i18n.py
+```
+
+`i18n/locales.json` is the single source of truth for which languages exist, their
+folder, `hreflang`, flag and switcher label. Adding a language means adding an entry
+there, running `i18n-extract.py`, and filling the new catalogue.
+
+Untranslated keys fall back to French, so a half-finished locale still ships a coherent
+page. When French copy changes, `i18n-extract.py` marks the affected translations
+`"status": "stale"` so they can be found and redone.
 
 ## How JSON data feeds the pages
 
