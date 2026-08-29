@@ -22,10 +22,11 @@ Agents may:
   - Add small features within the existing architecture
 - Update documentation (`README.md`, `CLAUDE.md`, `AGENTS.md`, `DEPLOY.md`)
 - Add new templates that follow the same patterns (static HTML + JSON data + cards.js usage)
+- Add or extend build-time Python scripts in `scripts/`, provided they use only the standard library and their output is static
 
 ## Prohibited operations (without explicit human approval)
 
-- Introducing build tools, bundlers, or frameworks.
+- Introducing bundlers, package managers, or frontend frameworks.
 - Adding remote scripts, CDNs, analytics, or tracking.
 - Changing the deployment model (e.g. moving to a server-side framework).
 - Rewriting `cards.js` in a different language or paradigm.
