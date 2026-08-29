@@ -246,6 +246,26 @@ def check_js_asset_paths(outdir: Path) -> None:
                     )
 
 
+def check_css_assets(outdir: Path) -> None:
+    """Every url() in the stylesheets must resolve.
+
+    The link checker only reads HTML, so a mistyped @font-face path would 404
+    silently and Arabic would quietly fall back to a system font.
+    """
+    import re as _re
+
+    checked = 0
+    for path in sorted((outdir / "css").glob("*.css")):
+        for url in _re.findall(r'url\(\s*["\']?([^"\')]+)', path.read_text(encoding="utf-8")):
+            if url.startswith(("http:", "https:", "data:", "//", "#")):
+                continue
+            checked += 1
+            # url() resolves against the stylesheet, not the document.
+            if not (path.parent / url).resolve().is_file():
+                errors.append(f"css/{path.name}: url() does not resolve -> {url}")
+    notes.append(f"css asset check: {checked} url() reference(s) resolved")
+
+
 def check_switcher_source(config: dict) -> None:
     """The committed FR partial must match what the builder produces."""
     generated = build.render_lang_switcher(config, config["default"], 0)
@@ -273,6 +293,7 @@ def main() -> None:
             check_generated(config, outdir)
             check_links(outdir)
             check_js_asset_paths(outdir)
+            check_css_assets(outdir)
 
     for note in notes:
         print(f"  {note}")

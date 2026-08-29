@@ -55,6 +55,77 @@
   --font-display: "Fraunces", Georgia, serif;
 }
 
+/* ==========================================================================
+   Arabic webfonts
+   Latin faces (Figtree / Fraunces) carry no Arabic glyphs, so /ar/ would
+   otherwise fall back to whatever the OS provides.
+
+   These files are fetched ONLY on Arabic pages. Declaring @font-face costs
+   nothing by itself — a browser downloads a face only when a rule that
+   actually renders text selects it — and the only rules referencing them are
+   scoped to html[lang="ar"] below.
+
+   The scope must stay on the root element: the language switcher renders
+   <a lang="ar">العربية</a> on every page in every locale, so a bare
+   [lang="ar"] selector would drag ~77 KB of fonts onto all 80 pages.
+
+   url() in a stylesheet resolves against the stylesheet, not the document, so
+   ../assets/fonts/ is correct from every locale folder without rewriting.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Frutiger Arabic";
+  src: url("../assets/fonts/FrutigerLTArabic-45Light.woff2") format("woff2");
+  font-weight: 100 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frutiger Arabic";
+  src: url("../assets/fonts/FrutigerLTArabic-65Bold.woff2") format("woff2");
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Kufi Arabic";
+  src: url("../assets/fonts/NotoKufiArabic-Regular.woff2") format("woff2");
+  font-weight: 100 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Kufi Arabic";
+  src: url("../assets/fonts/NotoKufiArabic-Bold.woff2") format("woff2");
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kawkab Mono";
+  src: url("../assets/fonts/KawkabMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Every font-family in this sheet reads one of these two variables, so
+   swapping them here re-types the whole Arabic site in one place. */
+html[lang="ar"] {
+  --font-sans: "Frutiger Arabic", "Figtree", "Segoe UI", sans-serif;
+  --font-display: "Noto Kufi Arabic", "Fraunces", Georgia, serif;
+}
+
+html[lang="ar"] code,
+html[lang="ar"] kbd,
+html[lang="ar"] samp {
+  font-family: "Kawkab Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
 *,
 *::before,
 *::after {
@@ -1925,6 +1996,9 @@ a {
 
 [dir="rtl"] .brand-wordmark {
   direction: ltr;
+  /* The wordmark is a Latin logotype: keep it in Figtree so it looks the same
+     in every locale, rather than picking up the Arabic face's Latin glyphs. */
+  font-family: "Figtree", "Segoe UI", sans-serif;
 }
 
 [dir="rtl"] .header-actions {
