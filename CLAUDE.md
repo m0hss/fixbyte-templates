@@ -22,6 +22,16 @@ This file defines how AI assistants should help with this repository.
    - Stay within `css/style.css`; avoid inline styles in HTML.
    - Maintain mobile-first, responsive behavior.
 
+## Vocabulary
+
+- `docs/references/dictionary/` is the authoritative vocabulary for this repo — one
+  term per file (`Hallucination.md`, `Sycophancy.md`, `Subagent.md`, …).
+- When a term it defines is relevant, read that entry before using the term, and use
+  it with the precision the entry demands. Do not substitute an external URL or
+  recall from memory.
+- Each entry has an "Avoid" note saying what the term excludes; respect it rather
+  than using these words as loose synonyms.
+
 ## AI-assisted workflow
 
 - Before proposing changes, summarize:
