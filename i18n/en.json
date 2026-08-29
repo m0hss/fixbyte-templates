@@ -1,0 +1,2582 @@
+{
+  "index.meta.title": {
+    "t": "Fixbyte — Designs",
+    "src": "Fixbyte — Designs",
+    "status": "draft"
+  },
+  "index.meta.description": {
+    "t": "Websites for restaurants, agencies, trades, barbers, cafés, bakeries and online shops. €0 trial: your name on the design. Browse the Fixbyte designs.",
+    "src": "Vitrines pour restaurants, agences, entreprises, barbiers, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte.",
+    "status": "draft"
+  },
+  "index.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, agences et commerces",
+    "status": "draft"
+  },
+  "ui.wa_label": {
+    "t": "Message us on WhatsApp",
+    "src": "Écrire sur WhatsApp",
+    "status": "draft"
+  },
+  "ui.wa_tip": {
+    "t": "Message us on WhatsApp",
+    "src": "Écrivez-nous sur WhatsApp",
+    "status": "draft"
+  },
+  "ui.grid_empty": {
+    "t": "No projects yet.",
+    "src": "Aucun projet pour le moment.",
+    "status": "draft"
+  },
+  "ui.grid_error": {
+    "t": "Can’t load the projects right now.",
+    "src": "Impossible de charger les projets pour le moment.",
+    "status": "draft"
+  },
+  "ui.card_fallback": {
+    "t": "Open the design",
+    "src": "Ouvrir le design",
+    "status": "draft"
+  },
+  "index.hero_mascot.img_alt": {
+    "t": "Bytie, the Fixbyte mascot",
+    "src": "Bytie, mascotte Fixbyte",
+    "status": "draft"
+  },
+  "index.hero_mascot_quote.blockquote": {
+    "t": "Boss. We’re open, but nobody can find us.",
+    "src": "Patron. On est ouvert, mais introuvable.",
+    "status": "draft"
+  },
+  "index.hero_badge.span": {
+    "t": "You don’t have to take our word for it.",
+    "src": "Pas besoin d’y croire.",
+    "status": "draft"
+  },
+  "index.hero_copy.h1": {
+    "t": "You pick a design, we put your name on it, you get the link.",
+    "src": "Tu choisis un design, on y met ton enseigne, tu reçois le lien.",
+    "status": "draft"
+  },
+  "index.lead.p": {
+    "t": "No project manager. Not the neighbour’s AI site. 72&nbsp;h to decide.",
+    "src": "Pas de chef de projet. Pas le site IA du voisin. 72&nbsp;h pour trancher.",
+    "status": "draft"
+  },
+  "index.hero_pitch.div_aria_label": {
+    "t": "Why Fixbyte",
+    "src": "Pourquoi Fixbyte",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span": {
+    "t": "Look first",
+    "src": "Regardez d’abord",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p": {
+    "t": "Browse our work and our designs. You judge on the screen, not on a quote.",
+    "src": "Parcourez nos réalisations et designs. Vous jugez sur l’écran, pas sur un devis.",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span_2": {
+    "t": "Try it with your name on it",
+    "src": "Essayez avec votre enseigne",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p_2": {
+    "t": "€0 trial, 72&nbsp;h. We adapt it. You test it and decide.",
+    "src": "Essai 0&nbsp;€, 72&nbsp;h. On l’adapte. Vous le testez et décidez.",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span_3": {
+    "t": "We Hold the Door",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p_3": {
+    "t": "You ask in the evening. It’s live by morning. No back and forth.",
+    "src": "Vous demandez le soir. C’est en ligne au matin. Sans aller-retour.",
+    "status": "draft"
+  },
+  "index.hero_badge.span_2": {
+    "t": "Business",
+    "src": "Business",
+    "status": "draft"
+  },
+  "index.hub_title.h2": {
+    "t": "Your business. The designs are already there — you judge.",
+    "src": "Ton business. Des designs déjà là, tu juges.",
+    "status": "draft"
+  },
+  "index.lead.p_2": {
+    "t": "You open, you click, you see. Not a sales pitch.",
+    "src": "Tu ouvres, tu cliques, tu vois. Pas un discours.",
+    "status": "draft"
+  },
+  "index.hub_card.h3": {
+    "t": "Restaurants",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "index.hub_card.p": {
+    "t": "Tuesday, 8&nbsp;pm. Someone 400&nbsp;m away is hungry. They find you — or the place next door.",
+    "src": "Mardi 20&nbsp;h. Quelqu’un à 400m a faim. Il vous trouve — ou la table d’à côté.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span": {
+    "t": "See the designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_2": {
+    "t": "Cafés &amp; bakeries",
+    "src": "Cafés &amp; boulangeries",
+    "status": "draft"
+  },
+  "index.hub_card.p_2": {
+    "t": "7:40&nbsp;am, they search “open now”. Not your logo. Just the right hours.",
+    "src": "7&nbsp;h&nbsp;40, il cherche «&nbsp;ouvert maintenant&nbsp;». Pas votre logo. L’horaire juste.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_2": {
+    "t": "See the designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_3": {
+    "t": "Agencies",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "index.hub_card.p_3": {
+    "t": "They compare 4 quotes at a red light. Yours has to win without a pitch.",
+    "src": "Il compare 4 offres au feu rouge. La vôtre doit gagner sans pitch.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_3": {
+    "t": "See the designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_4": {
+    "t": "E-commerce",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "index.hub_card.p_4": {
+    "t": "Three tabs open. They buy where the product already sells itself — no brief.",
+    "src": "Trois onglets ouverts. Il achète là où le produit se vend déjà — sans brief.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_4": {
+    "t": "See the designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_5": {
+    "t": "Barbers",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "index.hub_card.p_5": {
+    "t": "Saturday, 10&nbsp;am. That empty chair is a client who picked the other shop on Maps.",
+    "src": "Samedi 10&nbsp;h. Le fauteuil vide, c’est un client qui a choisi l’autre salon sur Maps.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_5": {
+    "t": "See the designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_6": {
+    "t": "Trades",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "index.hub_card.p_6": {
+    "t": "Three quotes. They pick the one already showing the job site.",
+    "src": "Trois devis. Il choisit celui qui montre déjà le chantier.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_6": {
+    "t": "See the designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.cta_title.h2": {
+    "t": "Trial · €0",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "index.cta_block.p": {
+    "t": "You send 4 photos. We put your name on it. 72&nbsp;h to show it in the room.",
+    "src": "Tu envoies 4 photos. On y met l’enseigne. 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "index.cta_block_btn.a": {
+    "t": "Send 4 photos on WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "index.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%20trial.%20Name%3A%20%5B%20%5D.%20Town%3A%20%5B%20%5D.%20Business%3A%20%5B%20%5D.%20Chosen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Business%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "index.cta_block_hint.p": {
+    "t": "No brief. We call back the same day.",
+    "src": "Pas de brief. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "index.faq_mascot.img_alt": {
+    "t": "Bytie, the Fixbyte mascot, finger to the temple",
+    "src": "Bytie, mascotte Fixbyte, doigt à la tempe",
+    "status": "draft"
+  },
+  "index.faq_title.h2": {
+    "t": "Questions we get a lot",
+    "src": "Questions qu’on reçoit souvent",
+    "status": "draft"
+  },
+  "index.faq_list.summary": {
+    "t": "Is the €0 trial really free?",
+    "src": "L’essai à 0&nbsp;€, c’est vraiment gratuit&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p": {
+    "t": "Yes. A copy of the design you picked with your name on it, live at a URL for 72&nbsp;h, arranged over WhatsApp (4 photos). No card, no catch. It isn’t a finished site — just enough to judge it on the floor.",
+    "src": "Oui. Clone du design choisi avec votre nom, URL live 72&nbsp;h, via WhatsApp (4 photos). Pas de carte, pas de piège. Ce n’est pas un site définitif — juste de quoi juger en salle.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_2": {
+    "t": "What happens after 72&nbsp;h?",
+    "src": "Que se passe-t-il après 72&nbsp;h&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_2": {
+    "t": "The preview expires. You choose: we stop, or we move to a paid plan. Nothing is ever charged automatically.",
+    "src": "L’aperçu expire. Vous choisissez&nbsp;: on s’arrête, ou on passe à une offre payante. Aucun débit automatique.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_3": {
+    "t": "What does it cost after that?",
+    "src": "Combien ça coûte ensuite&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_3": {
+    "t": "Two paths: <strong>The Storefront</strong> — €1,990 excl. VAT, once · <strong>We Hold the Door</strong> — €199 excl. VAT / month for 12 months, then €99 excl. VAT / month. 21&nbsp;% VAT on top. The detailed cards are on each business page.",
+    "src": "Deux chemins&nbsp;: <strong>L’Enseigne</strong> — 1&nbsp;990&nbsp;€&nbsp;HT une fois · <strong>On tient la porte</strong> — 199&nbsp;€&nbsp;HT / mois pendant 12 mois, puis 99&nbsp;€&nbsp;HT / mois. TVA 21&nbsp;% en sus. Les cartes détaillées sont sur chaque page business.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_4": {
+    "t": "Are those previews your own designs?",
+    "src": "Les aperçus, c’est vos designs&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_4": {
+    "t": "Mostly yes. You judge on the preview. Once it’s chosen we rebuild it under your name — in some cases what we deliver isn’t the original file.",
+    "src": "La majorité oui. Vous jugez sur l’aperçu. Une fois choisi, on le refait à votre enseigne — dans certains cas ce n’est pas le fichier d’origine que l’on livre.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_5": {
+    "t": "The Storefront or We Hold the Door — how to choose?",
+    "src": "L’Enseigne ou On tient la porte — comment choisir&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_5": {
+    "t": "The Storefront: your door online in ~2 weeks, then you run it. We Hold the Door (recommended): the same site + a WhatsApp photo → updated that evening + Google posts.",
+    "src": "L’Enseigne&nbsp;: la porte en ligne en ~2 semaines, vous gérez ensuite. On tient la porte (recommandé)&nbsp;: le même site + photo WhatsApp → mise à jour le soir + posts Google.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_6": {
+    "t": "Do I own the site?",
+    "src": "Le site m’appartient&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_6": {
+    "t": "Yes — on delivery of The Storefront, or after 12 months of We Hold the Door. Hosting alone is available afterwards: €29 excl. VAT / month.",
+    "src": "Oui — à la livraison de L’Enseigne, ou après 12 mois de On tient la porte. Hébergement seul possible ensuite&nbsp;: 29&nbsp;€&nbsp;HT / mois.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_7": {
+    "t": "What do I need to send to get started?",
+    "src": "Qu’est-ce que je dois envoyer pour démarrer&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_7": {
+    "t": "Trial: 4 photos + name + town + the design link, over WhatsApp. Paid plan: copy, photos, access; one round of feedback included with The Storefront.",
+    "src": "Essai&nbsp;: 4 photos + nom + commune + lien du design sur WhatsApp. Offre payante&nbsp;: textes, photos, accès&nbsp;; un tour de retours inclus avec L’Enseigne.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_8": {
+    "t": "Do you handle Google / Maps too?",
+    "src": "Vous gérez aussi Google / Maps&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_8": {
+    "t": "Google Business Profile with The Storefront; posts and reviews with We Hold the Door. “The Empty Slot” (+ €290 excl. VAT / month) only after 8 weeks, if you want Ads and a local push.",
+    "src": "Fiche Google Business avec L’Enseigne&nbsp;; posts et avis avec On tient la porte. «&nbsp;Le créneau vide&nbsp;» (+ 290&nbsp;€&nbsp;HT / mois) seulement après 8 semaines, si vous voulez Ads et poussée locale.",
+    "status": "draft"
+  },
+  "restaurant.meta.title": {
+    "t": "Restaurant designs — Fixbyte",
+    "src": "Designs restaurants — Fixbyte",
+    "status": "draft"
+  },
+  "restaurant.meta.description": {
+    "t": "Fixbyte designs for restaurants. €0 trial: your name on the design. Pizzaro, Umami, Savaro and other clickable previews.",
+    "src": "Designs Fixbyte pour restaurants. Essai 0 € : votre nom sur le design. Pizzaro, Umami, Savaro et autres aperçus cliquables.",
+    "status": "draft"
+  },
+  "restaurant.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, barbers, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "restaurant.hero_badge.span": {
+    "t": "Tuesday night",
+    "src": "Mardi soir",
+    "status": "draft"
+  },
+  "restaurant.hero_scene.h1": {
+    "t": "At 8&nbsp;pm they open Uber Eats. There, you’re a tile. Your site is the table.",
+    "src": "À 20&nbsp;h il ouvre Uber Eats. T’es une case. Ton site, c’est la table.",
+    "status": "draft"
+  },
+  "restaurant.hero_scene_action.p": {
+    "t": "Click a card: that’s what they see. Then we put your name on it.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "restaurant.works_title.h2": {
+    "t": "Restaurant projects",
+    "src": "Projets restaurants",
+    "status": "draft"
+  },
+  "restaurant.pitch_title.h2": {
+    "t": "Why these designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.h3": {
+    "t": "Not a catalogue",
+    "src": "Pas un catalogue",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.p": {
+    "t": "The 9&nbsp;pm table, already booked in their head. Photos, menu, a book button — what’s needed before the first call.",
+    "src": "La table de 21&nbsp;h, déjà pleine dans sa tête. Photos, menu, bouton réserver — ce qu’il faut avant le premier appel.",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.h3_2": {
+    "t": "You click, you judge",
+    "src": "Vous cliquez, vous jugez",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.p_2": {
+    "t": "Every preview opens the design. We don’t argue taste — you choose, we start there.",
+    "src": "Chaque aperçu ouvre le design. On n’argumente pas un goût — vous choisissez, on part de là.",
+    "status": "draft"
+  },
+  "restaurant.pitch_mascot.img_alt": {
+    "t": "Bytie with a dish",
+    "src": "Bytie Dish",
+    "status": "draft"
+  },
+  "restaurant.price_essai_kicker.p": {
+    "t": "Before you choose",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "restaurant.essai_title.h2": {
+    "t": "Trial · €0",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "restaurant.price_essai_lead.p": {
+    "t": "Your name on the design you just clicked. Live at a URL for 72&nbsp;h, to show it on the floor.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "restaurant.price_essai_cta.a": {
+    "t": "Send 4 photos on WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "restaurant.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%20trial%20for%20my%20restaurant.%20Name%3A%20%5B%20%5D.%20Town%3A%20%5B%20%5D.%20Chosen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20restaurant.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "restaurant.pricing_title.h2": {
+    "t": "Pricing",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "restaurant.pricing_intro.p": {
+    "t": "Two doors: <strong>The Storefront</strong> (once), or <strong>We Hold the Door</strong> (we keep it current). Prices excl. VAT, 21&nbsp;% VAT on top.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "restaurant.price_card.h3": {
+    "t": "The Storefront",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "restaurant.price_card_amount.p": {
+    "t": "€1,990 <span>excl. VAT</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "restaurant.price_card_hint.p": {
+    "t": "One-off payment · online in 10 days · the site is yours",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li": {
+    "t": "The chosen design, under your name — 4 mobile pages",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_2": {
+    "t": "Menu, contact, booking button",
+    "src": "Menu, contact, bouton réservation",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_3": {
+    "t": "Google Business Profile",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_4": {
+    "t": "Going live + 3 months of hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "restaurant.price_card_badge.p": {
+    "t": "Most chosen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "restaurant.price_card.h3_2": {
+    "t": "We Hold the Door",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "restaurant.price_card_amount.p_2": {
+    "t": "€199 <span>excl. VAT / month</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "restaurant.price_card_hint.p_2": {
+    "t": "12 months · The Storefront included · then €99 excl. VAT / month",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_5": {
+    "t": "The Storefront included (as opposite)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_6": {
+    "t": "WhatsApp photo → site updated that evening",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_7": {
+    "t": "4 Google Business posts / month",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_8": {
+    "t": "Report: calls, directions clicks, bookings",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, réservations",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_kicker.p": {
+    "t": "Then, if it’s working",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_body.h3": {
+    "t": "The Empty Slot",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_amount.p": {
+    "t": "+&nbsp;€290 <span>excl. VAT / month</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_body.p": {
+    "t": "After 8 weeks of We Hold the Door. We target the gap in the diary — Maps, reviews, Google Ads (ad budget on top). Total €489 excl. VAT / month.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "restaurant.pricing_note.p": {
+    "t": "€0 trial before you choose. Multilingual site included — you supply the copy, or we start from a translation you review.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "restaurant.pricing_own.p": {
+    "t": "After 12&nbsp;months of “We Hold the Door”, <strong>the site is yours.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "restaurant.cta_title.h2": {
+    "t": "12 min · we open your Google profile together",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "restaurant.cta_block.p": {
+    "t": "You see what a customer sees tonight. Then we say whether a site is worth it.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "restaurant.cta_block_btn.a": {
+    "t": "Message us on WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "restaurant.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%2012%20minutes%20to%20open%20my%20Google%20profile%20together.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "restaurant.cta_block_hint.p": {
+    "t": "No brief. 4 photos. We call back the same day.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "cafes.meta.title": {
+    "t": "Café &amp; bakery designs — Fixbyte",
+    "src": "Designs cafés &amp; boulangeries — Fixbyte",
+    "status": "draft"
+  },
+  "cafes.meta.description": {
+    "t": "Fixbyte designs for cafés and bakeries. €0 trial: your name on the design. Daily menu, opening hours, address and click & collect.",
+    "src": "Designs Fixbyte pour cafés et boulangeries. Essai 0 € : votre nom sur le design. Carte du jour, horaires, adresse et click & collect.",
+    "status": "draft"
+  },
+  "cafes.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, barbers, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "cafes.hero_badge.span": {
+    "t": "Open now — or somewhere else",
+    "src": "Ouvert maintenant — ou ailleurs",
+    "status": "draft"
+  },
+  "cafes.hero_scene.h1": {
+    "t": "7:40&nbsp;am. “Open now” — or the bakery next door.",
+    "src": "7&nbsp;h&nbsp;40. «&nbsp;Ouvert maintenant&nbsp;» — ou la boulangerie d’à côté.",
+    "status": "draft"
+  },
+  "cafes.hero_scene_action.p": {
+    "t": "Click a card: that’s what they see. Then we put your name on it.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "cafes.works_title.h2": {
+    "t": "Café and bakery projects",
+    "src": "Projets cafés et boulangeries",
+    "status": "draft"
+  },
+  "cafes.pitch_title.h2": {
+    "t": "Why these designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "cafes.pitch_item.h3": {
+    "t": "The daily run, well kept",
+    "src": "Le quotidien, bien tenu",
+    "status": "draft"
+  },
+  "cafes.pitch_item.p": {
+    "t": "Daily menu, morning bread, clear hours. A page that smells of the counter, not a stiff fine-dining card.",
+    "src": "Carte du jour, pain du matin, horaires clairs. Une page qui sent le comptoir, pas un menu gastronomique figé.",
+    "status": "draft"
+  },
+  "cafes.pitch_item.h3_2": {
+    "t": "Stay, or take away",
+    "src": "Passer, ou emporter",
+    "status": "draft"
+  },
+  "cafes.pitch_item.p_2": {
+    "t": "Address, click &amp; collect, a visible button. Visitors know whether they have time to sit — or just to grab their order.",
+    "src": "Adresse, click &amp; collect, bouton visible. Le visiteur sait s’il a le temps de s’asseoir — ou de récupérer sa commande.",
+    "status": "draft"
+  },
+  "cafes.pitch_mascot.img_alt": {
+    "t": "Bytie at the café",
+    "src": "Bytie au café",
+    "status": "draft"
+  },
+  "cafes.price_essai_kicker.p": {
+    "t": "Before you choose",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "cafes.essai_title.h2": {
+    "t": "Trial · €0",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "cafes.price_essai_lead.p": {
+    "t": "Your name on the design you just clicked. Live at a URL for 72&nbsp;h, to show it at the counter.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer au comptoir.",
+    "status": "draft"
+  },
+  "cafes.price_essai_cta.a": {
+    "t": "Send 4 photos on WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "cafes.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%20trial%20for%20my%20cafe%20%2F%20bakery.%20Name%3A%20%5B%20%5D.%20Town%3A%20%5B%20%5D.%20Chosen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20caf%C3%A9%20%2F%20boulangerie.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "cafes.pricing_title.h2": {
+    "t": "Pricing",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "cafes.pricing_intro.p": {
+    "t": "Two doors: <strong>The Storefront</strong> (once), or <strong>We Hold the Door</strong> (we keep it current). Prices excl. VAT, 21&nbsp;% VAT on top.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "cafes.price_card.h3": {
+    "t": "The Storefront",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "cafes.price_card_amount.p": {
+    "t": "€1,990 <span>excl. VAT</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "cafes.price_card_hint.p": {
+    "t": "One-off payment · online in 10 days · the site is yours",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li": {
+    "t": "The chosen design, under your name — 4 mobile pages",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_2": {
+    "t": "Daily menu, opening hours, click &amp; collect",
+    "src": "Carte du jour, horaires, click &amp; collect",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_3": {
+    "t": "Google Business Profile",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_4": {
+    "t": "Going live + 3 months of hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "cafes.price_card_badge.p": {
+    "t": "Most chosen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "cafes.price_card.h3_2": {
+    "t": "We Hold the Door",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "cafes.price_card_amount.p_2": {
+    "t": "€199 <span>excl. VAT / month</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "cafes.price_card_hint.p_2": {
+    "t": "12 months · The Storefront included · then €99 excl. VAT / month",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_5": {
+    "t": "The Storefront included (as opposite)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_6": {
+    "t": "WhatsApp photo → site updated that evening",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_7": {
+    "t": "4 Google Business posts / month",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_8": {
+    "t": "Report: calls, directions clicks, orders",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, commandes",
+    "status": "draft"
+  },
+  "cafes.price_upsell_kicker.p": {
+    "t": "Then, if it’s working",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "cafes.price_upsell_body.h3": {
+    "t": "The Empty Slot",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "cafes.price_upsell_amount.p": {
+    "t": "+&nbsp;€290 <span>excl. VAT / month</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "cafes.price_upsell_body.p": {
+    "t": "After 8 weeks of We Hold the Door. We target the gap in the diary — Maps, reviews, Google Ads (ad budget on top). Total €489 excl. VAT / month.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "cafes.pricing_note.p": {
+    "t": "€0 trial before you choose. Multilingual site included — you supply the copy, or we start from a translation you review.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "cafes.pricing_own.p": {
+    "t": "After 12&nbsp;months of “We Hold the Door”, <strong>the site is yours.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "cafes.cta_title.h2": {
+    "t": "12 min · we open your Google profile together",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "cafes.cta_block.p": {
+    "t": "You see what a customer sees this morning. Then we say whether a site is worth it.",
+    "src": "Vous voyez ce qu’un client voit ce matin. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "cafes.cta_block_btn.a": {
+    "t": "Message us on WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "cafes.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%2012%20minutes%20to%20open%20my%20Google%20profile%20together.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "cafes.cta_block_hint.p": {
+    "t": "No brief. 4 photos. We call back the same day.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "barbiers.meta.title": {
+    "t": "Barber designs — Fixbyte",
+    "src": "Designs barbiers — Fixbyte",
+    "status": "draft"
+  },
+  "barbiers.meta.description": {
+    "t": "Fixbyte designs for barbers. €0 trial: your name on the design. BXL, Salox, Otissons, Clipster and other clickable previews.",
+    "src": "Designs Fixbyte pour barbiers. Essai 0 € : votre nom sur le design. BXL, Salox, Otissons, Clipster et autres aperçus cliquables.",
+    "status": "draft"
+  },
+  "barbiers.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, barbers, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "barbiers.hero_badge.span": {
+    "t": "Every chair counts",
+    "src": "Chaque fauteuil compte",
+    "status": "draft"
+  },
+  "barbiers.hero_scene.h1": {
+    "t": "Saturday, 10&nbsp;am. An empty chair costs you a cut.",
+    "src": "Samedi 10&nbsp;h. Le fauteuil vide coûte une coupe.",
+    "status": "draft"
+  },
+  "barbiers.hero_scene_action.p": {
+    "t": "Click a card: that’s what they see. Then we put your name on it.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "barbiers.works_title.h2": {
+    "t": "Barber projects",
+    "src": "Projets barbiers",
+    "status": "draft"
+  },
+  "barbiers.pitch_title.h2": {
+    "t": "Why these designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.h3": {
+    "t": "A barbershop is judged at the neckline",
+    "src": "Le salon se juge à la nuque",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.p": {
+    "t": "Style, trust, booking — what’s needed before they pick the other shop on Maps.",
+    "src": "Style, confiance, rendez-vous — ce qu’il faut avant qu’il choisisse l’autre salon sur Maps.",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.h3_2": {
+    "t": "Click, judge for yourself",
+    "src": "Cliquez, jugez sur pièce",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.p_2": {
+    "t": "Every preview opens the design. We don’t argue taste — you choose, we start there.",
+    "src": "Chaque aperçu ouvre le design. On n’argumente pas un goût — vous choisissez, on part de là.",
+    "status": "draft"
+  },
+  "barbiers.pitch_mascot.img_alt": {
+    "t": "Bytie as a barber",
+    "src": "Bytie en barbier",
+    "status": "draft"
+  },
+  "barbiers.price_essai_kicker.p": {
+    "t": "Before you choose",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "barbiers.essai_title.h2": {
+    "t": "Trial · €0",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "barbiers.price_essai_lead.p": {
+    "t": "Your name on the design you just clicked. Live at a URL for 72&nbsp;h, to show it on the floor.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "barbiers.price_essai_cta.a": {
+    "t": "Send 4 photos on WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "barbiers.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%20trial%20for%20my%20barbershop.%20Name%3A%20%5B%20%5D.%20Town%3A%20%5B%20%5D.%20Chosen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20salon.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "barbiers.pricing_title.h2": {
+    "t": "Pricing",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "barbiers.pricing_intro.p": {
+    "t": "Two doors: <strong>The Storefront</strong> (once), or <strong>We Hold the Door</strong> (we keep it current). Prices excl. VAT, 21&nbsp;% VAT on top.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "barbiers.price_card.h3": {
+    "t": "The Storefront",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "barbiers.price_card_amount.p": {
+    "t": "€1,990 <span>excl. VAT</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "barbiers.price_card_hint.p": {
+    "t": "One-off payment · online in 10 days · the site is yours",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li": {
+    "t": "The chosen design, under your name — 4 mobile pages",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_2": {
+    "t": "Services, prices, booking button",
+    "src": "Services, tarifs, bouton rendez-vous",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_3": {
+    "t": "Google Business Profile",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_4": {
+    "t": "Going live + 3 months of hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "barbiers.price_card_badge.p": {
+    "t": "Most chosen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "barbiers.price_card.h3_2": {
+    "t": "We Hold the Door",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "barbiers.price_card_amount.p_2": {
+    "t": "€199 <span>excl. VAT / month</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "barbiers.price_card_hint.p_2": {
+    "t": "12 months · The Storefront included · then €99 excl. VAT / month",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_5": {
+    "t": "The Storefront included (as opposite)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_6": {
+    "t": "WhatsApp photo → site updated that evening",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_7": {
+    "t": "4 Google Business posts / month",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_8": {
+    "t": "Report: calls, directions clicks, appointments",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, rendez-vous",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_kicker.p": {
+    "t": "Then, if it’s working",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_body.h3": {
+    "t": "The Empty Slot",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_amount.p": {
+    "t": "+&nbsp;€290 <span>excl. VAT / month</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_body.p": {
+    "t": "After 8 weeks of We Hold the Door. We target the gap in the diary — Maps, reviews, Google Ads (ad budget on top). Total €489 excl. VAT / month.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "barbiers.pricing_note.p": {
+    "t": "€0 trial before you choose. Multilingual site included — you supply the copy, or we start from a translation you review.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "barbiers.pricing_own.p": {
+    "t": "After 12&nbsp;months of “We Hold the Door”, <strong>the site is yours.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "barbiers.cta_title.h2": {
+    "t": "12 min · we open your Google profile together",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "barbiers.cta_block.p": {
+    "t": "You see what a customer sees tonight. Then we say whether a site is worth it.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "barbiers.cta_block_btn.a": {
+    "t": "Message us on WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "barbiers.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%2012%20minutes%20to%20open%20my%20Google%20profile%20together.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "barbiers.cta_block_hint.p": {
+    "t": "No brief. 4 photos. We call back the same day.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "agences.meta.title": {
+    "t": "Agency designs — Fixbyte",
+    "src": "Designs agences — Fixbyte",
+    "status": "draft"
+  },
+  "agences.meta.description": {
+    "t": "Fixbyte designs for agencies and institutions. €0 trial: your name on the design. Offer, proof, team and contact.",
+    "src": "Designs Fixbyte pour agences et institutions. Essai 0 € : votre nom sur le design. Offre, preuves, équipe et prise de contact.",
+    "status": "draft"
+  },
+  "agences.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, barbers, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "agences.hero_badge.span": {
+    "t": "They judge in one scroll",
+    "src": "Il juge en un scroll",
+    "status": "draft"
+  },
+  "agences.hero_scene.h1": {
+    "t": "They compare 4 quotes at a red light. Yours has to win without a pitch.",
+    "src": "Il compare 4 offres au feu rouge. La vôtre doit gagner sans pitch.",
+    "status": "draft"
+  },
+  "agences.hero_scene_action.p": {
+    "t": "Click a card: that’s what they see. Then we put your name on it.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "agences.works_title.h2": {
+    "t": "Agency projects",
+    "src": "Projets agences",
+    "status": "draft"
+  },
+  "agences.pitch_title.h2": {
+    "t": "Why these designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "agences.pitch_item.h3": {
+    "t": "The offer, before the speech",
+    "src": "L’offre, avant le discours",
+    "status": "draft"
+  },
+  "agences.pitch_item.p": {
+    "t": "Services, proof, team. A page that sells the work, not a catalogue of buzzwords.",
+    "src": "Services, preuves, équipe. Une page qui vend le travail, pas un catalogue de buzzwords.",
+    "status": "draft"
+  },
+  "agences.pitch_item.h3_2": {
+    "t": "Get in touch at a glance",
+    "src": "Contacter en un regard",
+    "status": "draft"
+  },
+  "agences.pitch_item.p_2": {
+    "t": "Readable positioning, clear client cases, a contact button. The prospect judges for themselves, then writes.",
+    "src": "Positionnement lisible, cas clients clairs, bouton contact. Le prospect juge sur pièce, puis écrit.",
+    "status": "draft"
+  },
+  "agences.pitch_mascot.img_alt": {
+    "t": "Bytie as a traveller",
+    "src": "Bytie en voyageur",
+    "status": "draft"
+  },
+  "agences.price_essai_kicker.p": {
+    "t": "Before you choose",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "agences.essai_title.h2": {
+    "t": "Trial · €0",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "agences.price_essai_lead.p": {
+    "t": "Your name on the design you just clicked. Live at a URL for 72&nbsp;h, to show it in a meeting.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "agences.price_essai_cta.a": {
+    "t": "Send 4 photos on WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "agences.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%20trial%20for%20my%20agency.%20Name%3A%20%5B%20%5D.%20Town%3A%20%5B%20%5D.%20Chosen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20agence.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "agences.pricing_title.h2": {
+    "t": "Pricing",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "agences.pricing_intro.p": {
+    "t": "Two doors: <strong>The Storefront</strong> (once), or <strong>We Hold the Door</strong> (we keep it current). Prices excl. VAT, 21&nbsp;% VAT on top.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "agences.price_card.h3": {
+    "t": "The Storefront",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "agences.price_card_amount.p": {
+    "t": "€1,990 <span>excl. VAT</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "agences.price_card_hint.p": {
+    "t": "One-off payment · online in 10 days · the site is yours",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "agences.price_card_list.li": {
+    "t": "The chosen design, under your name — 4 mobile pages",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_2": {
+    "t": "Services, proof, contact button",
+    "src": "Services, preuves, bouton contact",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_3": {
+    "t": "Google Business Profile",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_4": {
+    "t": "Going live + 3 months of hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "agences.price_card_badge.p": {
+    "t": "Most chosen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "agences.price_card.h3_2": {
+    "t": "We Hold the Door",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "agences.price_card_amount.p_2": {
+    "t": "€199 <span>excl. VAT / month</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "agences.price_card_hint.p_2": {
+    "t": "12 months · The Storefront included · then €99 excl. VAT / month",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_5": {
+    "t": "The Storefront included (as opposite)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_6": {
+    "t": "WhatsApp photo → site updated that evening",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_7": {
+    "t": "4 Google Business posts / month",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_8": {
+    "t": "Report: calls, clicks, contact requests",
+    "src": "Rapport&nbsp;: appels, clics, demandes de contact",
+    "status": "draft"
+  },
+  "agences.price_upsell_kicker.p": {
+    "t": "Then, if it’s working",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "agences.price_upsell_body.h3": {
+    "t": "The Empty Slot",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "agences.price_upsell_amount.p": {
+    "t": "+&nbsp;€290 <span>excl. VAT / month</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "agences.price_upsell_body.p": {
+    "t": "After 8 weeks of We Hold the Door. We target the leads you’re missing — Maps, reviews, Google Ads (ad budget on top). Total €489 excl. VAT / month.",
+    "src": "Après 8 semaines de On tient la porte. On vise les leads qui manquent — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "agences.pricing_note.p": {
+    "t": "€0 trial before you choose. Multilingual site included — you supply the copy, or we start from a translation you review.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "agences.pricing_own.p": {
+    "t": "After 12&nbsp;months of “We Hold the Door”, <strong>the site is yours.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "agences.cta_title.h2": {
+    "t": "12 min · we open your Google profile together",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "agences.cta_block.p": {
+    "t": "You see what a prospect sees tonight. Then we say whether a site is worth it.",
+    "src": "Vous voyez ce qu’un prospect voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "agences.cta_block_btn.a": {
+    "t": "Message us on WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "agences.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%2012%20minutes%20to%20open%20my%20Google%20profile%20together.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "agences.cta_block_hint.p": {
+    "t": "No brief. 4 photos. We call back the same day.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "ecommerce.meta.title": {
+    "t": "E-commerce designs — Fixbyte",
+    "src": "Designs e-commerce — Fixbyte",
+    "status": "draft"
+  },
+  "ecommerce.meta.description": {
+    "t": "Fixbyte designs for online shops and product launches. €0 trial: your name on the design. Catalogue, cart and conversion.",
+    "src": "Designs Fixbyte pour boutiques en ligne et lancements produit. Essai 0 € : votre nom sur le design. Catalogue, panier et conversion.",
+    "status": "draft"
+  },
+  "ecommerce.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, barbers, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "ecommerce.hero_badge.span": {
+    "t": "They judge on the product",
+    "src": "Il juge sur le produit",
+    "status": "draft"
+  },
+  "ecommerce.hero_scene.h1": {
+    "t": "They open three shops. They buy where the product already sells itself.",
+    "src": "Il ouvre trois boutiques. Il achète là où le produit se vend déjà.",
+    "status": "draft"
+  },
+  "ecommerce.hero_scene_action.p": {
+    "t": "Click a card: that’s what they see. Then we put your name on it.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "ecommerce.works_title.h2": {
+    "t": "E-commerce projects",
+    "src": "Projets e-commerce",
+    "status": "draft"
+  },
+  "ecommerce.pitch_title.h2": {
+    "t": "Why these designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.h3": {
+    "t": "The product, before the speech",
+    "src": "Le produit, avant le discours",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.p": {
+    "t": "Catalogue, prices, proof. A page that sells the item, not marketing jargon.",
+    "src": "Catalogue, prix, preuves. Une page qui vend l’article, pas un jargon marketing.",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.h3_2": {
+    "t": "Buy at a glance",
+    "src": "Acheter en un regard",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.p_2": {
+    "t": "A storefront to discover the product. A shop for cart, payment and delivery. The customer judges for themselves, then orders.",
+    "src": "Vitrine pour découvrir le produit. Boutique pour le panier, le paiement et la livraison. Le client juge sur pièce, puis commande.",
+    "status": "draft"
+  },
+  "ecommerce.pitch_mascot.img_alt": {
+    "t": "Bytie with shopping bags",
+    "src": "Bytie avec des sacs de shopping",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_kicker.p": {
+    "t": "Before you choose",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "ecommerce.essai_title.h2": {
+    "t": "Trial · €0",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_lead.p": {
+    "t": "Your name on the design you just clicked. Live at a URL for 72&nbsp;h, to show it in a meeting.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_cta.a": {
+    "t": "Send 4 photos on WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%20trial%20for%20my%20online%20shop.%20Name%3A%20%5B%20%5D.%20Town%3A%20%5B%20%5D.%20Chosen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20e-commerce.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_title.h2": {
+    "t": "Pricing",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "ecommerce.pricing_intro.p": {
+    "t": "Three doors: <strong>The Storefront</strong> (showcase), <strong>The Shop</strong> (online payment), or <strong>We Hold the Door</strong> (we keep it current). Prices excl. VAT, 21&nbsp;% VAT on top.",
+    "src": "Trois portes&nbsp;: <strong>L’Enseigne</strong> (vitrine), <strong>La Boutique</strong> (paiement en ligne), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3": {
+    "t": "The Storefront · Showcase",
+    "src": "L’Enseigne · Vitrine",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p": {
+    "t": "€1,990 <span>excl. VAT</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p": {
+    "t": "One-off payment · online in 10 days · the site is yours",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li": {
+    "t": "The chosen design, under your name — 4 mobile pages",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_2": {
+    "t": "Catalogue, contact, proof — without online payment",
+    "src": "Catalogue, contact, preuves — sans paiement en ligne",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_3": {
+    "t": "Google Business Profile",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_4": {
+    "t": "Going live + 3 months of hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3_2": {
+    "t": "We Hold the Door",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p_2": {
+    "t": "€199 <span>excl. VAT / month</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p_2": {
+    "t": "12 months · The Storefront included · then €99 excl. VAT / month",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_5": {
+    "t": "The Storefront showcase included (as opposite)",
+    "src": "L’Enseigne vitrine incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_6": {
+    "t": "WhatsApp photo → catalogue / contact updated that evening",
+    "src": "Photo WhatsApp → catalogue / contact à jour le soir",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_7": {
+    "t": "4 Google Business posts / month",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_8": {
+    "t": "Report: calls, clicks, enquiries",
+    "src": "Rapport&nbsp;: appels, clics, demandes",
+    "status": "draft"
+  },
+  "ecommerce.price_card_badge.p": {
+    "t": "Online payment",
+    "src": "Paiement en ligne",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3_3": {
+    "t": "The Shop",
+    "src": "La Boutique",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p_3": {
+    "t": "€3,990 <span>excl. VAT</span>",
+    "src": "3&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p_3": {
+    "t": "One-off payment · shop online in 3 weeks · the site is yours",
+    "src": "Paiement unique · boutique en ligne en 3 semaines · le site est à vous",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_9": {
+    "t": "Full shop: catalogue, cart, checkout",
+    "src": "Boutique complète&nbsp;: catalogue, panier, checkout",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_10": {
+    "t": "Online payment (Mollie / Stripe — your own account)",
+    "src": "Paiement en ligne (Mollie / Stripe — compte client)",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_11": {
+    "t": "Delivery, in-store pickup, emails &amp; order tracking",
+    "src": "Livraison, retrait en magasin, e-mails &amp; suivi commande",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_12": {
+    "t": "Up to 30 products imported · going live + 3 months of hosting",
+    "src": "Jusqu’à 30 produits importés · mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_kicker.p": {
+    "t": "Then, if it’s working",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_body.h3": {
+    "t": "The Empty Slot",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_amount.p": {
+    "t": "+&nbsp;€290 <span>excl. VAT / month</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_body.p": {
+    "t": "After 8 weeks of We Hold the Door. We target the sales you’re missing — Maps, reviews, Google Shopping / Ads (ad budget on top). Total €489 excl. VAT / month.",
+    "src": "Après 8 semaines de On tient la porte. On vise les ventes qui manquent — Maps, avis, Google Shopping / Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_note.p": {
+    "t": "€0 trial before you choose. The Shop includes the showcase. Multilingual site included — you supply the copy, or we start from a translation you review. More than 30 products on quote. Platform subscription (e.g. Shopify) and payment fees on top.",
+    "src": "Essai 0&nbsp;€ avant de choisir. La Boutique inclut la vitrine. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez. Produits au-delà de 30 sur devis. Abonnement plateforme (ex. Shopify) et frais de paiement en sus.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_own.p": {
+    "t": "After 12&nbsp;months of “We Hold the Door”, <strong>the site is yours.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "ecommerce.cta_title.h2": {
+    "t": "12 min · we open your Google profile together",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "ecommerce.cta_block.p": {
+    "t": "You see what a customer sees tonight. Then we say whether a site is worth it.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_btn.a": {
+    "t": "Message us on WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%2012%20minutes%20to%20open%20my%20Google%20profile%20together.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_hint.p": {
+    "t": "No brief. 4 photos. We call back the same day.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "entreprises.meta.title": {
+    "t": "Trade business designs — Fixbyte",
+    "src": "Designs entreprises — Fixbyte",
+    "status": "draft"
+  },
+  "entreprises.meta.description": {
+    "t": "Fixbyte designs for building and renovation firms. €0 trial: your name on the design. Craft, completed jobs and quotes.",
+    "src": "Designs Fixbyte pour entreprises de travaux et rénovation. Essai 0 € : votre nom sur le design. Savoir-faire, réalisations et devis.",
+    "status": "draft"
+  },
+  "entreprises.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, barbers, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "entreprises.hero_badge.span": {
+    "t": "They judge on the job site",
+    "src": "Il juge sur le chantier",
+    "status": "draft"
+  },
+  "entreprises.hero_scene.h1": {
+    "t": "Three quotes. They pick the one already showing the job site.",
+    "src": "Trois devis. Il choisit celui qui montre déjà le chantier.",
+    "status": "draft"
+  },
+  "entreprises.hero_scene_action.p": {
+    "t": "Click a card: that’s what they see. Then we put your name on it.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "entreprises.works_title.h2": {
+    "t": "Trade business projects",
+    "src": "Projets entreprises",
+    "status": "draft"
+  },
+  "entreprises.pitch_title.h2": {
+    "t": "Why these designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.h3": {
+    "t": "The craft, before the talk",
+    "src": "Le savoir-faire, avant le blabla",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.p": {
+    "t": "Services, completed jobs, service area. A page that shows the business, not a generic speech.",
+    "src": "Services, réalisations, zone d’intervention. Une page qui montre le business, pas un discours générique.",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.h3_2": {
+    "t": "A quote at a glance",
+    "src": "Devis en un regard",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.p_2": {
+    "t": "A readable offer, proof from the field, a contact button. The prospect judges for themselves, then calls.",
+    "src": "Offre lisible, preuves terrain, bouton contact. Le prospect juge sur pièce, puis appelle.",
+    "status": "draft"
+  },
+  "entreprises.pitch_mascot.img_alt": {
+    "t": "Bytie on the job site",
+    "src": "Bytie en entreprise",
+    "status": "draft"
+  },
+  "entreprises.price_essai_kicker.p": {
+    "t": "Before you choose",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "entreprises.essai_title.h2": {
+    "t": "Trial · €0",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "entreprises.price_essai_lead.p": {
+    "t": "Your name on the design you just clicked. Live at a URL for 72&nbsp;h, to show it in a meeting.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "entreprises.price_essai_cta.a": {
+    "t": "Send 4 photos on WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "entreprises.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%20trial%20for%20my%20company.%20Name%3A%20%5B%20%5D.%20Town%3A%20%5B%20%5D.%20Chosen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20entreprise.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "entreprises.pricing_title.h2": {
+    "t": "Pricing",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "entreprises.pricing_intro.p": {
+    "t": "Two doors: <strong>The Storefront</strong> (once), or <strong>We Hold the Door</strong> (we keep it current). Prices excl. VAT, 21&nbsp;% VAT on top.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "entreprises.price_card.h3": {
+    "t": "The Storefront",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "entreprises.price_card_amount.p": {
+    "t": "€1,990 <span>excl. VAT</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "entreprises.price_card_hint.p": {
+    "t": "One-off payment · online in 10 days · the site is yours",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li": {
+    "t": "The chosen design, under your name — 4 mobile pages",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_2": {
+    "t": "Services, completed jobs, contact button",
+    "src": "Services, réalisations, bouton contact",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_3": {
+    "t": "Google Business Profile",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_4": {
+    "t": "Going live + 3 months of hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "entreprises.price_card_badge.p": {
+    "t": "Most chosen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "entreprises.price_card.h3_2": {
+    "t": "We Hold the Door",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "entreprises.price_card_amount.p_2": {
+    "t": "€199 <span>excl. VAT / month</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "entreprises.price_card_hint.p_2": {
+    "t": "12 months · The Storefront included · then €99 excl. VAT / month",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_5": {
+    "t": "The Storefront included (as opposite)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_6": {
+    "t": "WhatsApp photo → site updated that evening",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_7": {
+    "t": "4 Google Business posts / month",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_8": {
+    "t": "Report: calls, clicks, quote requests",
+    "src": "Rapport&nbsp;: appels, clics, demandes de devis",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_kicker.p": {
+    "t": "Then, if it’s working",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_body.h3": {
+    "t": "The Empty Slot",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_amount.p": {
+    "t": "+&nbsp;€290 <span>excl. VAT / month</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_body.p": {
+    "t": "After 8 weeks of We Hold the Door. We target the leads you’re missing — Maps, reviews, Google Ads (ad budget on top). Total €489 excl. VAT / month.",
+    "src": "Après 8 semaines de On tient la porte. On vise les leads qui manquent — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "entreprises.pricing_note.p": {
+    "t": "€0 trial before you choose. Multilingual site included — you supply the copy, or we start from a translation you review.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "entreprises.pricing_own.p": {
+    "t": "After 12&nbsp;months of “We Hold the Door”, <strong>the site is yours.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "entreprises.cta_title.h2": {
+    "t": "12 min · we open your Google profile together",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "entreprises.cta_block.p": {
+    "t": "You see what a prospect sees tonight. Then we say whether a site is worth it.",
+    "src": "Vous voyez ce qu’un prospect voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "entreprises.cta_block_btn.a": {
+    "t": "Message us on WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "entreprises.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%2012%20minutes%20to%20open%20my%20Google%20profile%20together.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "entreprises.cta_block_hint.p": {
+    "t": "No brief. 4 photos. We call back the same day.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "mentions-legales.meta.title": {
+    "t": "Legal notice — Fixbyte",
+    "src": "Mentions légales — Fixbyte",
+    "status": "draft"
+  },
+  "mentions-legales.meta.description": {
+    "t": "Fixbyte legal notice: publisher, owner, contact, hosting and terms of use for studio.fixbyte.be.",
+    "src": "Mentions légales de Fixbyte : éditeur, propriétaire, contact, hébergement et conditions d’utilisation du site studio.fixbyte.be.",
+    "status": "draft"
+  },
+  "mentions-legales.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, barbers, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "mentions-legales.hero_badge.span": {
+    "t": "Legal information",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "mentions-legales.legal_hero.h1": {
+    "t": "Legal notice",
+    "src": "Mentions légales",
+    "status": "draft"
+  },
+  "mentions-legales.legal_hero_meta.p": {
+    "t": "Last updated: <time datetime=\"2026-08-27\">27 August 2026</time>",
+    "src": "Dernière mise à jour : <time datetime=\"2026-08-27\">27 août 2026</time>",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_notice.p": {
+    "t": "Informational text for this static site. The bracketed fields still need to be filled in. This is not legal advice.",
+    "src": "Texte d’information pour ce site statique. Les champs entre crochets doivent encore être complétés. Ce n’est pas un avis juridique.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2": {
+    "t": "Site publisher",
+    "src": "Éditeur du site",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p": {
+    "t": "The site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> (Fixbyte Studio) is published by and belongs to <a href=\"https://fixbyte.be\">Fixbyte</a>. Fixbyte Studio is a trading name of Fixbyte, not a separate legal entity. Fixbyte’s legal identity below still needs to be completed.",
+    "src": "Le site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> (Fixbyte Studio) est édité et appartient à <a href=\"https://fixbyte.be\">Fixbyte</a>. Fixbyte Studio est une enseigne commerciale de Fixbyte, pas une personne morale distincte. L’identité juridique de Fixbyte ci-dessous reste à compléter.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt": {
+    "t": "Owner / publisher",
+    "src": "Propriétaire / éditeur",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.a": {
+    "t": "Fixbyte",
+    "src": "Fixbyte",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_2": {
+    "t": "Trading name",
+    "src": "Enseigne",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd": {
+    "t": "Fixbyte Studio",
+    "src": "Fixbyte Studio",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_3": {
+    "t": "Owner’s website",
+    "src": "Site du propriétaire",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.a_2": {
+    "t": "fixbyte.be",
+    "src": "fixbyte.be",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_4": {
+    "t": "Registered name",
+    "src": "Raison sociale",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_2": {
+    "t": "[Registered name]",
+    "src": "[Raison sociale]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_5": {
+    "t": "Legal form",
+    "src": "Forme juridique",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_3": {
+    "t": "[Legal form]",
+    "src": "[Forme juridique]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_6": {
+    "t": "Registered address",
+    "src": "Adresse du siège",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_4": {
+    "t": "[Registered address]",
+    "src": "[Adresse du siège]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_7": {
+    "t": "CBE / KBO number",
+    "src": "N° BCE / KBO",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_5": {
+    "t": "[CBE / KBO number]",
+    "src": "[n° BCE / KBO]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_8": {
+    "t": "VAT number",
+    "src": "N° TVA",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_6": {
+    "t": "[VAT number BE…]",
+    "src": "[n° TVA BE…]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_2": {
+    "t": "Contact",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.li": {
+    "t": "WhatsApp: <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "src": "WhatsApp : <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.li_2": {
+    "t": "Email: [Email]",
+    "src": "E-mail : [Email]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_3": {
+    "t": "Hosting",
+    "src": "Hébergement",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_2": {
+    "t": "The site is hosted by GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, United States. Domain name: <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>.",
+    "src": "Le site est hébergé par GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, États-Unis. Nom de domaine : <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_4": {
+    "t": "Intellectual property",
+    "src": "Propriété intellectuelle",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_3": {
+    "t": "The texts, the logo, the Fixbyte and Fixbyte Studio marks, and the site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> belong to <a href=\"https://fixbyte.be\">Fixbyte</a> unless stated otherwise. Any unauthorised reproduction is prohibited.",
+    "src": "Les textes, le logo, les marques Fixbyte et Fixbyte Studio, ainsi que le site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>, appartiennent à <a href=\"https://fixbyte.be\">Fixbyte</a>, sauf mention contraire. Toute reproduction non autorisée est interdite.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_4": {
+    "t": "The previews shown are visual references. Some of them use third-party models (including Framer templates). Their authors remain the rights holders. It is not the file we deliver. Once a design is chosen, we rebuild it under your name (trial, then paid plan). Rights over the delivered site are those set out in the contract. We do not resell the original files.",
+    "src": "Les aperçus présentés sont des références visuelles. Une partie reprend des modèles tiers (dont des templates Framer). Leurs auteurs en restent titulaires. Ce n’est pas le fichier que nous livrons. Une fois un design choisi, nous le recréons à votre nom (essai, puis offre payante). Les droits sur le site livré sont ceux du contrat. Nous ne revendons pas les fichiers d’origine.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_5": {
+    "t": "The photos, logos and content you send us for a trial or an engagement remain yours. We use them solely to build and present your storefront.",
+    "src": "Les photos, logos et contenus que vous nous envoyez pour un essai ou une prestation restent les vôtres. Nous les utilisons uniquement pour réaliser et présenter votre enseigne.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_5": {
+    "t": "Liability",
+    "src": "Responsabilité",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_6": {
+    "t": "This site is a showcase of designs. The €0 trial is not a finished site: it is a time-limited preview, meant for judging.",
+    "src": "Ce site est une vitrine de designs. L’essai à 0&nbsp;€ n’est pas un site définitif : c’est un aperçu limité dans le temps, pour juger.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_7": {
+    "t": "We are not responsible for the content of external sites we link to (WhatsApp, Google Fonts, project previews). Access to those services is governed by their own terms.",
+    "src": "Nous ne sommes pas responsables du contenu des sites externes vers lesquels nous renvoyons (WhatsApp, Google Fonts, aperçus de réalisations). L’accès à ces services relève de leurs propres conditions.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_6": {
+    "t": "Governing law",
+    "src": "Droit applicable",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_8": {
+    "t": "This site is governed by Belgian law. In the event of a dispute, and failing an amicable settlement, the courts of the publisher’s registered office have jurisdiction — once the registered address above has been filled in.",
+    "src": "Le présent site est régi par le droit belge. En cas de litige, et à défaut d’accord amiable, les tribunaux du siège de l’éditeur sont compétents — une fois l’adresse du siège renseignée ci-dessus.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_next.p": {
+    "t": "See also: <a href=\"politique-confidentialite.html\" >Privacy policy</a >.",
+    "src": "Voir aussi : <a href=\"politique-confidentialite.html\" >Politique de confidentialité</a >.",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.title": {
+    "t": "Privacy policy — Fixbyte",
+    "src": "Politique de confidentialité — Fixbyte",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.description": {
+    "t": "Fixbyte Studio privacy policy: data collected, WhatsApp, cookies, GDPR rights and contact.",
+    "src": "Politique de confidentialité de Fixbyte Studio : données collectées, WhatsApp, cookies, droits RGPD et contact.",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.og_image_alt": {
+    "t": "Fixbyte Studio — web designs for restaurants, barbers, agencies and local business",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "politique-confidentialite.hero_badge.span": {
+    "t": "Legal information",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_hero.h1": {
+    "t": "Privacy policy",
+    "src": "Politique de confidentialité",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_hero_meta.p": {
+    "t": "Last updated: <time datetime=\"2026-08-26\">26 August 2026</time>",
+    "src": "Dernière mise à jour : <time datetime=\"2026-08-26\">26 août 2026</time>",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_notice.p": {
+    "t": "Informational text for this static site. The bracketed fields still need to be filled in. This is not legal advice.",
+    "src": "Texte d’information pour ce site statique. Les champs entre crochets doivent encore être complétés. Ce n’est pas un avis juridique.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2": {
+    "t": "Data controller",
+    "src": "Responsable du traitement",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p": {
+    "t": "The controller for data relating to <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> is Fixbyte Studio. The legal identity below still needs to be completed.",
+    "src": "Le responsable du traitement des données liées à <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> est Fixbyte Studio. L’identité juridique ci-dessous reste à compléter.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt": {
+    "t": "Registered name",
+    "src": "Raison sociale",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd": {
+    "t": "[Registered name]",
+    "src": "[Raison sociale]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_2": {
+    "t": "Legal form",
+    "src": "Forme juridique",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_2": {
+    "t": "[Legal form]",
+    "src": "[Forme juridique]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_3": {
+    "t": "Registered address",
+    "src": "Adresse du siège",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_3": {
+    "t": "[Registered address]",
+    "src": "[Adresse du siège]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_4": {
+    "t": "CBE / KBO number",
+    "src": "N° BCE / KBO",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_4": {
+    "t": "[CBE / KBO number]",
+    "src": "[n° BCE / KBO]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_5": {
+    "t": "VAT number",
+    "src": "N° TVA",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_5": {
+    "t": "[VAT number BE…]",
+    "src": "[n° TVA BE…]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li": {
+    "t": "WhatsApp: <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "src": "WhatsApp : <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_2": {
+    "t": "Email: [Email]",
+    "src": "E-mail : [Email]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_2": {
+    "t": "Data collected",
+    "src": "Données collectées",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_2": {
+    "t": "This site has no form, no account, no customer area. We collect nothing until you write to us.",
+    "src": "Ce site n’a pas de formulaire, pas de compte, pas d’espace client. Nous ne collectons rien tant que vous ne nous écrivez pas.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_3": {
+    "t": "If you contact us on WhatsApp, we receive what you send: name, number, photos, town, chosen design, and the content of the conversation.",
+    "src": "Si vous nous contactez sur WhatsApp, nous recevons ce que vous envoyez : nom, numéro, photos, commune, design choisi, et le contenu de la conversation.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_4": {
+    "t": "The host may record technical logs (IP address, browser, pages visited) in order to run the site.",
+    "src": "L’hébergeur peut enregistrer des journaux techniques (adresse IP, navigateur, pages consultées) pour faire fonctionner le site.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_3": {
+    "t": "Purposes and legal bases",
+    "src": "Finalités et bases légales",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_5": {
+    "t": "We use this data to:",
+    "src": "Nous utilisons ces données pour :",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_3": {
+    "t": "respond to your request and produce the trial or a quote (pre-contractual measures, art.&nbsp;6.1.b GDPR);",
+    "src": "répondre à votre demande et réaliser l’essai ou un devis (mesures précontractuelles, art.&nbsp;6.1.b du RGPD) ;",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_4": {
+    "t": "ensure the operation and security of the site (legitimate interest, art.&nbsp;6.1.f GDPR).",
+    "src": "assurer le fonctionnement et la sécurité du site (intérêt légitime, art.&nbsp;6.1.f du RGPD).",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_6": {
+    "t": "We do not sell your data. We do not send a newsletter.",
+    "src": "Nous ne vendons pas vos données. Nous n’envoyons pas de newsletter.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_4": {
+    "t": "Recipients",
+    "src": "Destinataires",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_5": {
+    "t": "WhatsApp / Meta Platforms: your messages pass through their servers, possibly outside the European Union.",
+    "src": "WhatsApp / Meta Platforms : vos messages transitent par leurs serveurs, éventuellement hors Union européenne.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_6": {
+    "t": "GitHub Pages (GitHub, Inc.): site hosting and access logs.",
+    "src": "GitHub Pages (GitHub, Inc.) : hébergement du site et journaux d’accès.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_7": {
+    "t": "Google Fonts: the browser loads the fonts from Google’s servers; your IP address is visible to them.",
+    "src": "Google Fonts : le navigateur charge les polices depuis les serveurs de Google ; votre adresse IP leur est visible.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_5": {
+    "t": "Retention period",
+    "src": "Durée de conservation",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_7": {
+    "t": "WhatsApp enquiries: for the duration of the quote or the trial, then deleted within a reasonable period, unless a legal obligation applies (invoicing, dispute).",
+    "src": "Demandes WhatsApp : le temps du devis ou de l’essai, puis suppression dans un délai raisonnable, sauf obligation légale (facturation, litige).",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_8": {
+    "t": "Hosting logs: according to GitHub Pages’ policy.",
+    "src": "Journaux d’hébergement : selon la politique de GitHub Pages.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_6": {
+    "t": "Cookies",
+    "src": "Cookies",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_9": {
+    "t": "We set no first-party cookies. No trackers, no advertising, no <code>localStorage</code> on our side. No consent banner: we use no non-essential cookies.",
+    "src": "Nous ne déposons pas de cookies first-party. Pas de tracker, pas de publicité, pas de <code>localStorage</code> de notre part. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_10": {
+    "t": "Third parties: Google Fonts (Google CDN), as noted above.",
+    "src": "Tiers : Google Fonts (CDN Google), comme indiqué ci-dessus.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_7": {
+    "t": "Your rights",
+    "src": "Vos droits",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_11": {
+    "t": "You may request access to, rectification of, erasure of, restriction of or object to the processing of your data. Write to us on WhatsApp or at [Email].",
+    "src": "Vous pouvez demander l’accès, la rectification, l’effacement, la limitation ou l’opposition au traitement de vos données. Écrivez-nous sur WhatsApp ou à [Email].",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_12": {
+    "t": "You may also lodge a complaint with the Data Protection Authority (Belgium): <a href=\"https://www.autoriteprotectiondonnees.be/\" target=\"_blank\" rel=\"noopener noreferrer\" >autoriteprotectiondonnees.be</a >.",
+    "src": "Vous pouvez aussi déposer une réclamation auprès de l’Autorité de protection des données (Belgique) : <a href=\"https://www.autoriteprotectiondonnees.be/\" target=\"_blank\" rel=\"noopener noreferrer\" >autoriteprotectiondonnees.be</a >.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_8": {
+    "t": "Updates",
+    "src": "Mise à jour",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_13": {
+    "t": "This policy may be adapted if the site changes. The date at the top of the page prevails.",
+    "src": "Cette politique peut être adaptée si le site change. La date en tête de page fait foi.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_next.p": {
+    "t": "See also: <a href=\"mentions-legales.html\">Legal notice</a>.",
+    "src": "Voir aussi : <a href=\"mentions-legales.html\">Mentions légales</a>.",
+    "status": "draft"
+  },
+  "404.meta.title": {
+    "t": "Page not found — Fixbyte",
+    "src": "Page introuvable — Fixbyte",
+    "status": "draft"
+  },
+  "404.meta.description": {
+    "t": "This page doesn’t exist or has moved. Head back to the Fixbyte Studio home page.",
+    "src": "Cette page n’existe pas ou a été déplacée. Retournez à l’accueil Fixbyte Studio.",
+    "status": "draft"
+  },
+  "404.error_page.h1": {
+    "t": "Page not found",
+    "src": "Page introuvable",
+    "status": "draft"
+  },
+  "404.error_page.p": {
+    "t": "This address doesn’t exist, or the page has moved. Go back home, or open a design by trade.",
+    "src": "Cette adresse n’existe pas, ou la page a été déplacée. Revenez à l’accueil, ou ouvrez un design par métier.",
+    "status": "draft"
+  },
+  "404.cta_block_btn.a": {
+    "t": "Back to home",
+    "src": "Retour à l’accueil",
+    "status": "draft"
+  },
+  "404.error_page_links.a": {
+    "t": "Restaurants",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "404.error_page_links.a_2": {
+    "t": "Barbers",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "404.error_page_links.a_3": {
+    "t": "Agencies",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "404.error_page_links.a_4": {
+    "t": "Trades",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "404.error_page_links.a_5": {
+    "t": "Cafés",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "404.error_page_links.a_6": {
+    "t": "E-commerce",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "header.brand.a_aria_label": {
+    "t": "FixByte Studio",
+    "src": "FixByte Studio",
+    "status": "draft"
+  },
+  "header.site_nav.nav_aria_label": {
+    "t": "Main navigation",
+    "src": "Navigation principale",
+    "status": "draft"
+  },
+  "header.site_nav_link.a": {
+    "t": "Restaurants",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_2": {
+    "t": "Barbers",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_3": {
+    "t": "Agencies",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_4": {
+    "t": "Trades",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_5": {
+    "t": "Cafés",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_6": {
+    "t": "E-commerce",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "header.site_header_cta.a": {
+    "t": "€0 trial",
+    "src": "Essai 0&nbsp;€",
+    "status": "draft"
+  },
+  "header.site_header_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hello%2C%20I%27d%20like%20the%20Fixbyte%20trial.%20Name%3A%20%5B%20%5D.%20Town%3A%20%5B%20%5D.%20Business%3A%20%5B%20%5D.%20Chosen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Business%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "footer.footer_logo.a_aria_label": {
+    "t": "FixByte Studio",
+    "src": "FixByte Studio",
+    "status": "draft"
+  },
+  "footer.footer_slogan.blockquote": {
+    "t": "€0 trial. Your name online in 72&nbsp;h.",
+    "src": "Essai 0&nbsp;€. Votre enseigne en 72&nbsp;h.",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_aria_label": {
+    "t": "Contact",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p": {
+    "t": "Contact",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_2_aria_label": {
+    "t": "Content",
+    "src": "Contenu",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p_2": {
+    "t": "Content",
+    "src": "Contenu",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a": {
+    "t": "Home",
+    "src": "Accueil",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_2": {
+    "t": "Restaurants",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_3": {
+    "t": "Barbers",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_4": {
+    "t": "Agencies",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_5": {
+    "t": "Trades",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_6": {
+    "t": "Cafés",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_7": {
+    "t": "E-commerce",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_3_aria_label": {
+    "t": "Legal information",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p_3": {
+    "t": "Legal",
+    "src": "Legal",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_8": {
+    "t": "Legal notice",
+    "src": "Mentions légales",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_9": {
+    "t": "Privacy policy",
+    "src": "Politique de confidentialité",
+    "status": "draft"
+  },
+  "footer.footer_meta.p": {
+    "t": "© <span id=\"year\"></span> <a href=\"https://fixbyte.be\" data-copyright></a>. All rights reserved.",
+    "src": "© <span id=\"year\"></span> <a href=\"https://fixbyte.be\" data-copyright></a>. Tous droits réservés.",
+    "status": "draft"
+  },
+  "switcher.aria_label": {
+    "t": "Choose a language",
+    "src": "Choisir la langue",
+    "status": "draft"
+  },
+  "data.restaurants.pizzaro_fixbyte_dev.description": {
+    "t": "For a pizzeria that lives on orders, not tablecloths.",
+    "src": "Pour une pizzeria qui vit de la commande, pas du nappe.",
+    "status": "draft"
+  },
+  "data.restaurants.foodee_fixbyte_framer_website.description": {
+    "t": "For a neighbourhood spot people come back to on a Tuesday.",
+    "src": "Pour une table de quartier où l’on revient le mardi.",
+    "status": "draft"
+  },
+  "data.restaurants.fixbyte_umami_framer_website.description": {
+    "t": "For a place you book, not one that explains itself.",
+    "src": "Pour une table qui se réserve, pas qui s’explique.",
+    "status": "draft"
+  },
+  "data.restaurants.savaro_fixbyte_framer_website.description": {
+    "t": "For a room people come to for the evening, not the lunch special.",
+    "src": "Pour une salle où l’on vient pour le soir, pas pour le plat du jour.",
+    "status": "draft"
+  },
+  "data.restaurants.pastora_fixbyte_framer_website.description": {
+    "t": "For a neighbourhood house: short menu, clear address.",
+    "src": "Pour une maison de quartier : menu court, adresse claire.",
+    "status": "draft"
+  },
+  "data.restaurants.restro_fixbyte_framer_website.description": {
+    "t": "For a restaurant that wants to show the room before the menu.",
+    "src": "Pour un resto qui veut montrer la salle avant la carte.",
+    "status": "draft"
+  },
+  "data.restaurants.lebellagio_fixbyte_dev.description": {
+    "t": "For a country table: menu, booking, takeaway.",
+    "src": "Pour une table de province : carte, réservation, à emporter.",
+    "status": "draft"
+  },
+  "data.restaurants.retro_resto_vercel_app.description": {
+    "t": "For a restaurant betting on atmosphere before the menu.",
+    "src": "Pour un resto qui mise sur l’ambiance avant la carte.",
+    "status": "draft"
+  },
+  "data.barbiers.bxl_barbers_fixbyte_framer_website.description": {
+    "t": "For a Brussels shop where the style shows straight away.",
+    "src": "Pour un shop bruxellois où le style se voit d’entrée.",
+    "status": "draft"
+  },
+  "data.barbiers.baron_fixbyte_framer_website.description": {
+    "t": "For a classic barbershop: clear booking, no waffle.",
+    "src": "Pour un salon classique : rendez-vous clair, pas de blabla.",
+    "status": "draft"
+  },
+  "data.barbiers.hairloom_fixbyte_framer_website.description": {
+    "t": "For a neighbourhood shop where the chair gets booked.",
+    "src": "Pour un salon de quartier où le fauteuil se booke.",
+    "status": "draft"
+  },
+  "data.barbiers.salox_fixbyte_framer_website.description": {
+    "t": "For a shop judged at the neckline, not on the logo.",
+    "src": "Pour une enseigne qui se juge à la nuque, pas au logo.",
+    "status": "draft"
+  },
+  "data.barbiers.otissons_framer_website.description": {
+    "t": "For a shop where the welcome counts as much as the cut.",
+    "src": "Pour un salon où l’accueil compte autant que la coupe.",
+    "status": "draft"
+  },
+  "data.barbiers.barbershop_framer_website.description": {
+    "t": "For a shop that owns the classics without being stuffy.",
+    "src": "Pour un shop qui assume le classique sans être coincé.",
+    "status": "draft"
+  },
+  "data.barbiers.therazorbrothers_framer_website.description": {
+    "t": "For two barbers, one standard.",
+    "src": "Pour deux barbiers, une même exigence.",
+    "status": "draft"
+  },
+  "data.barbiers.dallas_brb_fixbyte_framer_website.description": {
+    "t": "For a Brussels barbershop, visible before the chair.",
+    "src": "Pour un salon bruxellois, visible avant le fauteuil.",
+    "status": "draft"
+  },
+  "data.barbiers.clipster_framer_website.description": {
+    "t": "For a modern shop where booking takes one click.",
+    "src": "Pour un shop moderne où le rendez-vous se prend en un clic.",
+    "status": "draft"
+  },
+  "data.agences.monetra_fixbyte_framer_website.description": {
+    "t": "For a clear digital offer: services, trust, getting in touch.",
+    "src": "Pour une offre digitale claire : services, confiance, prise de contact.",
+    "status": "draft"
+  },
+  "data.agences.educatix_framer_website.description": {
+    "t": "For an institution that must convince parents and students in one scroll.",
+    "src": "Pour une institution qui doit convaincre parents et élèves en un scroll.",
+    "status": "draft"
+  },
+  "data.agences.faculty_fixbyte_framer_website.description": {
+    "t": "For a school selling programmes, mentors and proof before the form.",
+    "src": "Pour une école qui vend programmes, mentors et preuves avant le formulaire.",
+    "status": "draft"
+  },
+  "data.agences.alktravel_fixbyte_dev.description": {
+    "t": "For a travel agency: destinations, tours, contact at a glance.",
+    "src": "Pour une agence de voyages : destinations, tours, contact en un regard.",
+    "status": "draft"
+  },
+  "data.agences.constantine_framer_ai.description": {
+    "t": "For a creative portfolio: work, services, contact without waffle.",
+    "src": "Pour un portfolio créatif : travaux, services, contact sans blabla.",
+    "status": "draft"
+  },
+  "data.agences.op_fixbyte_us_framer_website.description": {
+    "t": "For a digital studio: offer, process, proof before the quote.",
+    "src": "Pour une studio digitale : offre, process, preuves avant le devis.",
+    "status": "draft"
+  },
+  "data.agences.paylytix_bytefix_framer_website.description": {
+    "t": "For a finance offer: services, pricing, a clear way to get in touch.",
+    "src": "Pour une offre finance : services, tarifs, prise de contact claire.",
+    "status": "draft"
+  },
+  "data.agences.job_consulting_vercel_app.description": {
+    "t": "For a recruitment firm: services, process, booking a meeting.",
+    "src": "Pour un cabinet de recrutement : services, parcours, prise de RDV.",
+    "status": "draft"
+  },
+  "data.agences.x_axis_fixbyte_framer_website.description": {
+    "t": "For a creative tech agency: work, skills, contact in one scroll.",
+    "src": "Pour une agence créative tech : works, skills, contact en un scroll.",
+    "status": "draft"
+  },
+  "data.agences.ascent_fixbyte_framer_website.description": {
+    "t": "For a travel agency: destinations, tours, booking front and centre.",
+    "src": "Pour une agence de voyages : destinations, tours, réservation visible.",
+    "status": "draft"
+  },
+  "data.agences.travelio_fixbyte_framer_website.description": {
+    "t": "For a premium travel agency: itineraries, proof, planning.",
+    "src": "Pour une agence voyage premium : itinéraires, preuves, planifier.",
+    "status": "draft"
+  },
+  "data.agences.moveex_framer_website.description": {
+    "t": "For B2B logistics: services, tracking, professional contact.",
+    "src": "Pour une logistique B2B : services, tracking, contact professionnel.",
+    "status": "draft"
+  },
+  "data.agences.baliva_byte_framer_website.description": {
+    "t": "For a niche travel agency: clear offer, process, planning the trip.",
+    "src": "Pour une agence voyage niche : offre claire, process, planifier le séjour.",
+    "status": "draft"
+  },
+  "data.entreprises.vsconcepts_fr.description": {
+    "t": "Outdoor landscaping firm: terraces, driveways, asphalt, fencing and masonry in Bordeaux.",
+    "src": "Entreprise d’aménagement extérieur : terrasses, allées, enrobés, clôtures, maçonnerie à Bordeaux.",
+    "status": "draft"
+  },
+  "data.entreprises.skyrenov38_fr.description": {
+    "t": "Renovation firm: walls, painting, plasterboard and façades in Grenoble and the Isère.",
+    "src": "Entreprise de rénovation : murs, peinture, placo, façade à Grenoble et en Isère.",
+    "status": "draft"
+  },
+  "data.cafes.cg_fixbyte_framer_website.description": {
+    "t": "For a neighbourhood café: coffee, breakfast, clear hours.",
+    "src": "Pour un café de quartier : café, petit-déj, horaires clairs.",
+    "status": "draft"
+  },
+  "data.cafes.bakeri_fixbyte_framer_website.description": {
+    "t": "For a bakery that sells the croissant before the speech.",
+    "src": "Pour une boulangerie qui vend le croissant avant le discours.",
+    "status": "draft"
+  },
+  "data.cafes.bakery_co_wbs_framer_website.description": {
+    "t": "For an artisan house: bread of the day, baking times, address.",
+    "src": "Pour une maison artisanale : pain du jour, fournées, adresse.",
+    "status": "draft"
+  },
+  "data.cafes.ovena_framer_ai.description": {
+    "t": "For a patisserie that shows the cakes before the menu.",
+    "src": "Pour une pâtisserie qui montre les gâteaux avant la carte.",
+    "status": "draft"
+  },
+  "data.cafes.loafly_fixbyte_framer_website.description": {
+    "t": "For a bakery that puts the bread at the centre of the page.",
+    "src": "Pour une boulangerie qui met le pain au centre de la page.",
+    "status": "draft"
+  },
+  "data.cafes.mng_bx_fixbyte_framer_website.description": {
+    "t": "For a neighbourhood bakehouse: bread, pastries, coffee.",
+    "src": "Pour un bakehouse de voisinage : pain, viennoiserie, café.",
+    "status": "draft"
+  },
+  "data.cafes.bakehub_framer_website.description": {
+    "t": "For a shop pushing click & collect and orders.",
+    "src": "Pour une boutique qui pousse le click & collect et les commandes.",
+    "status": "draft"
+  },
+  "data.ecommerce.uncover_fixbyte_framer_website.description": {
+    "t": "For a tech shop: categories, best-sellers, cart in one scroll.",
+    "src": "Pour une boutique tech : catégories, best-sellers, panier en un scroll.",
+    "status": "draft"
+  },
+  "data.ecommerce.minna_fixbyte_framer_website.description": {
+    "t": "For online fashion: collections, prices, buy now.",
+    "src": "Pour une mode en ligne : collections, prix, achat immédiat.",
+    "status": "draft"
+  },
+  "data.ecommerce.ferea_fixbyte_framer_website_menu.description": {
+    "t": "For a coffee menu / shop: products, prices, a clear order.",
+    "src": "Pour une carte café / shop : produits, prix, commande claire.",
+    "status": "draft"
+  },
+  "data.ecommerce.maxaura_fixbyte_framer_website.description": {
+    "t": "For a product launch: features, proof, pre-order.",
+    "src": "Pour un lancement produit : features, preuves, précommande.",
+    "status": "draft"
+  }
+}

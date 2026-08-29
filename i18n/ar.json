@@ -1,0 +1,2582 @@
+{
+  "index.meta.title": {
+    "t": "Fixbyte — تصاميم",
+    "src": "Fixbyte — Designs",
+    "status": "draft"
+  },
+  "index.meta.description": {
+    "t": "مواقع واجهة للمطاعم والوكالات والشركات والحلاقين والمقاهي والمخابز والتجارة الإلكترونية. تجربة بـ 0 €: اسمك على التصميم. تصفّح تصاميم Fixbyte.",
+    "src": "Vitrines pour restaurants, agences, entreprises, barbiers, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte.",
+    "status": "draft"
+  },
+  "index.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, agences et commerces",
+    "status": "draft"
+  },
+  "ui.wa_label": {
+    "t": "راسلنا على WhatsApp",
+    "src": "Écrire sur WhatsApp",
+    "status": "draft"
+  },
+  "ui.wa_tip": {
+    "t": "راسلنا على WhatsApp",
+    "src": "Écrivez-nous sur WhatsApp",
+    "status": "draft"
+  },
+  "ui.grid_empty": {
+    "t": "لا توجد مشاريع بعد.",
+    "src": "Aucun projet pour le moment.",
+    "status": "draft"
+  },
+  "ui.grid_error": {
+    "t": "تعذّر تحميل المشاريع في الوقت الحالي.",
+    "src": "Impossible de charger les projets pour le moment.",
+    "status": "draft"
+  },
+  "ui.card_fallback": {
+    "t": "افتح التصميم",
+    "src": "Ouvrir le design",
+    "status": "draft"
+  },
+  "index.hero_mascot.img_alt": {
+    "t": "Bytie، تميمة Fixbyte",
+    "src": "Bytie, mascotte Fixbyte",
+    "status": "draft"
+  },
+  "index.hero_mascot_quote.blockquote": {
+    "t": "يا معلّم. نحن مفتوحون، لكن لا أحد يجدنا.",
+    "src": "Patron. On est ouvert, mais introuvable.",
+    "status": "draft"
+  },
+  "index.hero_badge.span": {
+    "t": "لست مضطرًا لتصديقنا.",
+    "src": "Pas besoin d’y croire.",
+    "status": "draft"
+  },
+  "index.hero_copy.h1": {
+    "t": "تختار تصميمًا، نضع عليه اسم محلّك، وتستلم الرابط.",
+    "src": "Tu choisis un design, on y met ton enseigne, tu reçois le lien.",
+    "status": "draft"
+  },
+  "index.lead.p": {
+    "t": "لا مدير مشروع. ليس موقع الجار بالذكاء الاصطناعي. 72&nbsp;ساعة للحسم.",
+    "src": "Pas de chef de projet. Pas le site IA du voisin. 72&nbsp;h pour trancher.",
+    "status": "draft"
+  },
+  "index.hero_pitch.div_aria_label": {
+    "t": "لماذا Fixbyte",
+    "src": "Pourquoi Fixbyte",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span": {
+    "t": "انظر أولًا",
+    "src": "Regardez d’abord",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p": {
+    "t": "تصفّح أعمالنا وتصاميمنا. تحكم على الشاشة، لا على عرض سعر.",
+    "src": "Parcourez nos réalisations et designs. Vous jugez sur l’écran, pas sur un devis.",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span_2": {
+    "t": "جرّبه باسم محلّك",
+    "src": "Essayez avec votre enseigne",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p_2": {
+    "t": "تجربة 0&nbsp;€، 72&nbsp;ساعة. نحن نكيّفه. أنت تجرّبه وتقرّر.",
+    "src": "Essai 0&nbsp;€, 72&nbsp;h. On l’adapte. Vous le testez et décidez.",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span_3": {
+    "t": "نُبقي الباب مفتوحًا",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p_3": {
+    "t": "تطلب مساءً. يكون على الإنترنت صباحًا. دون أخذ وردّ.",
+    "src": "Vous demandez le soir. C’est en ligne au matin. Sans aller-retour.",
+    "status": "draft"
+  },
+  "index.hero_badge.span_2": {
+    "t": "الأعمال",
+    "src": "Business",
+    "status": "draft"
+  },
+  "index.hub_title.h2": {
+    "t": "عملك أنت. التصاميم جاهزة، والحكم لك.",
+    "src": "Ton business. Des designs déjà là, tu juges.",
+    "status": "draft"
+  },
+  "index.lead.p_2": {
+    "t": "تفتح، تنقر، ترى. ليس خطابًا.",
+    "src": "Tu ouvres, tu cliques, tu vois. Pas un discours.",
+    "status": "draft"
+  },
+  "index.hub_card.h3": {
+    "t": "مطاعم",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "index.hub_card.p": {
+    "t": "الثلاثاء، 20:00. شخص على بعد 400&nbsp;م جائع. يجدك أنت — أو الطاولة المجاورة.",
+    "src": "Mardi 20&nbsp;h. Quelqu’un à 400m a faim. Il vous trouve — ou la table d’à côté.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span": {
+    "t": "شاهد التصاميم ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_2": {
+    "t": "مقاهٍ &amp; مخابز",
+    "src": "Cafés &amp; boulangeries",
+    "status": "draft"
+  },
+  "index.hub_card.p_2": {
+    "t": "07:40، يبحث عن «&nbsp;مفتوح الآن&nbsp;». لا عن شعارك. بل عن التوقيت الصحيح.",
+    "src": "7&nbsp;h&nbsp;40, il cherche «&nbsp;ouvert maintenant&nbsp;». Pas votre logo. L’horaire juste.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_2": {
+    "t": "شاهد التصاميم ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_3": {
+    "t": "وكالات",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "index.hub_card.p_3": {
+    "t": "يقارن 4 عروض عند الإشارة الحمراء. عرضك يجب أن يفوز دون خطاب.",
+    "src": "Il compare 4 offres au feu rouge. La vôtre doit gagner sans pitch.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_3": {
+    "t": "شاهد التصاميم ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_4": {
+    "t": "تجارة إلكترونية",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "index.hub_card.p_4": {
+    "t": "ثلاث علامات تبويب مفتوحة. يشتري حيث يبيع المنتج نفسه بالفعل — دون شرح.",
+    "src": "Trois onglets ouverts. Il achète là où le produit se vend déjà — sans brief.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_4": {
+    "t": "شاهد التصاميم ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_5": {
+    "t": "حلاقون",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "index.hub_card.p_5": {
+    "t": "السبت، 10:00. ذلك الكرسي الفارغ زبون اختار الصالون الآخر على Maps.",
+    "src": "Samedi 10&nbsp;h. Le fauteuil vide, c’est un client qui a choisi l’autre salon sur Maps.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_5": {
+    "t": "شاهد التصاميم ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_6": {
+    "t": "شركات",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "index.hub_card.p_6": {
+    "t": "ثلاثة عروض. يختار عرض من يُظهر الورشة أصلًا.",
+    "src": "Trois devis. Il choisit celui qui montre déjà le chantier.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_6": {
+    "t": "شاهد التصاميم ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.cta_title.h2": {
+    "t": "تجربة · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "index.cta_block.p": {
+    "t": "ترسل 4 صور. نضع عليه اسم محلّك. 72&nbsp;ساعة لعرضه في المحل.",
+    "src": "Tu envoies 4 photos. On y met l’enseigne. 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "index.cta_block_btn.a": {
+    "t": "أرسل 4 صور عبر WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "index.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20Fixbyte.%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9%3A%20%5B%20%5D.%20%D8%A7%D9%84%D9%86%D8%B4%D8%A7%D8%B7%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%3A%20%5B%D8%B1%D8%A7%D8%A8%D8%B7%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Business%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "index.cta_block_hint.p": {
+    "t": "دون شرح مسبق. نعاود الاتصال في نفس اليوم.",
+    "src": "Pas de brief. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "index.faq_mascot.img_alt": {
+    "t": "Bytie، تميمة Fixbyte، وإصبعه على صدغه",
+    "src": "Bytie, mascotte Fixbyte, doigt à la tempe",
+    "status": "draft"
+  },
+  "index.faq_title.h2": {
+    "t": "أسئلة تصلنا كثيرًا",
+    "src": "Questions qu’on reçoit souvent",
+    "status": "draft"
+  },
+  "index.faq_list.summary": {
+    "t": "هل تجربة الـ 0&nbsp;€ مجانية فعلًا؟",
+    "src": "L’essai à 0&nbsp;€, c’est vraiment gratuit&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p": {
+    "t": "نعم. نسخة من التصميم الذي اخترته باسمك، ورابط مباشر لمدة 72&nbsp;ساعة، عبر WhatsApp (4 صور). دون بطاقة ودون فخّ. ليس موقعًا نهائيًا — فقط ما يكفي للحكم عليه في المحل.",
+    "src": "Oui. Clone du design choisi avec votre nom, URL live 72&nbsp;h, via WhatsApp (4 photos). Pas de carte, pas de piège. Ce n’est pas un site définitif — juste de quoi juger en salle.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_2": {
+    "t": "ماذا يحدث بعد 72&nbsp;ساعة؟",
+    "src": "Que se passe-t-il après 72&nbsp;h&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_2": {
+    "t": "تنتهي المعاينة. أنت تختار: نتوقّف، أو ننتقل إلى صيغة مدفوعة. لا خصم تلقائي إطلاقًا.",
+    "src": "L’aperçu expire. Vous choisissez&nbsp;: on s’arrête, ou on passe à une offre payante. Aucun débit automatique.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_3": {
+    "t": "كم يكلّف بعد ذلك؟",
+    "src": "Combien ça coûte ensuite&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_3": {
+    "t": "طريقان: <strong>اللافتة</strong> — 1٬990&nbsp;€ دون ضريبة، مرة واحدة · <strong>نُبقي الباب مفتوحًا</strong> — 199&nbsp;€ دون ضريبة شهريًا لمدة 12 شهرًا، ثم 99&nbsp;€ دون ضريبة شهريًا. ضريبة 21&nbsp;% إضافية. البطاقات التفصيلية موجودة في كل صفحة نشاط.",
+    "src": "Deux chemins&nbsp;: <strong>L’Enseigne</strong> — 1&nbsp;990&nbsp;€&nbsp;HT une fois · <strong>On tient la porte</strong> — 199&nbsp;€&nbsp;HT / mois pendant 12 mois, puis 99&nbsp;€&nbsp;HT / mois. TVA 21&nbsp;% en sus. Les cartes détaillées sont sur chaque page business.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_4": {
+    "t": "هل المعاينات من تصاميمكم؟",
+    "src": "Les aperçus, c’est vos designs&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_4": {
+    "t": "معظمها نعم. تحكم على المعاينة. وبعد الاختيار نعيد بناءه باسم محلّك — وفي بعض الحالات لا نسلّم الملف الأصلي.",
+    "src": "La majorité oui. Vous jugez sur l’aperçu. Une fois choisi, on le refait à votre enseigne — dans certains cas ce n’est pas le fichier d’origine que l’on livre.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_5": {
+    "t": "اللافتة أم نُبقي الباب مفتوحًا — كيف أختار؟",
+    "src": "L’Enseigne ou On tient la porte — comment choisir&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_5": {
+    "t": "اللافتة: بابك على الإنترنت خلال أسبوعين تقريبًا، ثم تديره أنت. نُبقي الباب مفتوحًا (موصى به): الموقع نفسه + صورة عبر WhatsApp ← تحديث في المساء نفسه + منشورات Google.",
+    "src": "L’Enseigne&nbsp;: la porte en ligne en ~2 semaines, vous gérez ensuite. On tient la porte (recommandé)&nbsp;: le même site + photo WhatsApp → mise à jour le soir + posts Google.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_6": {
+    "t": "هل الموقع ملكي؟",
+    "src": "Le site m’appartient&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_6": {
+    "t": "نعم — عند تسليم اللافتة، أو بعد 12 شهرًا من نُبقي الباب مفتوحًا. بعدها يمكن الاكتفاء بالاستضافة: 29&nbsp;€ دون ضريبة شهريًا.",
+    "src": "Oui — à la livraison de L’Enseigne, ou après 12 mois de On tient la porte. Hébergement seul possible ensuite&nbsp;: 29&nbsp;€&nbsp;HT / mois.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_7": {
+    "t": "ماذا يجب أن أرسل للبدء؟",
+    "src": "Qu’est-ce que je dois envoyer pour démarrer&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_7": {
+    "t": "التجربة: 4 صور + الاسم + البلدية + رابط التصميم، عبر WhatsApp. الصيغة المدفوعة: النصوص والصور والوصول؛ جولة تعديلات واحدة مشمولة مع اللافتة.",
+    "src": "Essai&nbsp;: 4 photos + nom + commune + lien du design sur WhatsApp. Offre payante&nbsp;: textes, photos, accès&nbsp;; un tour de retours inclus avec L’Enseigne.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_8": {
+    "t": "هل تديرون Google / Maps أيضًا؟",
+    "src": "Vous gérez aussi Google / Maps&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_8": {
+    "t": "ملف النشاط التجاري على Google مع اللافتة؛ والمنشورات والتقييمات مع نُبقي الباب مفتوحًا. «&nbsp;الموعد الفارغ&nbsp;» (+ 290&nbsp;€ دون ضريبة شهريًا) بعد 8 أسابيع فقط، إن أردت الإعلانات ودفعة محلية.",
+    "src": "Fiche Google Business avec L’Enseigne&nbsp;; posts et avis avec On tient la porte. «&nbsp;Le créneau vide&nbsp;» (+ 290&nbsp;€&nbsp;HT / mois) seulement après 8 semaines, si vous voulez Ads et poussée locale.",
+    "status": "draft"
+  },
+  "restaurant.meta.title": {
+    "t": "تصاميم للمطاعم — Fixbyte",
+    "src": "Designs restaurants — Fixbyte",
+    "status": "draft"
+  },
+  "restaurant.meta.description": {
+    "t": "تصاميم Fixbyte للمطاعم. تجربة بـ 0 €: اسمك على التصميم. Pizzaro وUmami وSavaro ومعاينات أخرى قابلة للنقر.",
+    "src": "Designs Fixbyte pour restaurants. Essai 0 € : votre nom sur le design. Pizzaro, Umami, Savaro et autres aperçus cliquables.",
+    "status": "draft"
+  },
+  "restaurant.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والحلاقين والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "restaurant.hero_badge.span": {
+    "t": "مساء الثلاثاء",
+    "src": "Mardi soir",
+    "status": "draft"
+  },
+  "restaurant.hero_scene.h1": {
+    "t": "عند الساعة 20:00 يفتح Uber Eats. هناك أنت مجرّد مربّع. موقعك أنت هو الطاولة.",
+    "src": "À 20&nbsp;h il ouvre Uber Eats. T’es une case. Ton site, c’est la table.",
+    "status": "draft"
+  },
+  "restaurant.hero_scene_action.p": {
+    "t": "انقر على بطاقة: هذا ما يراه. ثم نضع عليه اسمك.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "restaurant.works_title.h2": {
+    "t": "مشاريع المطاعم",
+    "src": "Projets restaurants",
+    "status": "draft"
+  },
+  "restaurant.pitch_title.h2": {
+    "t": "لماذا هذه التصاميم",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.h3": {
+    "t": "ليس كتالوجًا",
+    "src": "Pas un catalogue",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.p": {
+    "t": "طاولة الساعة 21:00، ممتلئة في ذهنه سلفًا. صور وقائمة وزر حجز — ما يلزم قبل أول اتصال.",
+    "src": "La table de 21&nbsp;h, déjà pleine dans sa tête. Photos, menu, bouton réserver — ce qu’il faut avant le premier appel.",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.h3_2": {
+    "t": "أنت تنقر، أنت تحكم",
+    "src": "Vous cliquez, vous jugez",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.p_2": {
+    "t": "كل معاينة تفتح التصميم. لا نجادل في الذوق — أنت تختار، ونحن ننطلق من هناك.",
+    "src": "Chaque aperçu ouvre le design. On n’argumente pas un goût — vous choisissez, on part de là.",
+    "status": "draft"
+  },
+  "restaurant.pitch_mascot.img_alt": {
+    "t": "Bytie مع طبق",
+    "src": "Bytie Dish",
+    "status": "draft"
+  },
+  "restaurant.price_essai_kicker.p": {
+    "t": "قبل أن تختار",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "restaurant.essai_title.h2": {
+    "t": "تجربة · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "restaurant.price_essai_lead.p": {
+    "t": "اسمك على التصميم الذي فتحته للتو. رابط مباشر 72&nbsp;ساعة لعرضه في المحل.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "restaurant.price_essai_cta.a": {
+    "t": "أرسل 4 صور عبر WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "restaurant.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20Fixbyte%20%D9%84%D9%85%D8%B7%D8%B9%D9%85%D9%8A.%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%3A%20%5B%D8%B1%D8%A7%D8%A8%D8%B7%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20restaurant.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "restaurant.pricing_title.h2": {
+    "t": "الأسعار",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "restaurant.pricing_intro.p": {
+    "t": "بابان: <strong>اللافتة</strong> (مرة واحدة)، أو <strong>نُبقي الباب مفتوحًا</strong> (نُبقيه محدَّثًا). الأسعار دون ضريبة، وضريبة 21&nbsp;% إضافية.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "restaurant.price_card.h3": {
+    "t": "اللافتة",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "restaurant.price_card_amount.p": {
+    "t": "1٬990&nbsp;€ <span>دون ضريبة</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "restaurant.price_card_hint.p": {
+    "t": "دفعة واحدة · على الإنترنت خلال 10 أيام · الموقع لك",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li": {
+    "t": "التصميم المختار، باسمك — 4 صفحات للهاتف",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_2": {
+    "t": "القائمة، التواصل، زر الحجز",
+    "src": "Menu, contact, bouton réservation",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_3": {
+    "t": "ملف النشاط التجاري على Google",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_4": {
+    "t": "النشر + 3 أشهر استضافة",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "restaurant.price_card_badge.p": {
+    "t": "الأكثر اختيارًا",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "restaurant.price_card.h3_2": {
+    "t": "نُبقي الباب مفتوحًا",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "restaurant.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "restaurant.price_card_hint.p_2": {
+    "t": "12 شهرًا · اللافتة مشمولة · ثم 99&nbsp;€ دون ضريبة شهريًا",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_5": {
+    "t": "اللافتة مشمولة (كما في المقابل)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_6": {
+    "t": "صورة عبر WhatsApp ← الموقع محدَّث في المساء",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_7": {
+    "t": "4 منشورات Google شهريًا",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_8": {
+    "t": "تقرير: المكالمات، نقرات الاتجاهات، الحجوزات",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, réservations",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_kicker.p": {
+    "t": "ثم، إذا سارت الأمور",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_body.h3": {
+    "t": "الموعد الفارغ",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_body.p": {
+    "t": "بعد 8 أسابيع من نُبقي الباب مفتوحًا. نستهدف الفراغ في جدول المواعيد — Maps والتقييمات وGoogle Ads (ميزانية الإعلانات غير مشمولة). الإجمالي 489&nbsp;€ دون ضريبة شهريًا.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "restaurant.pricing_note.p": {
+    "t": "تجربة 0&nbsp;€ قبل الاختيار. موقع متعدد اللغات مشمول — أنت تزوّدنا بالنصوص، أو ننطلق من ترجمة تراجعها أنت.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "restaurant.pricing_own.p": {
+    "t": "بعد 12&nbsp;شهرًا من «&nbsp;نُبقي الباب مفتوحًا&nbsp;»، <strong>يصبح الموقع ملكك.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "restaurant.cta_title.h2": {
+    "t": "12 دقيقة · نفتح ملفك على Google معًا",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "restaurant.cta_block.p": {
+    "t": "ترى ما يراه زبون هذا المساء. ثم نقول لك إن كان الموقع يفيد في شيء.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "restaurant.cta_block_btn.a": {
+    "t": "راسلنا على WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "restaurant.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D9%80%2012%20%D8%AF%D9%82%D9%8A%D9%82%D8%A9%20%D9%85%D9%86%20Fixbyte%20%D9%84%D9%86%D9%81%D8%AA%D8%AD%20%D9%85%D9%84%D9%81%D9%8A%20%D8%B9%D9%84%D9%89%20Google%20%D9%85%D8%B9%D9%8B%D8%A7.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "restaurant.cta_block_hint.p": {
+    "t": "دون شرح مسبق. 4 صور. نعاود الاتصال في نفس اليوم.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "cafes.meta.title": {
+    "t": "تصاميم للمقاهي &amp; المخابز — Fixbyte",
+    "src": "Designs cafés &amp; boulangeries — Fixbyte",
+    "status": "draft"
+  },
+  "cafes.meta.description": {
+    "t": "تصاميم Fixbyte للمقاهي والمخابز. تجربة بـ 0 €: اسمك على التصميم. قائمة اليوم والمواعيد والعنوان وclick & collect.",
+    "src": "Designs Fixbyte pour cafés et boulangeries. Essai 0 € : votre nom sur le design. Carte du jour, horaires, adresse et click & collect.",
+    "status": "draft"
+  },
+  "cafes.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والحلاقين والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "cafes.hero_badge.span": {
+    "t": "مفتوح الآن — أو في مكان آخر",
+    "src": "Ouvert maintenant — ou ailleurs",
+    "status": "draft"
+  },
+  "cafes.hero_scene.h1": {
+    "t": "07:40. «&nbsp;مفتوح الآن&nbsp;» — أو المخبزة المجاورة.",
+    "src": "7&nbsp;h&nbsp;40. «&nbsp;Ouvert maintenant&nbsp;» — ou la boulangerie d’à côté.",
+    "status": "draft"
+  },
+  "cafes.hero_scene_action.p": {
+    "t": "انقر على بطاقة: هذا ما يراه. ثم نضع عليه اسمك.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "cafes.works_title.h2": {
+    "t": "مشاريع المقاهي والمخابز",
+    "src": "Projets cafés et boulangeries",
+    "status": "draft"
+  },
+  "cafes.pitch_title.h2": {
+    "t": "لماذا هذه التصاميم",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "cafes.pitch_item.h3": {
+    "t": "اليومي، مُدار جيدًا",
+    "src": "Le quotidien, bien tenu",
+    "status": "draft"
+  },
+  "cafes.pitch_item.p": {
+    "t": "قائمة اليوم، خبز الصباح، مواعيد واضحة. صفحة تفوح منها رائحة المحل، لا قائمة فاخرة جامدة.",
+    "src": "Carte du jour, pain du matin, horaires clairs. Une page qui sent le comptoir, pas un menu gastronomique figé.",
+    "status": "draft"
+  },
+  "cafes.pitch_item.h3_2": {
+    "t": "البقاء أو الأخذ معك",
+    "src": "Passer, ou emporter",
+    "status": "draft"
+  },
+  "cafes.pitch_item.p_2": {
+    "t": "العنوان وclick &amp; collect وزر ظاهر. يعرف الزائر إن كان لديه وقت للجلوس — أو لاستلام طلبه فقط.",
+    "src": "Adresse, click &amp; collect, bouton visible. Le visiteur sait s’il a le temps de s’asseoir — ou de récupérer sa commande.",
+    "status": "draft"
+  },
+  "cafes.pitch_mascot.img_alt": {
+    "t": "Bytie في المقهى",
+    "src": "Bytie au café",
+    "status": "draft"
+  },
+  "cafes.price_essai_kicker.p": {
+    "t": "قبل أن تختار",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "cafes.essai_title.h2": {
+    "t": "تجربة · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "cafes.price_essai_lead.p": {
+    "t": "اسمك على التصميم الذي فتحته للتو. رابط مباشر 72&nbsp;ساعة لعرضه عند الطاولة.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer au comptoir.",
+    "status": "draft"
+  },
+  "cafes.price_essai_cta.a": {
+    "t": "أرسل 4 صور عبر WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "cafes.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20Fixbyte%20%D9%84%D9%85%D9%82%D9%87%D8%A7%D9%8A%20%2F%20%D9%85%D8%AE%D8%A8%D8%B2%D8%AA%D9%8A.%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%3A%20%5B%D8%B1%D8%A7%D8%A8%D8%B7%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20caf%C3%A9%20%2F%20boulangerie.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "cafes.pricing_title.h2": {
+    "t": "الأسعار",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "cafes.pricing_intro.p": {
+    "t": "بابان: <strong>اللافتة</strong> (مرة واحدة)، أو <strong>نُبقي الباب مفتوحًا</strong> (نُبقيه محدَّثًا). الأسعار دون ضريبة، وضريبة 21&nbsp;% إضافية.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "cafes.price_card.h3": {
+    "t": "اللافتة",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "cafes.price_card_amount.p": {
+    "t": "1٬990&nbsp;€ <span>دون ضريبة</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "cafes.price_card_hint.p": {
+    "t": "دفعة واحدة · على الإنترنت خلال 10 أيام · الموقع لك",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li": {
+    "t": "التصميم المختار، باسمك — 4 صفحات للهاتف",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_2": {
+    "t": "قائمة اليوم، المواعيد، click &amp; collect",
+    "src": "Carte du jour, horaires, click &amp; collect",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_3": {
+    "t": "ملف النشاط التجاري على Google",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_4": {
+    "t": "النشر + 3 أشهر استضافة",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "cafes.price_card_badge.p": {
+    "t": "الأكثر اختيارًا",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "cafes.price_card.h3_2": {
+    "t": "نُبقي الباب مفتوحًا",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "cafes.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "cafes.price_card_hint.p_2": {
+    "t": "12 شهرًا · اللافتة مشمولة · ثم 99&nbsp;€ دون ضريبة شهريًا",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_5": {
+    "t": "اللافتة مشمولة (كما في المقابل)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_6": {
+    "t": "صورة عبر WhatsApp ← الموقع محدَّث في المساء",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_7": {
+    "t": "4 منشورات Google شهريًا",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_8": {
+    "t": "تقرير: المكالمات، نقرات الاتجاهات، الطلبات",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, commandes",
+    "status": "draft"
+  },
+  "cafes.price_upsell_kicker.p": {
+    "t": "ثم، إذا سارت الأمور",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "cafes.price_upsell_body.h3": {
+    "t": "الموعد الفارغ",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "cafes.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "cafes.price_upsell_body.p": {
+    "t": "بعد 8 أسابيع من نُبقي الباب مفتوحًا. نستهدف الفراغ في جدول المواعيد — Maps والتقييمات وGoogle Ads (ميزانية الإعلانات غير مشمولة). الإجمالي 489&nbsp;€ دون ضريبة شهريًا.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "cafes.pricing_note.p": {
+    "t": "تجربة 0&nbsp;€ قبل الاختيار. موقع متعدد اللغات مشمول — أنت تزوّدنا بالنصوص، أو ننطلق من ترجمة تراجعها أنت.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "cafes.pricing_own.p": {
+    "t": "بعد 12&nbsp;شهرًا من «&nbsp;نُبقي الباب مفتوحًا&nbsp;»، <strong>يصبح الموقع ملكك.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "cafes.cta_title.h2": {
+    "t": "12 دقيقة · نفتح ملفك على Google معًا",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "cafes.cta_block.p": {
+    "t": "ترى ما يراه زبون هذا الصباح. ثم نقول لك إن كان الموقع يفيد في شيء.",
+    "src": "Vous voyez ce qu’un client voit ce matin. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "cafes.cta_block_btn.a": {
+    "t": "راسلنا على WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "cafes.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D9%80%2012%20%D8%AF%D9%82%D9%8A%D9%82%D8%A9%20%D9%85%D9%86%20Fixbyte%20%D9%84%D9%86%D9%81%D8%AA%D8%AD%20%D9%85%D9%84%D9%81%D9%8A%20%D8%B9%D9%84%D9%89%20Google%20%D9%85%D8%B9%D9%8B%D8%A7.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "cafes.cta_block_hint.p": {
+    "t": "دون شرح مسبق. 4 صور. نعاود الاتصال في نفس اليوم.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "barbiers.meta.title": {
+    "t": "تصاميم للحلاقين — Fixbyte",
+    "src": "Designs barbiers — Fixbyte",
+    "status": "draft"
+  },
+  "barbiers.meta.description": {
+    "t": "تصاميم Fixbyte للحلاقين. تجربة بـ 0 €: اسمك على التصميم. BXL وSalox وOtissons وClipster ومعاينات أخرى قابلة للنقر.",
+    "src": "Designs Fixbyte pour barbiers. Essai 0 € : votre nom sur le design. BXL, Salox, Otissons, Clipster et autres aperçus cliquables.",
+    "status": "draft"
+  },
+  "barbiers.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والحلاقين والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "barbiers.hero_badge.span": {
+    "t": "كل كرسي مهم",
+    "src": "Chaque fauteuil compte",
+    "status": "draft"
+  },
+  "barbiers.hero_scene.h1": {
+    "t": "السبت، 10:00. الكرسي الفارغ يكلّفك قصة شعر.",
+    "src": "Samedi 10&nbsp;h. Le fauteuil vide coûte une coupe.",
+    "status": "draft"
+  },
+  "barbiers.hero_scene_action.p": {
+    "t": "انقر على بطاقة: هذا ما يراه. ثم نضع عليه اسمك.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "barbiers.works_title.h2": {
+    "t": "مشاريع الحلاقين",
+    "src": "Projets barbiers",
+    "status": "draft"
+  },
+  "barbiers.pitch_title.h2": {
+    "t": "لماذا هذه التصاميم",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.h3": {
+    "t": "الصالون يُحكم عليه من القفا",
+    "src": "Le salon se juge à la nuque",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.p": {
+    "t": "الأسلوب والثقة والموعد — ما يلزم قبل أن يختار الصالون الآخر على Maps.",
+    "src": "Style, confiance, rendez-vous — ce qu’il faut avant qu’il choisisse l’autre salon sur Maps.",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.h3_2": {
+    "t": "انقر واحكم بعينيك",
+    "src": "Cliquez, jugez sur pièce",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.p_2": {
+    "t": "كل معاينة تفتح التصميم. لا نجادل في الذوق — أنت تختار، ونحن ننطلق من هناك.",
+    "src": "Chaque aperçu ouvre le design. On n’argumente pas un goût — vous choisissez, on part de là.",
+    "status": "draft"
+  },
+  "barbiers.pitch_mascot.img_alt": {
+    "t": "Bytie حلّاقًا",
+    "src": "Bytie en barbier",
+    "status": "draft"
+  },
+  "barbiers.price_essai_kicker.p": {
+    "t": "قبل أن تختار",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "barbiers.essai_title.h2": {
+    "t": "تجربة · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "barbiers.price_essai_lead.p": {
+    "t": "اسمك على التصميم الذي فتحته للتو. رابط مباشر 72&nbsp;ساعة لعرضه في المحل.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "barbiers.price_essai_cta.a": {
+    "t": "أرسل 4 صور عبر WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "barbiers.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20Fixbyte%20%D9%84%D8%B5%D8%A7%D9%84%D9%88%D9%86%D9%8A.%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%3A%20%5B%D8%B1%D8%A7%D8%A8%D8%B7%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20salon.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "barbiers.pricing_title.h2": {
+    "t": "الأسعار",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "barbiers.pricing_intro.p": {
+    "t": "بابان: <strong>اللافتة</strong> (مرة واحدة)، أو <strong>نُبقي الباب مفتوحًا</strong> (نُبقيه محدَّثًا). الأسعار دون ضريبة، وضريبة 21&nbsp;% إضافية.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "barbiers.price_card.h3": {
+    "t": "اللافتة",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "barbiers.price_card_amount.p": {
+    "t": "1٬990&nbsp;€ <span>دون ضريبة</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "barbiers.price_card_hint.p": {
+    "t": "دفعة واحدة · على الإنترنت خلال 10 أيام · الموقع لك",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li": {
+    "t": "التصميم المختار، باسمك — 4 صفحات للهاتف",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_2": {
+    "t": "الخدمات، الأسعار، زر الموعد",
+    "src": "Services, tarifs, bouton rendez-vous",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_3": {
+    "t": "ملف النشاط التجاري على Google",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_4": {
+    "t": "النشر + 3 أشهر استضافة",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "barbiers.price_card_badge.p": {
+    "t": "الأكثر اختيارًا",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "barbiers.price_card.h3_2": {
+    "t": "نُبقي الباب مفتوحًا",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "barbiers.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "barbiers.price_card_hint.p_2": {
+    "t": "12 شهرًا · اللافتة مشمولة · ثم 99&nbsp;€ دون ضريبة شهريًا",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_5": {
+    "t": "اللافتة مشمولة (كما في المقابل)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_6": {
+    "t": "صورة عبر WhatsApp ← الموقع محدَّث في المساء",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_7": {
+    "t": "4 منشورات Google شهريًا",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_8": {
+    "t": "تقرير: المكالمات، نقرات الاتجاهات، المواعيد",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, rendez-vous",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_kicker.p": {
+    "t": "ثم، إذا سارت الأمور",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_body.h3": {
+    "t": "الموعد الفارغ",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_body.p": {
+    "t": "بعد 8 أسابيع من نُبقي الباب مفتوحًا. نستهدف الفراغ في جدول المواعيد — Maps والتقييمات وGoogle Ads (ميزانية الإعلانات غير مشمولة). الإجمالي 489&nbsp;€ دون ضريبة شهريًا.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "barbiers.pricing_note.p": {
+    "t": "تجربة 0&nbsp;€ قبل الاختيار. موقع متعدد اللغات مشمول — أنت تزوّدنا بالنصوص، أو ننطلق من ترجمة تراجعها أنت.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "barbiers.pricing_own.p": {
+    "t": "بعد 12&nbsp;شهرًا من «&nbsp;نُبقي الباب مفتوحًا&nbsp;»، <strong>يصبح الموقع ملكك.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "barbiers.cta_title.h2": {
+    "t": "12 دقيقة · نفتح ملفك على Google معًا",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "barbiers.cta_block.p": {
+    "t": "ترى ما يراه زبون هذا المساء. ثم نقول لك إن كان الموقع يفيد في شيء.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "barbiers.cta_block_btn.a": {
+    "t": "راسلنا على WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "barbiers.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D9%80%2012%20%D8%AF%D9%82%D9%8A%D9%82%D8%A9%20%D9%85%D9%86%20Fixbyte%20%D9%84%D9%86%D9%81%D8%AA%D8%AD%20%D9%85%D9%84%D9%81%D9%8A%20%D8%B9%D9%84%D9%89%20Google%20%D9%85%D8%B9%D9%8B%D8%A7.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "barbiers.cta_block_hint.p": {
+    "t": "دون شرح مسبق. 4 صور. نعاود الاتصال في نفس اليوم.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "agences.meta.title": {
+    "t": "تصاميم للوكالات — Fixbyte",
+    "src": "Designs agences — Fixbyte",
+    "status": "draft"
+  },
+  "agences.meta.description": {
+    "t": "تصاميم Fixbyte للوكالات والمؤسسات. تجربة بـ 0 €: اسمك على التصميم. العرض والأدلة والفريق والتواصل.",
+    "src": "Designs Fixbyte pour agences et institutions. Essai 0 € : votre nom sur le design. Offre, preuves, équipe et prise de contact.",
+    "status": "draft"
+  },
+  "agences.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والحلاقين والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "agences.hero_badge.span": {
+    "t": "يحكم في تمريرة واحدة",
+    "src": "Il juge en un scroll",
+    "status": "draft"
+  },
+  "agences.hero_scene.h1": {
+    "t": "يقارن 4 عروض عند الإشارة الحمراء. عرضك يجب أن يفوز دون خطاب.",
+    "src": "Il compare 4 offres au feu rouge. La vôtre doit gagner sans pitch.",
+    "status": "draft"
+  },
+  "agences.hero_scene_action.p": {
+    "t": "انقر على بطاقة: هذا ما يراه. ثم نضع عليه اسمك.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "agences.works_title.h2": {
+    "t": "مشاريع الوكالات",
+    "src": "Projets agences",
+    "status": "draft"
+  },
+  "agences.pitch_title.h2": {
+    "t": "لماذا هذه التصاميم",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "agences.pitch_item.h3": {
+    "t": "العرض، قبل الخطاب",
+    "src": "L’offre, avant le discours",
+    "status": "draft"
+  },
+  "agences.pitch_item.p": {
+    "t": "الخدمات والأدلة والفريق. صفحة تبيع العمل، لا كتالوجًا من الكلمات الرنّانة.",
+    "src": "Services, preuves, équipe. Une page qui vend le travail, pas un catalogue de buzzwords.",
+    "status": "draft"
+  },
+  "agences.pitch_item.h3_2": {
+    "t": "التواصل بنظرة واحدة",
+    "src": "Contacter en un regard",
+    "status": "draft"
+  },
+  "agences.pitch_item.p_2": {
+    "t": "تموضع واضح، حالات عملاء مفهومة، زر تواصل. العميل المحتمل يحكم بعينيه، ثم يكتب.",
+    "src": "Positionnement lisible, cas clients clairs, bouton contact. Le prospect juge sur pièce, puis écrit.",
+    "status": "draft"
+  },
+  "agences.pitch_mascot.img_alt": {
+    "t": "Bytie مسافرًا",
+    "src": "Bytie en voyageur",
+    "status": "draft"
+  },
+  "agences.price_essai_kicker.p": {
+    "t": "قبل أن تختار",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "agences.essai_title.h2": {
+    "t": "تجربة · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "agences.price_essai_lead.p": {
+    "t": "اسمك على التصميم الذي فتحته للتو. رابط مباشر 72&nbsp;ساعة لعرضه في اجتماع.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "agences.price_essai_cta.a": {
+    "t": "أرسل 4 صور عبر WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "agences.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20Fixbyte%20%D9%84%D9%88%D9%83%D8%A7%D9%84%D8%AA%D9%8A.%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%3A%20%5B%D8%B1%D8%A7%D8%A8%D8%B7%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20agence.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "agences.pricing_title.h2": {
+    "t": "الأسعار",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "agences.pricing_intro.p": {
+    "t": "بابان: <strong>اللافتة</strong> (مرة واحدة)، أو <strong>نُبقي الباب مفتوحًا</strong> (نُبقيه محدَّثًا). الأسعار دون ضريبة، وضريبة 21&nbsp;% إضافية.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "agences.price_card.h3": {
+    "t": "اللافتة",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "agences.price_card_amount.p": {
+    "t": "1٬990&nbsp;€ <span>دون ضريبة</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "agences.price_card_hint.p": {
+    "t": "دفعة واحدة · على الإنترنت خلال 10 أيام · الموقع لك",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "agences.price_card_list.li": {
+    "t": "التصميم المختار، باسمك — 4 صفحات للهاتف",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_2": {
+    "t": "الخدمات، الأدلة، زر التواصل",
+    "src": "Services, preuves, bouton contact",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_3": {
+    "t": "ملف النشاط التجاري على Google",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_4": {
+    "t": "النشر + 3 أشهر استضافة",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "agences.price_card_badge.p": {
+    "t": "الأكثر اختيارًا",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "agences.price_card.h3_2": {
+    "t": "نُبقي الباب مفتوحًا",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "agences.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "agences.price_card_hint.p_2": {
+    "t": "12 شهرًا · اللافتة مشمولة · ثم 99&nbsp;€ دون ضريبة شهريًا",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_5": {
+    "t": "اللافتة مشمولة (كما في المقابل)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_6": {
+    "t": "صورة عبر WhatsApp ← الموقع محدَّث في المساء",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_7": {
+    "t": "4 منشورات Google شهريًا",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_8": {
+    "t": "تقرير: المكالمات، النقرات، طلبات التواصل",
+    "src": "Rapport&nbsp;: appels, clics, demandes de contact",
+    "status": "draft"
+  },
+  "agences.price_upsell_kicker.p": {
+    "t": "ثم، إذا سارت الأمور",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "agences.price_upsell_body.h3": {
+    "t": "الموعد الفارغ",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "agences.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "agences.price_upsell_body.p": {
+    "t": "بعد 8 أسابيع من نُبقي الباب مفتوحًا. نستهدف العملاء المحتملين الناقصين — Maps والتقييمات وGoogle Ads (ميزانية الإعلانات غير مشمولة). الإجمالي 489&nbsp;€ دون ضريبة شهريًا.",
+    "src": "Après 8 semaines de On tient la porte. On vise les leads qui manquent — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "agences.pricing_note.p": {
+    "t": "تجربة 0&nbsp;€ قبل الاختيار. موقع متعدد اللغات مشمول — أنت تزوّدنا بالنصوص، أو ننطلق من ترجمة تراجعها أنت.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "agences.pricing_own.p": {
+    "t": "بعد 12&nbsp;شهرًا من «&nbsp;نُبقي الباب مفتوحًا&nbsp;»، <strong>يصبح الموقع ملكك.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "agences.cta_title.h2": {
+    "t": "12 دقيقة · نفتح ملفك على Google معًا",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "agences.cta_block.p": {
+    "t": "ترى ما يراه عميل محتمل هذا المساء. ثم نقول لك إن كان الموقع يفيد في شيء.",
+    "src": "Vous voyez ce qu’un prospect voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "agences.cta_block_btn.a": {
+    "t": "راسلنا على WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "agences.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D9%80%2012%20%D8%AF%D9%82%D9%8A%D9%82%D8%A9%20%D9%85%D9%86%20Fixbyte%20%D9%84%D9%86%D9%81%D8%AA%D8%AD%20%D9%85%D9%84%D9%81%D9%8A%20%D8%B9%D9%84%D9%89%20Google%20%D9%85%D8%B9%D9%8B%D8%A7.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "agences.cta_block_hint.p": {
+    "t": "دون شرح مسبق. 4 صور. نعاود الاتصال في نفس اليوم.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "ecommerce.meta.title": {
+    "t": "تصاميم للتجارة الإلكترونية — Fixbyte",
+    "src": "Designs e-commerce — Fixbyte",
+    "status": "draft"
+  },
+  "ecommerce.meta.description": {
+    "t": "تصاميم Fixbyte للمتاجر الإلكترونية وإطلاق المنتجات. تجربة بـ 0 €: اسمك على التصميم. الكتالوج والسلة والتحويل.",
+    "src": "Designs Fixbyte pour boutiques en ligne et lancements produit. Essai 0 € : votre nom sur le design. Catalogue, panier et conversion.",
+    "status": "draft"
+  },
+  "ecommerce.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والحلاقين والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "ecommerce.hero_badge.span": {
+    "t": "يحكم على المنتج",
+    "src": "Il juge sur le produit",
+    "status": "draft"
+  },
+  "ecommerce.hero_scene.h1": {
+    "t": "يفتح ثلاثة متاجر. يشتري حيث يبيع المنتج نفسه بالفعل.",
+    "src": "Il ouvre trois boutiques. Il achète là où le produit se vend déjà.",
+    "status": "draft"
+  },
+  "ecommerce.hero_scene_action.p": {
+    "t": "انقر على بطاقة: هذا ما يراه. ثم نضع عليه اسمك.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "ecommerce.works_title.h2": {
+    "t": "مشاريع التجارة الإلكترونية",
+    "src": "Projets e-commerce",
+    "status": "draft"
+  },
+  "ecommerce.pitch_title.h2": {
+    "t": "لماذا هذه التصاميم",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.h3": {
+    "t": "المنتج، قبل الخطاب",
+    "src": "Le produit, avant le discours",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.p": {
+    "t": "الكتالوج والأسعار والأدلة. صفحة تبيع السلعة، لا مصطلحات تسويقية.",
+    "src": "Catalogue, prix, preuves. Une page qui vend l’article, pas un jargon marketing.",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.h3_2": {
+    "t": "الشراء بنظرة واحدة",
+    "src": "Acheter en un regard",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.p_2": {
+    "t": "واجهة لاكتشاف المنتج. متجر للسلة والدفع والتوصيل. الزبون يحكم بعينيه، ثم يطلب.",
+    "src": "Vitrine pour découvrir le produit. Boutique pour le panier, le paiement et la livraison. Le client juge sur pièce, puis commande.",
+    "status": "draft"
+  },
+  "ecommerce.pitch_mascot.img_alt": {
+    "t": "Bytie مع أكياس التسوق",
+    "src": "Bytie avec des sacs de shopping",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_kicker.p": {
+    "t": "قبل أن تختار",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "ecommerce.essai_title.h2": {
+    "t": "تجربة · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_lead.p": {
+    "t": "اسمك على التصميم الذي فتحته للتو. رابط مباشر 72&nbsp;ساعة لعرضه في اجتماع.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_cta.a": {
+    "t": "أرسل 4 صور عبر WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20Fixbyte%20%D9%84%D9%85%D8%AA%D8%AC%D8%B1%D9%8A%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A.%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%3A%20%5B%D8%B1%D8%A7%D8%A8%D8%B7%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20e-commerce.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_title.h2": {
+    "t": "الأسعار",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "ecommerce.pricing_intro.p": {
+    "t": "ثلاثة أبواب: <strong>اللافتة</strong> (واجهة)، <strong>المتجر</strong> (الدفع الإلكتروني)، أو <strong>نُبقي الباب مفتوحًا</strong> (نُبقيه محدَّثًا). الأسعار دون ضريبة، وضريبة 21&nbsp;% إضافية.",
+    "src": "Trois portes&nbsp;: <strong>L’Enseigne</strong> (vitrine), <strong>La Boutique</strong> (paiement en ligne), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3": {
+    "t": "اللافتة · واجهة",
+    "src": "L’Enseigne · Vitrine",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p": {
+    "t": "1٬990&nbsp;€ <span>دون ضريبة</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p": {
+    "t": "دفعة واحدة · على الإنترنت خلال 10 أيام · الموقع لك",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li": {
+    "t": "التصميم المختار، باسمك — 4 صفحات للهاتف",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_2": {
+    "t": "الكتالوج والتواصل والأدلة — دون دفع إلكتروني",
+    "src": "Catalogue, contact, preuves — sans paiement en ligne",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_3": {
+    "t": "ملف النشاط التجاري على Google",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_4": {
+    "t": "النشر + 3 أشهر استضافة",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3_2": {
+    "t": "نُبقي الباب مفتوحًا",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p_2": {
+    "t": "12 شهرًا · اللافتة مشمولة · ثم 99&nbsp;€ دون ضريبة شهريًا",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_5": {
+    "t": "اللافتة الواجهة مشمولة (كما في المقابل)",
+    "src": "L’Enseigne vitrine incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_6": {
+    "t": "صورة عبر WhatsApp ← الكتالوج / التواصل محدَّث في المساء",
+    "src": "Photo WhatsApp → catalogue / contact à jour le soir",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_7": {
+    "t": "4 منشورات Google شهريًا",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_8": {
+    "t": "تقرير: المكالمات، النقرات، الطلبات",
+    "src": "Rapport&nbsp;: appels, clics, demandes",
+    "status": "draft"
+  },
+  "ecommerce.price_card_badge.p": {
+    "t": "الدفع الإلكتروني",
+    "src": "Paiement en ligne",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3_3": {
+    "t": "المتجر",
+    "src": "La Boutique",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p_3": {
+    "t": "3٬990&nbsp;€ <span>دون ضريبة</span>",
+    "src": "3&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p_3": {
+    "t": "دفعة واحدة · متجر إلكتروني خلال 3 أسابيع · الموقع لك",
+    "src": "Paiement unique · boutique en ligne en 3 semaines · le site est à vous",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_9": {
+    "t": "متجر كامل: كتالوج، سلة، إتمام الشراء",
+    "src": "Boutique complète&nbsp;: catalogue, panier, checkout",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_10": {
+    "t": "الدفع الإلكتروني (Mollie / Stripe — حسابك الخاص)",
+    "src": "Paiement en ligne (Mollie / Stripe — compte client)",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_11": {
+    "t": "التوصيل، الاستلام من المتجر، رسائل بريد &amp; تتبّع الطلب",
+    "src": "Livraison, retrait en magasin, e-mails &amp; suivi commande",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_12": {
+    "t": "حتى 30 منتجًا مستوردًا · النشر + 3 أشهر استضافة",
+    "src": "Jusqu’à 30 produits importés · mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_kicker.p": {
+    "t": "ثم، إذا سارت الأمور",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_body.h3": {
+    "t": "الموعد الفارغ",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_body.p": {
+    "t": "بعد 8 أسابيع من نُبقي الباب مفتوحًا. نستهدف المبيعات الناقصة — Maps والتقييمات وGoogle Shopping / Ads (ميزانية الإعلانات غير مشمولة). الإجمالي 489&nbsp;€ دون ضريبة شهريًا.",
+    "src": "Après 8 semaines de On tient la porte. On vise les ventes qui manquent — Maps, avis, Google Shopping / Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_note.p": {
+    "t": "تجربة 0&nbsp;€ قبل الاختيار. المتجر يشمل الواجهة. موقع متعدد اللغات مشمول — أنت تزوّدنا بالنصوص، أو ننطلق من ترجمة تراجعها أنت. ما زاد عن 30 منتجًا بعرض سعر. اشتراك المنصة (مثل Shopify) ورسوم الدفع غير مشمولة.",
+    "src": "Essai 0&nbsp;€ avant de choisir. La Boutique inclut la vitrine. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez. Produits au-delà de 30 sur devis. Abonnement plateforme (ex. Shopify) et frais de paiement en sus.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_own.p": {
+    "t": "بعد 12&nbsp;شهرًا من «&nbsp;نُبقي الباب مفتوحًا&nbsp;»، <strong>يصبح الموقع ملكك.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "ecommerce.cta_title.h2": {
+    "t": "12 دقيقة · نفتح ملفك على Google معًا",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "ecommerce.cta_block.p": {
+    "t": "ترى ما يراه زبون هذا المساء. ثم نقول لك إن كان الموقع يفيد في شيء.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_btn.a": {
+    "t": "راسلنا على WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D9%80%2012%20%D8%AF%D9%82%D9%8A%D9%82%D8%A9%20%D9%85%D9%86%20Fixbyte%20%D9%84%D9%86%D9%81%D8%AA%D8%AD%20%D9%85%D9%84%D9%81%D9%8A%20%D8%B9%D9%84%D9%89%20Google%20%D9%85%D8%B9%D9%8B%D8%A7.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_hint.p": {
+    "t": "دون شرح مسبق. 4 صور. نعاود الاتصال في نفس اليوم.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "entreprises.meta.title": {
+    "t": "تصاميم للشركات — Fixbyte",
+    "src": "Designs entreprises — Fixbyte",
+    "status": "draft"
+  },
+  "entreprises.meta.description": {
+    "t": "تصاميم Fixbyte لشركات البناء والتجديد. تجربة بـ 0 €: اسمك على التصميم. الخبرة والأعمال المنجزة وعروض الأسعار.",
+    "src": "Designs Fixbyte pour entreprises de travaux et rénovation. Essai 0 € : votre nom sur le design. Savoir-faire, réalisations et devis.",
+    "status": "draft"
+  },
+  "entreprises.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والحلاقين والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "entreprises.hero_badge.span": {
+    "t": "يحكم على الورشة",
+    "src": "Il juge sur le chantier",
+    "status": "draft"
+  },
+  "entreprises.hero_scene.h1": {
+    "t": "ثلاثة عروض. يختار عرض من يُظهر الورشة أصلًا.",
+    "src": "Trois devis. Il choisit celui qui montre déjà le chantier.",
+    "status": "draft"
+  },
+  "entreprises.hero_scene_action.p": {
+    "t": "انقر على بطاقة: هذا ما يراه. ثم نضع عليه اسمك.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "entreprises.works_title.h2": {
+    "t": "مشاريع الشركات",
+    "src": "Projets entreprises",
+    "status": "draft"
+  },
+  "entreprises.pitch_title.h2": {
+    "t": "لماذا هذه التصاميم",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.h3": {
+    "t": "الخبرة، قبل الكلام",
+    "src": "Le savoir-faire, avant le blabla",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.p": {
+    "t": "الخدمات والأعمال المنجزة ونطاق العمل. صفحة تُظهر العمل، لا خطابًا عامًا.",
+    "src": "Services, réalisations, zone d’intervention. Une page qui montre le business, pas un discours générique.",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.h3_2": {
+    "t": "عرض سعر بنظرة واحدة",
+    "src": "Devis en un regard",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.p_2": {
+    "t": "عرض واضح، أدلة من الميدان، زر تواصل. العميل المحتمل يحكم بعينيه، ثم يتصل.",
+    "src": "Offre lisible, preuves terrain, bouton contact. Le prospect juge sur pièce, puis appelle.",
+    "status": "draft"
+  },
+  "entreprises.pitch_mascot.img_alt": {
+    "t": "Bytie في الورشة",
+    "src": "Bytie en entreprise",
+    "status": "draft"
+  },
+  "entreprises.price_essai_kicker.p": {
+    "t": "قبل أن تختار",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "entreprises.essai_title.h2": {
+    "t": "تجربة · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "entreprises.price_essai_lead.p": {
+    "t": "اسمك على التصميم الذي فتحته للتو. رابط مباشر 72&nbsp;ساعة لعرضه في اجتماع.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "entreprises.price_essai_cta.a": {
+    "t": "أرسل 4 صور عبر WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "entreprises.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20Fixbyte%20%D9%84%D8%B4%D8%B1%D9%83%D8%AA%D9%8A.%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%3A%20%5B%D8%B1%D8%A7%D8%A8%D8%B7%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20entreprise.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "entreprises.pricing_title.h2": {
+    "t": "الأسعار",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "entreprises.pricing_intro.p": {
+    "t": "بابان: <strong>اللافتة</strong> (مرة واحدة)، أو <strong>نُبقي الباب مفتوحًا</strong> (نُبقيه محدَّثًا). الأسعار دون ضريبة، وضريبة 21&nbsp;% إضافية.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "entreprises.price_card.h3": {
+    "t": "اللافتة",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "entreprises.price_card_amount.p": {
+    "t": "1٬990&nbsp;€ <span>دون ضريبة</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "entreprises.price_card_hint.p": {
+    "t": "دفعة واحدة · على الإنترنت خلال 10 أيام · الموقع لك",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li": {
+    "t": "التصميم المختار، باسمك — 4 صفحات للهاتف",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_2": {
+    "t": "الخدمات، الأعمال المنجزة، زر التواصل",
+    "src": "Services, réalisations, bouton contact",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_3": {
+    "t": "ملف النشاط التجاري على Google",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_4": {
+    "t": "النشر + 3 أشهر استضافة",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "entreprises.price_card_badge.p": {
+    "t": "الأكثر اختيارًا",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "entreprises.price_card.h3_2": {
+    "t": "نُبقي الباب مفتوحًا",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "entreprises.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "entreprises.price_card_hint.p_2": {
+    "t": "12 شهرًا · اللافتة مشمولة · ثم 99&nbsp;€ دون ضريبة شهريًا",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_5": {
+    "t": "اللافتة مشمولة (كما في المقابل)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_6": {
+    "t": "صورة عبر WhatsApp ← الموقع محدَّث في المساء",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_7": {
+    "t": "4 منشورات Google شهريًا",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_8": {
+    "t": "تقرير: المكالمات، النقرات، طلبات عروض الأسعار",
+    "src": "Rapport&nbsp;: appels, clics, demandes de devis",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_kicker.p": {
+    "t": "ثم، إذا سارت الأمور",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_body.h3": {
+    "t": "الموعد الفارغ",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>دون ضريبة / شهريًا</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_body.p": {
+    "t": "بعد 8 أسابيع من نُبقي الباب مفتوحًا. نستهدف العملاء المحتملين الناقصين — Maps والتقييمات وGoogle Ads (ميزانية الإعلانات غير مشمولة). الإجمالي 489&nbsp;€ دون ضريبة شهريًا.",
+    "src": "Après 8 semaines de On tient la porte. On vise les leads qui manquent — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "entreprises.pricing_note.p": {
+    "t": "تجربة 0&nbsp;€ قبل الاختيار. موقع متعدد اللغات مشمول — أنت تزوّدنا بالنصوص، أو ننطلق من ترجمة تراجعها أنت.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "entreprises.pricing_own.p": {
+    "t": "بعد 12&nbsp;شهرًا من «&nbsp;نُبقي الباب مفتوحًا&nbsp;»، <strong>يصبح الموقع ملكك.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "entreprises.cta_title.h2": {
+    "t": "12 دقيقة · نفتح ملفك على Google معًا",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "entreprises.cta_block.p": {
+    "t": "ترى ما يراه عميل محتمل هذا المساء. ثم نقول لك إن كان الموقع يفيد في شيء.",
+    "src": "Vous voyez ce qu’un prospect voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "entreprises.cta_block_btn.a": {
+    "t": "راسلنا على WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "entreprises.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D9%80%2012%20%D8%AF%D9%82%D9%8A%D9%82%D8%A9%20%D9%85%D9%86%20Fixbyte%20%D9%84%D9%86%D9%81%D8%AA%D8%AD%20%D9%85%D9%84%D9%81%D9%8A%20%D8%B9%D9%84%D9%89%20Google%20%D9%85%D8%B9%D9%8B%D8%A7.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "entreprises.cta_block_hint.p": {
+    "t": "دون شرح مسبق. 4 صور. نعاود الاتصال في نفس اليوم.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "mentions-legales.meta.title": {
+    "t": "إشعارات قانونية — Fixbyte",
+    "src": "Mentions légales — Fixbyte",
+    "status": "draft"
+  },
+  "mentions-legales.meta.description": {
+    "t": "الإشعارات القانونية لـ Fixbyte: الناشر والمالك والتواصل والاستضافة وشروط استخدام موقع studio.fixbyte.be.",
+    "src": "Mentions légales de Fixbyte : éditeur, propriétaire, contact, hébergement et conditions d’utilisation du site studio.fixbyte.be.",
+    "status": "draft"
+  },
+  "mentions-legales.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والحلاقين والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "mentions-legales.hero_badge.span": {
+    "t": "معلومات قانونية",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "mentions-legales.legal_hero.h1": {
+    "t": "إشعارات قانونية",
+    "src": "Mentions légales",
+    "status": "draft"
+  },
+  "mentions-legales.legal_hero_meta.p": {
+    "t": "آخر تحديث: <time datetime=\"2026-08-27\">27 أغسطس 2026</time>",
+    "src": "Dernière mise à jour : <time datetime=\"2026-08-27\">27 août 2026</time>",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_notice.p": {
+    "t": "نص إعلامي لهذا الموقع الثابت. الحقول بين الأقواس المعقوفة لم تُستكمل بعد. هذا ليس رأيًا قانونيًا.",
+    "src": "Texte d’information pour ce site statique. Les champs entre crochets doivent encore être complétés. Ce n’est pas un avis juridique.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2": {
+    "t": "ناشر الموقع",
+    "src": "Éditeur du site",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p": {
+    "t": "موقع <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> (Fixbyte Studio) تنشره وتملكه <a href=\"https://fixbyte.be\">Fixbyte</a>. Fixbyte Studio اسم تجاري لـ Fixbyte، وليس شخصًا اعتباريًا مستقلًا. الهوية القانونية لـ Fixbyte أدناه لم تُستكمل بعد.",
+    "src": "Le site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> (Fixbyte Studio) est édité et appartient à <a href=\"https://fixbyte.be\">Fixbyte</a>. Fixbyte Studio est une enseigne commerciale de Fixbyte, pas une personne morale distincte. L’identité juridique de Fixbyte ci-dessous reste à compléter.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt": {
+    "t": "المالك / الناشر",
+    "src": "Propriétaire / éditeur",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.a": {
+    "t": "Fixbyte",
+    "src": "Fixbyte",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_2": {
+    "t": "الاسم التجاري",
+    "src": "Enseigne",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd": {
+    "t": "Fixbyte Studio",
+    "src": "Fixbyte Studio",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_3": {
+    "t": "موقع المالك",
+    "src": "Site du propriétaire",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.a_2": {
+    "t": "fixbyte.be",
+    "src": "fixbyte.be",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_4": {
+    "t": "التسمية الاجتماعية",
+    "src": "Raison sociale",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_2": {
+    "t": "[التسمية الاجتماعية]",
+    "src": "[Raison sociale]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_5": {
+    "t": "الشكل القانوني",
+    "src": "Forme juridique",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_3": {
+    "t": "[الشكل القانوني]",
+    "src": "[Forme juridique]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_6": {
+    "t": "عنوان المقر",
+    "src": "Adresse du siège",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_4": {
+    "t": "[عنوان المقر]",
+    "src": "[Adresse du siège]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_7": {
+    "t": "رقم BCE / KBO",
+    "src": "N° BCE / KBO",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_5": {
+    "t": "[رقم BCE / KBO]",
+    "src": "[n° BCE / KBO]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_8": {
+    "t": "رقم الضريبة",
+    "src": "N° TVA",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_6": {
+    "t": "[رقم الضريبة BE…]",
+    "src": "[n° TVA BE…]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_2": {
+    "t": "التواصل",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.li": {
+    "t": "WhatsApp: <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "src": "WhatsApp : <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.li_2": {
+    "t": "البريد الإلكتروني: [Email]",
+    "src": "E-mail : [Email]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_3": {
+    "t": "الاستضافة",
+    "src": "Hébergement",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_2": {
+    "t": "الموقع مستضاف لدى GitHub Pages، وهي خدمة من GitHub, Inc.، 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, الولايات المتحدة. اسم النطاق: <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>.",
+    "src": "Le site est hébergé par GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, États-Unis. Nom de domaine : <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_4": {
+    "t": "الملكية الفكرية",
+    "src": "Propriété intellectuelle",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_3": {
+    "t": "النصوص والشعار وعلامتا Fixbyte وFixbyte Studio، وكذلك موقع <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>، تعود إلى <a href=\"https://fixbyte.be\">Fixbyte</a>، ما لم يُذكر خلاف ذلك. يُمنع أي استنساخ غير مصرّح به.",
+    "src": "Les textes, le logo, les marques Fixbyte et Fixbyte Studio, ainsi que le site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>, appartiennent à <a href=\"https://fixbyte.be\">Fixbyte</a>, sauf mention contraire. Toute reproduction non autorisée est interdite.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_4": {
+    "t": "المعاينات المعروضة مراجع بصرية. جزء منها يستخدم نماذج لأطراف ثالثة (بما فيها قوالب Framer). ويبقى مؤلفوها أصحاب الحقوق. وهي ليست الملف الذي نسلّمه. وبمجرد اختيار تصميم، نعيد إنشاءه باسمك (تجربة، ثم صيغة مدفوعة). أما الحقوق على الموقع المسلَّم فهي المنصوص عليها في العقد. ونحن لا نعيد بيع الملفات الأصلية.",
+    "src": "Les aperçus présentés sont des références visuelles. Une partie reprend des modèles tiers (dont des templates Framer). Leurs auteurs en restent titulaires. Ce n’est pas le fichier que nous livrons. Une fois un design choisi, nous le recréons à votre nom (essai, puis offre payante). Les droits sur le site livré sont ceux du contrat. Nous ne revendons pas les fichiers d’origine.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_5": {
+    "t": "الصور والشعارات والمحتويات التي ترسلها إلينا من أجل تجربة أو خدمة تبقى ملكك. ونستخدمها حصريًا لإنجاز محلّك وعرضه.",
+    "src": "Les photos, logos et contenus que vous nous envoyez pour un essai ou une prestation restent les vôtres. Nous les utilisons uniquement pour réaliser et présenter votre enseigne.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_5": {
+    "t": "المسؤولية",
+    "src": "Responsabilité",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_6": {
+    "t": "هذا الموقع واجهة عرض للتصاميم. تجربة الـ 0&nbsp;€ ليست موقعًا نهائيًا: إنها معاينة محدودة زمنيًا، للحكم لا أكثر.",
+    "src": "Ce site est une vitrine de designs. L’essai à 0&nbsp;€ n’est pas un site définitif : c’est un aperçu limité dans le temps, pour juger.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_7": {
+    "t": "لسنا مسؤولين عن محتوى المواقع الخارجية التي نحيل إليها (WhatsApp وGoogle Fonts ومعاينات الأعمال). ويخضع الوصول إلى تلك الخدمات لشروطها الخاصة.",
+    "src": "Nous ne sommes pas responsables du contenu des sites externes vers lesquels nous renvoyons (WhatsApp, Google Fonts, aperçus de réalisations). L’accès à ces services relève de leurs propres conditions.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_6": {
+    "t": "القانون الواجب التطبيق",
+    "src": "Droit applicable",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_8": {
+    "t": "يخضع هذا الموقع للقانون البلجيكي. وفي حال النزاع، وتعذّر التسوية الودّية، تختص محاكم مقر الناشر — بمجرد ذكر عنوان المقر أعلاه.",
+    "src": "Le présent site est régi par le droit belge. En cas de litige, et à défaut d’accord amiable, les tribunaux du siège de l’éditeur sont compétents — une fois l’adresse du siège renseignée ci-dessus.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_next.p": {
+    "t": "انظر أيضًا: <a href=\"politique-confidentialite.html\" >سياسة الخصوصية</a >.",
+    "src": "Voir aussi : <a href=\"politique-confidentialite.html\" >Politique de confidentialité</a >.",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.title": {
+    "t": "سياسة الخصوصية — Fixbyte",
+    "src": "Politique de confidentialité — Fixbyte",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.description": {
+    "t": "سياسة الخصوصية لـ Fixbyte Studio: البيانات المجمّعة، WhatsApp، ملفات تعريف الارتباط، حقوق اللائحة العامة لحماية البيانات، والتواصل.",
+    "src": "Politique de confidentialité de Fixbyte Studio : données collectées, WhatsApp, cookies, droits RGPD et contact.",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.og_image_alt": {
+    "t": "Fixbyte Studio — تصاميم ويب للمطاعم والحلاقين والوكالات والمحلات",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "politique-confidentialite.hero_badge.span": {
+    "t": "معلومات قانونية",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_hero.h1": {
+    "t": "سياسة الخصوصية",
+    "src": "Politique de confidentialité",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_hero_meta.p": {
+    "t": "آخر تحديث: <time datetime=\"2026-08-26\">26 أغسطس 2026</time>",
+    "src": "Dernière mise à jour : <time datetime=\"2026-08-26\">26 août 2026</time>",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_notice.p": {
+    "t": "نص إعلامي لهذا الموقع الثابت. الحقول بين الأقواس المعقوفة لم تُستكمل بعد. هذا ليس رأيًا قانونيًا.",
+    "src": "Texte d’information pour ce site statique. Les champs entre crochets doivent encore être complétés. Ce n’est pas un avis juridique.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2": {
+    "t": "المسؤول عن المعالجة",
+    "src": "Responsable du traitement",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p": {
+    "t": "المسؤول عن معالجة البيانات المرتبطة بـ <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> هو Fixbyte Studio. الهوية القانونية أدناه لم تُستكمل بعد.",
+    "src": "Le responsable du traitement des données liées à <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> est Fixbyte Studio. L’identité juridique ci-dessous reste à compléter.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt": {
+    "t": "التسمية الاجتماعية",
+    "src": "Raison sociale",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd": {
+    "t": "[التسمية الاجتماعية]",
+    "src": "[Raison sociale]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_2": {
+    "t": "الشكل القانوني",
+    "src": "Forme juridique",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_2": {
+    "t": "[الشكل القانوني]",
+    "src": "[Forme juridique]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_3": {
+    "t": "عنوان المقر",
+    "src": "Adresse du siège",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_3": {
+    "t": "[عنوان المقر]",
+    "src": "[Adresse du siège]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_4": {
+    "t": "رقم BCE / KBO",
+    "src": "N° BCE / KBO",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_4": {
+    "t": "[رقم BCE / KBO]",
+    "src": "[n° BCE / KBO]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_5": {
+    "t": "رقم الضريبة",
+    "src": "N° TVA",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_5": {
+    "t": "[رقم الضريبة BE…]",
+    "src": "[n° TVA BE…]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li": {
+    "t": "WhatsApp: <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "src": "WhatsApp : <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_2": {
+    "t": "البريد الإلكتروني: [Email]",
+    "src": "E-mail : [Email]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_2": {
+    "t": "البيانات المجمّعة",
+    "src": "Données collectées",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_2": {
+    "t": "لا يحتوي هذا الموقع على نموذج ولا حساب ولا فضاء للعملاء. ولا نجمع شيئًا ما لم تراسلنا.",
+    "src": "Ce site n’a pas de formulaire, pas de compte, pas d’espace client. Nous ne collectons rien tant que vous ne nous écrivez pas.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_3": {
+    "t": "إذا راسلتنا على WhatsApp، فإننا نتلقّى ما ترسله: الاسم والرقم والصور والبلدية والتصميم المختار ومحتوى المحادثة.",
+    "src": "Si vous nous contactez sur WhatsApp, nous recevons ce que vous envoyez : nom, numéro, photos, commune, design choisi, et le contenu de la conversation.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_4": {
+    "t": "قد يسجّل مزوّد الاستضافة سجلات تقنية (عنوان IP، المتصفح، الصفحات المزارة) لتشغيل الموقع.",
+    "src": "L’hébergeur peut enregistrer des journaux techniques (adresse IP, navigateur, pages consultées) pour faire fonctionner le site.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_3": {
+    "t": "الأغراض والأسس القانونية",
+    "src": "Finalités et bases légales",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_5": {
+    "t": "نستخدم هذه البيانات من أجل:",
+    "src": "Nous utilisons ces données pour :",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_3": {
+    "t": "الرد على طلبك وإنجاز التجربة أو عرض سعر (تدابير ما قبل التعاقد، المادة&nbsp;6.1.b من اللائحة العامة لحماية البيانات)؛",
+    "src": "répondre à votre demande et réaliser l’essai ou un devis (mesures précontractuelles, art.&nbsp;6.1.b du RGPD) ;",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_4": {
+    "t": "ضمان عمل الموقع وأمنه (المصلحة المشروعة، المادة&nbsp;6.1.f من اللائحة العامة لحماية البيانات).",
+    "src": "assurer le fonctionnement et la sécurité du site (intérêt légitime, art.&nbsp;6.1.f du RGPD).",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_6": {
+    "t": "لا نبيع بياناتك. ولا نرسل نشرات بريدية.",
+    "src": "Nous ne vendons pas vos données. Nous n’envoyons pas de newsletter.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_4": {
+    "t": "الجهات المستقبِلة",
+    "src": "Destinataires",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_5": {
+    "t": "WhatsApp / Meta Platforms: تمرّ رسائلك عبر خوادمهم، وربما خارج الاتحاد الأوروبي.",
+    "src": "WhatsApp / Meta Platforms : vos messages transitent par leurs serveurs, éventuellement hors Union européenne.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_6": {
+    "t": "GitHub Pages (GitHub, Inc.): استضافة الموقع وسجلات الوصول.",
+    "src": "GitHub Pages (GitHub, Inc.) : hébergement du site et journaux d’accès.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_7": {
+    "t": "Google Fonts: يحمّل المتصفح الخطوط من خوادم Google؛ ويكون عنوان IP الخاص بك مرئيًا لهم.",
+    "src": "Google Fonts : le navigateur charge les polices depuis les serveurs de Google ; votre adresse IP leur est visible.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_5": {
+    "t": "مدة الاحتفاظ",
+    "src": "Durée de conservation",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_7": {
+    "t": "طلبات WhatsApp: طوال مدة عرض السعر أو التجربة، ثم تُحذف خلال مهلة معقولة، ما لم يوجد التزام قانوني (الفوترة، النزاع).",
+    "src": "Demandes WhatsApp : le temps du devis ou de l’essai, puis suppression dans un délai raisonnable, sauf obligation légale (facturation, litige).",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_8": {
+    "t": "سجلات الاستضافة: وفق سياسة GitHub Pages.",
+    "src": "Journaux d’hébergement : selon la politique de GitHub Pages.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_6": {
+    "t": "ملفات تعريف الارتباط",
+    "src": "Cookies",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_9": {
+    "t": "لا نضع ملفات تعريف ارتباط خاصة بنا. لا أدوات تتبّع ولا إعلانات ولا <code>localStorage</code> من جهتنا. ولا شريط موافقة: فنحن لا نستخدم ملفات تعريف ارتباط غير ضرورية.",
+    "src": "Nous ne déposons pas de cookies first-party. Pas de tracker, pas de publicité, pas de <code>localStorage</code> de notre part. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_10": {
+    "t": "أطراف ثالثة: Google Fonts (شبكة Google)، كما هو مذكور أعلاه.",
+    "src": "Tiers : Google Fonts (CDN Google), comme indiqué ci-dessus.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_7": {
+    "t": "حقوقك",
+    "src": "Vos droits",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_11": {
+    "t": "يمكنك طلب الوصول إلى بياناتك أو تصحيحها أو محوها أو تقييدها أو الاعتراض على معالجتها. راسلنا على WhatsApp أو على [Email].",
+    "src": "Vous pouvez demander l’accès, la rectification, l’effacement, la limitation ou l’opposition au traitement de vos données. Écrivez-nous sur WhatsApp ou à [Email].",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_12": {
+    "t": "يمكنك أيضًا تقديم شكوى إلى هيئة حماية البيانات (بلجيكا): <a href=\"https://www.autoriteprotectiondonnees.be/\" target=\"_blank\" rel=\"noopener noreferrer\" >autoriteprotectiondonnees.be</a >.",
+    "src": "Vous pouvez aussi déposer une réclamation auprès de l’Autorité de protection des données (Belgique) : <a href=\"https://www.autoriteprotectiondonnees.be/\" target=\"_blank\" rel=\"noopener noreferrer\" >autoriteprotectiondonnees.be</a >.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_8": {
+    "t": "التحديث",
+    "src": "Mise à jour",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_13": {
+    "t": "يمكن تعديل هذه السياسة إذا تغيّر الموقع. والتاريخ المذكور في أعلى الصفحة هو المعتمد.",
+    "src": "Cette politique peut être adaptée si le site change. La date en tête de page fait foi.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_next.p": {
+    "t": "انظر أيضًا: <a href=\"mentions-legales.html\">إشعارات قانونية</a>.",
+    "src": "Voir aussi : <a href=\"mentions-legales.html\">Mentions légales</a>.",
+    "status": "draft"
+  },
+  "404.meta.title": {
+    "t": "الصفحة غير موجودة — Fixbyte",
+    "src": "Page introuvable — Fixbyte",
+    "status": "draft"
+  },
+  "404.meta.description": {
+    "t": "هذه الصفحة غير موجودة أو تم نقلها. عد إلى الصفحة الرئيسية لـ Fixbyte Studio.",
+    "src": "Cette page n’existe pas ou a été déplacée. Retournez à l’accueil Fixbyte Studio.",
+    "status": "draft"
+  },
+  "404.error_page.h1": {
+    "t": "الصفحة غير موجودة",
+    "src": "Page introuvable",
+    "status": "draft"
+  },
+  "404.error_page.p": {
+    "t": "هذا العنوان غير موجود، أو تم نقل الصفحة. عد إلى الصفحة الرئيسية، أو افتح تصميمًا حسب المجال.",
+    "src": "Cette adresse n’existe pas, ou la page a été déplacée. Revenez à l’accueil, ou ouvrez un design par métier.",
+    "status": "draft"
+  },
+  "404.cta_block_btn.a": {
+    "t": "العودة إلى الرئيسية",
+    "src": "Retour à l’accueil",
+    "status": "draft"
+  },
+  "404.error_page_links.a": {
+    "t": "مطاعم",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "404.error_page_links.a_2": {
+    "t": "حلاقون",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "404.error_page_links.a_3": {
+    "t": "وكالات",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "404.error_page_links.a_4": {
+    "t": "شركات",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "404.error_page_links.a_5": {
+    "t": "مقاهٍ",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "404.error_page_links.a_6": {
+    "t": "تجارة إلكترونية",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "header.brand.a_aria_label": {
+    "t": "FixByte Studio",
+    "src": "FixByte Studio",
+    "status": "draft"
+  },
+  "header.site_nav.nav_aria_label": {
+    "t": "التنقّل الرئيسي",
+    "src": "Navigation principale",
+    "status": "draft"
+  },
+  "header.site_nav_link.a": {
+    "t": "مطاعم",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_2": {
+    "t": "حلاقون",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_3": {
+    "t": "وكالات",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_4": {
+    "t": "شركات",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_5": {
+    "t": "مقاهٍ",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_6": {
+    "t": "تجارة إلكترونية",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "header.site_header_cta.a": {
+    "t": "تجربة 0&nbsp;€",
+    "src": "Essai 0&nbsp;€",
+    "status": "draft"
+  },
+  "header.site_header_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20Fixbyte.%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9%3A%20%5B%20%5D.%20%D8%A7%D9%84%D9%86%D8%B4%D8%A7%D8%B7%3A%20%5B%20%5D.%20%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%3A%20%5B%D8%B1%D8%A7%D8%A8%D8%B7%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Business%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "footer.footer_logo.a_aria_label": {
+    "t": "FixByte Studio",
+    "src": "FixByte Studio",
+    "status": "draft"
+  },
+  "footer.footer_slogan.blockquote": {
+    "t": "تجربة 0&nbsp;€. محلّك على الإنترنت خلال 72&nbsp;ساعة.",
+    "src": "Essai 0&nbsp;€. Votre enseigne en 72&nbsp;h.",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_aria_label": {
+    "t": "التواصل",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p": {
+    "t": "التواصل",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_2_aria_label": {
+    "t": "المحتوى",
+    "src": "Contenu",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p_2": {
+    "t": "المحتوى",
+    "src": "Contenu",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a": {
+    "t": "الرئيسية",
+    "src": "Accueil",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_2": {
+    "t": "مطاعم",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_3": {
+    "t": "حلاقون",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_4": {
+    "t": "وكالات",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_5": {
+    "t": "شركات",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_6": {
+    "t": "مقاهٍ",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_7": {
+    "t": "تجارة إلكترونية",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_3_aria_label": {
+    "t": "معلومات قانونية",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p_3": {
+    "t": "قانوني",
+    "src": "Legal",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_8": {
+    "t": "إشعارات قانونية",
+    "src": "Mentions légales",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_9": {
+    "t": "سياسة الخصوصية",
+    "src": "Politique de confidentialité",
+    "status": "draft"
+  },
+  "footer.footer_meta.p": {
+    "t": "© <span id=\"year\"></span> <a href=\"https://fixbyte.be\" data-copyright></a>. جميع الحقوق محفوظة.",
+    "src": "© <span id=\"year\"></span> <a href=\"https://fixbyte.be\" data-copyright></a>. Tous droits réservés.",
+    "status": "draft"
+  },
+  "switcher.aria_label": {
+    "t": "اختر اللغة",
+    "src": "Choisir la langue",
+    "status": "draft"
+  },
+  "data.restaurants.pizzaro_fixbyte_dev.description": {
+    "t": "لمطعم بيتزا يعيش على الطلبات، لا على مفارش الطاولات.",
+    "src": "Pour une pizzeria qui vit de la commande, pas du nappe.",
+    "status": "draft"
+  },
+  "data.restaurants.foodee_fixbyte_framer_website.description": {
+    "t": "لمكان في الحي يُعاد إليه يوم الثلاثاء.",
+    "src": "Pour une table de quartier où l’on revient le mardi.",
+    "status": "draft"
+  },
+  "data.restaurants.fixbyte_umami_framer_website.description": {
+    "t": "لمكان يُحجز، لا يشرح نفسه.",
+    "src": "Pour une table qui se réserve, pas qui s’explique.",
+    "status": "draft"
+  },
+  "data.restaurants.savaro_fixbyte_framer_website.description": {
+    "t": "لصالة يأتي إليها الناس من أجل السهرة، لا من أجل طبق اليوم.",
+    "src": "Pour une salle où l’on vient pour le soir, pas pour le plat du jour.",
+    "status": "draft"
+  },
+  "data.restaurants.pastora_fixbyte_framer_website.description": {
+    "t": "لبيت في الحي: قائمة قصيرة وعنوان واضح.",
+    "src": "Pour une maison de quartier : menu court, adresse claire.",
+    "status": "draft"
+  },
+  "data.restaurants.restro_fixbyte_framer_website.description": {
+    "t": "لمطعم يريد أن يُظهر الصالة قبل القائمة.",
+    "src": "Pour un resto qui veut montrer la salle avant la carte.",
+    "status": "draft"
+  },
+  "data.restaurants.lebellagio_fixbyte_dev.description": {
+    "t": "لمكان في الأرياف: قائمة، حجز، طلبات خارجية.",
+    "src": "Pour une table de province : carte, réservation, à emporter.",
+    "status": "draft"
+  },
+  "data.restaurants.retro_resto_vercel_app.description": {
+    "t": "لمطعم يراهن على الأجواء قبل القائمة.",
+    "src": "Pour un resto qui mise sur l’ambiance avant la carte.",
+    "status": "draft"
+  },
+  "data.barbiers.bxl_barbers_fixbyte_framer_website.description": {
+    "t": "لمحل في بروكسل يظهر أسلوبه من الباب.",
+    "src": "Pour un shop bruxellois où le style se voit d’entrée.",
+    "status": "draft"
+  },
+  "data.barbiers.baron_fixbyte_framer_website.description": {
+    "t": "لصالون كلاسيكي: موعد واضح دون لفّ ودوران.",
+    "src": "Pour un salon classique : rendez-vous clair, pas de blabla.",
+    "status": "draft"
+  },
+  "data.barbiers.hairloom_fixbyte_framer_website.description": {
+    "t": "لصالون في الحي يُحجز فيه الكرسي.",
+    "src": "Pour un salon de quartier où le fauteuil se booke.",
+    "status": "draft"
+  },
+  "data.barbiers.salox_fixbyte_framer_website.description": {
+    "t": "لمحل يُحكم عليه من القفا، لا من الشعار.",
+    "src": "Pour une enseigne qui se juge à la nuque, pas au logo.",
+    "status": "draft"
+  },
+  "data.barbiers.otissons_framer_website.description": {
+    "t": "لصالون يهمّ فيه الاستقبال بقدر القصّة.",
+    "src": "Pour un salon où l’accueil compte autant que la coupe.",
+    "status": "draft"
+  },
+  "data.barbiers.barbershop_framer_website.description": {
+    "t": "لمحل يتبنّى الكلاسيكي دون جمود.",
+    "src": "Pour un shop qui assume le classique sans être coincé.",
+    "status": "draft"
+  },
+  "data.barbiers.therazorbrothers_framer_website.description": {
+    "t": "لحلّاقَين، معيار واحد.",
+    "src": "Pour deux barbiers, une même exigence.",
+    "status": "draft"
+  },
+  "data.barbiers.dallas_brb_fixbyte_framer_website.description": {
+    "t": "لصالون في بروكسل، يظهر قبل الكرسي.",
+    "src": "Pour un salon bruxellois, visible avant le fauteuil.",
+    "status": "draft"
+  },
+  "data.barbiers.clipster_framer_website.description": {
+    "t": "لمحل عصري يُحجز فيه الموعد بنقرة واحدة.",
+    "src": "Pour un shop moderne où le rendez-vous se prend en un clic.",
+    "status": "draft"
+  },
+  "data.agences.monetra_fixbyte_framer_website.description": {
+    "t": "لعرض رقمي واضح: خدمات وثقة وتواصل.",
+    "src": "Pour une offre digitale claire : services, confiance, prise de contact.",
+    "status": "draft"
+  },
+  "data.agences.educatix_framer_website.description": {
+    "t": "لمؤسسة عليها إقناع الأهل والطلاب في تمريرة واحدة.",
+    "src": "Pour une institution qui doit convaincre parents et élèves en un scroll.",
+    "status": "draft"
+  },
+  "data.agences.faculty_fixbyte_framer_website.description": {
+    "t": "لمدرسة تبيع البرامج والمرشدين والأدلة قبل الاستمارة.",
+    "src": "Pour une école qui vend programmes, mentors et preuves avant le formulaire.",
+    "status": "draft"
+  },
+  "data.agences.alktravel_fixbyte_dev.description": {
+    "t": "لوكالة سفر: وجهات وجولات وتواصل بنظرة واحدة.",
+    "src": "Pour une agence de voyages : destinations, tours, contact en un regard.",
+    "status": "draft"
+  },
+  "data.agences.constantine_framer_ai.description": {
+    "t": "لمعرض أعمال إبداعي: أعمال وخدمات وتواصل دون لفّ ودوران.",
+    "src": "Pour un portfolio créatif : travaux, services, contact sans blabla.",
+    "status": "draft"
+  },
+  "data.agences.op_fixbyte_us_framer_website.description": {
+    "t": "لاستوديو رقمي: عرض ومسار وأدلة قبل عرض السعر.",
+    "src": "Pour une studio digitale : offre, process, preuves avant le devis.",
+    "status": "draft"
+  },
+  "data.agences.paylytix_bytefix_framer_website.description": {
+    "t": "لعرض مالي: خدمات وأسعار وتواصل واضح.",
+    "src": "Pour une offre finance : services, tarifs, prise de contact claire.",
+    "status": "draft"
+  },
+  "data.agences.job_consulting_vercel_app.description": {
+    "t": "لمكتب توظيف: خدمات ومسار وحجز موعد.",
+    "src": "Pour un cabinet de recrutement : services, parcours, prise de RDV.",
+    "status": "draft"
+  },
+  "data.agences.x_axis_fixbyte_framer_website.description": {
+    "t": "لوكالة تقنية إبداعية: أعمال ومهارات وتواصل في تمريرة واحدة.",
+    "src": "Pour une agence créative tech : works, skills, contact en un scroll.",
+    "status": "draft"
+  },
+  "data.agences.ascent_fixbyte_framer_website.description": {
+    "t": "لوكالة سفر: وجهات وجولات وحجز ظاهر.",
+    "src": "Pour une agence de voyages : destinations, tours, réservation visible.",
+    "status": "draft"
+  },
+  "data.agences.travelio_fixbyte_framer_website.description": {
+    "t": "لوكالة سفر فاخرة: مسارات وأدلة وتخطيط.",
+    "src": "Pour une agence voyage premium : itinéraires, preuves, planifier.",
+    "status": "draft"
+  },
+  "data.agences.moveex_framer_website.description": {
+    "t": "للوجستيات B2B: خدمات وتتبّع وتواصل مهني.",
+    "src": "Pour une logistique B2B : services, tracking, contact professionnel.",
+    "status": "draft"
+  },
+  "data.agences.baliva_byte_framer_website.description": {
+    "t": "لوكالة سفر متخصصة: عرض واضح ومسار وتخطيط للإقامة.",
+    "src": "Pour une agence voyage niche : offre claire, process, planifier le séjour.",
+    "status": "draft"
+  },
+  "data.entreprises.vsconcepts_fr.description": {
+    "t": "شركة تنسيق خارجي: شرفات وممرات وتعبيد وأسوار وأعمال بناء في بوردو.",
+    "src": "Entreprise d’aménagement extérieur : terrasses, allées, enrobés, clôtures, maçonnerie à Bordeaux.",
+    "status": "draft"
+  },
+  "data.entreprises.skyrenov38_fr.description": {
+    "t": "شركة تجديد: جدران ودهان وألواح جبسية وواجهات في غرونوبل وإيزير.",
+    "src": "Entreprise de rénovation : murs, peinture, placo, façade à Grenoble et en Isère.",
+    "status": "draft"
+  },
+  "data.cafes.cg_fixbyte_framer_website.description": {
+    "t": "لمقهى في الحي: قهوة وفطور ومواعيد واضحة.",
+    "src": "Pour un café de quartier : café, petit-déj, horaires clairs.",
+    "status": "draft"
+  },
+  "data.cafes.bakeri_fixbyte_framer_website.description": {
+    "t": "لمخبزة تبيع الكرواسون قبل الخطاب.",
+    "src": "Pour une boulangerie qui vend le croissant avant le discours.",
+    "status": "draft"
+  },
+  "data.cafes.bakery_co_wbs_framer_website.description": {
+    "t": "لبيت حرفي: خبز اليوم وأوقات الخبز والعنوان.",
+    "src": "Pour une maison artisanale : pain du jour, fournées, adresse.",
+    "status": "draft"
+  },
+  "data.cafes.ovena_framer_ai.description": {
+    "t": "لمحل حلويات يعرض الكعك قبل القائمة.",
+    "src": "Pour une pâtisserie qui montre les gâteaux avant la carte.",
+    "status": "draft"
+  },
+  "data.cafes.loafly_fixbyte_framer_website.description": {
+    "t": "لمخبزة تضع الخبز في وسط الصفحة.",
+    "src": "Pour une boulangerie qui met le pain au centre de la page.",
+    "status": "draft"
+  },
+  "data.cafes.mng_bx_fixbyte_framer_website.description": {
+    "t": "لمخبزة في الحي: خبز ومعجنات وقهوة.",
+    "src": "Pour un bakehouse de voisinage : pain, viennoiserie, café.",
+    "status": "draft"
+  },
+  "data.cafes.bakehub_framer_website.description": {
+    "t": "لمحل يدفع نحو click & collect والطلبات.",
+    "src": "Pour une boutique qui pousse le click & collect et les commandes.",
+    "status": "draft"
+  },
+  "data.ecommerce.uncover_fixbyte_framer_website.description": {
+    "t": "لمتجر تقني: فئات والأكثر مبيعًا وسلة في تمريرة واحدة.",
+    "src": "Pour une boutique tech : catégories, best-sellers, panier en un scroll.",
+    "status": "draft"
+  },
+  "data.ecommerce.minna_fixbyte_framer_website.description": {
+    "t": "لأزياء على الإنترنت: مجموعات وأسعار وشراء فوري.",
+    "src": "Pour une mode en ligne : collections, prix, achat immédiat.",
+    "status": "draft"
+  },
+  "data.ecommerce.ferea_fixbyte_framer_website_menu.description": {
+    "t": "لقائمة مقهى / متجر: منتجات وأسعار وطلب واضح.",
+    "src": "Pour une carte café / shop : produits, prix, commande claire.",
+    "status": "draft"
+  },
+  "data.ecommerce.maxaura_fixbyte_framer_website.description": {
+    "t": "لإطلاق منتج: مزايا وأدلة وطلب مسبق.",
+    "src": "Pour un lancement produit : features, preuves, précommande.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,2582 @@
+{
+  "index.meta.title": {
+    "t": "Fixbyte — Designs",
+    "src": "Fixbyte — Designs",
+    "status": "draft"
+  },
+  "index.meta.description": {
+    "t": "Websites voor restaurants, bureaus, bedrijven, kappers, cafés, bakkerijen en webshops. Test voor 0 €: jouw naam op het design. Bekijk de Fixbyte-designs.",
+    "src": "Vitrines pour restaurants, agences, entreprises, barbiers, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte.",
+    "status": "draft"
+  },
+  "index.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, agences et commerces",
+    "status": "draft"
+  },
+  "ui.wa_label": {
+    "t": "Schrijf ons op WhatsApp",
+    "src": "Écrire sur WhatsApp",
+    "status": "draft"
+  },
+  "ui.wa_tip": {
+    "t": "Schrijf ons op WhatsApp",
+    "src": "Écrivez-nous sur WhatsApp",
+    "status": "draft"
+  },
+  "ui.grid_empty": {
+    "t": "Nog geen projecten.",
+    "src": "Aucun projet pour le moment.",
+    "status": "draft"
+  },
+  "ui.grid_error": {
+    "t": "Kan de projecten momenteel niet laden.",
+    "src": "Impossible de charger les projets pour le moment.",
+    "status": "draft"
+  },
+  "ui.card_fallback": {
+    "t": "Design openen",
+    "src": "Ouvrir le design",
+    "status": "draft"
+  },
+  "index.hero_mascot.img_alt": {
+    "t": "Bytie, de mascotte van Fixbyte",
+    "src": "Bytie, mascotte Fixbyte",
+    "status": "draft"
+  },
+  "index.hero_mascot_quote.blockquote": {
+    "t": "Baas. We zijn open, maar niemand vindt ons.",
+    "src": "Patron. On est ouvert, mais introuvable.",
+    "status": "draft"
+  },
+  "index.hero_badge.span": {
+    "t": "Je hoeft er niet in te geloven.",
+    "src": "Pas besoin d’y croire.",
+    "status": "draft"
+  },
+  "index.hero_copy.h1": {
+    "t": "Jij kiest een design, wij zetten er jouw zaak op, jij krijgt de link.",
+    "src": "Tu choisis un design, on y met ton enseigne, tu reçois le lien.",
+    "status": "draft"
+  },
+  "index.lead.p": {
+    "t": "Geen projectmanager. Niet de AI-site van de buren. 72&nbsp;u om te beslissen.",
+    "src": "Pas de chef de projet. Pas le site IA du voisin. 72&nbsp;h pour trancher.",
+    "status": "draft"
+  },
+  "index.hero_pitch.div_aria_label": {
+    "t": "Waarom Fixbyte",
+    "src": "Pourquoi Fixbyte",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span": {
+    "t": "Kijk eerst",
+    "src": "Regardez d’abord",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p": {
+    "t": "Blader door ons werk en onze designs. Je oordeelt op het scherm, niet op een offerte.",
+    "src": "Parcourez nos réalisations et designs. Vous jugez sur l’écran, pas sur un devis.",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span_2": {
+    "t": "Test het met jouw zaak",
+    "src": "Essayez avec votre enseigne",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p_2": {
+    "t": "Test 0&nbsp;€, 72&nbsp;u. Wij passen het aan. Jij test en beslist.",
+    "src": "Essai 0&nbsp;€, 72&nbsp;h. On l’adapte. Vous le testez et décidez.",
+    "status": "draft"
+  },
+  "index.hero_pitch_title.span_3": {
+    "t": "Wij houden de deur open",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "index.hero_pitch_item.p_3": {
+    "t": "Je vraagt het ’s avonds. ’s Ochtends staat het online. Zonder heen en weer.",
+    "src": "Vous demandez le soir. C’est en ligne au matin. Sans aller-retour.",
+    "status": "draft"
+  },
+  "index.hero_badge.span_2": {
+    "t": "Business",
+    "src": "Business",
+    "status": "draft"
+  },
+  "index.hub_title.h2": {
+    "t": "Jouw zaak. De designs staan er al, jij oordeelt.",
+    "src": "Ton business. Des designs déjà là, tu juges.",
+    "status": "draft"
+  },
+  "index.lead.p_2": {
+    "t": "Je opent, je klikt, je ziet. Geen verkooppraatje.",
+    "src": "Tu ouvres, tu cliques, tu vois. Pas un discours.",
+    "status": "draft"
+  },
+  "index.hub_card.h3": {
+    "t": "Restaurants",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "index.hub_card.p": {
+    "t": "Dinsdag 20&nbsp;u. Iemand op 400&nbsp;m heeft honger. Hij vindt jou — of de zaak ernaast.",
+    "src": "Mardi 20&nbsp;h. Quelqu’un à 400m a faim. Il vous trouve — ou la table d’à côté.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span": {
+    "t": "Bekijk de designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_2": {
+    "t": "Cafés &amp; bakkerijen",
+    "src": "Cafés &amp; boulangeries",
+    "status": "draft"
+  },
+  "index.hub_card.p_2": {
+    "t": "7&nbsp;u&nbsp;40, hij zoekt «&nbsp;nu open&nbsp;». Niet jouw logo. Gewoon de juiste uren.",
+    "src": "7&nbsp;h&nbsp;40, il cherche «&nbsp;ouvert maintenant&nbsp;». Pas votre logo. L’horaire juste.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_2": {
+    "t": "Bekijk de designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_3": {
+    "t": "Bureaus",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "index.hub_card.p_3": {
+    "t": "Hij vergelijkt 4 offertes voor het rood licht. De jouwe moet winnen zonder pitch.",
+    "src": "Il compare 4 offres au feu rouge. La vôtre doit gagner sans pitch.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_3": {
+    "t": "Bekijk de designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_4": {
+    "t": "E-commerce",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "index.hub_card.p_4": {
+    "t": "Drie tabbladen open. Hij koopt waar het product zichzelf al verkoopt — zonder briefing.",
+    "src": "Trois onglets ouverts. Il achète là où le produit se vend déjà — sans brief.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_4": {
+    "t": "Bekijk de designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_5": {
+    "t": "Kappers",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "index.hub_card.p_5": {
+    "t": "Zaterdag 10&nbsp;u. Die lege stoel is een klant die de andere zaak koos op Maps.",
+    "src": "Samedi 10&nbsp;h. Le fauteuil vide, c’est un client qui a choisi l’autre salon sur Maps.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_5": {
+    "t": "Bekijk de designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.hub_card.h3_6": {
+    "t": "Bedrijven",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "index.hub_card.p_6": {
+    "t": "Drie offertes. Hij kiest die van wie de werf al toont.",
+    "src": "Trois devis. Il choisit celui qui montre déjà le chantier.",
+    "status": "draft"
+  },
+  "index.hub_card_cta.span_6": {
+    "t": "Bekijk de designs ↗",
+    "src": "Voir les designs ↗",
+    "status": "draft"
+  },
+  "index.cta_title.h2": {
+    "t": "Test · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "index.cta_block.p": {
+    "t": "Jij stuurt 4 foto’s. Wij zetten jouw zaak erop. 72&nbsp;u om het in de zaak te tonen.",
+    "src": "Tu envoies 4 photos. On y met l’enseigne. 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "index.cta_block_btn.a": {
+    "t": "Stuur 4 foto’s via WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "index.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%20Fixbyte-test.%20Naam%3A%20%5B%20%5D.%20Gemeente%3A%20%5B%20%5D.%20Business%3A%20%5B%20%5D.%20Gekozen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Business%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "index.cta_block_hint.p": {
+    "t": "Geen briefing. We bellen dezelfde dag terug.",
+    "src": "Pas de brief. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "index.faq_mascot.img_alt": {
+    "t": "Bytie, de mascotte van Fixbyte, vinger tegen de slaap",
+    "src": "Bytie, mascotte Fixbyte, doigt à la tempe",
+    "status": "draft"
+  },
+  "index.faq_title.h2": {
+    "t": "Vragen die we vaak krijgen",
+    "src": "Questions qu’on reçoit souvent",
+    "status": "draft"
+  },
+  "index.faq_list.summary": {
+    "t": "Is de test van 0&nbsp;€ echt gratis?",
+    "src": "L’essai à 0&nbsp;€, c’est vraiment gratuit&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p": {
+    "t": "Ja. Een kopie van het gekozen design met jouw naam, 72&nbsp;u live via een URL, geregeld via WhatsApp (4 foto’s). Geen kaartnummer, geen addertje. Het is geen definitieve site — net genoeg om in de zaak te kunnen oordelen.",
+    "src": "Oui. Clone du design choisi avec votre nom, URL live 72&nbsp;h, via WhatsApp (4 photos). Pas de carte, pas de piège. Ce n’est pas un site définitif — juste de quoi juger en salle.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_2": {
+    "t": "Wat gebeurt er na 72&nbsp;u?",
+    "src": "Que se passe-t-il après 72&nbsp;h&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_2": {
+    "t": "De preview vervalt. Jij kiest: we stoppen, of we gaan over naar een betalende formule. Er wordt nooit automatisch afgeschreven.",
+    "src": "L’aperçu expire. Vous choisissez&nbsp;: on s’arrête, ou on passe à une offre payante. Aucun débit automatique.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_3": {
+    "t": "Wat kost het daarna?",
+    "src": "Combien ça coûte ensuite&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_3": {
+    "t": "Twee wegen: <strong>Het Uithangbord</strong> — eenmalig 1&nbsp;990&nbsp;€ excl. btw · <strong>Wij houden de deur open</strong> — 199&nbsp;€ excl. btw / maand gedurende 12 maanden, daarna 99&nbsp;€ excl. btw / maand. 21&nbsp;% btw komt daarbovenop. De details staan op elke businesspagina.",
+    "src": "Deux chemins&nbsp;: <strong>L’Enseigne</strong> — 1&nbsp;990&nbsp;€&nbsp;HT une fois · <strong>On tient la porte</strong> — 199&nbsp;€&nbsp;HT / mois pendant 12 mois, puis 99&nbsp;€&nbsp;HT / mois. TVA 21&nbsp;% en sus. Les cartes détaillées sont sur chaque page business.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_4": {
+    "t": "Zijn die previews jullie eigen designs?",
+    "src": "Les aperçus, c’est vos designs&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_4": {
+    "t": "Grotendeels wel. Je oordeelt op de preview. Eens gekozen maken we het opnieuw op jouw naam — in sommige gevallen leveren we niet het originele bestand.",
+    "src": "La majorité oui. Vous jugez sur l’aperçu. Une fois choisi, on le refait à votre enseigne — dans certains cas ce n’est pas le fichier d’origine que l’on livre.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_5": {
+    "t": "Het Uithangbord of Wij houden de deur open — hoe kiezen?",
+    "src": "L’Enseigne ou On tient la porte — comment choisir&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_5": {
+    "t": "Het Uithangbord: je deur staat online in ~2 weken, daarna beheer je zelf. Wij houden de deur open (aanbevolen): dezelfde site + een foto via WhatsApp → ’s avonds bijgewerkt + Google-posts.",
+    "src": "L’Enseigne&nbsp;: la porte en ligne en ~2 semaines, vous gérez ensuite. On tient la porte (recommandé)&nbsp;: le même site + photo WhatsApp → mise à jour le soir + posts Google.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_6": {
+    "t": "Is de site van mij?",
+    "src": "Le site m’appartient&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_6": {
+    "t": "Ja — bij oplevering van Het Uithangbord, of na 12 maanden Wij houden de deur open. Daarna kan hosting alleen: 29&nbsp;€ excl. btw / maand.",
+    "src": "Oui — à la livraison de L’Enseigne, ou après 12 mois de On tient la porte. Hébergement seul possible ensuite&nbsp;: 29&nbsp;€&nbsp;HT / mois.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_7": {
+    "t": "Wat moet ik opsturen om te starten?",
+    "src": "Qu’est-ce que je dois envoyer pour démarrer&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_7": {
+    "t": "Test: 4 foto’s + naam + gemeente + de link van het design, via WhatsApp. Betalende formule: teksten, foto’s, toegangen; één feedbackronde inbegrepen bij Het Uithangbord.",
+    "src": "Essai&nbsp;: 4 photos + nom + commune + lien du design sur WhatsApp. Offre payante&nbsp;: textes, photos, accès&nbsp;; un tour de retours inclus avec L’Enseigne.",
+    "status": "draft"
+  },
+  "index.faq_list.summary_8": {
+    "t": "Beheren jullie ook Google / Maps?",
+    "src": "Vous gérez aussi Google / Maps&nbsp;?",
+    "status": "draft"
+  },
+  "index.faq_list.p_8": {
+    "t": "Google Bedrijfsprofiel bij Het Uithangbord; posts en reviews bij Wij houden de deur open. «&nbsp;De lege plek&nbsp;» (+ 290&nbsp;€ excl. btw / maand) pas na 8 weken, als je Ads en lokale duw wil.",
+    "src": "Fiche Google Business avec L’Enseigne&nbsp;; posts et avis avec On tient la porte. «&nbsp;Le créneau vide&nbsp;» (+ 290&nbsp;€&nbsp;HT / mois) seulement après 8 semaines, si vous voulez Ads et poussée locale.",
+    "status": "draft"
+  },
+  "restaurant.meta.title": {
+    "t": "Designs voor restaurants — Fixbyte",
+    "src": "Designs restaurants — Fixbyte",
+    "status": "draft"
+  },
+  "restaurant.meta.description": {
+    "t": "Fixbyte-designs voor restaurants. Test voor 0 €: jouw naam op het design. Pizzaro, Umami, Savaro en andere klikbare previews.",
+    "src": "Designs Fixbyte pour restaurants. Essai 0 € : votre nom sur le design. Pizzaro, Umami, Savaro et autres aperçus cliquables.",
+    "status": "draft"
+  },
+  "restaurant.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, kappers, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "restaurant.hero_badge.span": {
+    "t": "Dinsdagavond",
+    "src": "Mardi soir",
+    "status": "draft"
+  },
+  "restaurant.hero_scene.h1": {
+    "t": "Om 20&nbsp;u opent hij Uber Eats. Daar ben je een vakje. Jouw site is de tafel.",
+    "src": "À 20&nbsp;h il ouvre Uber Eats. T’es une case. Ton site, c’est la table.",
+    "status": "draft"
+  },
+  "restaurant.hero_scene_action.p": {
+    "t": "Klik op een kaart: dat is wat hij ziet. Daarna zetten wij jouw naam erop.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "restaurant.works_title.h2": {
+    "t": "Restaurantprojecten",
+    "src": "Projets restaurants",
+    "status": "draft"
+  },
+  "restaurant.pitch_title.h2": {
+    "t": "Waarom deze designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.h3": {
+    "t": "Geen catalogus",
+    "src": "Pas un catalogue",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.p": {
+    "t": "De tafel van 21&nbsp;u, in zijn hoofd al gedekt. Foto’s, menu, reserveerknop — wat nodig is vóór het eerste telefoontje.",
+    "src": "La table de 21&nbsp;h, déjà pleine dans sa tête. Photos, menu, bouton réserver — ce qu’il faut avant le premier appel.",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.h3_2": {
+    "t": "Jij klikt, jij oordeelt",
+    "src": "Vous cliquez, vous jugez",
+    "status": "draft"
+  },
+  "restaurant.pitch_item.p_2": {
+    "t": "Elke preview opent het design. Over smaak discussiëren we niet — jij kiest, wij vertrekken daarvan.",
+    "src": "Chaque aperçu ouvre le design. On n’argumente pas un goût — vous choisissez, on part de là.",
+    "status": "draft"
+  },
+  "restaurant.pitch_mascot.img_alt": {
+    "t": "Bytie met een gerecht",
+    "src": "Bytie Dish",
+    "status": "draft"
+  },
+  "restaurant.price_essai_kicker.p": {
+    "t": "Voor je kiest",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "restaurant.essai_title.h2": {
+    "t": "Test · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "restaurant.price_essai_lead.p": {
+    "t": "Jouw naam op het design dat je net aanklikte. 72&nbsp;u live via een URL, om het in de zaak te tonen.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "restaurant.price_essai_cta.a": {
+    "t": "Stuur 4 foto’s via WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "restaurant.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%20Fixbyte-test%20voor%20mijn%20restaurant.%20Naam%3A%20%5B%20%5D.%20Gemeente%3A%20%5B%20%5D.%20Gekozen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20restaurant.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "restaurant.pricing_title.h2": {
+    "t": "Tarieven",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "restaurant.pricing_intro.p": {
+    "t": "Twee deuren: <strong>Het Uithangbord</strong> (eenmalig), of <strong>Wij houden de deur open</strong> (wij houden ze bij). Prijzen excl. btw, 21&nbsp;% btw komt daarbovenop.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "restaurant.price_card.h3": {
+    "t": "Het Uithangbord",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "restaurant.price_card_amount.p": {
+    "t": "1&nbsp;990&nbsp;€ <span>excl. btw</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "restaurant.price_card_hint.p": {
+    "t": "Eenmalige betaling · online in 10 dagen · de site is van jou",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li": {
+    "t": "Het gekozen design, op jouw naam — 4 mobiele pagina’s",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_2": {
+    "t": "Menu, contact, reserveerknop",
+    "src": "Menu, contact, bouton réservation",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_3": {
+    "t": "Google Bedrijfsprofiel",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_4": {
+    "t": "Online zetten + 3 maanden hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "restaurant.price_card_badge.p": {
+    "t": "Meest gekozen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "restaurant.price_card.h3_2": {
+    "t": "Wij houden de deur open",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "restaurant.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "restaurant.price_card_hint.p_2": {
+    "t": "12 maanden · Het Uithangbord inbegrepen · daarna 99&nbsp;€ excl. btw / maand",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_5": {
+    "t": "Het Uithangbord inbegrepen (zoals hiernaast)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_6": {
+    "t": "Foto via WhatsApp → site ’s avonds bijgewerkt",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_7": {
+    "t": "4 Google Bedrijfsprofiel-posts / maand",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "restaurant.price_card_list.li_8": {
+    "t": "Rapport: oproepen, routekliks, reservaties",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, réservations",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_kicker.p": {
+    "t": "Daarna, als het draait",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_body.h3": {
+    "t": "De lege plek",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "restaurant.price_upsell_body.p": {
+    "t": "Na 8 weken Wij houden de deur open. We mikken op het gat in de agenda — Maps, reviews, Google Ads (advertentiebudget komt erbij). Totaal 489&nbsp;€ excl. btw / maand.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "restaurant.pricing_note.p": {
+    "t": "Test 0&nbsp;€ voor je kiest. Meertalige site inbegrepen — jij levert de teksten, of we vertrekken van een vertaling die jij nakijkt.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "restaurant.pricing_own.p": {
+    "t": "Na 12&nbsp;maanden «&nbsp;Wij houden de deur open&nbsp;» is <strong>de site van jou.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "restaurant.cta_title.h2": {
+    "t": "12 min · we openen samen jouw Google-profiel",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "restaurant.cta_block.p": {
+    "t": "Je ziet wat een klant vanavond ziet. Daarna zeggen we of een site ergens toe dient.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "restaurant.cta_block_btn.a": {
+    "t": "Schrijf ons op WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "restaurant.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%2012%20minuten%20van%20Fixbyte%20om%20samen%20mijn%20Google-profiel%20te%20openen.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "restaurant.cta_block_hint.p": {
+    "t": "Geen briefing. 4 foto’s. We bellen dezelfde dag terug.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "cafes.meta.title": {
+    "t": "Designs voor cafés &amp; bakkerijen — Fixbyte",
+    "src": "Designs cafés &amp; boulangeries — Fixbyte",
+    "status": "draft"
+  },
+  "cafes.meta.description": {
+    "t": "Fixbyte-designs voor cafés en bakkerijen. Test voor 0 €: jouw naam op het design. Dagkaart, openingsuren, adres en click & collect.",
+    "src": "Designs Fixbyte pour cafés et boulangeries. Essai 0 € : votre nom sur le design. Carte du jour, horaires, adresse et click & collect.",
+    "status": "draft"
+  },
+  "cafes.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, kappers, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "cafes.hero_badge.span": {
+    "t": "Nu open — of ergens anders",
+    "src": "Ouvert maintenant — ou ailleurs",
+    "status": "draft"
+  },
+  "cafes.hero_scene.h1": {
+    "t": "7&nbsp;u&nbsp;40. «&nbsp;Nu open&nbsp;» — of de bakker ernaast.",
+    "src": "7&nbsp;h&nbsp;40. «&nbsp;Ouvert maintenant&nbsp;» — ou la boulangerie d’à côté.",
+    "status": "draft"
+  },
+  "cafes.hero_scene_action.p": {
+    "t": "Klik op een kaart: dat is wat hij ziet. Daarna zetten wij jouw naam erop.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "cafes.works_title.h2": {
+    "t": "Projecten voor cafés en bakkerijen",
+    "src": "Projets cafés et boulangeries",
+    "status": "draft"
+  },
+  "cafes.pitch_title.h2": {
+    "t": "Waarom deze designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "cafes.pitch_item.h3": {
+    "t": "De dagelijkse gang, goed bijgehouden",
+    "src": "Le quotidien, bien tenu",
+    "status": "draft"
+  },
+  "cafes.pitch_item.p": {
+    "t": "Dagkaart, ochtendbrood, duidelijke uren. Een pagina die naar de toog ruikt, geen stijve gastronomische kaart.",
+    "src": "Carte du jour, pain du matin, horaires clairs. Une page qui sent le comptoir, pas un menu gastronomique figé.",
+    "status": "draft"
+  },
+  "cafes.pitch_item.h3_2": {
+    "t": "Blijven, of meenemen",
+    "src": "Passer, ou emporter",
+    "status": "draft"
+  },
+  "cafes.pitch_item.p_2": {
+    "t": "Adres, click &amp; collect, zichtbare knop. De bezoeker weet of hij tijd heeft om te zitten — of om zijn bestelling op te halen.",
+    "src": "Adresse, click &amp; collect, bouton visible. Le visiteur sait s’il a le temps de s’asseoir — ou de récupérer sa commande.",
+    "status": "draft"
+  },
+  "cafes.pitch_mascot.img_alt": {
+    "t": "Bytie in het café",
+    "src": "Bytie au café",
+    "status": "draft"
+  },
+  "cafes.price_essai_kicker.p": {
+    "t": "Voor je kiest",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "cafes.essai_title.h2": {
+    "t": "Test · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "cafes.price_essai_lead.p": {
+    "t": "Jouw naam op het design dat je net aanklikte. 72&nbsp;u live via een URL, om het aan de toog te tonen.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer au comptoir.",
+    "status": "draft"
+  },
+  "cafes.price_essai_cta.a": {
+    "t": "Stuur 4 foto’s via WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "cafes.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%20Fixbyte-test%20voor%20mijn%20caf%C3%A9%20%2F%20bakkerij.%20Naam%3A%20%5B%20%5D.%20Gemeente%3A%20%5B%20%5D.%20Gekozen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20caf%C3%A9%20%2F%20boulangerie.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "cafes.pricing_title.h2": {
+    "t": "Tarieven",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "cafes.pricing_intro.p": {
+    "t": "Twee deuren: <strong>Het Uithangbord</strong> (eenmalig), of <strong>Wij houden de deur open</strong> (wij houden ze bij). Prijzen excl. btw, 21&nbsp;% btw komt daarbovenop.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "cafes.price_card.h3": {
+    "t": "Het Uithangbord",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "cafes.price_card_amount.p": {
+    "t": "1&nbsp;990&nbsp;€ <span>excl. btw</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "cafes.price_card_hint.p": {
+    "t": "Eenmalige betaling · online in 10 dagen · de site is van jou",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li": {
+    "t": "Het gekozen design, op jouw naam — 4 mobiele pagina’s",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_2": {
+    "t": "Dagkaart, openingsuren, click &amp; collect",
+    "src": "Carte du jour, horaires, click &amp; collect",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_3": {
+    "t": "Google Bedrijfsprofiel",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_4": {
+    "t": "Online zetten + 3 maanden hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "cafes.price_card_badge.p": {
+    "t": "Meest gekozen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "cafes.price_card.h3_2": {
+    "t": "Wij houden de deur open",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "cafes.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "cafes.price_card_hint.p_2": {
+    "t": "12 maanden · Het Uithangbord inbegrepen · daarna 99&nbsp;€ excl. btw / maand",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_5": {
+    "t": "Het Uithangbord inbegrepen (zoals hiernaast)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_6": {
+    "t": "Foto via WhatsApp → site ’s avonds bijgewerkt",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_7": {
+    "t": "4 Google Bedrijfsprofiel-posts / maand",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "cafes.price_card_list.li_8": {
+    "t": "Rapport: oproepen, routekliks, bestellingen",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, commandes",
+    "status": "draft"
+  },
+  "cafes.price_upsell_kicker.p": {
+    "t": "Daarna, als het draait",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "cafes.price_upsell_body.h3": {
+    "t": "De lege plek",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "cafes.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "cafes.price_upsell_body.p": {
+    "t": "Na 8 weken Wij houden de deur open. We mikken op het gat in de agenda — Maps, reviews, Google Ads (advertentiebudget komt erbij). Totaal 489&nbsp;€ excl. btw / maand.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "cafes.pricing_note.p": {
+    "t": "Test 0&nbsp;€ voor je kiest. Meertalige site inbegrepen — jij levert de teksten, of we vertrekken van een vertaling die jij nakijkt.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "cafes.pricing_own.p": {
+    "t": "Na 12&nbsp;maanden «&nbsp;Wij houden de deur open&nbsp;» is <strong>de site van jou.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "cafes.cta_title.h2": {
+    "t": "12 min · we openen samen jouw Google-profiel",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "cafes.cta_block.p": {
+    "t": "Je ziet wat een klant vanochtend ziet. Daarna zeggen we of een site ergens toe dient.",
+    "src": "Vous voyez ce qu’un client voit ce matin. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "cafes.cta_block_btn.a": {
+    "t": "Schrijf ons op WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "cafes.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%2012%20minuten%20van%20Fixbyte%20om%20samen%20mijn%20Google-profiel%20te%20openen.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "cafes.cta_block_hint.p": {
+    "t": "Geen briefing. 4 foto’s. We bellen dezelfde dag terug.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "barbiers.meta.title": {
+    "t": "Designs voor kappers — Fixbyte",
+    "src": "Designs barbiers — Fixbyte",
+    "status": "draft"
+  },
+  "barbiers.meta.description": {
+    "t": "Fixbyte-designs voor kappers. Test voor 0 €: jouw naam op het design. BXL, Salox, Otissons, Clipster en andere klikbare previews.",
+    "src": "Designs Fixbyte pour barbiers. Essai 0 € : votre nom sur le design. BXL, Salox, Otissons, Clipster et autres aperçus cliquables.",
+    "status": "draft"
+  },
+  "barbiers.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, kappers, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "barbiers.hero_badge.span": {
+    "t": "Elke stoel telt",
+    "src": "Chaque fauteuil compte",
+    "status": "draft"
+  },
+  "barbiers.hero_scene.h1": {
+    "t": "Zaterdag 10&nbsp;u. Een lege stoel kost je een beurt.",
+    "src": "Samedi 10&nbsp;h. Le fauteuil vide coûte une coupe.",
+    "status": "draft"
+  },
+  "barbiers.hero_scene_action.p": {
+    "t": "Klik op een kaart: dat is wat hij ziet. Daarna zetten wij jouw naam erop.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "barbiers.works_title.h2": {
+    "t": "Kappersprojecten",
+    "src": "Projets barbiers",
+    "status": "draft"
+  },
+  "barbiers.pitch_title.h2": {
+    "t": "Waarom deze designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.h3": {
+    "t": "Een kapperszaak wordt beoordeeld op de nek",
+    "src": "Le salon se juge à la nuque",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.p": {
+    "t": "Stijl, vertrouwen, afspraak — wat nodig is vóór hij de andere zaak kiest op Maps.",
+    "src": "Style, confiance, rendez-vous — ce qu’il faut avant qu’il choisisse l’autre salon sur Maps.",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.h3_2": {
+    "t": "Klik, oordeel met eigen ogen",
+    "src": "Cliquez, jugez sur pièce",
+    "status": "draft"
+  },
+  "barbiers.pitch_item.p_2": {
+    "t": "Elke preview opent het design. Over smaak discussiëren we niet — jij kiest, wij vertrekken daarvan.",
+    "src": "Chaque aperçu ouvre le design. On n’argumente pas un goût — vous choisissez, on part de là.",
+    "status": "draft"
+  },
+  "barbiers.pitch_mascot.img_alt": {
+    "t": "Bytie als kapper",
+    "src": "Bytie en barbier",
+    "status": "draft"
+  },
+  "barbiers.price_essai_kicker.p": {
+    "t": "Voor je kiest",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "barbiers.essai_title.h2": {
+    "t": "Test · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "barbiers.price_essai_lead.p": {
+    "t": "Jouw naam op het design dat je net aanklikte. 72&nbsp;u live via een URL, om het in de zaak te tonen.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en salle.",
+    "status": "draft"
+  },
+  "barbiers.price_essai_cta.a": {
+    "t": "Stuur 4 foto’s via WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "barbiers.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%20Fixbyte-test%20voor%20mijn%20kapperszaak.%20Naam%3A%20%5B%20%5D.%20Gemeente%3A%20%5B%20%5D.%20Gekozen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20salon.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "barbiers.pricing_title.h2": {
+    "t": "Tarieven",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "barbiers.pricing_intro.p": {
+    "t": "Twee deuren: <strong>Het Uithangbord</strong> (eenmalig), of <strong>Wij houden de deur open</strong> (wij houden ze bij). Prijzen excl. btw, 21&nbsp;% btw komt daarbovenop.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "barbiers.price_card.h3": {
+    "t": "Het Uithangbord",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "barbiers.price_card_amount.p": {
+    "t": "1&nbsp;990&nbsp;€ <span>excl. btw</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "barbiers.price_card_hint.p": {
+    "t": "Eenmalige betaling · online in 10 dagen · de site is van jou",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li": {
+    "t": "Het gekozen design, op jouw naam — 4 mobiele pagina’s",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_2": {
+    "t": "Diensten, tarieven, afspraakknop",
+    "src": "Services, tarifs, bouton rendez-vous",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_3": {
+    "t": "Google Bedrijfsprofiel",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_4": {
+    "t": "Online zetten + 3 maanden hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "barbiers.price_card_badge.p": {
+    "t": "Meest gekozen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "barbiers.price_card.h3_2": {
+    "t": "Wij houden de deur open",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "barbiers.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "barbiers.price_card_hint.p_2": {
+    "t": "12 maanden · Het Uithangbord inbegrepen · daarna 99&nbsp;€ excl. btw / maand",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_5": {
+    "t": "Het Uithangbord inbegrepen (zoals hiernaast)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_6": {
+    "t": "Foto via WhatsApp → site ’s avonds bijgewerkt",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_7": {
+    "t": "4 Google Bedrijfsprofiel-posts / maand",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "barbiers.price_card_list.li_8": {
+    "t": "Rapport: oproepen, routekliks, afspraken",
+    "src": "Rapport&nbsp;: appels, clics itinéraire, rendez-vous",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_kicker.p": {
+    "t": "Daarna, als het draait",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_body.h3": {
+    "t": "De lege plek",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "barbiers.price_upsell_body.p": {
+    "t": "Na 8 weken Wij houden de deur open. We mikken op het gat in de agenda — Maps, reviews, Google Ads (advertentiebudget komt erbij). Totaal 489&nbsp;€ excl. btw / maand.",
+    "src": "Après 8 semaines de On tient la porte. On vise le trou dans l’agenda — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "barbiers.pricing_note.p": {
+    "t": "Test 0&nbsp;€ voor je kiest. Meertalige site inbegrepen — jij levert de teksten, of we vertrekken van een vertaling die jij nakijkt.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "barbiers.pricing_own.p": {
+    "t": "Na 12&nbsp;maanden «&nbsp;Wij houden de deur open&nbsp;» is <strong>de site van jou.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "barbiers.cta_title.h2": {
+    "t": "12 min · we openen samen jouw Google-profiel",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "barbiers.cta_block.p": {
+    "t": "Je ziet wat een klant vanavond ziet. Daarna zeggen we of een site ergens toe dient.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "barbiers.cta_block_btn.a": {
+    "t": "Schrijf ons op WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "barbiers.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%2012%20minuten%20van%20Fixbyte%20om%20samen%20mijn%20Google-profiel%20te%20openen.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "barbiers.cta_block_hint.p": {
+    "t": "Geen briefing. 4 foto’s. We bellen dezelfde dag terug.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "agences.meta.title": {
+    "t": "Designs voor bureaus — Fixbyte",
+    "src": "Designs agences — Fixbyte",
+    "status": "draft"
+  },
+  "agences.meta.description": {
+    "t": "Fixbyte-designs voor bureaus en instellingen. Test voor 0 €: jouw naam op het design. Aanbod, bewijs, team en contact.",
+    "src": "Designs Fixbyte pour agences et institutions. Essai 0 € : votre nom sur le design. Offre, preuves, équipe et prise de contact.",
+    "status": "draft"
+  },
+  "agences.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, kappers, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "agences.hero_badge.span": {
+    "t": "Hij oordeelt in één scroll",
+    "src": "Il juge en un scroll",
+    "status": "draft"
+  },
+  "agences.hero_scene.h1": {
+    "t": "Hij vergelijkt 4 offertes voor het rood licht. De jouwe moet winnen zonder pitch.",
+    "src": "Il compare 4 offres au feu rouge. La vôtre doit gagner sans pitch.",
+    "status": "draft"
+  },
+  "agences.hero_scene_action.p": {
+    "t": "Klik op een kaart: dat is wat hij ziet. Daarna zetten wij jouw naam erop.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "agences.works_title.h2": {
+    "t": "Bureauprojecten",
+    "src": "Projets agences",
+    "status": "draft"
+  },
+  "agences.pitch_title.h2": {
+    "t": "Waarom deze designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "agences.pitch_item.h3": {
+    "t": "Het aanbod, vóór het verhaal",
+    "src": "L’offre, avant le discours",
+    "status": "draft"
+  },
+  "agences.pitch_item.p": {
+    "t": "Diensten, bewijs, team. Een pagina die het werk verkoopt, geen catalogus vol buzzwords.",
+    "src": "Services, preuves, équipe. Une page qui vend le travail, pas un catalogue de buzzwords.",
+    "status": "draft"
+  },
+  "agences.pitch_item.h3_2": {
+    "t": "Contact in één oogopslag",
+    "src": "Contacter en un regard",
+    "status": "draft"
+  },
+  "agences.pitch_item.p_2": {
+    "t": "Leesbare positionering, heldere klantencases, contactknop. De prospect oordeelt met eigen ogen en schrijft dan.",
+    "src": "Positionnement lisible, cas clients clairs, bouton contact. Le prospect juge sur pièce, puis écrit.",
+    "status": "draft"
+  },
+  "agences.pitch_mascot.img_alt": {
+    "t": "Bytie als reiziger",
+    "src": "Bytie en voyageur",
+    "status": "draft"
+  },
+  "agences.price_essai_kicker.p": {
+    "t": "Voor je kiest",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "agences.essai_title.h2": {
+    "t": "Test · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "agences.price_essai_lead.p": {
+    "t": "Jouw naam op het design dat je net aanklikte. 72&nbsp;u live via een URL, om het in een vergadering te tonen.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "agences.price_essai_cta.a": {
+    "t": "Stuur 4 foto’s via WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "agences.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%20Fixbyte-test%20voor%20mijn%20bureau.%20Naam%3A%20%5B%20%5D.%20Gemeente%3A%20%5B%20%5D.%20Gekozen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20agence.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "agences.pricing_title.h2": {
+    "t": "Tarieven",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "agences.pricing_intro.p": {
+    "t": "Twee deuren: <strong>Het Uithangbord</strong> (eenmalig), of <strong>Wij houden de deur open</strong> (wij houden ze bij). Prijzen excl. btw, 21&nbsp;% btw komt daarbovenop.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "agences.price_card.h3": {
+    "t": "Het Uithangbord",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "agences.price_card_amount.p": {
+    "t": "1&nbsp;990&nbsp;€ <span>excl. btw</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "agences.price_card_hint.p": {
+    "t": "Eenmalige betaling · online in 10 dagen · de site is van jou",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "agences.price_card_list.li": {
+    "t": "Het gekozen design, op jouw naam — 4 mobiele pagina’s",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_2": {
+    "t": "Diensten, bewijs, contactknop",
+    "src": "Services, preuves, bouton contact",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_3": {
+    "t": "Google Bedrijfsprofiel",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_4": {
+    "t": "Online zetten + 3 maanden hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "agences.price_card_badge.p": {
+    "t": "Meest gekozen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "agences.price_card.h3_2": {
+    "t": "Wij houden de deur open",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "agences.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "agences.price_card_hint.p_2": {
+    "t": "12 maanden · Het Uithangbord inbegrepen · daarna 99&nbsp;€ excl. btw / maand",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_5": {
+    "t": "Het Uithangbord inbegrepen (zoals hiernaast)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_6": {
+    "t": "Foto via WhatsApp → site ’s avonds bijgewerkt",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_7": {
+    "t": "4 Google Bedrijfsprofiel-posts / maand",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "agences.price_card_list.li_8": {
+    "t": "Rapport: oproepen, kliks, contactaanvragen",
+    "src": "Rapport&nbsp;: appels, clics, demandes de contact",
+    "status": "draft"
+  },
+  "agences.price_upsell_kicker.p": {
+    "t": "Daarna, als het draait",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "agences.price_upsell_body.h3": {
+    "t": "De lege plek",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "agences.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "agences.price_upsell_body.p": {
+    "t": "Na 8 weken Wij houden de deur open. We mikken op de leads die ontbreken — Maps, reviews, Google Ads (advertentiebudget komt erbij). Totaal 489&nbsp;€ excl. btw / maand.",
+    "src": "Après 8 semaines de On tient la porte. On vise les leads qui manquent — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "agences.pricing_note.p": {
+    "t": "Test 0&nbsp;€ voor je kiest. Meertalige site inbegrepen — jij levert de teksten, of we vertrekken van een vertaling die jij nakijkt.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "agences.pricing_own.p": {
+    "t": "Na 12&nbsp;maanden «&nbsp;Wij houden de deur open&nbsp;» is <strong>de site van jou.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "agences.cta_title.h2": {
+    "t": "12 min · we openen samen jouw Google-profiel",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "agences.cta_block.p": {
+    "t": "Je ziet wat een prospect vanavond ziet. Daarna zeggen we of een site ergens toe dient.",
+    "src": "Vous voyez ce qu’un prospect voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "agences.cta_block_btn.a": {
+    "t": "Schrijf ons op WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "agences.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%2012%20minuten%20van%20Fixbyte%20om%20samen%20mijn%20Google-profiel%20te%20openen.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "agences.cta_block_hint.p": {
+    "t": "Geen briefing. 4 foto’s. We bellen dezelfde dag terug.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "ecommerce.meta.title": {
+    "t": "Designs voor e-commerce — Fixbyte",
+    "src": "Designs e-commerce — Fixbyte",
+    "status": "draft"
+  },
+  "ecommerce.meta.description": {
+    "t": "Fixbyte-designs voor webshops en productlanceringen. Test voor 0 €: jouw naam op het design. Catalogus, winkelmandje en conversie.",
+    "src": "Designs Fixbyte pour boutiques en ligne et lancements produit. Essai 0 € : votre nom sur le design. Catalogue, panier et conversion.",
+    "status": "draft"
+  },
+  "ecommerce.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, kappers, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "ecommerce.hero_badge.span": {
+    "t": "Hij oordeelt op het product",
+    "src": "Il juge sur le produit",
+    "status": "draft"
+  },
+  "ecommerce.hero_scene.h1": {
+    "t": "Hij opent drie webshops. Hij koopt waar het product zichzelf al verkoopt.",
+    "src": "Il ouvre trois boutiques. Il achète là où le produit se vend déjà.",
+    "status": "draft"
+  },
+  "ecommerce.hero_scene_action.p": {
+    "t": "Klik op een kaart: dat is wat hij ziet. Daarna zetten wij jouw naam erop.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "ecommerce.works_title.h2": {
+    "t": "E-commerceprojecten",
+    "src": "Projets e-commerce",
+    "status": "draft"
+  },
+  "ecommerce.pitch_title.h2": {
+    "t": "Waarom deze designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.h3": {
+    "t": "Het product, vóór het verhaal",
+    "src": "Le produit, avant le discours",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.p": {
+    "t": "Catalogus, prijzen, bewijs. Een pagina die het artikel verkoopt, geen marketingjargon.",
+    "src": "Catalogue, prix, preuves. Une page qui vend l’article, pas un jargon marketing.",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.h3_2": {
+    "t": "Kopen in één oogopslag",
+    "src": "Acheter en un regard",
+    "status": "draft"
+  },
+  "ecommerce.pitch_item.p_2": {
+    "t": "Een etalage om het product te ontdekken. Een winkel voor het mandje, de betaling en de levering. De klant oordeelt met eigen ogen en bestelt dan.",
+    "src": "Vitrine pour découvrir le produit. Boutique pour le panier, le paiement et la livraison. Le client juge sur pièce, puis commande.",
+    "status": "draft"
+  },
+  "ecommerce.pitch_mascot.img_alt": {
+    "t": "Bytie met winkeltassen",
+    "src": "Bytie avec des sacs de shopping",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_kicker.p": {
+    "t": "Voor je kiest",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "ecommerce.essai_title.h2": {
+    "t": "Test · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_lead.p": {
+    "t": "Jouw naam op het design dat je net aanklikte. 72&nbsp;u live via een URL, om het in een vergadering te tonen.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_cta.a": {
+    "t": "Stuur 4 foto’s via WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "ecommerce.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%20Fixbyte-test%20voor%20mijn%20webshop.%20Naam%3A%20%5B%20%5D.%20Gemeente%3A%20%5B%20%5D.%20Gekozen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20e-commerce.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_title.h2": {
+    "t": "Tarieven",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "ecommerce.pricing_intro.p": {
+    "t": "Drie deuren: <strong>Het Uithangbord</strong> (etalage), <strong>De Winkel</strong> (online betalen), of <strong>Wij houden de deur open</strong> (wij houden ze bij). Prijzen excl. btw, 21&nbsp;% btw komt daarbovenop.",
+    "src": "Trois portes&nbsp;: <strong>L’Enseigne</strong> (vitrine), <strong>La Boutique</strong> (paiement en ligne), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3": {
+    "t": "Het Uithangbord · Etalage",
+    "src": "L’Enseigne · Vitrine",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p": {
+    "t": "1&nbsp;990&nbsp;€ <span>excl. btw</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p": {
+    "t": "Eenmalige betaling · online in 10 dagen · de site is van jou",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li": {
+    "t": "Het gekozen design, op jouw naam — 4 mobiele pagina’s",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_2": {
+    "t": "Catalogus, contact, bewijs — zonder online betaling",
+    "src": "Catalogue, contact, preuves — sans paiement en ligne",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_3": {
+    "t": "Google Bedrijfsprofiel",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_4": {
+    "t": "Online zetten + 3 maanden hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3_2": {
+    "t": "Wij houden de deur open",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p_2": {
+    "t": "12 maanden · Het Uithangbord inbegrepen · daarna 99&nbsp;€ excl. btw / maand",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_5": {
+    "t": "Het Uithangbord etalage inbegrepen (zoals hiernaast)",
+    "src": "L’Enseigne vitrine incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_6": {
+    "t": "Foto via WhatsApp → catalogus / contact ’s avonds bijgewerkt",
+    "src": "Photo WhatsApp → catalogue / contact à jour le soir",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_7": {
+    "t": "4 Google Bedrijfsprofiel-posts / maand",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_8": {
+    "t": "Rapport: oproepen, kliks, aanvragen",
+    "src": "Rapport&nbsp;: appels, clics, demandes",
+    "status": "draft"
+  },
+  "ecommerce.price_card_badge.p": {
+    "t": "Online betalen",
+    "src": "Paiement en ligne",
+    "status": "draft"
+  },
+  "ecommerce.price_card.h3_3": {
+    "t": "De Winkel",
+    "src": "La Boutique",
+    "status": "draft"
+  },
+  "ecommerce.price_card_amount.p_3": {
+    "t": "3&nbsp;990&nbsp;€ <span>excl. btw</span>",
+    "src": "3&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_card_hint.p_3": {
+    "t": "Eenmalige betaling · webshop online in 3 weken · de site is van jou",
+    "src": "Paiement unique · boutique en ligne en 3 semaines · le site est à vous",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_9": {
+    "t": "Volledige webshop: catalogus, winkelmandje, checkout",
+    "src": "Boutique complète&nbsp;: catalogue, panier, checkout",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_10": {
+    "t": "Online betalen (Mollie / Stripe — eigen account)",
+    "src": "Paiement en ligne (Mollie / Stripe — compte client)",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_11": {
+    "t": "Levering, afhalen in de winkel, e-mails &amp; opvolging van bestellingen",
+    "src": "Livraison, retrait en magasin, e-mails &amp; suivi commande",
+    "status": "draft"
+  },
+  "ecommerce.price_card_list.li_12": {
+    "t": "Tot 30 producten geïmporteerd · online zetten + 3 maanden hosting",
+    "src": "Jusqu’à 30 produits importés · mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_kicker.p": {
+    "t": "Daarna, als het draait",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_body.h3": {
+    "t": "De lege plek",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "ecommerce.price_upsell_body.p": {
+    "t": "Na 8 weken Wij houden de deur open. We mikken op de verkopen die ontbreken — Maps, reviews, Google Shopping / Ads (advertentiebudget komt erbij). Totaal 489&nbsp;€ excl. btw / maand.",
+    "src": "Après 8 semaines de On tient la porte. On vise les ventes qui manquent — Maps, avis, Google Shopping / Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_note.p": {
+    "t": "Test 0&nbsp;€ voor je kiest. De Winkel bevat de etalage. Meertalige site inbegrepen — jij levert de teksten, of we vertrekken van een vertaling die jij nakijkt. Meer dan 30 producten op offerte. Platformabonnement (bv. Shopify) en betaalkosten komen erbij.",
+    "src": "Essai 0&nbsp;€ avant de choisir. La Boutique inclut la vitrine. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez. Produits au-delà de 30 sur devis. Abonnement plateforme (ex. Shopify) et frais de paiement en sus.",
+    "status": "draft"
+  },
+  "ecommerce.pricing_own.p": {
+    "t": "Na 12&nbsp;maanden «&nbsp;Wij houden de deur open&nbsp;» is <strong>de site van jou.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "ecommerce.cta_title.h2": {
+    "t": "12 min · we openen samen jouw Google-profiel",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "ecommerce.cta_block.p": {
+    "t": "Je ziet wat een klant vanavond ziet. Daarna zeggen we of een site ergens toe dient.",
+    "src": "Vous voyez ce qu’un client voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_btn.a": {
+    "t": "Schrijf ons op WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%2012%20minuten%20van%20Fixbyte%20om%20samen%20mijn%20Google-profiel%20te%20openen.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "ecommerce.cta_block_hint.p": {
+    "t": "Geen briefing. 4 foto’s. We bellen dezelfde dag terug.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "entreprises.meta.title": {
+    "t": "Designs voor bedrijven — Fixbyte",
+    "src": "Designs entreprises — Fixbyte",
+    "status": "draft"
+  },
+  "entreprises.meta.description": {
+    "t": "Fixbyte-designs voor bouw- en renovatiebedrijven. Test voor 0 €: jouw naam op het design. Vakmanschap, realisaties en offertes.",
+    "src": "Designs Fixbyte pour entreprises de travaux et rénovation. Essai 0 € : votre nom sur le design. Savoir-faire, réalisations et devis.",
+    "status": "draft"
+  },
+  "entreprises.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, kappers, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "entreprises.hero_badge.span": {
+    "t": "Hij oordeelt op de werf",
+    "src": "Il juge sur le chantier",
+    "status": "draft"
+  },
+  "entreprises.hero_scene.h1": {
+    "t": "Drie offertes. Hij kiest die van wie de werf al toont.",
+    "src": "Trois devis. Il choisit celui qui montre déjà le chantier.",
+    "status": "draft"
+  },
+  "entreprises.hero_scene_action.p": {
+    "t": "Klik op een kaart: dat is wat hij ziet. Daarna zetten wij jouw naam erop.",
+    "src": "Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.",
+    "status": "draft"
+  },
+  "entreprises.works_title.h2": {
+    "t": "Bedrijfsprojecten",
+    "src": "Projets entreprises",
+    "status": "draft"
+  },
+  "entreprises.pitch_title.h2": {
+    "t": "Waarom deze designs",
+    "src": "Pourquoi ces designs",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.h3": {
+    "t": "Het vakmanschap, vóór het blabla",
+    "src": "Le savoir-faire, avant le blabla",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.p": {
+    "t": "Diensten, realisaties, werkgebied. Een pagina die de zaak toont, geen algemeen verhaal.",
+    "src": "Services, réalisations, zone d’intervention. Une page qui montre le business, pas un discours générique.",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.h3_2": {
+    "t": "Offerte in één oogopslag",
+    "src": "Devis en un regard",
+    "status": "draft"
+  },
+  "entreprises.pitch_item.p_2": {
+    "t": "Leesbaar aanbod, bewijs van het terrein, contactknop. De prospect oordeelt met eigen ogen en belt dan.",
+    "src": "Offre lisible, preuves terrain, bouton contact. Le prospect juge sur pièce, puis appelle.",
+    "status": "draft"
+  },
+  "entreprises.pitch_mascot.img_alt": {
+    "t": "Bytie op de werf",
+    "src": "Bytie en entreprise",
+    "status": "draft"
+  },
+  "entreprises.price_essai_kicker.p": {
+    "t": "Voor je kiest",
+    "src": "Avant de choisir",
+    "status": "draft"
+  },
+  "entreprises.essai_title.h2": {
+    "t": "Test · 0&nbsp;€",
+    "src": "Essai · 0&nbsp;€",
+    "status": "draft"
+  },
+  "entreprises.price_essai_lead.p": {
+    "t": "Jouw naam op het design dat je net aanklikte. 72&nbsp;u live via een URL, om het in een vergadering te tonen.",
+    "src": "Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h pour le montrer en réunion.",
+    "status": "draft"
+  },
+  "entreprises.price_essai_cta.a": {
+    "t": "Stuur 4 foto’s via WhatsApp ↗",
+    "src": "Envoyer 4 photos sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "entreprises.price_essai_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%20Fixbyte-test%20voor%20mijn%20bedrijf.%20Naam%3A%20%5B%20%5D.%20Gemeente%3A%20%5B%20%5D.%20Gekozen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20entreprise.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "entreprises.pricing_title.h2": {
+    "t": "Tarieven",
+    "src": "Tarifs",
+    "status": "draft"
+  },
+  "entreprises.pricing_intro.p": {
+    "t": "Twee deuren: <strong>Het Uithangbord</strong> (eenmalig), of <strong>Wij houden de deur open</strong> (wij houden ze bij). Prijzen excl. btw, 21&nbsp;% btw komt daarbovenop.",
+    "src": "Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA, TVA 21&nbsp;% en sus.",
+    "status": "draft"
+  },
+  "entreprises.price_card.h3": {
+    "t": "Het Uithangbord",
+    "src": "L’Enseigne",
+    "status": "draft"
+  },
+  "entreprises.price_card_amount.p": {
+    "t": "1&nbsp;990&nbsp;€ <span>excl. btw</span>",
+    "src": "1&nbsp;990&nbsp;€ <span>HT</span>",
+    "status": "draft"
+  },
+  "entreprises.price_card_hint.p": {
+    "t": "Eenmalige betaling · online in 10 dagen · de site is van jou",
+    "src": "Paiement unique · en ligne en 10 jours · le site est à vous",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li": {
+    "t": "Het gekozen design, op jouw naam — 4 mobiele pagina’s",
+    "src": "Le design choisi, à votre nom — 4 pages mobile",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_2": {
+    "t": "Diensten, realisaties, contactknop",
+    "src": "Services, réalisations, bouton contact",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_3": {
+    "t": "Google Bedrijfsprofiel",
+    "src": "Fiche Google Business",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_4": {
+    "t": "Online zetten + 3 maanden hosting",
+    "src": "Mise en ligne + 3 mois d’hébergement",
+    "status": "draft"
+  },
+  "entreprises.price_card_badge.p": {
+    "t": "Meest gekozen",
+    "src": "La plus choisie",
+    "status": "draft"
+  },
+  "entreprises.price_card.h3_2": {
+    "t": "Wij houden de deur open",
+    "src": "On tient la porte",
+    "status": "draft"
+  },
+  "entreprises.price_card_amount.p_2": {
+    "t": "199&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "199&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "entreprises.price_card_hint.p_2": {
+    "t": "12 maanden · Het Uithangbord inbegrepen · daarna 99&nbsp;€ excl. btw / maand",
+    "src": "12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_5": {
+    "t": "Het Uithangbord inbegrepen (zoals hiernaast)",
+    "src": "L’Enseigne incluse (comme ci-contre)",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_6": {
+    "t": "Foto via WhatsApp → site ’s avonds bijgewerkt",
+    "src": "Photo WhatsApp → site à jour le soir",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_7": {
+    "t": "4 Google Bedrijfsprofiel-posts / maand",
+    "src": "4 posts Google Business / mois",
+    "status": "draft"
+  },
+  "entreprises.price_card_list.li_8": {
+    "t": "Rapport: oproepen, kliks, offerteaanvragen",
+    "src": "Rapport&nbsp;: appels, clics, demandes de devis",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_kicker.p": {
+    "t": "Daarna, als het draait",
+    "src": "Ensuite, si ça tourne",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_body.h3": {
+    "t": "De lege plek",
+    "src": "Le créneau vide",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_amount.p": {
+    "t": "+&nbsp;290&nbsp;€ <span>excl. btw / maand</span>",
+    "src": "+&nbsp;290&nbsp;€ <span>HT / mois</span>",
+    "status": "draft"
+  },
+  "entreprises.price_upsell_body.p": {
+    "t": "Na 8 weken Wij houden de deur open. We mikken op de leads die ontbreken — Maps, reviews, Google Ads (advertentiebudget komt erbij). Totaal 489&nbsp;€ excl. btw / maand.",
+    "src": "Après 8 semaines de On tient la porte. On vise les leads qui manquent — Maps, avis, Google Ads (budget pub en sus). Total 489&nbsp;€ HT / mois.",
+    "status": "draft"
+  },
+  "entreprises.pricing_note.p": {
+    "t": "Test 0&nbsp;€ voor je kiest. Meertalige site inbegrepen — jij levert de teksten, of we vertrekken van een vertaling die jij nakijkt.",
+    "src": "Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous fournissez les textes, ou on part d’une traduction que vous relisez.",
+    "status": "draft"
+  },
+  "entreprises.pricing_own.p": {
+    "t": "Na 12&nbsp;maanden «&nbsp;Wij houden de deur open&nbsp;» is <strong>de site van jou.</strong>",
+    "src": "Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;», <strong>le site vous appartient.</strong>",
+    "status": "draft"
+  },
+  "entreprises.cta_title.h2": {
+    "t": "12 min · we openen samen jouw Google-profiel",
+    "src": "12 min · on ouvre votre fiche Google ensemble",
+    "status": "draft"
+  },
+  "entreprises.cta_block.p": {
+    "t": "Je ziet wat een prospect vanavond ziet. Daarna zeggen we of een site ergens toe dient.",
+    "src": "Vous voyez ce qu’un prospect voit ce soir. Ensuite on dit si un site sert à quelque chose.",
+    "status": "draft"
+  },
+  "entreprises.cta_block_btn.a": {
+    "t": "Schrijf ons op WhatsApp ↗",
+    "src": "Écrire sur WhatsApp ↗",
+    "status": "draft"
+  },
+  "entreprises.cta_block_btn.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%2012%20minuten%20van%20Fixbyte%20om%20samen%20mijn%20Google-profiel%20te%20openen.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble.",
+    "status": "draft"
+  },
+  "entreprises.cta_block_hint.p": {
+    "t": "Geen briefing. 4 foto’s. We bellen dezelfde dag terug.",
+    "src": "Pas de brief. 4 photos. On rappelle dans la journée.",
+    "status": "draft"
+  },
+  "mentions-legales.meta.title": {
+    "t": "Wettelijke vermeldingen — Fixbyte",
+    "src": "Mentions légales — Fixbyte",
+    "status": "draft"
+  },
+  "mentions-legales.meta.description": {
+    "t": "Wettelijke vermeldingen van Fixbyte: uitgever, eigenaar, contact, hosting en gebruiksvoorwaarden van studio.fixbyte.be.",
+    "src": "Mentions légales de Fixbyte : éditeur, propriétaire, contact, hébergement et conditions d’utilisation du site studio.fixbyte.be.",
+    "status": "draft"
+  },
+  "mentions-legales.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, kappers, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "mentions-legales.hero_badge.span": {
+    "t": "Juridische informatie",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "mentions-legales.legal_hero.h1": {
+    "t": "Wettelijke vermeldingen",
+    "src": "Mentions légales",
+    "status": "draft"
+  },
+  "mentions-legales.legal_hero_meta.p": {
+    "t": "Laatst bijgewerkt: <time datetime=\"2026-08-27\">27 augustus 2026</time>",
+    "src": "Dernière mise à jour : <time datetime=\"2026-08-27\">27 août 2026</time>",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_notice.p": {
+    "t": "Informatieve tekst voor deze statische site. De velden tussen haakjes moeten nog worden ingevuld. Dit is geen juridisch advies.",
+    "src": "Texte d’information pour ce site statique. Les champs entre crochets doivent encore être complétés. Ce n’est pas un avis juridique.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2": {
+    "t": "Uitgever van de site",
+    "src": "Éditeur du site",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p": {
+    "t": "De site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> (Fixbyte Studio) wordt uitgegeven door en is eigendom van <a href=\"https://fixbyte.be\">Fixbyte</a>. Fixbyte Studio is een handelsbenaming van Fixbyte, geen afzonderlijke rechtspersoon. De juridische identiteit van Fixbyte hieronder moet nog worden ingevuld.",
+    "src": "Le site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> (Fixbyte Studio) est édité et appartient à <a href=\"https://fixbyte.be\">Fixbyte</a>. Fixbyte Studio est une enseigne commerciale de Fixbyte, pas une personne morale distincte. L’identité juridique de Fixbyte ci-dessous reste à compléter.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt": {
+    "t": "Eigenaar / uitgever",
+    "src": "Propriétaire / éditeur",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.a": {
+    "t": "Fixbyte",
+    "src": "Fixbyte",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_2": {
+    "t": "Handelsbenaming",
+    "src": "Enseigne",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd": {
+    "t": "Fixbyte Studio",
+    "src": "Fixbyte Studio",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_3": {
+    "t": "Site van de eigenaar",
+    "src": "Site du propriétaire",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.a_2": {
+    "t": "fixbyte.be",
+    "src": "fixbyte.be",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_4": {
+    "t": "Maatschappelijke benaming",
+    "src": "Raison sociale",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_2": {
+    "t": "[Maatschappelijke benaming]",
+    "src": "[Raison sociale]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_5": {
+    "t": "Rechtsvorm",
+    "src": "Forme juridique",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_3": {
+    "t": "[Rechtsvorm]",
+    "src": "[Forme juridique]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_6": {
+    "t": "Adres van de maatschappelijke zetel",
+    "src": "Adresse du siège",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_4": {
+    "t": "[Adres van de maatschappelijke zetel]",
+    "src": "[Adresse du siège]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_7": {
+    "t": "KBO-nummer",
+    "src": "N° BCE / KBO",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_5": {
+    "t": "[KBO-nummer]",
+    "src": "[n° BCE / KBO]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dt_8": {
+    "t": "Btw-nummer",
+    "src": "N° TVA",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_id.dd_6": {
+    "t": "[btw-nummer BE…]",
+    "src": "[n° TVA BE…]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_2": {
+    "t": "Contact",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.li": {
+    "t": "WhatsApp: <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "src": "WhatsApp : <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.li_2": {
+    "t": "E-mail: [Email]",
+    "src": "E-mail : [Email]",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_3": {
+    "t": "Hosting",
+    "src": "Hébergement",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_2": {
+    "t": "De site wordt gehost door GitHub Pages, een dienst van GitHub, Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, Verenigde Staten. Domeinnaam: <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>.",
+    "src": "Le site est hébergé par GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, États-Unis. Nom de domaine : <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_4": {
+    "t": "Intellectuele eigendom",
+    "src": "Propriété intellectuelle",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_3": {
+    "t": "De teksten, het logo, de merken Fixbyte en Fixbyte Studio, evenals de site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>, behoren toe aan <a href=\"https://fixbyte.be\">Fixbyte</a>, tenzij anders vermeld. Elke niet-toegestane reproductie is verboden.",
+    "src": "Les textes, le logo, les marques Fixbyte et Fixbyte Studio, ainsi que le site <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a>, appartiennent à <a href=\"https://fixbyte.be\">Fixbyte</a>, sauf mention contraire. Toute reproduction non autorisée est interdite.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_4": {
+    "t": "De getoonde previews zijn visuele referenties. Een deel ervan gebruikt sjablonen van derden (waaronder Framer-templates). Hun auteurs blijven rechthebbende. Het is niet het bestand dat wij leveren. Zodra een design gekozen is, maken wij het opnieuw op jouw naam (test, daarna betalende formule). De rechten op de opgeleverde site zijn die van het contract. Wij verkopen de originele bestanden niet door.",
+    "src": "Les aperçus présentés sont des références visuelles. Une partie reprend des modèles tiers (dont des templates Framer). Leurs auteurs en restent titulaires. Ce n’est pas le fichier que nous livrons. Une fois un design choisi, nous le recréons à votre nom (essai, puis offre payante). Les droits sur le site livré sont ceux du contrat. Nous ne revendons pas les fichiers d’origine.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_5": {
+    "t": "De foto’s, logo’s en inhoud die je ons bezorgt voor een test of een opdracht blijven van jou. Wij gebruiken ze uitsluitend om jouw zaak te realiseren en te tonen.",
+    "src": "Les photos, logos et contenus que vous nous envoyez pour un essai ou une prestation restent les vôtres. Nous les utilisons uniquement pour réaliser et présenter votre enseigne.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_5": {
+    "t": "Aansprakelijkheid",
+    "src": "Responsabilité",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_6": {
+    "t": "Deze site is een etalage van designs. De test van 0&nbsp;€ is geen definitieve site: het is een preview, beperkt in de tijd, om te kunnen oordelen.",
+    "src": "Ce site est une vitrine de designs. L’essai à 0&nbsp;€ n’est pas un site définitif : c’est un aperçu limité dans le temps, pour juger.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_7": {
+    "t": "Wij zijn niet verantwoordelijk voor de inhoud van externe sites waarnaar wij verwijzen (WhatsApp, Google Fonts, previews van realisaties). Toegang tot die diensten valt onder hun eigen voorwaarden.",
+    "src": "Nous ne sommes pas responsables du contenu des sites externes vers lesquels nous renvoyons (WhatsApp, Google Fonts, aperçus de réalisations). L’accès à ces services relève de leurs propres conditions.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.h2_6": {
+    "t": "Toepasselijk recht",
+    "src": "Droit applicable",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page.p_8": {
+    "t": "Deze site wordt beheerst door het Belgisch recht. Bij een geschil en bij gebrek aan een minnelijke schikking zijn de rechtbanken van de zetel van de uitgever bevoegd — zodra het adres van de zetel hierboven is ingevuld.",
+    "src": "Le présent site est régi par le droit belge. En cas de litige, et à défaut d’accord amiable, les tribunaux du siège de l’éditeur sont compétents — une fois l’adresse du siège renseignée ci-dessus.",
+    "status": "draft"
+  },
+  "mentions-legales.legal_page_next.p": {
+    "t": "Zie ook: <a href=\"politique-confidentialite.html\" >Privacybeleid</a >.",
+    "src": "Voir aussi : <a href=\"politique-confidentialite.html\" >Politique de confidentialité</a >.",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.title": {
+    "t": "Privacybeleid — Fixbyte",
+    "src": "Politique de confidentialité — Fixbyte",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.description": {
+    "t": "Privacybeleid van Fixbyte Studio: verzamelde gegevens, WhatsApp, cookies, AVG-rechten en contact.",
+    "src": "Politique de confidentialité de Fixbyte Studio : données collectées, WhatsApp, cookies, droits RGPD et contact.",
+    "status": "draft"
+  },
+  "politique-confidentialite.meta.og_image_alt": {
+    "t": "Fixbyte Studio — webdesigns voor restaurants, kappers, bureaus en handelszaken",
+    "src": "Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces",
+    "status": "draft"
+  },
+  "politique-confidentialite.hero_badge.span": {
+    "t": "Juridische informatie",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_hero.h1": {
+    "t": "Privacybeleid",
+    "src": "Politique de confidentialité",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_hero_meta.p": {
+    "t": "Laatst bijgewerkt: <time datetime=\"2026-08-26\">26 augustus 2026</time>",
+    "src": "Dernière mise à jour : <time datetime=\"2026-08-26\">26 août 2026</time>",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_notice.p": {
+    "t": "Informatieve tekst voor deze statische site. De velden tussen haakjes moeten nog worden ingevuld. Dit is geen juridisch advies.",
+    "src": "Texte d’information pour ce site statique. Les champs entre crochets doivent encore être complétés. Ce n’est pas un avis juridique.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2": {
+    "t": "Verwerkingsverantwoordelijke",
+    "src": "Responsable du traitement",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p": {
+    "t": "De verwerkingsverantwoordelijke voor de gegevens verbonden aan <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> is Fixbyte Studio. De juridische identiteit hieronder moet nog worden ingevuld.",
+    "src": "Le responsable du traitement des données liées à <a href=\"https://studio.fixbyte.be/\">studio.fixbyte.be</a> est Fixbyte Studio. L’identité juridique ci-dessous reste à compléter.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt": {
+    "t": "Maatschappelijke benaming",
+    "src": "Raison sociale",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd": {
+    "t": "[Maatschappelijke benaming]",
+    "src": "[Raison sociale]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_2": {
+    "t": "Rechtsvorm",
+    "src": "Forme juridique",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_2": {
+    "t": "[Rechtsvorm]",
+    "src": "[Forme juridique]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_3": {
+    "t": "Adres van de maatschappelijke zetel",
+    "src": "Adresse du siège",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_3": {
+    "t": "[Adres van de maatschappelijke zetel]",
+    "src": "[Adresse du siège]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_4": {
+    "t": "KBO-nummer",
+    "src": "N° BCE / KBO",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_4": {
+    "t": "[KBO-nummer]",
+    "src": "[n° BCE / KBO]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dt_5": {
+    "t": "Btw-nummer",
+    "src": "N° TVA",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_id.dd_5": {
+    "t": "[btw-nummer BE…]",
+    "src": "[n° TVA BE…]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li": {
+    "t": "WhatsApp: <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "src": "WhatsApp : <a href=\"https://wa.me/32493622901\" target=\"_blank\" rel=\"noopener noreferrer\" >+32 493 62 29 01</a >",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_2": {
+    "t": "E-mail: [Email]",
+    "src": "E-mail : [Email]",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_2": {
+    "t": "Verzamelde gegevens",
+    "src": "Données collectées",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_2": {
+    "t": "Deze site heeft geen formulier, geen account, geen klantenzone. Wij verzamelen niets zolang je ons niet schrijft.",
+    "src": "Ce site n’a pas de formulaire, pas de compte, pas d’espace client. Nous ne collectons rien tant que vous ne nous écrivez pas.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_3": {
+    "t": "Als je ons via WhatsApp contacteert, ontvangen wij wat je stuurt: naam, nummer, foto’s, gemeente, gekozen design en de inhoud van het gesprek.",
+    "src": "Si vous nous contactez sur WhatsApp, nous recevons ce que vous envoyez : nom, numéro, photos, commune, design choisi, et le contenu de la conversation.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_4": {
+    "t": "De hostingpartij kan technische logs bijhouden (IP-adres, browser, bezochte pagina’s) om de site te laten werken.",
+    "src": "L’hébergeur peut enregistrer des journaux techniques (adresse IP, navigateur, pages consultées) pour faire fonctionner le site.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_3": {
+    "t": "Doeleinden en rechtsgronden",
+    "src": "Finalités et bases légales",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_5": {
+    "t": "Wij gebruiken deze gegevens om:",
+    "src": "Nous utilisons ces données pour :",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_3": {
+    "t": "op je vraag te antwoorden en de test of een offerte te maken (precontractuele maatregelen, art.&nbsp;6.1.b AVG);",
+    "src": "répondre à votre demande et réaliser l’essai ou un devis (mesures précontractuelles, art.&nbsp;6.1.b du RGPD) ;",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_4": {
+    "t": "de werking en de veiligheid van de site te verzekeren (gerechtvaardigd belang, art.&nbsp;6.1.f AVG).",
+    "src": "assurer le fonctionnement et la sécurité du site (intérêt légitime, art.&nbsp;6.1.f du RGPD).",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_6": {
+    "t": "Wij verkopen je gegevens niet. Wij versturen geen nieuwsbrief.",
+    "src": "Nous ne vendons pas vos données. Nous n’envoyons pas de newsletter.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_4": {
+    "t": "Ontvangers",
+    "src": "Destinataires",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_5": {
+    "t": "WhatsApp / Meta Platforms: je berichten passeren via hun servers, mogelijk buiten de Europese Unie.",
+    "src": "WhatsApp / Meta Platforms : vos messages transitent par leurs serveurs, éventuellement hors Union européenne.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_6": {
+    "t": "GitHub Pages (GitHub, Inc.): hosting van de site en toegangslogs.",
+    "src": "GitHub Pages (GitHub, Inc.) : hébergement du site et journaux d’accès.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.li_7": {
+    "t": "Google Fonts: de browser laadt de lettertypes van de servers van Google; je IP-adres is voor hen zichtbaar.",
+    "src": "Google Fonts : le navigateur charge les polices depuis les serveurs de Google ; votre adresse IP leur est visible.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_5": {
+    "t": "Bewaartermijn",
+    "src": "Durée de conservation",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_7": {
+    "t": "WhatsApp-aanvragen: voor de duur van de offerte of de test, daarna verwijderd binnen een redelijke termijn, behoudens wettelijke verplichting (facturatie, geschil).",
+    "src": "Demandes WhatsApp : le temps du devis ou de l’essai, puis suppression dans un délai raisonnable, sauf obligation légale (facturation, litige).",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_8": {
+    "t": "Hostinglogs: volgens het beleid van GitHub Pages.",
+    "src": "Journaux d’hébergement : selon la politique de GitHub Pages.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_6": {
+    "t": "Cookies",
+    "src": "Cookies",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_9": {
+    "t": "Wij plaatsen geen first-party cookies. Geen trackers, geen advertenties, geen <code>localStorage</code> van onze kant. Geen cookiebanner: wij gebruiken geen niet-essentiële cookies.",
+    "src": "Nous ne déposons pas de cookies first-party. Pas de tracker, pas de publicité, pas de <code>localStorage</code> de notre part. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_10": {
+    "t": "Derden: Google Fonts (Google CDN), zoals hierboven vermeld.",
+    "src": "Tiers : Google Fonts (CDN Google), comme indiqué ci-dessus.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_7": {
+    "t": "Jouw rechten",
+    "src": "Vos droits",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_11": {
+    "t": "Je kan inzage, verbetering, wissing, beperking of verzet tegen de verwerking van je gegevens vragen. Schrijf ons via WhatsApp of op [Email].",
+    "src": "Vous pouvez demander l’accès, la rectification, l’effacement, la limitation ou l’opposition au traitement de vos données. Écrivez-nous sur WhatsApp ou à [Email].",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_12": {
+    "t": "Je kan ook een klacht indienen bij de Gegevensbeschermingsautoriteit (België): <a href=\"https://www.autoriteprotectiondonnees.be/\" target=\"_blank\" rel=\"noopener noreferrer\" >autoriteprotectiondonnees.be</a >.",
+    "src": "Vous pouvez aussi déposer une réclamation auprès de l’Autorité de protection des données (Belgique) : <a href=\"https://www.autoriteprotectiondonnees.be/\" target=\"_blank\" rel=\"noopener noreferrer\" >autoriteprotectiondonnees.be</a >.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.h2_8": {
+    "t": "Bijwerking",
+    "src": "Mise à jour",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page.p_13": {
+    "t": "Dit beleid kan worden aangepast als de site verandert. De datum bovenaan de pagina geldt.",
+    "src": "Cette politique peut être adaptée si le site change. La date en tête de page fait foi.",
+    "status": "draft"
+  },
+  "politique-confidentialite.legal_page_next.p": {
+    "t": "Zie ook: <a href=\"mentions-legales.html\">Wettelijke vermeldingen</a>.",
+    "src": "Voir aussi : <a href=\"mentions-legales.html\">Mentions légales</a>.",
+    "status": "draft"
+  },
+  "404.meta.title": {
+    "t": "Pagina niet gevonden — Fixbyte",
+    "src": "Page introuvable — Fixbyte",
+    "status": "draft"
+  },
+  "404.meta.description": {
+    "t": "Deze pagina bestaat niet of is verplaatst. Ga terug naar de homepage van Fixbyte Studio.",
+    "src": "Cette page n’existe pas ou a été déplacée. Retournez à l’accueil Fixbyte Studio.",
+    "status": "draft"
+  },
+  "404.error_page.h1": {
+    "t": "Pagina niet gevonden",
+    "src": "Page introuvable",
+    "status": "draft"
+  },
+  "404.error_page.p": {
+    "t": "Dit adres bestaat niet, of de pagina is verplaatst. Ga terug naar de homepage, of open een design per sector.",
+    "src": "Cette adresse n’existe pas, ou la page a été déplacée. Revenez à l’accueil, ou ouvrez un design par métier.",
+    "status": "draft"
+  },
+  "404.cta_block_btn.a": {
+    "t": "Terug naar de homepage",
+    "src": "Retour à l’accueil",
+    "status": "draft"
+  },
+  "404.error_page_links.a": {
+    "t": "Restaurants",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "404.error_page_links.a_2": {
+    "t": "Kappers",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "404.error_page_links.a_3": {
+    "t": "Bureaus",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "404.error_page_links.a_4": {
+    "t": "Bedrijven",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "404.error_page_links.a_5": {
+    "t": "Cafés",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "404.error_page_links.a_6": {
+    "t": "E-commerce",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "header.brand.a_aria_label": {
+    "t": "FixByte Studio",
+    "src": "FixByte Studio",
+    "status": "draft"
+  },
+  "header.site_nav.nav_aria_label": {
+    "t": "Hoofdnavigatie",
+    "src": "Navigation principale",
+    "status": "draft"
+  },
+  "header.site_nav_link.a": {
+    "t": "Restaurants",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_2": {
+    "t": "Kappers",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_3": {
+    "t": "Bureaus",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_4": {
+    "t": "Bedrijven",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_5": {
+    "t": "Cafés",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "header.site_nav_link.a_6": {
+    "t": "E-commerce",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "header.site_header_cta.a": {
+    "t": "Test 0&nbsp;€",
+    "src": "Essai 0&nbsp;€",
+    "status": "draft"
+  },
+  "header.site_header_cta.a_href": {
+    "t": "https://wa.me/32493622901?text=Hallo%2C%20ik%20wil%20graag%20de%20Fixbyte-test.%20Naam%3A%20%5B%20%5D.%20Gemeente%3A%20%5B%20%5D.%20Business%3A%20%5B%20%5D.%20Gekozen%20design%3A%20%5Blink%5D.",
+    "src": "https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Business%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D.",
+    "status": "draft"
+  },
+  "footer.footer_logo.a_aria_label": {
+    "t": "FixByte Studio",
+    "src": "FixByte Studio",
+    "status": "draft"
+  },
+  "footer.footer_slogan.blockquote": {
+    "t": "Test 0&nbsp;€. Jouw zaak online in 72&nbsp;u.",
+    "src": "Essai 0&nbsp;€. Votre enseigne en 72&nbsp;h.",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_aria_label": {
+    "t": "Contact",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p": {
+    "t": "Contact",
+    "src": "Contact",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_2_aria_label": {
+    "t": "Inhoud",
+    "src": "Contenu",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p_2": {
+    "t": "Inhoud",
+    "src": "Contenu",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a": {
+    "t": "Home",
+    "src": "Accueil",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_2": {
+    "t": "Restaurants",
+    "src": "Restaurants",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_3": {
+    "t": "Kappers",
+    "src": "Barbiers",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_4": {
+    "t": "Bureaus",
+    "src": "Agences",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_5": {
+    "t": "Bedrijven",
+    "src": "Entreprises",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_6": {
+    "t": "Cafés",
+    "src": "Cafés",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_7": {
+    "t": "E-commerce",
+    "src": "E-commerce",
+    "status": "draft"
+  },
+  "footer.footer_col.nav_3_aria_label": {
+    "t": "Juridische informatie",
+    "src": "Informations légales",
+    "status": "draft"
+  },
+  "footer.footer_col_title.p_3": {
+    "t": "Juridisch",
+    "src": "Legal",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_8": {
+    "t": "Wettelijke vermeldingen",
+    "src": "Mentions légales",
+    "status": "draft"
+  },
+  "footer.footer_col_list.a_9": {
+    "t": "Privacybeleid",
+    "src": "Politique de confidentialité",
+    "status": "draft"
+  },
+  "footer.footer_meta.p": {
+    "t": "© <span id=\"year\"></span> <a href=\"https://fixbyte.be\" data-copyright></a>. Alle rechten voorbehouden.",
+    "src": "© <span id=\"year\"></span> <a href=\"https://fixbyte.be\" data-copyright></a>. Tous droits réservés.",
+    "status": "draft"
+  },
+  "switcher.aria_label": {
+    "t": "Kies een taal",
+    "src": "Choisir la langue",
+    "status": "draft"
+  },
+  "data.restaurants.pizzaro_fixbyte_dev.description": {
+    "t": "Voor een pizzeria die leeft van bestellingen, niet van tafellakens.",
+    "src": "Pour une pizzeria qui vit de la commande, pas du nappe.",
+    "status": "draft"
+  },
+  "data.restaurants.foodee_fixbyte_framer_website.description": {
+    "t": "Voor een buurtzaak waar je op dinsdag terugkomt.",
+    "src": "Pour une table de quartier où l’on revient le mardi.",
+    "status": "draft"
+  },
+  "data.restaurants.fixbyte_umami_framer_website.description": {
+    "t": "Voor een zaak die je reserveert, niet die zichzelf uitlegt.",
+    "src": "Pour une table qui se réserve, pas qui s’explique.",
+    "status": "draft"
+  },
+  "data.restaurants.savaro_fixbyte_framer_website.description": {
+    "t": "Voor een zaak waar je voor de avond komt, niet voor de dagschotel.",
+    "src": "Pour une salle où l’on vient pour le soir, pas pour le plat du jour.",
+    "status": "draft"
+  },
+  "data.restaurants.pastora_fixbyte_framer_website.description": {
+    "t": "Voor een buurthuis: korte kaart, duidelijk adres.",
+    "src": "Pour une maison de quartier : menu court, adresse claire.",
+    "status": "draft"
+  },
+  "data.restaurants.restro_fixbyte_framer_website.description": {
+    "t": "Voor een resto dat de zaal wil tonen vóór de kaart.",
+    "src": "Pour un resto qui veut montrer la salle avant la carte.",
+    "status": "draft"
+  },
+  "data.restaurants.lebellagio_fixbyte_dev.description": {
+    "t": "Voor een zaak op het platteland: kaart, reservatie, afhaal.",
+    "src": "Pour une table de province : carte, réservation, à emporter.",
+    "status": "draft"
+  },
+  "data.restaurants.retro_resto_vercel_app.description": {
+    "t": "Voor een resto dat inzet op sfeer vóór de kaart.",
+    "src": "Pour un resto qui mise sur l’ambiance avant la carte.",
+    "status": "draft"
+  },
+  "data.barbiers.bxl_barbers_fixbyte_framer_website.description": {
+    "t": "Voor een Brusselse zaak waar de stijl meteen opvalt.",
+    "src": "Pour un shop bruxellois où le style se voit d’entrée.",
+    "status": "draft"
+  },
+  "data.barbiers.baron_fixbyte_framer_website.description": {
+    "t": "Voor een klassieke kapperszaak: duidelijke afspraak, geen blabla.",
+    "src": "Pour un salon classique : rendez-vous clair, pas de blabla.",
+    "status": "draft"
+  },
+  "data.barbiers.hairloom_fixbyte_framer_website.description": {
+    "t": "Voor een buurtkapper waar je de stoel boekt.",
+    "src": "Pour un salon de quartier où le fauteuil se booke.",
+    "status": "draft"
+  },
+  "data.barbiers.salox_fixbyte_framer_website.description": {
+    "t": "Voor een zaak die je beoordeelt op de nek, niet op het logo.",
+    "src": "Pour une enseigne qui se juge à la nuque, pas au logo.",
+    "status": "draft"
+  },
+  "data.barbiers.otissons_framer_website.description": {
+    "t": "Voor een zaak waar het onthaal even hard telt als de coupe.",
+    "src": "Pour un salon où l’accueil compte autant que la coupe.",
+    "status": "draft"
+  },
+  "data.barbiers.barbershop_framer_website.description": {
+    "t": "Voor een zaak die klassiek durft zijn zonder stijf te worden.",
+    "src": "Pour un shop qui assume le classique sans être coincé.",
+    "status": "draft"
+  },
+  "data.barbiers.therazorbrothers_framer_website.description": {
+    "t": "Voor twee kappers, dezelfde lat.",
+    "src": "Pour deux barbiers, une même exigence.",
+    "status": "draft"
+  },
+  "data.barbiers.dallas_brb_fixbyte_framer_website.description": {
+    "t": "Voor een Brusselse kapperszaak, zichtbaar nog voor de stoel.",
+    "src": "Pour un salon bruxellois, visible avant le fauteuil.",
+    "status": "draft"
+  },
+  "data.barbiers.clipster_framer_website.description": {
+    "t": "Voor een moderne zaak waar je in één klik een afspraak maakt.",
+    "src": "Pour un shop moderne où le rendez-vous se prend en un clic.",
+    "status": "draft"
+  },
+  "data.agences.monetra_fixbyte_framer_website.description": {
+    "t": "Voor een helder digitaal aanbod: diensten, vertrouwen, contact.",
+    "src": "Pour une offre digitale claire : services, confiance, prise de contact.",
+    "status": "draft"
+  },
+  "data.agences.educatix_framer_website.description": {
+    "t": "Voor een instelling die ouders en leerlingen in één scroll moet overtuigen.",
+    "src": "Pour une institution qui doit convaincre parents et élèves en un scroll.",
+    "status": "draft"
+  },
+  "data.agences.faculty_fixbyte_framer_website.description": {
+    "t": "Voor een school die programma’s, mentoren en bewijs verkoopt vóór het formulier.",
+    "src": "Pour une école qui vend programmes, mentors et preuves avant le formulaire.",
+    "status": "draft"
+  },
+  "data.agences.alktravel_fixbyte_dev.description": {
+    "t": "Voor een reisbureau: bestemmingen, tours, contact in één oogopslag.",
+    "src": "Pour une agence de voyages : destinations, tours, contact en un regard.",
+    "status": "draft"
+  },
+  "data.agences.constantine_framer_ai.description": {
+    "t": "Voor een creatief portfolio: werk, diensten, contact zonder blabla.",
+    "src": "Pour un portfolio créatif : travaux, services, contact sans blabla.",
+    "status": "draft"
+  },
+  "data.agences.op_fixbyte_us_framer_website.description": {
+    "t": "Voor een digitale studio: aanbod, proces, bewijs vóór de offerte.",
+    "src": "Pour une studio digitale : offre, process, preuves avant le devis.",
+    "status": "draft"
+  },
+  "data.agences.paylytix_bytefix_framer_website.description": {
+    "t": "Voor een financieel aanbod: diensten, tarieven, duidelijk contact.",
+    "src": "Pour une offre finance : services, tarifs, prise de contact claire.",
+    "status": "draft"
+  },
+  "data.agences.job_consulting_vercel_app.description": {
+    "t": "Voor een rekruteringskantoor: diensten, traject, afspraak maken.",
+    "src": "Pour un cabinet de recrutement : services, parcours, prise de RDV.",
+    "status": "draft"
+  },
+  "data.agences.x_axis_fixbyte_framer_website.description": {
+    "t": "Voor een creatief techbureau: werk, skills, contact in één scroll.",
+    "src": "Pour une agence créative tech : works, skills, contact en un scroll.",
+    "status": "draft"
+  },
+  "data.agences.ascent_fixbyte_framer_website.description": {
+    "t": "Voor een reisbureau: bestemmingen, tours, zichtbare reservatie.",
+    "src": "Pour une agence de voyages : destinations, tours, réservation visible.",
+    "status": "draft"
+  },
+  "data.agences.travelio_fixbyte_framer_website.description": {
+    "t": "Voor een premium reisbureau: routes, bewijs, plannen.",
+    "src": "Pour une agence voyage premium : itinéraires, preuves, planifier.",
+    "status": "draft"
+  },
+  "data.agences.moveex_framer_website.description": {
+    "t": "Voor B2B-logistiek: diensten, tracking, professioneel contact.",
+    "src": "Pour une logistique B2B : services, tracking, contact professionnel.",
+    "status": "draft"
+  },
+  "data.agences.baliva_byte_framer_website.description": {
+    "t": "Voor een nichereisbureau: helder aanbod, proces, verblijf plannen.",
+    "src": "Pour une agence voyage niche : offre claire, process, planifier le séjour.",
+    "status": "draft"
+  },
+  "data.entreprises.vsconcepts_fr.description": {
+    "t": "Bedrijf voor buitenaanleg: terrassen, opritten, asfalt, omheiningen, metselwerk in Bordeaux.",
+    "src": "Entreprise d’aménagement extérieur : terrasses, allées, enrobés, clôtures, maçonnerie à Bordeaux.",
+    "status": "draft"
+  },
+  "data.entreprises.skyrenov38_fr.description": {
+    "t": "Renovatiebedrijf: muren, schilderwerk, gyproc, gevels in Grenoble en de Isère.",
+    "src": "Entreprise de rénovation : murs, peinture, placo, façade à Grenoble et en Isère.",
+    "status": "draft"
+  },
+  "data.cafes.cg_fixbyte_framer_website.description": {
+    "t": "Voor een buurtcafé: koffie, ontbijt, duidelijke uren.",
+    "src": "Pour un café de quartier : café, petit-déj, horaires clairs.",
+    "status": "draft"
+  },
+  "data.cafes.bakeri_fixbyte_framer_website.description": {
+    "t": "Voor een bakkerij die de croissant verkoopt vóór het verhaal.",
+    "src": "Pour une boulangerie qui vend le croissant avant le discours.",
+    "status": "draft"
+  },
+  "data.cafes.bakery_co_wbs_framer_website.description": {
+    "t": "Voor een ambachtelijk huis: dagvers brood, bakbeurten, adres.",
+    "src": "Pour une maison artisanale : pain du jour, fournées, adresse.",
+    "status": "draft"
+  },
+  "data.cafes.ovena_framer_ai.description": {
+    "t": "Voor een patisserie die de taarten toont vóór de kaart.",
+    "src": "Pour une pâtisserie qui montre les gâteaux avant la carte.",
+    "status": "draft"
+  },
+  "data.cafes.loafly_fixbyte_framer_website.description": {
+    "t": "Voor een bakkerij die het brood centraal zet op de pagina.",
+    "src": "Pour une boulangerie qui met le pain au centre de la page.",
+    "status": "draft"
+  },
+  "data.cafes.mng_bx_fixbyte_framer_website.description": {
+    "t": "Voor een buurtbakkerij: brood, viennoiserie, koffie.",
+    "src": "Pour un bakehouse de voisinage : pain, viennoiserie, café.",
+    "status": "draft"
+  },
+  "data.cafes.bakehub_framer_website.description": {
+    "t": "Voor een zaak die inzet op click & collect en bestellingen.",
+    "src": "Pour une boutique qui pousse le click & collect et les commandes.",
+    "status": "draft"
+  },
+  "data.ecommerce.uncover_fixbyte_framer_website.description": {
+    "t": "Voor een techwebshop: categorieën, bestsellers, mandje in één scroll.",
+    "src": "Pour une boutique tech : catégories, best-sellers, panier en un scroll.",
+    "status": "draft"
+  },
+  "data.ecommerce.minna_fixbyte_framer_website.description": {
+    "t": "Voor online mode: collecties, prijzen, meteen kopen.",
+    "src": "Pour une mode en ligne : collections, prix, achat immédiat.",
+    "status": "draft"
+  },
+  "data.ecommerce.ferea_fixbyte_framer_website_menu.description": {
+    "t": "Voor een koffiekaart / shop: producten, prijzen, duidelijke bestelling.",
+    "src": "Pour une carte café / shop : produits, prix, commande claire.",
+    "status": "draft"
+  },
+  "data.ecommerce.maxaura_fixbyte_framer_website.description": {
+    "t": "Voor een productlancering: features, bewijs, pre-order.",
+    "src": "Pour un lancement produit : features, preuves, précommande.",
+    "status": "draft"
+  }
+}
