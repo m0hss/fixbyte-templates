@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Page introuvable — Fixbyte</title>
-    <meta
+    <title data-i18n="404.meta.title">Page introuvable — Fixbyte</title>
+    <meta data-i18n-attr="content:404.meta.description"
       name="description"
       content="Cette page n’existe pas ou a été déplacée. Retournez à l’accueil Fixbyte Studio."
     />
@@ -18,24 +18,31 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body data-header-sep="10" data-copyright="Fixbyte Studio">
+  <body data-header-sep="10" data-copyright="Fixbyte Studio"
+      data-i18n-wa-label="Écrire sur WhatsApp"
+      data-i18n-wa-tip="Écrivez-nous sur WhatsApp"
+      data-i18n-grid-empty="Aucun projet pour le moment."
+      data-i18n-grid-error="Impossible de charger les projets pour le moment."
+      data-i18n-card-fallback="Ouvrir le design"
+      data-i18n-attr="data-i18n-wa-label:ui.wa_label;data-i18n-wa-tip:ui.wa_tip;data-i18n-grid-empty:ui.grid_empty;data-i18n-grid-error:ui.grid_error;data-i18n-card-fallback:ui.card_fallback"
+    >
     <div id="site-header" data-partial="header"></div>
 
     <main>
       <section class="error-page wrap">
-        <h1>Page introuvable</h1>
-        <p>
+        <h1 data-i18n="404.error_page.h1">Page introuvable</h1>
+        <p data-i18n="404.error_page.p">
           Cette adresse n’existe pas, ou la page a été déplacée. Revenez à
           l’accueil, ou ouvrez un design par métier.
         </p>
-        <a class="cta-block__btn" href="/">Retour à l’accueil</a>
+        <a data-i18n="404.cta_block_btn.a" class="cta-block__btn" href="/">Retour à l’accueil</a>
         <ul class="error-page__links">
-          <li><a href="restaurant.html">Restaurants</a></li>
-          <li><a href="barbiers.html">Barbiers</a></li>
-          <li><a href="agences.html">Agences</a></li>
-          <li><a href="entreprises.html">Entreprises</a></li>
-          <li><a href="cafes.html">Cafés</a></li>
-          <li><a href="ecommerce.html">E-commerce</a></li>
+          <li><a data-i18n="404.error_page_links.a" href="restaurant.html">Restaurants</a></li>
+          <li><a data-i18n="404.error_page_links.a_2" href="barbiers.html">Barbiers</a></li>
+          <li><a data-i18n="404.error_page_links.a_3" href="agences.html">Agences</a></li>
+          <li><a data-i18n="404.error_page_links.a_4" href="entreprises.html">Entreprises</a></li>
+          <li><a data-i18n="404.error_page_links.a_5" href="cafes.html">Cafés</a></li>
+          <li><a data-i18n="404.error_page_links.a_6" href="ecommerce.html">E-commerce</a></li>
         </ul>
       </section>
     </main>

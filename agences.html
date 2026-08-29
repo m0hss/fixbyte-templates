@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Designs agences — Fixbyte</title>
-    <meta
+    <title data-i18n="agences.meta.title">Designs agences — Fixbyte</title>
+    <meta data-i18n-attr="content:agences.meta.description"
       name="description"
       content="Designs Fixbyte pour agences et institutions. Essai 0 € : votre nom sur le design. Offre, preuves, équipe et prise de contact."
     />
@@ -13,8 +13,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="Fixbyte" />
-    <meta property="og:title" content="Designs agences — Fixbyte" />
-    <meta
+    <meta data-i18n-attr="content:agences.meta.title" property="og:title" content="Designs agences — Fixbyte" />
+    <meta data-i18n-attr="content:agences.meta.description"
       property="og:description"
       content="Designs Fixbyte pour agences et institutions. Essai 0 € : votre nom sur le design. Offre, preuves, équipe et prise de contact."
     />
@@ -29,13 +29,13 @@
     <meta property="og:image:width" content="1424" />
     <meta property="og:image:height" content="752" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta
+    <meta data-i18n-attr="content:agences.meta.og_image_alt"
       property="og:image:alt"
       content="Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Designs agences — Fixbyte" />
-    <meta
+    <meta data-i18n-attr="content:agences.meta.title" name="twitter:title" content="Designs agences — Fixbyte" />
+    <meta data-i18n-attr="content:agences.meta.description"
       name="twitter:description"
       content="Designs Fixbyte pour agences et institutions. Essai 0 € : votre nom sur le design. Offre, preuves, équipe et prise de contact."
     />
@@ -81,7 +81,14 @@
       }
     </script>
   </head>
-  <body data-active-nav="agences" data-header-sep="12" data-copyright="Fixbyte">
+  <body data-active-nav="agences" data-header-sep="12" data-copyright="Fixbyte"
+      data-i18n-wa-label="Écrire sur WhatsApp"
+      data-i18n-wa-tip="Écrivez-nous sur WhatsApp"
+      data-i18n-grid-empty="Aucun projet pour le moment."
+      data-i18n-grid-error="Impossible de charger les projets pour le moment."
+      data-i18n-card-fallback="Ouvrir le design"
+      data-i18n-attr="data-i18n-wa-label:ui.wa_label;data-i18n-wa-tip:ui.wa_tip;data-i18n-grid-empty:ui.grid_empty;data-i18n-grid-error:ui.grid_error;data-i18n-card-fallback:ui.card_fallback"
+    >
     <div id="site-header" data-partial="header"></div>
 
     <main>
@@ -95,18 +102,18 @@
             height="16"
             aria-hidden="true"
           />
-          <span>Il juge en un scroll</span>
+          <span data-i18n="agences.hero_badge.span">Il juge en un scroll</span>
         </p>
         <div class="hero-scene">
-          <h1>Il compare 4 offres au feu rouge. La vôtre doit gagner sans pitch.</h1>
-          <p class="hero-scene__action">
+          <h1 data-i18n="agences.hero_scene.h1">Il compare 4 offres au feu rouge. La vôtre doit gagner sans pitch.</h1>
+          <p data-i18n="agences.hero_scene_action.p" class="hero-scene__action">
             Cliquez une carte : c’est ce qu’il voit. Ensuite on y met votre nom.
           </p>
         </div>
       </section>
 
       <section class="works wrap" aria-labelledby="works-title">
-        <h2 id="works-title" class="visually-hidden">Projets agences</h2>
+        <h2 data-i18n="agences.works_title.h2" id="works-title" class="visually-hidden">Projets agences</h2>
         <div
           id="works"
           class="card-grid"
@@ -116,26 +123,26 @@
       </section>
 
       <section class="pitch pitch--mascot wrap" aria-labelledby="pitch-title">
-        <h2 id="pitch-title" class="visually-hidden">Pourquoi ces designs</h2>
+        <h2 data-i18n="agences.pitch_title.h2" id="pitch-title" class="visually-hidden">Pourquoi ces designs</h2>
         <div class="pitch-grid pitch-grid--mascot">
           <div class="pitch-stack">
             <article class="pitch-item">
-              <h3>L’offre, avant le discours</h3>
-              <p>
+              <h3 data-i18n="agences.pitch_item.h3">L’offre, avant le discours</h3>
+              <p data-i18n="agences.pitch_item.p">
                 Services, preuves, équipe. Une page qui vend le travail, pas un
                 catalogue de buzzwords.
               </p>
             </article>
             <article class="pitch-item">
-              <h3>Contacter en un regard</h3>
-              <p>
+              <h3 data-i18n="agences.pitch_item.h3_2">Contacter en un regard</h3>
+              <p data-i18n="agences.pitch_item.p_2">
                 Positionnement lisible, cas clients clairs, bouton contact. Le
                 prospect juge sur pièce, puis écrit.
               </p>
             </article>
           </div>
           <figure class="pitch-mascot">
-            <img
+            <img data-i18n-attr="alt:agences.pitch_mascot.img_alt"
               src="assets/bytie-traveler.webp"
               alt="Bytie en voyageur"
               width="554"
@@ -149,14 +156,14 @@
 
       <section class="pricing wrap" aria-labelledby="pricing-title">
         <aside class="price-essai" aria-labelledby="essai-title">
-          <p class="price-essai__kicker">Avant de choisir</p>
+          <p data-i18n="agences.price_essai_kicker.p" class="price-essai__kicker">Avant de choisir</p>
           <div class="price-essai__body">
-            <h2 id="essai-title">Essai · 0&nbsp;€</h2>
-            <p class="price-essai__lead">
+            <h2 data-i18n="agences.essai_title.h2" id="essai-title">Essai · 0&nbsp;€</h2>
+            <p data-i18n="agences.price_essai_lead.p" class="price-essai__lead">
               Votre nom sur le design que vous venez de cliquer. URL live 72&nbsp;h
               pour le montrer en réunion.
             </p>
-            <a
+            <a data-i18n="agences.price_essai_cta.a" data-i18n-attr="href:agences.price_essai_cta.a_href"
               class="price-essai__cta"
               href="https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte%20pour%20mon%20agence.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D."
               target="_blank"
@@ -166,58 +173,58 @@
           </div>
         </aside>
 
-        <h2 id="pricing-title">Tarifs</h2>
-        <p class="pricing-intro">
+        <h2 data-i18n="agences.pricing_title.h2" id="pricing-title">Tarifs</h2>
+        <p data-i18n="agences.pricing_intro.p" class="pricing-intro">
           Deux portes&nbsp;: <strong>L’Enseigne</strong> (une fois), ou
           <strong>On tient la porte</strong> (on la tient à jour). Prix HTVA,
           TVA 21&nbsp;% en sus.
         </p>
         <div class="price-grid price-grid--two">
           <article class="price-card">
-            <h3>L’Enseigne</h3>
-            <p class="price-card__amount">1&nbsp;990&nbsp;€ <span>HT</span></p>
-            <p class="price-card__hint">
+            <h3 data-i18n="agences.price_card.h3">L’Enseigne</h3>
+            <p data-i18n="agences.price_card_amount.p" class="price-card__amount">1&nbsp;990&nbsp;€ <span>HT</span></p>
+            <p data-i18n="agences.price_card_hint.p" class="price-card__hint">
               Paiement unique · en ligne en 10 jours · le site est à vous
             </p>
             <ul class="price-card__list">
-              <li>Le design choisi, à votre nom — 4 pages mobile</li>
-              <li>Services, preuves, bouton contact</li>
-              <li>Fiche Google Business</li>
-              <li>Mise en ligne + 3 mois d’hébergement</li>
+              <li data-i18n="agences.price_card_list.li">Le design choisi, à votre nom — 4 pages mobile</li>
+              <li data-i18n="agences.price_card_list.li_2">Services, preuves, bouton contact</li>
+              <li data-i18n="agences.price_card_list.li_3">Fiche Google Business</li>
+              <li data-i18n="agences.price_card_list.li_4">Mise en ligne + 3 mois d’hébergement</li>
             </ul>
           </article>
           <article class="price-card is-featured">
-            <p class="price-card__badge">La plus choisie</p>
-            <h3>On tient la porte</h3>
-            <p class="price-card__amount">199&nbsp;€ <span>HT / mois</span></p>
-            <p class="price-card__hint">
+            <p data-i18n="agences.price_card_badge.p" class="price-card__badge">La plus choisie</p>
+            <h3 data-i18n="agences.price_card.h3_2">On tient la porte</h3>
+            <p data-i18n="agences.price_card_amount.p_2" class="price-card__amount">199&nbsp;€ <span>HT / mois</span></p>
+            <p data-i18n="agences.price_card_hint.p_2" class="price-card__hint">
               12 mois · L’Enseigne incluse · puis 99&nbsp;€ HT / mois
             </p>
             <ul class="price-card__list">
-              <li>L’Enseigne incluse (comme ci-contre)</li>
-              <li>Photo WhatsApp → site à jour le soir</li>
-              <li>4 posts Google Business / mois</li>
-              <li>Rapport&nbsp;: appels, clics, demandes de contact</li>
+              <li data-i18n="agences.price_card_list.li_5">L’Enseigne incluse (comme ci-contre)</li>
+              <li data-i18n="agences.price_card_list.li_6">Photo WhatsApp → site à jour le soir</li>
+              <li data-i18n="agences.price_card_list.li_7">4 posts Google Business / mois</li>
+              <li data-i18n="agences.price_card_list.li_8">Rapport&nbsp;: appels, clics, demandes de contact</li>
             </ul>
           </article>
         </div>
         <aside class="price-upsell">
-          <p class="price-upsell__kicker">Ensuite, si ça tourne</p>
+          <p data-i18n="agences.price_upsell_kicker.p" class="price-upsell__kicker">Ensuite, si ça tourne</p>
           <div class="price-upsell__body">
-            <h3>Le créneau vide</h3>
-            <p class="price-upsell__amount">+&nbsp;290&nbsp;€ <span>HT / mois</span></p>
-            <p>
+            <h3 data-i18n="agences.price_upsell_body.h3">Le créneau vide</h3>
+            <p data-i18n="agences.price_upsell_amount.p" class="price-upsell__amount">+&nbsp;290&nbsp;€ <span>HT / mois</span></p>
+            <p data-i18n="agences.price_upsell_body.p">
               Après 8 semaines de On tient la porte. On vise les leads qui
               manquent — Maps, avis, Google Ads (budget pub en sus). Total
               489&nbsp;€ HT / mois.
             </p>
           </div>
         </aside>
-        <p class="pricing-note">
+        <p data-i18n="agences.pricing_note.p" class="pricing-note">
           Essai 0&nbsp;€ avant de choisir. Site multilingue inclus — vous
           fournissez les textes, ou on part d’une traduction que vous relisez.
         </p>
-        <p class="pricing-own">
+        <p data-i18n="agences.pricing_own.p" class="pricing-own">
           Après 12&nbsp;mois de «&nbsp;On tient la porte&nbsp;»,
           <strong>le site vous appartient.</strong>
         </p>
@@ -225,19 +232,19 @@
 
       <section class="wrap cta-block-section">
         <div class="cta-block" aria-labelledby="cta-title">
-          <h2 id="cta-title">12 min · on ouvre votre fiche Google ensemble</h2>
-          <p>
+          <h2 data-i18n="agences.cta_title.h2" id="cta-title">12 min · on ouvre votre fiche Google ensemble</h2>
+          <p data-i18n="agences.cta_block.p">
             Vous voyez ce qu’un prospect voit ce soir. Ensuite on dit si un site
             sert à quelque chose.
           </p>
-          <a
+          <a data-i18n="agences.cta_block_btn.a" data-i18n-attr="href:agences.cta_block_btn.a_href"
             class="cta-block__btn"
             href="https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20les%2012%20min%20Fixbyte%20pour%20ouvrir%20ma%20fiche%20Google%20ensemble."
             target="_blank"
             rel="noopener noreferrer"
             >Écrire sur WhatsApp ↗</a
           >
-          <p class="cta-block__hint">
+          <p data-i18n="agences.cta_block_hint.p" class="cta-block__hint">
             Pas de brief. 4 photos. On rappelle dans la journée.
           </p>
         </div>

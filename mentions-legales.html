@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mentions légales — Fixbyte</title>
-    <meta
+    <title data-i18n="mentions-legales.meta.title">Mentions légales — Fixbyte</title>
+    <meta data-i18n-attr="content:mentions-legales.meta.description"
       name="description"
       content="Mentions légales de Fixbyte : éditeur, propriétaire, contact, hébergement et conditions d’utilisation du site studio.fixbyte.be."
     />
@@ -16,8 +16,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="Fixbyte" />
-    <meta property="og:title" content="Mentions légales — Fixbyte" />
-    <meta
+    <meta data-i18n-attr="content:mentions-legales.meta.title" property="og:title" content="Mentions légales — Fixbyte" />
+    <meta data-i18n-attr="content:mentions-legales.meta.description"
       property="og:description"
       content="Mentions légales de Fixbyte : éditeur, propriétaire, contact, hébergement et conditions d’utilisation du site studio.fixbyte.be."
     />
@@ -32,13 +32,13 @@
     <meta property="og:image:width" content="1424" />
     <meta property="og:image:height" content="752" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta
+    <meta data-i18n-attr="content:mentions-legales.meta.og_image_alt"
       property="og:image:alt"
       content="Fixbyte Studio — designs web pour restaurants, barbiers, agences et commerces"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mentions légales — Fixbyte" />
-    <meta
+    <meta data-i18n-attr="content:mentions-legales.meta.title" name="twitter:title" content="Mentions légales — Fixbyte" />
+    <meta data-i18n-attr="content:mentions-legales.meta.description"
       name="twitter:description"
       content="Mentions légales de Fixbyte : éditeur, propriétaire, contact, hébergement et conditions d’utilisation du site studio.fixbyte.be."
     />
@@ -54,7 +54,14 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body data-header-sep="12" data-copyright="Fixbyte Studio">
+  <body data-header-sep="12" data-copyright="Fixbyte Studio"
+      data-i18n-wa-label="Écrire sur WhatsApp"
+      data-i18n-wa-tip="Écrivez-nous sur WhatsApp"
+      data-i18n-grid-empty="Aucun projet pour le moment."
+      data-i18n-grid-error="Impossible de charger les projets pour le moment."
+      data-i18n-card-fallback="Ouvrir le design"
+      data-i18n-attr="data-i18n-wa-label:ui.wa_label;data-i18n-wa-tip:ui.wa_tip;data-i18n-grid-empty:ui.grid_empty;data-i18n-grid-error:ui.grid_error;data-i18n-card-fallback:ui.card_fallback"
+    >
     <div id="site-header" data-partial="header"></div>
 
     <main>
@@ -68,23 +75,23 @@
             height="10"
             aria-hidden="true"
           />
-          <span>Informations légales</span>
+          <span data-i18n="mentions-legales.hero_badge.span">Informations légales</span>
         </p>
-        <h1>Mentions légales</h1>
-        <p class="legal-hero__meta">
+        <h1 data-i18n="mentions-legales.legal_hero.h1">Mentions légales</h1>
+        <p data-i18n="mentions-legales.legal_hero_meta.p" class="legal-hero__meta">
           Dernière mise à jour :
           <time datetime="2026-08-27">27 août 2026</time>
         </p>
       </header>
 
       <article class="legal-page wrap">
-        <p class="legal-page__notice">
+        <p data-i18n="mentions-legales.legal_page_notice.p" class="legal-page__notice">
           Texte d’information pour ce site statique. Les champs entre crochets
           doivent encore être complétés. Ce n’est pas un avis juridique.
         </p>
 
-        <h2>Éditeur du site</h2>
-        <p>
+        <h2 data-i18n="mentions-legales.legal_page.h2">Éditeur du site</h2>
+        <p data-i18n="mentions-legales.legal_page.p">
           Le site
           <a href="https://studio.fixbyte.be/">studio.fixbyte.be</a>
           (Fixbyte Studio) est édité et appartient à
@@ -94,27 +101,27 @@
           ci-dessous reste à compléter.
         </p>
         <dl class="legal-page__id">
-          <dt>Propriétaire / éditeur</dt>
-          <dd><a href="https://fixbyte.be">Fixbyte</a></dd>
-          <dt>Enseigne</dt>
-          <dd>Fixbyte Studio</dd>
-          <dt>Site du propriétaire</dt>
-          <dd><a href="https://fixbyte.be">fixbyte.be</a></dd>
-          <dt>Raison sociale</dt>
-          <dd>[Raison sociale]</dd>
-          <dt>Forme juridique</dt>
-          <dd>[Forme juridique]</dd>
-          <dt>Adresse du siège</dt>
-          <dd>[Adresse du siège]</dd>
-          <dt>N° BCE / KBO</dt>
-          <dd>[n° BCE / KBO]</dd>
-          <dt>N° TVA</dt>
-          <dd>[n° TVA BE…]</dd>
+          <dt data-i18n="mentions-legales.legal_page_id.dt">Propriétaire / éditeur</dt>
+          <dd><a data-i18n="mentions-legales.legal_page_id.a" href="https://fixbyte.be">Fixbyte</a></dd>
+          <dt data-i18n="mentions-legales.legal_page_id.dt_2">Enseigne</dt>
+          <dd data-i18n="mentions-legales.legal_page_id.dd">Fixbyte Studio</dd>
+          <dt data-i18n="mentions-legales.legal_page_id.dt_3">Site du propriétaire</dt>
+          <dd><a data-i18n="mentions-legales.legal_page_id.a_2" href="https://fixbyte.be">fixbyte.be</a></dd>
+          <dt data-i18n="mentions-legales.legal_page_id.dt_4">Raison sociale</dt>
+          <dd data-i18n="mentions-legales.legal_page_id.dd_2">[Raison sociale]</dd>
+          <dt data-i18n="mentions-legales.legal_page_id.dt_5">Forme juridique</dt>
+          <dd data-i18n="mentions-legales.legal_page_id.dd_3">[Forme juridique]</dd>
+          <dt data-i18n="mentions-legales.legal_page_id.dt_6">Adresse du siège</dt>
+          <dd data-i18n="mentions-legales.legal_page_id.dd_4">[Adresse du siège]</dd>
+          <dt data-i18n="mentions-legales.legal_page_id.dt_7">N° BCE / KBO</dt>
+          <dd data-i18n="mentions-legales.legal_page_id.dd_5">[n° BCE / KBO]</dd>
+          <dt data-i18n="mentions-legales.legal_page_id.dt_8">N° TVA</dt>
+          <dd data-i18n="mentions-legales.legal_page_id.dd_6">[n° TVA BE…]</dd>
         </dl>
 
-        <h2>Contact</h2>
+        <h2 data-i18n="mentions-legales.legal_page.h2_2">Contact</h2>
         <ul>
-          <li>
+          <li data-i18n="mentions-legales.legal_page.li">
             WhatsApp :
             <a
               href="https://wa.me/32493622901"
@@ -123,19 +130,19 @@
               >+32 493 62 29 01</a
             >
           </li>
-          <li>E-mail : [Email]</li>
+          <li data-i18n="mentions-legales.legal_page.li_2">E-mail : [Email]</li>
         </ul>
 
-        <h2>Hébergement</h2>
-        <p>
+        <h2 data-i18n="mentions-legales.legal_page.h2_3">Hébergement</h2>
+        <p data-i18n="mentions-legales.legal_page.p_2">
           Le site est hébergé par GitHub Pages, un service de GitHub, Inc.,
           88 Colin P. Kelly Jr Street, San Francisco, CA 94107, États-Unis.
           Nom de domaine :
           <a href="https://studio.fixbyte.be/">studio.fixbyte.be</a>.
         </p>
 
-        <h2>Propriété intellectuelle</h2>
-        <p>
+        <h2 data-i18n="mentions-legales.legal_page.h2_4">Propriété intellectuelle</h2>
+        <p data-i18n="mentions-legales.legal_page.p_3">
           Les textes, le logo, les marques Fixbyte et Fixbyte Studio, ainsi
           que le site
           <a href="https://studio.fixbyte.be/">studio.fixbyte.be</a>,
@@ -144,7 +151,7 @@
           sauf mention contraire. Toute reproduction non autorisée est
           interdite.
         </p>
-        <p>
+        <p data-i18n="mentions-legales.legal_page.p_4">
           Les aperçus présentés sont des références visuelles. Une partie
           reprend des modèles tiers (dont des templates Framer). Leurs auteurs
           en restent titulaires. Ce n’est pas le fichier que nous livrons.
@@ -152,32 +159,32 @@
           offre payante). Les droits sur le site livré sont ceux du contrat.
           Nous ne revendons pas les fichiers d’origine.
         </p>
-        <p>
+        <p data-i18n="mentions-legales.legal_page.p_5">
           Les photos, logos et contenus que vous nous envoyez pour un essai ou
           une prestation restent les vôtres. Nous les utilisons uniquement pour
           réaliser et présenter votre enseigne.
         </p>
 
-        <h2>Responsabilité</h2>
-        <p>
+        <h2 data-i18n="mentions-legales.legal_page.h2_5">Responsabilité</h2>
+        <p data-i18n="mentions-legales.legal_page.p_6">
           Ce site est une vitrine de designs. L’essai à 0&nbsp;€ n’est pas un
           site définitif : c’est un aperçu limité dans le temps, pour juger.
         </p>
-        <p>
+        <p data-i18n="mentions-legales.legal_page.p_7">
           Nous ne sommes pas responsables du contenu des sites externes vers
           lesquels nous renvoyons (WhatsApp, Google Fonts, aperçus de
           réalisations). L’accès à ces services relève de leurs propres
           conditions.
         </p>
 
-        <h2>Droit applicable</h2>
-        <p>
+        <h2 data-i18n="mentions-legales.legal_page.h2_6">Droit applicable</h2>
+        <p data-i18n="mentions-legales.legal_page.p_8">
           Le présent site est régi par le droit belge. En cas de litige, et à
           défaut d’accord amiable, les tribunaux du siège de l’éditeur sont
           compétents — une fois l’adresse du siège renseignée ci-dessus.
         </p>
 
-        <p class="legal-page__next">
+        <p data-i18n="mentions-legales.legal_page_next.p" class="legal-page__next">
           Voir aussi :
           <a href="politique-confidentialite.html"
             >Politique de confidentialité</a

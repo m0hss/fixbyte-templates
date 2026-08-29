@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fixbyte — Designs</title>
-    <meta
+    <title data-i18n="index.meta.title">Fixbyte — Designs</title>
+    <meta data-i18n-attr="content:index.meta.description"
       name="description"
       content="Vitrines pour restaurants, agences, entreprises, barbiers, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte."
     />
@@ -13,8 +13,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="Fixbyte" />
-    <meta property="og:title" content="Fixbyte — Designs" />
-    <meta
+    <meta data-i18n-attr="content:index.meta.title" property="og:title" content="Fixbyte — Designs" />
+    <meta data-i18n-attr="content:index.meta.description"
       property="og:description"
       content="Vitrines pour restaurants, agences, entreprises, barbiers, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte."
     />
@@ -26,13 +26,13 @@
     <meta property="og:image:width" content="1424" />
     <meta property="og:image:height" content="752" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta
+    <meta data-i18n-attr="content:index.meta.og_image_alt"
       property="og:image:alt"
       content="Fixbyte Studio — designs web pour restaurants, agences et commerces"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Fixbyte — Designs" />
-    <meta
+    <meta data-i18n-attr="content:index.meta.title" name="twitter:title" content="Fixbyte — Designs" />
+    <meta data-i18n-attr="content:index.meta.description"
       name="twitter:description"
       content="Vitrines pour restaurants, agences, entreprises, barbiers, cafés, boulangeries et e-commerce. Essai 0 € : votre nom sur le design. Parcourez les designs Fixbyte."
     />
@@ -150,7 +150,14 @@
       }
     </script>
   </head>
-  <body data-header-sep="10" data-copyright="Fixbyte Studio">
+  <body data-header-sep="10" data-copyright="Fixbyte Studio"
+      data-i18n-wa-label="Écrire sur WhatsApp"
+      data-i18n-wa-tip="Écrivez-nous sur WhatsApp"
+      data-i18n-grid-empty="Aucun projet pour le moment."
+      data-i18n-grid-error="Impossible de charger les projets pour le moment."
+      data-i18n-card-fallback="Ouvrir le design"
+      data-i18n-attr="data-i18n-wa-label:ui.wa_label;data-i18n-wa-tip:ui.wa_tip;data-i18n-grid-empty:ui.grid_empty;data-i18n-grid-error:ui.grid_error;data-i18n-card-fallback:ui.card_fallback"
+    >
     <div id="site-header" data-partial="header"></div>
 
     <main>
@@ -158,7 +165,7 @@
         <div class="wrap">
           <div class="hero-grid">
             <figure class="hero-mascot">
-              <img
+              <img data-i18n-attr="alt:index.hero_mascot.img_alt"
                 src="assets/bytie.png"
                 alt="Bytie, mascotte Fixbyte"
                 width="553"
@@ -166,7 +173,7 @@
                 loading="eager"
                 decoding="async"
               />
-              <blockquote class="hero-mascot__quote">
+              <blockquote data-i18n="index.hero_mascot_quote.blockquote" class="hero-mascot__quote">
                 Patron. On est ouvert, mais introuvable.
               </blockquote>
             </figure>
@@ -181,17 +188,17 @@
                   height="10"
                   aria-hidden="true"
                 />
-                <span>Pas besoin d’y croire.</span>
+                <span data-i18n="index.hero_badge.span">Pas besoin d’y croire.</span>
               </p>
-              <h1>
+              <h1 data-i18n="index.hero_copy.h1">
                 Tu choisis un design, on y met ton enseigne, tu reçois le lien.
               </h1>
-              <p class="lead">
+              <p data-i18n="index.lead.p" class="lead">
                 Pas de chef de projet. Pas le site IA du voisin. 72&nbsp;h pour
                 trancher.
               </p>
 
-              <div class="hero-pitch" aria-label="Pourquoi Fixbyte">
+              <div data-i18n-attr="aria-label:index.hero_pitch.div_aria_label" class="hero-pitch" aria-label="Pourquoi Fixbyte">
                 <article class="hero-pitch__item">
                   <h2 class="hero-pitch__title">
                     <img
@@ -202,9 +209,9 @@
                       height="16"
                       aria-hidden="true"
                     />
-                    <span>Regardez d’abord</span>
+                    <span data-i18n="index.hero_pitch_title.span">Regardez d’abord</span>
                   </h2>
-                  <p>
+                  <p data-i18n="index.hero_pitch_item.p">
                     Parcourez nos réalisations et designs. Vous jugez sur
                     l’écran, pas sur un devis.
                   </p>
@@ -219,9 +226,9 @@
                       height="16"
                       aria-hidden="true"
                     />
-                    <span>Essayez avec votre enseigne</span>
+                    <span data-i18n="index.hero_pitch_title.span_2">Essayez avec votre enseigne</span>
                   </h2>
-                  <p>
+                  <p data-i18n="index.hero_pitch_item.p_2">
                     Essai 0&nbsp;€, 72&nbsp;h. On l’adapte. Vous le testez et
                     décidez.
                   </p>
@@ -236,9 +243,9 @@
                       height="16"
                       aria-hidden="true"
                     />
-                    <span>On tient la porte</span>
+                    <span data-i18n="index.hero_pitch_title.span_3">On tient la porte</span>
                   </h2>
-                  <p>
+                  <p data-i18n="index.hero_pitch_item.p_3">
                     Vous demandez le soir. C’est en ligne au matin. Sans
                     aller-retour.
                   </p>
@@ -271,55 +278,55 @@
               height="10"
               aria-hidden="true"
             />
-            <span>Business</span>
+            <span data-i18n="index.hero_badge.span_2">Business</span>
           </p>
-          <h2 id="hub-title">Ton business. Des designs déjà là, tu juges.</h2>
-          <p class="lead">Tu ouvres, tu cliques, tu vois. Pas un discours.</p>
+          <h2 data-i18n="index.hub_title.h2" id="hub-title">Ton business. Des designs déjà là, tu juges.</h2>
+          <p data-i18n="index.lead.p_2" class="lead">Tu ouvres, tu cliques, tu vois. Pas un discours.</p>
           <div class="hub-grid">
             <a class="hub-card" href="restaurant.html">
-              <h3>Restaurants</h3>
-              <p>
+              <h3 data-i18n="index.hub_card.h3">Restaurants</h3>
+              <p data-i18n="index.hub_card.p">
                 Mardi 20&nbsp;h. Quelqu’un à 400m a faim. Il vous trouve —
                 ou la table d’à côté.
               </p>
-              <span class="hub-card__cta">Voir les designs ↗</span>
+              <span data-i18n="index.hub_card_cta.span" class="hub-card__cta">Voir les designs ↗</span>
             </a>
             <a class="hub-card" href="cafes.html">
-              <h3>Cafés &amp; boulangeries</h3>
-              <p>
+              <h3 data-i18n="index.hub_card.h3_2">Cafés &amp; boulangeries</h3>
+              <p data-i18n="index.hub_card.p_2">
                 7&nbsp;h&nbsp;40, il cherche «&nbsp;ouvert maintenant&nbsp;».
                 Pas votre logo. L’horaire juste.
               </p>
-              <span class="hub-card__cta">Voir les designs ↗</span>
+              <span data-i18n="index.hub_card_cta.span_2" class="hub-card__cta">Voir les designs ↗</span>
             </a>
             <a class="hub-card" href="agences.html">
-              <h3>Agences</h3>
-              <p>
+              <h3 data-i18n="index.hub_card.h3_3">Agences</h3>
+              <p data-i18n="index.hub_card.p_3">
                 Il compare 4 offres au feu rouge. La vôtre doit gagner sans
                 pitch.
               </p>
-              <span class="hub-card__cta">Voir les designs ↗</span>
+              <span data-i18n="index.hub_card_cta.span_3" class="hub-card__cta">Voir les designs ↗</span>
             </a>
             <a class="hub-card" href="ecommerce.html">
-              <h3>E-commerce</h3>
-              <p>
+              <h3 data-i18n="index.hub_card.h3_4">E-commerce</h3>
+              <p data-i18n="index.hub_card.p_4">
                 Trois onglets ouverts. Il achète là où le produit se vend déjà —
                 sans brief.
               </p>
-              <span class="hub-card__cta">Voir les designs ↗</span>
+              <span data-i18n="index.hub_card_cta.span_4" class="hub-card__cta">Voir les designs ↗</span>
             </a>
             <a class="hub-card" href="barbiers.html">
-              <h3>Barbiers</h3>
-              <p>
+              <h3 data-i18n="index.hub_card.h3_5">Barbiers</h3>
+              <p data-i18n="index.hub_card.p_5">
                 Samedi 10&nbsp;h. Le fauteuil vide, c’est un client qui a choisi
                 l’autre salon sur Maps.
               </p>
-              <span class="hub-card__cta">Voir les designs ↗</span>
+              <span data-i18n="index.hub_card_cta.span_5" class="hub-card__cta">Voir les designs ↗</span>
             </a>
             <a class="hub-card" href="entreprises.html">
-              <h3>Entreprises</h3>
-              <p>Trois devis. Il choisit celui qui montre déjà le chantier.</p>
-              <span class="hub-card__cta">Voir les designs ↗</span>
+              <h3 data-i18n="index.hub_card.h3_6">Entreprises</h3>
+              <p data-i18n="index.hub_card.p_6">Trois devis. Il choisit celui qui montre déjà le chantier.</p>
+              <span data-i18n="index.hub_card_cta.span_6" class="hub-card__cta">Voir les designs ↗</span>
             </a>
           </div>
         </div>
@@ -327,19 +334,19 @@
 
       <section class="wrap cta-block-section">
         <div class="cta-block" aria-labelledby="cta-title">
-          <h2 id="cta-title">Essai · 0&nbsp;€</h2>
-          <p>
+          <h2 data-i18n="index.cta_title.h2" id="cta-title">Essai · 0&nbsp;€</h2>
+          <p data-i18n="index.cta_block.p">
             Tu envoies 4 photos. On y met l’enseigne. 72&nbsp;h pour le montrer
             en salle.
           </p>
-          <a
+          <a data-i18n="index.cta_block_btn.a" data-i18n-attr="href:index.cta_block_btn.a_href"
             class="cta-block__btn"
             href="https://wa.me/32493622901?text=Bonjour%2C%20je%20voudrais%20l%27Essai%20Fixbyte.%20Nom%20%3A%20%5B%20%5D.%20Commune%20%3A%20%5B%20%5D.%20Business%20%3A%20%5B%20%5D.%20Design%20choisi%20%3A%20%5Blien%5D."
             target="_blank"
             rel="noopener noreferrer"
             >Envoyer 4 photos sur WhatsApp ↗</a
           >
-          <p class="cta-block__hint">
+          <p data-i18n="index.cta_block_hint.p" class="cta-block__hint">
             Pas de brief. On rappelle dans la journée.
           </p>
         </div>
@@ -348,7 +355,7 @@
       <section class="faq wrap" aria-labelledby="faq-title" id="faq">
         <div class="faq-grid">
           <figure class="faq-mascot">
-            <img
+            <img data-i18n-attr="alt:index.faq_mascot.img_alt"
               src="assets/bytie-faq.webp"
               alt="Bytie, mascotte Fixbyte, doigt à la tempe"
               width="554"
@@ -358,13 +365,13 @@
             />
           </figure>
           <div class="faq-body">
-            <h2 id="faq-title">Questions qu’on reçoit souvent</h2>
+            <h2 data-i18n="index.faq_title.h2" id="faq-title">Questions qu’on reçoit souvent</h2>
             <div class="faq-list">
               <details>
-                <summary>
+                <summary data-i18n="index.faq_list.summary">
                   L’essai à 0&nbsp;€, c’est vraiment gratuit&nbsp;?
                 </summary>
-                <p>
+                <p data-i18n="index.faq_list.p">
                   Oui. Clone du design choisi avec votre nom, URL live
                   72&nbsp;h, via WhatsApp (4 photos). Pas de carte, pas de
                   piège. Ce n’est pas un site définitif — juste de quoi juger en
@@ -372,15 +379,15 @@
                 </p>
               </details>
               <details>
-                <summary>Que se passe-t-il après 72&nbsp;h&nbsp;?</summary>
-                <p>
+                <summary data-i18n="index.faq_list.summary_2">Que se passe-t-il après 72&nbsp;h&nbsp;?</summary>
+                <p data-i18n="index.faq_list.p_2">
                   L’aperçu expire. Vous choisissez&nbsp;: on s’arrête, ou on
                   passe à une offre payante. Aucun débit automatique.
                 </p>
               </details>
               <details>
-                <summary>Combien ça coûte ensuite&nbsp;?</summary>
-                <p>
+                <summary data-i18n="index.faq_list.summary_3">Combien ça coûte ensuite&nbsp;?</summary>
+                <p data-i18n="index.faq_list.p_3">
                   Deux chemins&nbsp;: <strong>L’Enseigne</strong> —
                   1&nbsp;990&nbsp;€&nbsp;HT une fois ·
                   <strong>On tient la porte</strong> — 199&nbsp;€&nbsp;HT / mois
@@ -389,44 +396,44 @@
                 </p>
               </details>
               <details>
-                <summary>Les aperçus, c’est vos designs&nbsp;?</summary>
-                <p>
+                <summary data-i18n="index.faq_list.summary_4">Les aperçus, c’est vos designs&nbsp;?</summary>
+                <p data-i18n="index.faq_list.p_4">
                   La majorité oui. Vous jugez sur l’aperçu. Une fois choisi, on
                   le refait à votre enseigne — dans certains cas ce n’est pas le
                   fichier d’origine que l’on livre.
                 </p>
               </details>
               <details>
-                <summary>
+                <summary data-i18n="index.faq_list.summary_5">
                   L’Enseigne ou On tient la porte — comment choisir&nbsp;?
                 </summary>
-                <p>
+                <p data-i18n="index.faq_list.p_5">
                   L’Enseigne&nbsp;: la porte en ligne en ~2 semaines, vous gérez
                   ensuite. On tient la porte (recommandé)&nbsp;: le même site +
                   photo WhatsApp → mise à jour le soir + posts Google.
                 </p>
               </details>
               <details>
-                <summary>Le site m’appartient&nbsp;?</summary>
-                <p>
+                <summary data-i18n="index.faq_list.summary_6">Le site m’appartient&nbsp;?</summary>
+                <p data-i18n="index.faq_list.p_6">
                   Oui — à la livraison de L’Enseigne, ou après 12 mois de On
                   tient la porte. Hébergement seul possible ensuite&nbsp;:
                   29&nbsp;€&nbsp;HT / mois.
                 </p>
               </details>
               <details>
-                <summary>
+                <summary data-i18n="index.faq_list.summary_7">
                   Qu’est-ce que je dois envoyer pour démarrer&nbsp;?
                 </summary>
-                <p>
+                <p data-i18n="index.faq_list.p_7">
                   Essai&nbsp;: 4 photos + nom + commune + lien du design sur
                   WhatsApp. Offre payante&nbsp;: textes, photos, accès&nbsp;; un
                   tour de retours inclus avec L’Enseigne.
                 </p>
               </details>
               <details>
-                <summary>Vous gérez aussi Google / Maps&nbsp;?</summary>
-                <p>
+                <summary data-i18n="index.faq_list.summary_8">Vous gérez aussi Google / Maps&nbsp;?</summary>
+                <p data-i18n="index.faq_list.p_8">
                   Fiche Google Business avec L’Enseigne&nbsp;; posts et avis
                   avec On tient la porte. «&nbsp;Le créneau vide&nbsp;» (+
                   290&nbsp;€&nbsp;HT / mois) seulement après 8 semaines, si vous
