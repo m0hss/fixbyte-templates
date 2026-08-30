@@ -2125,8 +2125,8 @@
     "status": "draft"
   },
   "politique-confidentialite.legal_page.p_9": {
-    "t": "لا نضع ملفات تعريف ارتباط خاصة بنا. لا أدوات تتبّع ولا إعلانات ولا <code>localStorage</code> من جهتنا. ولا شريط موافقة: فنحن لا نستخدم ملفات تعريف ارتباط غير ضرورية.",
-    "src": "Nous ne déposons pas de cookies first-party. Pas de tracker, pas de publicité, pas de <code>localStorage</code> de notre part. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
+    "t": "لا نضع ملفات تعريف ارتباط خاصة بنا. لا إعلانات ولا <code>localStorage</code> من جهتنا. تُقاس الزيارات على خوادمنا الخاصة: بلا ملفات تعريف ارتباط، وبلا تصنيف للزوّار، وبإحصاءات مجمّعة فقط. ولا شريط موافقة: فنحن لا نستخدم ملفات تعريف ارتباط غير ضرورية.",
+    "src": "Nous ne déposons pas de cookies first-party. Pas de publicité, pas de <code>localStorage</code> de notre part. La mesure d’audience est faite sur nos propres serveurs : sans cookie, sans profilage, statistiques agrégées uniquement. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
     "status": "draft"
   },
   "politique-confidentialite.legal_page.p_10": {

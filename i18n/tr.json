@@ -2125,8 +2125,8 @@
     "status": "draft"
   },
   "politique-confidentialite.legal_page.p_9": {
-    "t": "Kendi çerezlerimizi yerleştirmiyoruz. Bizim tarafımızdan takip aracı, reklam ya da <code>localStorage</code> yok. Onay bandı yok: zorunlu olmayan çerez kullanmıyoruz.",
-    "src": "Nous ne déposons pas de cookies first-party. Pas de tracker, pas de publicité, pas de <code>localStorage</code> de notre part. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
+    "t": "Kendi çerezlerimizi yerleştirmiyoruz. Bizim tarafımızdan reklam ya da <code>localStorage</code> yok. Ziyaretçi ölçümü kendi sunucularımızda yapılıyor: çerezsiz, profilleme yapmadan, yalnızca toplu istatistiklerle. Onay bandı yok: zorunlu olmayan çerez kullanmıyoruz.",
+    "src": "Nous ne déposons pas de cookies first-party. Pas de publicité, pas de <code>localStorage</code> de notre part. La mesure d’audience est faite sur nos propres serveurs : sans cookie, sans profilage, statistiques agrégées uniquement. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
     "status": "draft"
   },
   "politique-confidentialite.legal_page.p_10": {

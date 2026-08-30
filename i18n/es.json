@@ -2125,8 +2125,8 @@
     "status": "draft"
   },
   "politique-confidentialite.legal_page.p_9": {
-    "t": "No instalamos cookies propias. Sin rastreadores, sin publicidad, sin <code>localStorage</code> por nuestra parte. Sin banner de consentimiento: no usamos cookies no esenciales.",
-    "src": "Nous ne déposons pas de cookies first-party. Pas de tracker, pas de publicité, pas de <code>localStorage</code> de notre part. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
+    "t": "No instalamos cookies propias. Sin publicidad, sin <code>localStorage</code> por nuestra parte. La medición de audiencia se hace en nuestros propios servidores: sin cookies, sin perfilado, solo estadísticas agregadas. Sin banner de consentimiento: no usamos cookies no esenciales.",
+    "src": "Nous ne déposons pas de cookies first-party. Pas de publicité, pas de <code>localStorage</code> de notre part. La mesure d’audience est faite sur nos propres serveurs : sans cookie, sans profilage, statistiques agrégées uniquement. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
     "status": "draft"
   },
   "politique-confidentialite.legal_page.p_10": {

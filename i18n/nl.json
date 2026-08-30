@@ -2125,8 +2125,8 @@
     "status": "draft"
   },
   "politique-confidentialite.legal_page.p_9": {
-    "t": "Wij plaatsen geen first-party cookies. Geen trackers, geen advertenties, geen <code>localStorage</code> van onze kant. Geen cookiebanner: wij gebruiken geen niet-essentiële cookies.",
-    "src": "Nous ne déposons pas de cookies first-party. Pas de tracker, pas de publicité, pas de <code>localStorage</code> de notre part. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
+    "t": "Wij plaatsen geen first-party cookies. Geen advertenties, geen <code>localStorage</code> van onze kant. Bezoekersstatistieken worden op onze eigen servers gemeten: zonder cookies, zonder profilering, enkel geaggregeerde cijfers. Geen cookiebanner: wij gebruiken geen niet-essentiële cookies.",
+    "src": "Nous ne déposons pas de cookies first-party. Pas de publicité, pas de <code>localStorage</code> de notre part. La mesure d’audience est faite sur nos propres serveurs : sans cookie, sans profilage, statistiques agrégées uniquement. Aucun bandeau de consentement : nous n’utilisons pas de cookies non essentiels.",
     "status": "draft"
   },
   "politique-confidentialite.legal_page.p_10": {
