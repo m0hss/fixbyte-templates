@@ -770,6 +770,9 @@ a {
 .pricing-intro {
   max-width: 38rem;
   color: var(--ink-soft);
+}
+
+.lead {
   font-size: 1.2rem;
 }
 
